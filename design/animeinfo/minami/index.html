@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Minami-ke Natsuyasumi</title>
+
+    <script type="text/javascript" src="../jquery.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+            color: #cc688f;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: rgba(98, 2, 11, 0.46);
+            text-decoration: underline;
+            font-weight: 400;
+            -webkit-text-fill-color: currentcolor;
+            -webkit-background-clip: text;
+        }
+        a:hover {
+            color: #cc688f;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #frame {
+            background-image: url('minami.jpg');
+            width: 970px;
+            height: 624px;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        #screens {
+            width: 138px;
+            height: 624px;
+            position: absolute;
+            top: 0px;
+            left: 445px;
+            background: #e8cdd8;
+            background: -moz-linear-gradient(top,  #e8cdd8 0%, #cc6991 20%, #6392c5 40%, #d4e3f2 60%, #eccfb1 80%, #d9943d 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8cdd8), color-stop(20%,#cc6991), color-stop(40%,#6392c5), color-stop(60%,#d4e3f2), color-stop(80%,#eccfb1), color-stop(100%,#d9943d));
+            background: -webkit-linear-gradient(top,  #e8cdd8 0%,#cc6991 20%,#6392c5 40%,#d4e3f2 60%,#eccfb1 80%,#d9943d 100%);
+            background: -o-linear-gradient(top,  #e8cdd8 0%,#cc6991 20%,#6392c5 40%,#d4e3f2 60%,#eccfb1 80%,#d9943d 100%);
+            background: -ms-linear-gradient(top,  #e8cdd8 0%,#cc6991 20%,#6392c5 40%,#d4e3f2 60%,#eccfb1 80%,#d9943d 100%);
+            background: linear-gradient(to bottom,  #e8cdd8 0%,#cc6991 20%,#6392c5 40%,#d4e3f2 60%,#eccfb1 80%,#d9943d 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8cdd8', endColorstr='#d9943d',GradientType=0 );
+        }
+
+        .link-anidb:before {content:url('http://anidb.net/favicon.ico');}
+        .link-mal:before {content:url('http://myanimelist.net/favicon.ico');}
+
+        #links > a {
+            padding: 0px 3px 0px 3px;
+        }
+
+        #info {
+            width: 387px;
+
+            position: absolute;
+            padding: 0px 0px 0px 0px;
+            top: 0px;
+            right: 0px;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(top, #cc6991 0%,#6392c5 50%,#d9943d 100%);
+            -webkit-background-clip: text;
+            text-align: center;
+        }
+
+        #info div {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        b {
+            display: block;
+            font-weight: 600;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            display: block;
+            border-style: solid;
+            border-width: 0px 0px 2px 0px;
+            border-color: rgba(0, 0, 0, 0.08);
+            text-transform: uppercase;
+        }
+
+        #sinfo {
+            color: #4496d1;
+        }
+
+        #sum {
+            padding: 10px;
+            margin-top: 10px;
+            color: #db9644;
+        }
+        #links {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="frame">
+
+    <div id="screens"></div>
+
+    <div id="info">
+        <div id="finfo">
+            <b>Info</b>
+            <div><a href="">InfoLink</a></div>
+
+            <b>Info</b>
+            <div>Content</div>
+
+            <b>Info</b>
+            <div>Content</div>
+
+            <b>Info</b>
+            <div>Content</div>
+        </div>
+
+        <div id="sinfo">
+            <b>Release</b>
+            <div>6th August 2013</div>
+
+            <b>Runtime</b>
+            <div>28 min</div>
+
+            <b>Director</b>
+            <div><a href="http://anidb.net/cr6090">Kawaguchi Keiichirou</a></div>
+
+            <b>Animation</b>
+            <div><a href="http://anidb.net/cr1006">Feel</a></div>
+        </div>
+
+        <div id="sum">
+            <div id="links">
+                <a href="http://anidb.net/a10015" class="link-anidb"></a>
+                <a href="http://myanimelist.net/anime/20221/Minami-ke_Natsuyasumi" class="link-mal"></a>
+            </div>
+
+            <span>Chiaki, Kana, and Haruka decide how to spend their last few days of summer together. Kana struggles to finish her homework.</span>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    window.parent.document.getElementById("screenshots").style.background="transparent";
+    window.parent.document.getElementById("screenshots").style.height="624px";
+    window.parent.document.getElementById("screenshots").style.width="138px";
+    window.parent.document.getElementById("screenshots").style.marginTop="-630px";
+    window.parent.document.getElementById("screenshots").style.marginBottom="10px";
+    window.parent.document.getElementById("screenshots").style.padding="0px";
+    window.parent.document.getElementById("screenshots").style.textAlign="left";
+    window.parent.document.getElementById("screenshots").style.marginLeft = "430px";
+    window.parent.document.getElementById("screenshots").style.marginRight = "370px";
+    window.parent.document.getElementById("screenshots").style.fontSize = "0px";
+    window.parent.document.getElementById("description_iframe").style.marginBottom = "0px";
+    window.parent.document.getElementById("description_iframe").style.marginLeft = "-15px";
+    window.parent.document.getElementById("description_iframe").style.marginRight = "-15px";
+    window.parent.document.getElementById("description_iframe").style.width="970px";
+    $(window.parent.document.getElementById("screenshots")).css("-webkit-backface-visibility", "hidden");
+
+    $(window.parent.document.getElementById("screenshots")).children("a").each(function (i, o) {
+
+        $(o).children("img").each(function (i, img) {
+            $(img).css({
+                "border": "0px solid #5c2e16",
+                "background-image": "url(" + img.src + ")",
+                "background-repeat": "no-repeat",
+                "background-size": "115%",
+                "width": "138px",
+                "height": "78px",
+                "opacity": "0.2",
+                "margin": "0px",
+                "display": "inline-block",
+                "-webkit-transition": "opacity 1s",
+                "-moz-transition": "opacity 1s",
+                "-o-transition": "opacity 1s",
+                "transition": "opacity 1s"
+            });
+            img.src = "pixel.gif";
+        });
+    });
+
+    var lis = window.parent.document.getElementById("screenshots").getElementsByTagName("img");
+
+    for (var i=0; i<lis.length; i++) {
+        lis[i].onmouseover = function() {
+            this.style.opacity = 1.0;
+        };
+        lis[i].onmouseout = function() {
+            this.style.opacity = 0.2;
+        };
+    };
+</script>
+
+</body>
+</html>

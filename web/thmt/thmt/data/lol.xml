@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A3 U110</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>SA</lectureID>
+    <lectureName>Sensoren, Aktoren (und Feldbusse)</lectureName>
+    <teacherID>Hg</teacherID>
+    <teacherName>Hempfling</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 211</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>BMP</lectureID>
+    <lectureName>Praktikum Biomtrie</lectureName>
+    <teacherID>Br</teacherID>
+    <teacherName>Behrens</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 111</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AVP</lectureID>
+    <lectureName>Praktikum zu Audiovisuelle Medien</lectureName>
+    <teacherID>Wz</teacherID>
+    <teacherName>Weitzel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A4 014</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>SG</lectureID>
+    <lectureName>Sichere Gesch&#xE4;ftsprozesse, Kryptogr.</lectureName>
+    <teacherID>Br</teacherID>
+    <teacherName>Behrens</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B1 311</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>DVI</lectureID>
+    <lectureName>Dokumentenverwaltung im Internet</lectureName>
+    <teacherID>Eer</teacherID>
+    <teacherName>Einert</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 111</room>
+    <lectureLength>3</lectureLength>
+    <lectureID>MSI</lectureID>
+    <lectureName>Modellbildung und Simulation Technischer Systeme</lectureName>
+    <teacherID>Km</teacherID>
+    <teacherName>Kampschulte</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A3 203</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>STI</lectureID>
+    <lectureName>Studiengangsinformation TI Studierende</lectureName>
+    <teacherID>Wb</teacherID>
+    <teacherName>Weber, Dr</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 211</room>
+    <lectureLength>3</lectureLength>
+    <lectureID>SG&#xDC;</lectureID>
+    <lectureName>SG&#xDC;</lectureName>
+    <teacherID>LW&#xF6;</teacherID>
+    <teacherName>W&#xF6;rner</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A2 111</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AV</lectureID>
+    <lectureName>Audiovisuelle Medien</lectureName>
+    <teacherID>Wz</teacherID>
+    <teacherName>Weitzel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 311</room>
+    <lectureLength>3</lectureLength>
+    <lectureID>FBA</lectureID>
+    <lectureName>Fotographie und Bildbearbeitung</lectureName>
+    <teacherID>Lom</teacherID>
+    <teacherName>Lohmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>odd</occurrence>
+    <block>4</block>
+    <room>A</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>RNG</lectureID>
+    <lectureName>Rechnernetzwerke Gundlagen</lectureName>
+    <teacherID>LDe</teacherID>
+    <teacherName>Desch</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A2 U117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DIF</lectureID>
+    <lectureName>Digitale interaktive Fernsehtechnologien</lectureName>
+    <teacherID>LHd</teacherID>
+    <teacherName>Hellhund</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A2 204</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DIFP</lectureID>
+    <lectureName>Digitale interaktive Fernsehtechnologien Praktikum</lectureName>
+    <teacherID>LHd</teacherID>
+    <teacherName>Hellhund</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A1 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>TW</lectureID>
+    <lectureName>Technisch wissenschaftliche Datenverarbeitung</lectureName>
+    <teacherID>Wgd</teacherID>
+    <teacherName>Weigand</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>7</block>
+    <room>A4 118</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>TWP</lectureID>
+    <lectureName>Technisch wissenschaftliche Datenverarbeitung Praktikum</lectureName>
+    <teacherID>Wgd</teacherID>
+    <teacherName>Weigand</teacherName>
+  </lecture>
+</TimeTable>

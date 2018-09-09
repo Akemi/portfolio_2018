@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title> App 10 ( )</title>
+    <meta charset="UTF-8"/>
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="../kern/esa.css"/>
+
+    <script>
+        window.onload = function () {
+            //if (top["bib"]) { top.bib.dl({ doc: document, id: 'DL1', show_idx: [ ] }); }
+        };
+    </script>
+    <script src="dom.js"></script>
+    <style>
+
+
+    </style>
+</head>
+<body>
+
+
+<h1>Frangebogen erstellen</h1>
+
+
+<div style="padding:0.3em;">
+    <h2>Fragenliste</h2>
+    <select size="1" id="quizlist" class="overflow_hidden" style="width:160px;" onchange="try{eval(this.options[this.selectedIndex].value);}catch(e){dom.show(e);}">
+        <option value="void(0)">Fragen</option>
+    </select>
+
+    <div>
+        Frage: <input id="quizname" class="input" style="width: 400px" type="text" name="aufgabe" value="">
+        Typ:
+        <select id="selecttype" name="type" style="display: inline-block;">
+            <option value="single">Single Choice</option>
+            <option value="multiple">Multiple Choice</option>
+        </select><br>
+        Hinweis: <input class="input" type="text" style="width: 500px" name="hint" value=""><br>
+        Antworten (pro Zeile eine Antwort): <br>
+        <textarea class="input" cols="67" rows="4" name="answers"></textarea><br>
+        Richtige Antworten (pro Zeile index der richtigen Antworten, starte bei 0, single choice nur eine Zeile): <br>
+        <textarea class="input" cols="67" rows="4" name="rightanswer"></textarea>
+        <br>
+        <a class="button" href="javascript:void(0)" onclick="saveQ();">Speichern</a> <a class="button" href="javascript:void(0)" onclick="deleteQ();">Löschen</a>
+    </div>
+</div>
+
+<script>
+    function nextQuizNum(){
+        var count = 0;
+        var dataArray = top.getLocalData('app10-quiz');
+        var i;
+
+        for (i in dataArray) {
+            if (dataArray.hasOwnProperty(i)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    function saveQ() {
+        var data = top.get_node_strings(dom.get_node_list('.input'));
+
+
+        var select = document.getElementById("selecttype");
+
+        data[select.name] = select.options[select.selectedIndex].value;
+        data["feedback"] = "no Feedback";
+
+        data["answers"] = data["answers"].split("\n");
+        data["rightanswer"] = data["rightanswer"].split("\n");
+
+        top.addLocalDataKey('app10-quiz', nextQuizNum(), data);
+        loadQuizData();
+    }
+
+    function loadQuizData() {
+        var dataArray = top.getLocalData('app10-quiz');
+        var list = document.getElementById('quizlist');
+
+        var liste = dom.get_node_list('.oelement', list);
+        for (var i = 0; i < liste.length; i += 1) {
+            list.removeChild(liste[i]);
+        }
+
+        for (var key in dataArray) {
+            if (dataArray.hasOwnProperty(key)) {
+                var newElement = document.createElement('option');
+                newElement.innerHTML = key;
+                newElement.setAttribute('class', "oelement");
+                newElement.setAttribute('value', "setInputs('" + key + "');");
+                list.appendChild(newElement);
+            }
+        }
+    }
+
+    function getQuizData(name) {
+        return top.getLocalDataKey('app10-quiz', name);
+    }
+
+    function setInputs(name) {
+        var quizdata = getQuizData(name);
+        quizdata["answers"] = quizdata["answers"].join("\n");
+        quizdata["rightanswer"] = quizdata["rightanswer"].join("\n");
+
+        top.set_node_strings(dom.get_node_list('.input'), quizdata);
+
+        var element = document.getElementById('selecttype');
+        element.value = quizdata["type"];
+    }
+
+    function deleteQ() {
+        var select = document.getElementById("quizlist");
+        top.deleteLocalDataKey('app10-quiz', select.options[select.selectedIndex].innerHTML);
+        loadQuizData();
+
+        var data = dom.get_node_list('.input');
+        for (var key in data) {
+            data[key].value = "";
+        }
+    }
+
+    function isEmpty(obj) {
+        if (obj == null) return true;
+
+        if (obj.length > 0)    return false;
+        if (obj.length === 0)  return true;
+
+        for (var key in obj) {
+            if (hasOwnProperty.call(obj, key)) return false;
+        }
+
+        return true;
+    }
+
+    var data = top.getLocalData('app10-quiz');
+
+    if(isEmpty(data)) {
+        var qs = '{"0":{"aufgabe":"Was ist die Antwort auf alle Fragen?","hint":"Per Anhalter durch die Galaxis","answers":["1","2","42","3"],"rightanswer":["2"],"type":"single","feedback":"no Feedback"},"1":{"aufgabe":"Was ist 3 + 5?","hint":"weniger als 10","answers":["6","8","8.0","9"],"rightanswer":["1","2"],"type":"multiple","feedback":"no Feedback"},"2":{"aufgabe":"Ist ECMAScript toll?","hint":"Ja","answers":["Ja","Nein","Villeichet"],"rightanswer":["0"],"type":"single","feedback":"no Feedback"},"3":{"aufgabe":"Frange3?","hint":"hinweis3","answers":["richtig","falsch","falsch","richtig"],"rightanswer":["0","3"],"type":"multiple","feedback":"no Feedback"},"4":{"aufgabe":"Frange4?","hint":"hinweis4","answers":["falsch","falsch","richtig","falsch"],"rightanswer":["2"],"type":"single","feedback":"no Feedback"},"5":{"aufgabe":"Frange5?","hint":"hinweis5","answers":["falsch","richtig","richtig","falsch"],"rightanswer":["1","2"],"type":"multiple","feedback":"no Feedback"},"6":{"aufgabe":"Frange6?","hint":"hinweis6","answers":["richtig","falsch","falsch","falsch","falsch"],"rightanswer":["0"],"type":"single","feedback":"no Feedback"},"7":{"aufgabe":"Frange7?","hint":"hinweis7","answers":["falsch","falsch","richtig","falsch","falsch"],"rightanswer":["2"],"type":"single","feedback":"no Feedback"},"8":{"aufgabe":"Frange8?","hint":"hinweis8","answers":["falsch","falsch","richtig","falsch","richtig"],"rightanswer":["2","4"],"type":"multiple","feedback":"no Feedback"}}';
+        top.addLocalData('app10-quiz', JSON.parse(qs));
+    }
+
+
+    loadQuizData();
+
+</script>
+
+</body>
+</html>
+
+

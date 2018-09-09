@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="pNr.1341">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Nr. 1341 der Landser</dc:title>
+<dc:creator>H. Baier</dc:creator>
+<dc:identifier id="pNr.1341">Nr.1341</dc:identifier>
+<dc:date>2012</dc:date>
+<dc:coverage>German</dc:coverage>
+<dc:language>de</dc:language>
+<dc:type>Text</dc:type>
+<dc:format>77 Pages</dc:format>
+<dc:rights>Alle Rechte vorbehalten</dc:rights>
+<dc:publisher>Landser Verlag</dc:publisher>
+<meta name="cover" content="cover-image" />
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="xml2-be215234" href="styles/Nr.1341.css" media-type="text/css"/>
+<item id="xml3-be215234" href="styles/page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+<item id="xml4-be215234" href="fonts/georgia.ttf" media-type="application/x-font-ttf"/>
+<item id="xml5-be215234" href="fonts/georgiab.ttf" media-type="application/x-font-ttf"/>
+<item id="xml6-be215234" href="fonts/georgiai.ttf" media-type="application/x-font-ttf"/>
+<item id="xml7-be215234" href="fonts/georgiaz.ttf" media-type="application/x-font-ttf"/>
+<item id="xml8-be215234" href="fonts/trebuc.ttf" media-type="application/x-font-ttf"/>
+<item id="xml9-be215234" href="fonts/trebucbd.ttf" media-type="application/x-font-ttf"/>
+<item id="xml10-be215234" href="fonts/trebucbi.ttf" media-type="application/x-font-ttf"/>
+<item id="xml11-be215234" href="fonts/trebucit.ttf" media-type="application/x-font-ttf"/>
+<item id="cover" href="xhtml/cover.html" media-type="application/xhtml+xml"/>
+<item id="xml13-be215234" href="xhtml/author.html" media-type="application/xhtml+xml"/>
+<item id="xml14-be215234" href="xhtml/copyright.html" media-type="application/xhtml+xml"/>
+<item id="xml15-be215234" href="xhtml/chapter01.html" media-type="application/xhtml+xml"/>
+<item id="xml16-be215234" href="xhtml/chapter01a.html" media-type="application/xhtml+xml"/>
+<item id="xml17-be215234" href="xhtml/chapter01b.html" media-type="application/xhtml+xml"/>
+<item id="xml18-be215234" href="xhtml/chapter02.html" media-type="application/xhtml+xml"/>
+<item id="xml19-be215234" href="xhtml/chapter03.html" media-type="application/xhtml+xml"/>
+<item id="xml20-be215234" href="xhtml/chapter04.html" media-type="application/xhtml+xml"/>
+<item id="xml21-be215234" href="xhtml/chapter05.html" media-type="application/xhtml+xml"/>
+<item id="xml22-be215234" href="xhtml/chapter05a.html" media-type="application/xhtml+xml"/>
+<item id="xml23-be215234" href="xhtml/chapter05b.html" media-type="application/xhtml+xml"/>
+<item id="xml24-be215234" href="xhtml/chapter06.html" media-type="application/xhtml+xml"/>
+<item id="xml25-be215234" href="xhtml/chapter07.html" media-type="application/xhtml+xml"/>
+<item id="xml26-be215234" href="xhtml/chapter08.html" media-type="application/xhtml+xml"/>
+<item id="xml27-be215234" href="xhtml/chapter09.html" media-type="application/xhtml+xml"/>
+<item id="xml28-be215234" href="xhtml/chapter10.html" media-type="application/xhtml+xml"/>
+<item id="xml29-be215234" href="xhtml/anmerkungen.html" media-type="application/xhtml+xml"/>
+<item id="xml30-be215234" href="images/Nr.1341.jpg" media-type="image/jpeg"/>
+<item id="xml31-be215234" href="images/f0001-01.jpg" media-type="image/jpeg"/>
+<item id="xml32-be215234" href="images/f0003-01.jpg" media-type="image/jpeg"/>
+<item id="xml33-be215234" href="images/f0004-01.jpg" media-type="image/jpeg"/>
+<item id="xml34-be215234" href="images/f0004-02.jpg" media-type="image/jpeg"/>
+<item id="xml35-be215234" href="images/f0005-01.jpg" media-type="image/jpeg"/>
+<item id="xml36-be215234" href="images/f0005-02.jpg" media-type="image/jpeg"/>
+<item id="xml37-be215234" href="images/f0006-01.jpg" media-type="image/jpeg"/>
+<item id="xml38-be215234" href="images/f0006-02.jpg" media-type="image/jpeg"/>
+<item id="xml39-be215234" href="images/f0007-01.jpg" media-type="image/jpeg"/>
+<item id="xml40-be215234" href="images/f0007-02.jpg" media-type="image/jpeg"/>
+<item id="xml41-be215234" href="images/f0008-01.jpg" media-type="image/jpeg"/>
+<item id="xml42-be215234" href="images/f0008-02.jpg" media-type="image/jpeg"/>
+<item id="xml43-be215234" href="images/f0009-01.jpg" media-type="image/jpeg"/>
+<item id="xml44-be215234" href="images/f0011-01.jpg" media-type="image/jpeg"/>
+<item id="xml45-be215234" href="images/f0065-01.jpg" media-type="image/jpeg"/>
+<item id="xml46-be215234" href="images/f0067-01.jpg" media-type="image/jpeg"/>
+<item id="xml47-be215234" href="images/f0072-01.jpg" media-type="image/jpeg"/>
+<item id="xml48-be215234" href="images/f0073-01.jpg" media-type="image/jpeg"/>
+<item id="xml49-be215234" href="images/f0074-01.jpg" media-type="image/jpeg"/>
+<item id="xml50-be215234" href="images/f0075-01.jpg" media-type="image/jpeg"/>
+<item id="xml51-be215234" href="images/f0076-01.jpg" media-type="image/jpeg"/>
+<item id="xml52-be215234" href="images/t0075-01.jpg" media-type="image/jpeg"/>
+</manifest>
+<spine toc="ncx">
+<itemref idref="cover"/>
+<itemref idref="xml13-be215234"/>
+<itemref idref="xml14-be215234"/>
+<itemref idref="xml15-be215234"/>
+<itemref idref="xml16-be215234"/>
+<itemref idref="xml17-be215234"/>
+<itemref idref="xml18-be215234"/>
+<itemref idref="xml19-be215234"/>
+<itemref idref="xml20-be215234"/>
+<itemref idref="xml21-be215234"/>
+<itemref idref="xml22-be215234"/>
+<itemref idref="xml23-be215234"/>
+<itemref idref="xml24-be215234"/>
+<itemref idref="xml25-be215234"/>
+<itemref idref="xml26-be215234"/>
+<itemref idref="xml27-be215234"/>
+<itemref idref="xml28-be215234"/>
+<itemref idref="xml29-be215234"/>
+</spine>
+</package>

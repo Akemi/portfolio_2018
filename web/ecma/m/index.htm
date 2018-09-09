@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+<title> Weiterleitung zur Smartphon-Site ../m.htm</title>
+<meta charset="utf-8">
+<meta name="robots" content="noindex" />
+<meta http-equiv = "refresh" content = "0; URL=../m.htm" />
+<script>
+  var url = window.location.href;
+  url = url.slice(0, url.lastIndexOf('/'));
+  url = url.slice(0, url.lastIndexOf('/')) + "/m.htm";
+  top.location.replace(url);
+</script>
+</head>
+<body>
+  <h1>
+     Weiterleitung zur <a target="_top" href="../m.htm"> Smartphon-Site </a>
+  </h1>
+
+<noscript>
+  <p>
+     Weiterleitung per href zur 
+     <a target="_top" href="../m.htm"> 
+        Smartphon-Site 
+     </a>
+  </p>
+</noscript>
+
+<p> Weiterleitung per per onclick und dann ggf. per href zur ... 
+     <a target="_top" href="../m.htm" onclick="top.location.replace(url);return false;">
+        Smartphon-Site 
+     </a>
+</p>
+
+<!-- 
+self.location.replace(url);
+window.onload=function(){setTimeout(functon() {history.go(-1);},1000);
+-->
+
+</body>
+</html>
+

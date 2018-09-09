@@ -1,0 +1,59 @@
+[
+    {
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"multiple",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[0,1],
+        "hint":"text1",
+        "feedback":"Feedback auf falsche Antwort1"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"single",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[2],
+        "hint":"text2",
+        "feedback":"Feedback auf falsche Antwort2"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"multiple",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[0,1],
+        "hint":"text3",
+        "feedback":"Feedback auf falsche Antwort3"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"single",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[2],
+        "hint":"text4",
+        "feedback":"Feedback auf falsche Antwort4"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"multiple",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[0,1],
+        "hint":"text5",
+        "feedback":"Feedback auf falsche Antwort5"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"single",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[2],
+        "hint":"text6",
+        "feedback":"Feedback auf falsche Antwort6"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"multiple",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[0,1],
+        "hint":"text7",
+        "feedback":"Feedback auf falsche Antwort7"
+    },{
+        "aufgabe":"Aufgabentext oder Frage",
+        "type":"single",
+        "answers":["antwort1 text", "antwort2 text", "antwort3 text"],
+        "rightanswer":[2],
+        "hint":"text8",
+        "feedback":"Feedback auf falsche Antwort8"
+    }
+]

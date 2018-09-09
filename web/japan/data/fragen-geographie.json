@@ -1,0 +1,66 @@
+[
+    {
+        "aufgabe":"Wer Japans beste Wintersportgebiete besuchen möchte, der sollte welche Region(en) oder Insel(n) besuchen?",
+        "type":"multiple",
+        "answers":["Das zentrale Honshu", "Hokkaido", "den Norden von Honshu", "Da Japan generell sehr gebirgig ist, findet man überall sehr gute Wintersportgebiete."],
+        "rightanswer":[1,2],
+        "hint":"In der Hauptstadt der einen Insel fanden 1972 die olympischen Winterspiele statt.",
+        "feedback":""
+    },{
+        "aufgabe":"Welche Insel sollte man bereisen, wenn man Japans Kontraste auf engstem Raum erleben will? ",
+        "type":"single",
+        "answers":["Kyushu", "Shikoku ", "Honshu", "Saitama"],
+        "rightanswer":[2],
+        "hint":"Hier liegt auch Tokyo!",
+        "feedback":""
+    },{
+        "aufgabe":"Verschieben die Namen in die richtige Box.",
+        "type":"custom",
+        "answers":"<div id=map-wrapper><div id='map'><div id='kyushu-drag' draggable='true' ondragstart='drag(event)'>Kyushu</div><div id='honshu-drag' draggable='true' ondragstart='drag(event)'>Honshu</div><div id='hokkaido-drag' draggable='true' ondragstart='drag(event)'>Hokkaido</div><div id='shikoku-drag' draggable='true' ondragstart='drag(event)'>Shikoku</div><div class='drop-ele' id='hokkaido-test' ondrop='drop(event)' ondragover='allowDrop(event)'></div><div class='drop-ele' id='honshu-test' ondrop='drop(event)' ondragover='allowDrop(event)'></div><div class='drop-ele' id='shikoku-test' ondrop='drop(event)' ondragover='allowDrop(event)'></div><div class='drop-ele' id='kyushu-test' ondrop='drop(event)' ondragover='allowDrop(event)'></div></div></div>",
+        "rightanswer":"mapTest",
+        "hint":"Hokkaido ist am kältesten und Kyushu am heißesten.",
+        "feedback":"Von oben nach unten gilt folgende Reihenfolge: Hokkaido, Honshu, Shikoku und Kyushu."
+    },{
+        "aufgabe":"Welche Aussage(n) über Tokyo ist/sind richtig? ",
+        "type":"multiple",
+        "answers":["Tokyo ist Sitz von 900 000 Unternehmen und wäre unter den Top10 der stärksten Wirtschaftsnationen", "Tokyo ist keine eigenständige Stadt.", "Tokyo bildet mit zahlreichen Vororten die größte Metropolregion der Welt", "Aus Platzmangel baute man vor Tokyo einen Flughafen im Meer."],
+        "rightanswer":[1,2,3],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Japan liegt an 4 tektonischen Platten. Von welchen Naturkatastrophen wird es oft heimgesucht?",
+        "type":"multiple",
+        "answers":["Tsunamis", "Lawinen", "Taifunen", "Erdbeben"],
+        "rightanswer":[0,3],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Welche Aussage(n) über die Einwohnerzahl und Fläche Japans ist/sind richtig? ",
+        "type":"multiple",
+        "bild":"",
+        "answers":["Japan ist flächenmäßig unwesentlich größer als Deutschland.", "Japan hat 50% mehr Einwohner als Deutschland.", "Japan hat fast genau so viele Einwohner wie Deutschland.", "Japan ist flächenmäßig etwas kleiner als Deutschland. "],
+        "rightanswer":[0,1],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Wie heißt das Nationalheiligtum Japans?",
+        "type":"multiple",
+        "bild":"",
+        "answers":["mount fuji", "berg fujiyama", "fujiyama, mount fujiyama", "fuji", "fujiyama"],
+        "rightanswer":[0,1,2,3,4],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Wie hoch ist dieser ca.?",
+        "type":"single",
+        "bild":"",
+        "answers":["3500m", "3700m", "3900m"],
+        "rightanswer":[1],
+        "hint":"",
+        "feedback":""
+    },{
+        "feedback1":"Du kennst dich hervorragend über die Geografie Japans aus. Deinem Japantrip steht nichts im Wege! Schau am besten in den Festivalführer, um dir Festivals auszusuchen, die du sehen möchtest.",
+        "feedback2":"Du hast in den meisten Fällen Ahnung über die Geografie Japans, sehr gut! Schau schon mal in den Festivalführer, um dir Festivals auszusuchen, die du sehen möchtest.",
+        "feedback3":"Schade, vielleicht warst du einfach ein wenig unkonzentriert. Lies am besten noch einmal den Geografieteil, um dir ein besseres Bild von dem Land zu machen, was du bereisen möchtest."
+    }
+]

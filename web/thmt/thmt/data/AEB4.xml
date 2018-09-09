@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A4 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWEL</lectureID>
+    <lectureName>Softwareentwicklung Labor</lectureName>
+    <teacherID>Jg</teacherID>
+    <teacherName>J&#xE4;ger, Rudolf</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A3 010</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWE</lectureID>
+    <lectureName>Software Entwicklung</lectureName>
+    <teacherID>Jg</teacherID>
+    <teacherName>J&#xE4;ger, Rudolf</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>RT1&#xDC;</lectureID>
+    <lectureName>Regelungstechnik 1 &#xDC;bungen</lectureName>
+    <teacherID>Ku</teacherID>
+    <teacherName>Kuznietsov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A8 106a+b</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>EE1</lectureID>
+    <lectureName>Energieversorgung 1 (Energietechnik f&#xFC;r AEB, el. Energietechnik f&#xFC;r MEB)</lectureName>
+    <teacherID>Di</teacherID>
+    <teacherName>Dib</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A3 U112</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>NT</lectureID>
+    <lectureName>Nachrichtentechnik</lectureName>
+    <teacherID>Pe</teacherID>
+    <teacherName>Penirschke</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A3 U105</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>LE1</lectureID>
+    <lectureName>Leistungselektronik 1</lectureName>
+    <teacherID>Pp</teacherID>
+    <teacherName>Peppel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A3 U107</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>RT1</lectureID>
+    <lectureName>Regelungstechnik 1</lectureName>
+    <teacherID>Ku</teacherID>
+    <teacherName>Kuznietsov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A3 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWE</lectureID>
+    <lectureName>Software Entwicklung</lectureName>
+    <teacherID>Jg</teacherID>
+    <teacherName>J&#xE4;ger, Rudolf</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A3 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>NT</lectureID>
+    <lectureName>Nachrichtentechnik</lectureName>
+    <teacherID>Pe</teacherID>
+    <teacherName>Penirschke</teacherName>
+  </lecture>
+</TimeTable>

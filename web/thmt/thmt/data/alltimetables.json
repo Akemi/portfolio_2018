@@ -1,0 +1,912 @@
+{
+    "AEB1": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "AEGB1": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": null,
+        "semester": "B",
+        "timetableVariant": "1"
+    },
+    "AEB2": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "AEGB2": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": null,
+        "semester": "B",
+        "timetableVariant": "2"
+    },
+    "AEB3": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "AEB4": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "AEB5A": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "A"
+    },
+    "AEB5B": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "B"
+    },
+    "AEB5C": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "C"
+    },
+    "AEB6A": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "A"
+    },
+    "AEB6B": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "B"
+    },
+    "AEB6C": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "C"
+    },
+    "AGB1": {
+        "degreeID": "AG",
+        "degreeName": "AE Schwerpkt Geb\u00e4udeautomation",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "AGB2": {
+        "degreeID": "AG",
+        "degreeName": "AE Schwerpkt Geb\u00e4udeautomation",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "AGB3": {
+        "degreeID": "AG",
+        "degreeName": "AE Schwerpkt Geb\u00e4udeautomation",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "AGB4": {
+        "degreeID": "AG",
+        "degreeName": "AE Schwerpkt Geb\u00e4udeautomation",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "AGB5": {
+        "degreeID": "AG",
+        "degreeName": "AE Schwerpkt Geb\u00e4udeautomation",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "AGB6": {
+        "degreeID": "AG",
+        "degreeName": "AE Schwerpkt Geb\u00e4udeautomation",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "AES": {
+        "degreeID": "AE",
+        "degreeName": "Allgemeine Elektrotechnik",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "NCB2": {
+        "degreeID": "NC",
+        "degreeName": "Nachrichtentechnik und Computernetze",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "NCB3": {
+        "degreeID": "NC",
+        "degreeName": "Nachrichtentechnik und Computernetze",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "NCB4": {
+        "degreeID": "NC",
+        "degreeName": "Nachrichtentechnik und Computernetze",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "NCB5": {
+        "degreeID": "NC",
+        "degreeName": "Nachrichtentechnik und Computernetze",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "NCB6": {
+        "degreeID": "NC",
+        "degreeName": "Nachrichtentechnik und Computernetze",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "EIM1": {
+        "degreeID": "EI",
+        "degreeName": "Elektro- und Informationstechnik",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "EIM2": {
+        "degreeID": "EI",
+        "degreeName": "Elektro- und Informationstechnik",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "ICM2": {
+        "degreeID": "IC",
+        "degreeName": "Inform. und Communication Engineering",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MIB2": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MIB3": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "MIB4": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "MIB6": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "TIB2": {
+        "degreeID": "TI",
+        "degreeName": "Technische Informatik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "TIB4": {
+        "degreeID": "TI",
+        "degreeName": "Technische Informatik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "TIB6A": {
+        "degreeID": "TI",
+        "degreeName": "Technische Informatik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "A"
+    },
+    "TIB6B": {
+        "degreeID": "TI",
+        "degreeName": "Technische Informatik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "B"
+    },
+    "MIM1": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "MIM2": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MIM3": {
+        "degreeID": "MI",
+        "degreeName": "Medieninformatik",
+        "degreeCode": "Master",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "IES": {
+        "degreeID": "IE",
+        "degreeName": "IE",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "MBB1": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "MBB2": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MBB3A": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": "A"
+    },
+    "MBB3B": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": "B"
+    },
+    "MBB3C": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": "C"
+    },
+    "MBB3D": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": "D"
+    },
+    "MBB4A": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": "A"
+    },
+    "MBB4B": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": "B"
+    },
+    "MBB4C": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": "C"
+    },
+    "MBB4D": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": "D"
+    },
+    "MBB5A": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "A"
+    },
+    "MBB5B": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "B"
+    },
+    "MBB5C": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "C"
+    },
+    "MBB5D": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "D"
+    },
+    "MBB6A": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "A"
+    },
+    "MBB6B": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "B"
+    },
+    "MBB6C": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "C"
+    },
+    "MBS": {
+        "degreeID": "MB",
+        "degreeName": "Maschinenbau",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "MEB1": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "MEB2": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MEB3": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "MEB4A": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": "A"
+    },
+    "MEB4B": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": "B"
+    },
+    "MEB5A": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "A"
+    },
+    "MEB5B": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": "B"
+    },
+    "MEB6A": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "A"
+    },
+    "MEB6B": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": "B"
+    },
+    "MES": {
+        "degreeID": "ME",
+        "degreeName": "Mechatronik",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "MMM1": {
+        "degreeID": "MM",
+        "degreeName": "Maschinenbau \/ Mechatronik",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "MMM2": {
+        "degreeID": "MM",
+        "degreeName": "Maschinenbau \/ Mechatronik",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MMS": {
+        "degreeID": "MM",
+        "degreeName": "Maschinenbau \/ Mechatronik",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "AVB2": {
+        "degreeID": "AV",
+        "degreeName": "Angewandte Vakuumtechnik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MPB2": {
+        "degreeID": "MP",
+        "degreeName": "Medizinische Physik und Strahlenschutz",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "PTB2": {
+        "degreeID": "PT",
+        "degreeName": "Physikalische Technik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "PTB4": {
+        "degreeID": "PT",
+        "degreeName": "Physikalische Technik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "PTB6": {
+        "degreeID": "PT",
+        "degreeName": "Physikalische Technik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "PTS": {
+        "degreeID": "PT",
+        "degreeName": "Physikalische Technik",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "MAB1": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "MAB2": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MAB3": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "MAB4": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "MAB5": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "MAB6": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WKB2": {
+        "degreeID": "WK",
+        "degreeName": "Wirtschaftsinformatik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WKB4": {
+        "degreeID": "WK",
+        "degreeName": "Wirtschaftsinformatik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "WKB5": {
+        "degreeID": "WK",
+        "degreeName": "Wirtschaftsinformatik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "WKB6": {
+        "degreeID": "WK",
+        "degreeName": "Wirtschaftsinformatik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WKM1": {
+        "degreeID": "WK",
+        "degreeName": "Wirtschaftsinformatik",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "WKM3": {
+        "degreeID": "WK",
+        "degreeName": "Wirtschaftsinformatik",
+        "degreeCode": "Master",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "BIB2": {
+        "degreeID": "BI",
+        "degreeName": "Bahningenieurwesen",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "BIB4": {
+        "degreeID": "BI",
+        "degreeName": "Bahningenieurwesen",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "OBV": {
+        "degreeID": "OB",
+        "degreeName": "OB",
+        "degreeCode": null,
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "MAM1": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "MAM2": {
+        "degreeID": "MA",
+        "degreeName": "Wirtschaftsmathematik",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "MNS": {
+        "degreeID": "MN",
+        "degreeName": "MN",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "WFB2": {
+        "degreeID": "WF",
+        "degreeName": "WI Immobilie Facility\u00a0 Management",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WTB2": {
+        "degreeID": "WT",
+        "degreeName": "WI Immobilie Tech. Asset Management",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WFB4": {
+        "degreeID": "WF",
+        "degreeName": "WI Immobilie Facility\u00a0 Management",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "WTB4": {
+        "degreeID": "WT",
+        "degreeName": "WI Immobilie Tech. Asset Management",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "WFB6": {
+        "degreeID": "WF",
+        "degreeName": "WI Immobilie Facility\u00a0 Management",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WTB6": {
+        "degreeID": "WT",
+        "degreeName": "WI Immobilie Tech. Asset Management",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WFM1": {
+        "degreeID": "WF",
+        "degreeName": "WI Immobilie Facility\u00a0 Management",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "WFM2": {
+        "degreeID": "WF",
+        "degreeName": "WI Immobilie Facility\u00a0 Management",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WMB1": {
+        "degreeID": "WM",
+        "degreeName": "WI Industrie Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "WEB1": {
+        "degreeID": "WE",
+        "degreeName": "WI Industrie Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "WLB1": {
+        "degreeID": "WL",
+        "degreeName": "WI Industrie Life Cycle Management",
+        "degreeCode": "Bachelor",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "WMB2": {
+        "degreeID": "WM",
+        "degreeName": "WI Industrie Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WEB2": {
+        "degreeID": "WE",
+        "degreeName": "WI Industrie Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WLB2": {
+        "degreeID": "WL",
+        "degreeName": "WI Industrie Life Cycle Management",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WMB3": {
+        "degreeID": "WM",
+        "degreeName": "WI Industrie Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "WEB3": {
+        "degreeID": "WE",
+        "degreeName": "WI Industrie Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "WLB3": {
+        "degreeID": "WL",
+        "degreeName": "WI Industrie Life Cycle Management",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "WMB4": {
+        "degreeID": "WM",
+        "degreeName": "WI Industrie Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "WEB4": {
+        "degreeID": "WE",
+        "degreeName": "WI Industrie Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "WLB4": {
+        "degreeID": "WL",
+        "degreeName": "WI Industrie Life Cycle Management",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "WMB5": {
+        "degreeID": "WM",
+        "degreeName": "WI Industrie Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "WEB5": {
+        "degreeID": "WE",
+        "degreeName": "WI Industrie Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "WLB5": {
+        "degreeID": "WL",
+        "degreeName": "WI Industrie Life Cycle Management",
+        "degreeCode": "Bachelor",
+        "semester": "5",
+        "timetableVariant": ""
+    },
+    "WMB6": {
+        "degreeID": "WM",
+        "degreeName": "WI Industrie Maschinenbau",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WEB6": {
+        "degreeID": "WE",
+        "degreeName": "WI Industrie Elektrotechnik",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WLB6": {
+        "degreeID": "WL",
+        "degreeName": "WI Industrie Life Cycle Management",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WIB3": {
+        "degreeID": "WI",
+        "degreeName": "Wirtschaftsingenieurwesen",
+        "degreeCode": "Bachelor",
+        "semester": "3",
+        "timetableVariant": ""
+    },
+    "WIB6": {
+        "degreeID": "WI",
+        "degreeName": "Wirtschaftsingenieurwesen",
+        "degreeCode": "Bachelor",
+        "semester": "6",
+        "timetableVariant": ""
+    },
+    "WIM1": {
+        "degreeID": "WI",
+        "degreeName": "Wirtschaftsingenieurwesen",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "WIM2": {
+        "degreeID": "WI",
+        "degreeName": "Wirtschaftsingenieurwesen",
+        "degreeCode": "Master",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "WIS": {
+        "degreeID": "WI",
+        "degreeName": "Wirtschaftsingenieurwesen",
+        "degreeCode": "Studierende",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "LGB2": {
+        "degreeID": "LG",
+        "degreeName": "Logistik",
+        "degreeCode": "Bachelor",
+        "semester": "2",
+        "timetableVariant": ""
+    },
+    "LGB4": {
+        "degreeID": "LG",
+        "degreeName": "Logistik",
+        "degreeCode": "Bachelor",
+        "semester": "4",
+        "timetableVariant": ""
+    },
+    "LGBS": {
+        "degreeID": "LG",
+        "degreeName": "Logistik",
+        "degreeCode": "Bachelor",
+        "semester": "Alle",
+        "timetableVariant": ""
+    },
+    "SCM1": {
+        "degreeID": "SC",
+        "degreeName": "Supply Chain Management",
+        "degreeCode": "Master",
+        "semester": "1",
+        "timetableVariant": ""
+    },
+    "Alle": {
+        "degreeID": "Alle",
+        "degreeName": "Alle",
+        "degreeCode": "Studierenden",
+        "semester": "Alle",
+        "timetableVariant": ""
+    }
+}

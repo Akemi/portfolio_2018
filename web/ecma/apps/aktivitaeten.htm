@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title> Liste meiner Aktivitäten </title>
+		<meta charset="utf-8" />
+		<meta name="robots" content="noindex" />
+		<link rel="stylesheet" href="../kern/esa.css" />
+		<script> 
+			window.onload = function () {
+			  if (top["bib"]) { top.bib.dl({ doc: document, id: 'DL1', show_idx: [] }); }
+			};
+		</script>
+	</head>
+	<body>
+		<h1> Liste meiner Aktivitäten </h1>
+		<p> 
+			Hier habe ich meine Aktivitäten zum ESA - Praktikum 2015 protokolliert
+			( Chronologie, Bemerkungen, todo, usw. ).
+			Insbesondere werden weitere Ideen, Lösungserfolge, Schwierigkeiten, todo, offene Fragen, Fertigstellungstermine, usw. protokolliert.
+		</p>
+		<dl id="DL1">
+			<dt>Erster Vorlesungstermin 2015-04-13<dfn> Besprechung, Projekte, Termine </dfn></dt>
+			<dd>
+				<p>
+					Es wurden Formalien und Hilfsmittel zur Veranstaltung besprochen und im praktischen Teil auf Lösungsmöglichkeiten eingegangen.
+				</p>
+				<p>
+					Die Online-Unterlagen zu ESA-Veranstaltung sind zu finden unter
+					<a class="extern" target="_blank" href='http://www.cilie.org/esa/index.htm'>
+					ESA-Vorlesung 
+					</a>.
+					Die Augabenstellung zum ersten ESA-Projekt ist zu finden unter
+					<a class="extern" target="_blank" href='http://www.cilie.org/esa/prakt-2015/auf-1-2015.htm'>
+					1. ESA-Projekt
+					</a>  
+				</p>
+			</dd>
+			
+			<dt>1. Projekt bis 2015-04-19<dfn> Homepage einrichten und Ed-App</dfn></dt>
+			<dd>
+				<p>
+					Bei der 1. Aufgabe ging es darum, einen ersten Homepage Rahmen zu entpacken und auf einen THM ftp hochzuladen.
+					Damit soll ein Homepage-Grundgerüst enstehen, in dem wir alle gelößten Aufgaben aufnehmen und protokolieren.
+					Der Rahmen soll persönlich angepasst und darauf hin das Toolchen kompletitiert werden.
+				</p>
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul class="dir">
+					<li>CSS wurde geupdated
+						<ul>
+							<li>FontAwesome Icon Font</li>
+							<li>Neues Farbschema</li>
+							<li>Neue Font</li>
+							<li>Fixed Menubar</li>
+						</ul>
+					</li>
+					<li>kern/willkommen.htm, kern/impressum.htm, kern/copyright.htm und favicon.gif wurden angepasst</li>
+					<li>Die zu bearbeitenden Dokumente haben übersichtlichere Intendations bekommen</li>
+					<li>Eine Funktion getlengthContent(id) wurde geschrieben um die Länge des Inhaltes eines spezifischen (id) Elements auszugeben</li>
+					<li>Erstellen einiger CSS3 Beispiele
+						<ul>
+							<li>Text-Shadow</li>
+							<li>External Font</li>
+							<li>Text rotation</li>
+							<li>Style Transition</li>
+						</ul>
+					</li>
+					<li>Erstellen einiger Script Beispiele
+						<ul>
+							<li>Template</li>
+							<li>Event Listener</li>
+							<li>Get Date</li>
+							<li>User Agent</li>
+						</ul>
+					</li>
+					<li>Die Klasse 'rot' wurde von bearbeiteten Option-Feldern entfernt</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Base64 string converter für embedded Bilder</li>
+					<li>Generieren von Event-Handlern für zB Click Events</li>
+					<li>Ein Live-Preview als Vorschau</li>
+					<li>Es sollten Events benutzt werden anstelle von Inline-Funktionen</li>
+				</ul>
+			</dd>
+			
+			<dt>2. Projekt bis 2015-04-26<dfn> Ein Projekt nach eigener Vorstellung</dfn></dt>
+			<dd>
+				Die 2. Aufgabe ist ein Projekt nach eigener Vorstellung. Es soll etwas mit RegEx string manipulation
+				umgesetzt werden. Weiter soll eine kleine eigene Library namens dom umgesetzt werden.
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Einige Teile aus Aufgabe 1 wurden kopiert</li>
+					<li>Ein a-Tag finder wurde implementiert (getAllLinkTags() Funktion)</li>
+					<li>a-Tag Example</li>
+					<li>Funktion zum ausgeben des Inhaltes eines XML Tags, Tag Eingabe über TextArea 2 (getContentOfSpecificXMLTag() Funktion)</li>
+					<li>XML Example</li>
+					<li>Funktion zum ausgeben eines JSON Values mit dem Key, Key Eingabe über TextArea 2getJSONKey() Funktion)</li>
+					<li>JSON Example</li>
+				</ul>
+
+				<p>Es wurden folgende Probleme aus Aufgabe 1 behoben</p>
+				<ul>
+					<li>Font Licensen und Copyrights hinzugefügt</li>
+					<li>Fonts nicht mehr aus externer Quelle laden lassen</li>
+					<li></li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>JSON <> XML Konvertierer</li>
+					<li>Validierung JSON/XML</li>
+					<li>Seite laden per URL und nach zB Links suchen</li>
+				</ul>
+			</dd>
+			
+			<dt>3. Projekt bis 2015-05-03<dfn> Canvas Gleichungszeichner</dfn></dt>
+			<dd>
+				In der 3. Aufgabe sollen wir ein eigenes kleines Projekt mit dem Canvas Elements umsetzen.
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Umsetzung der Klasse CartesianCoordinateSystem zum zeichnen eines Koordinatensystems</li>
+					<li>Sammeln aller notwendigen Daten
+						<ul>
+							<li>Relative daten des Koordinaten Systems</li>
+							<li>Absolute Daten zum übertragen auf canvas</li>
+							<li>Config Daten</li>
+						</ul>
+					</li>
+					<li>Umsetzen der drawAxis() Funktion
+						<ul>
+							<li>Zeichnen der x-Achse</li>
+							<li>Zeichnen der y-Achse</li>
+							<li>Zeichnen der x-Achsen Markierungen + Beschriftung</li>
+							<li>Zeichnen der y-Achsen Markierungen + Beschriftung</li>
+						</ul>
+					</li>
+					<li>Umsetzung der drawEquation() Funktion</li>
+					<li>Einige Beispiele hinzugefügt</li>
+					<li>Einbinden der Math.js für bessere eval() Funktion</li>
+					<li>Mache einige Config Werte konfigurierbar</li>
+					<li>Hinzufügen von input-Feldern</li>
+					<li>Umsetzung der drawNewSystem() Funktion</li>
+					<li>Helper Funktion zum Umwandeln der Positions Werte zu Canvas freundlichen werten, ohne Sub-Pixel rendering</li>
+				</ul>
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Validierung der Inputs</li>
+				</ul>
+			</dd>
+			
+			<dt>4. Projekt bis 2015-05-10<dfn> Canvas Welt Bibliothek</dfn></dt>
+			<dd>
+				In der 4. Aufgabe sollte eine Bibliothek umgesetz werden die automatisch zwischen Welt und Canvas Koordinaten umwandelt.
+				Weiter sollte eine kleine Beispielanwendung für diese umgesetzt werden.
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Kopieren des Welt Bibliotheks Ruhbaus</li>
+					<li>Hinzufügen der xmin, ymin, xmax und ymax Variablen</li>
+					<li>Modifizieren der init_canvas() Funktion</li>
+					<li>Umsetzen folgender Funktionen
+						<ul>
+							<li>save()</li>
+							<li>beginPath()</li>
+							<li>moveTo()</li>
+							<li>lineTo()</li>
+							<li>stroke()</li>
+							<li>restore()</li>
+							<li>fillText()</li>
+							<li>closePath()</li>
+							<li>fill()</li>
+						</ul>
+					</li>
+					<li>Hilfsfunktion convertToWelt() zum umwandeln der i/j Koordinaten</li>
+					<li>Umsetzen der Hilfsfunktion isInt(n)</li>
+					<li>Kopieren der Beipsiel App aus Aufgabe 3</li>
+					<li>Entfernen aller nich benötigten Variablen und hinzufügen Neuer</li>
+					<li>Vereinfachung der drawAxis() Funktion, da umrechnung jetzt automatisch</li>
+					<li>Vereinfachung der drawEquation() Funktion, da umrechnung jetzt automatisch</li>
+					<li>Hinzufügen eines Maus-Events
+						<ul>
+							<li>Zeigt Maus Position in Canvas</li>
+							<li>Zeigt den Y-Wert zum zugehörigen X-Wert auf dem Grsaphen</li>
+						</ul>
+					</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Umschreiben der init Funktion für mehr Zuverlässigkeit und Konsitenz</li>
+				</ul>
+			</dd>
+			
+			<dt>5. Projekt bis 2015-05-17<dfn> Random Zahlengenerator mit Visualisierung</dfn></dt>
+			<dd>
+				In der 5. Aufgabe sollten mehrer Zufallszahlengeneratoren implementiert und visualisiert werden.
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Rohbau der randomBib Bibliothek
+                        <ul>
+                            <li>Umsetzung des Linear Congruential Generator Algorithmus</li>
+                            <li>Umsetzung des Linear Feedback Shift Register Algorithmus</li>
+                            <li>Umsetzung des Xorshift Algorithmus</li>
+                            <li>Umsetzung des Webkit2's Invertible Mapping Generator Algorithmus</li>
+                        </ul>
+                    </li>
+					<li>Auslagern der CCS Bibliothek aus Aufgabe 3/4</li>
+					<li>Hinzufügen einer drawArray() Funktion zu CCS Bibliothek</li>
+					<li>Leichte modifizierung der CCS Bibliothek</li>
+					<li>Umsetzung der x-y Wert Visualisierung</li>
+					<li>Umsetzung des Relative-Häufigkeitsverteilungs-Diagramms</li>
+					<li>Visualisierung der Math.random() Funktion zum Vergleich</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Auslagern des zeichnens in Bibliothek, weniger Code-Duplizierung</li>
+				</ul>
+			</dd>
+			
+			<dt>6. Projekt bis 2015-05-24<dfn>Ver- und Entschlüsseln</dfn></dt>
+			<dd>
+				In der 6. Aufgabe sollte eine Bibliothek zum Ver- und Entschlüsseln entwickelt werden.
+				Weiter sollte ein Seite genereiert werden die man verlinken kann und die sich automatisch
+                entschlüsselt wenn man das richtige Pasword hat.<br>
+                Leider bin ich nicht sehr zufrieden mit meiner Lösung. Ich hab nicht alle shinbekommen was ich wollte
+                und irgendwie sieht die momentane Umsetzung ziemlich unzulänglich aus. Ich habe aber keine Idee
+                was ich noch besser machen kann, außer den möglichkeitne die ich schon ausprobiert habe aber gescheiter sind.
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+                    <li>Elemente aus Aufgabe 1 Übernommen</li>
+                    <li>e2e Bibliothek aus Beispielseite übernommen</li>
+                    <li>dom.js Bibliothek einbinden aus vorheriger Aufgabe</li>
+                    <li>Überlegung welche Funktionen mindestens benötigt werden
+                        <ul>
+                            <li>Hashfunktion</li>
+                            <li>Verschlüsselungs Funktion</li>
+                            <li>Entschlüsselungsfunktion</li>
+                            <li>String zu Base64 Funktion</li>
+                            <li>Base64 zu String Funktion</li>
+                        </ul>
+                    </li>
+                    <li>Umsetzung der Hash Funktion
+                        <ul>
+                            <li>Umsetzung aus Vorlesung ausprobiert (Hex + Prim)</li>
+                            <li>Eigene Idee mit Zufallszahlen und Primzahlen, zu regelmäßig</li>
+                            <li>Eigene Idee auf basis von sdbm Hash Funktion
+                                <ul>
+                                    <li>Passwort wird geteilt in gleich große Teile > Array</li>
+                                    <li>Jedes Teil wird gehasht</li>
+                                    <li>Umsetzung einer hash Helper funktion</li>
+                                    <li>Zu hashender String besteht aus Teil + komplettes Password + Primzahl</li>
+                                    <li>Primzahl wird bestimmt aus hash des vorherigen Teils</li>
+                                    <li>Dadurch wird immer wieder das gesammte verrechnert und der hash wird etwas zufälliger</li>
+                                    <li>Ähnliche Strings geben sehr unterschiedliche hashes, hashes ähneln sich nicht</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Umsetzung der Ver- und Entschlüsselungsalgorithmus
+                        <ul>
+                            <li>Einfaches XOR aus Text und Passwort</li>
+                            <li>Mit Shift versucht
+                                <ul>
+                                    <li>Funktioniert nicht da Werte verschwinden</li>
+                                    <li>Versuch einer Umsetzung eines Ring Shifts</li>
+                                    <li>Ring Shift hat leider nicht funktioniert</li>
+                                </ul>
+                            </li>
+                            <li>Verusch Primzahlen einzubinden hat nicht funktioniert, regelnmäsigkeiten in Verschlüsseltem Text</li>
+                            <li>Versuch Zufallszahlen einzubinden auch gescheitert, weniger random</li>
+                        </ul>
+                    </li>
+                    <li>Umsetzung der Base64 Methoden für das Ver- und Entschlüsseln</li>
+                    <li>Alles in eine crypt Bibliothek ausgelagert</li>
+					<li>Umsetzung einer Dummy encrypt.html Seite zum testen der selbstentsclüsselnden Seite
+                        <ul>
+                            <li>Elemente für den Verschküsselten und Entschlüsselten Text, beides Versteck</li>
+                            <li>Element für die Passworteingabe (bestätigen mit Enter) und eines kleinen animierten Logos</li>
+                            <li>Kopieren einiger Methoden aus der crypt Bibliothek um die Seite Stand-Alone zu machen</li>
+                            <li>Methode zum Entschlüsseln und verstecken und anzeigen der richtigen Elementen</li>
+                        </ul>
+                    </li>
+					<li>Splitten und escapen der Dummy encrypt.html und als Variablen in die app hinzufügen</li>
+					<li>Umsetzung einer Methode zum generieren einer "Verschlüsselten Homepage"</li>
+					<li>Methode im Menü hinzufügen (Verschlüsseln Hompage reiter)</li>
+					<li>Hinzufügen aller Methoden der encrypt Bibliothek in das Menü</li>
+				</ul>
+
+				<p>Was wurde versucht aber war nicht erfolgreich</p>
+				<ul>
+					<li>Funktion zum Binären umwandeln für Hash, convertToBin()
+                         <ul>
+                             <li>Weniger erfolgreich das hashes weniger random</li>
+                             <li>Teilweise Passwörter mit gleicher länger lieferten gleiches Ergebnis</li>
+                         </ul>
+                    </li>
+                    <li>Funktion für Circle Shift Operator damit keine Werter verschwinden und entschlüsselbar bleibt
+                        <ul>
+                            <li>Leider nicht geklappt</li>
+                            <li>Trotzdem nicht wiederherstellbarer Werte</li>
+                            <li>XOR verknüpfung is umkehrbar, ein Shift nicht, deswegen Circle SHift</li>
+                        </ul>
+                    </li>
+                    <li>Prim Nummern in Verschlüsselungsmethode führte zu regelmäßigkeiten im verschlüsselten String</li>
+                    <li>Random Number in Verschlüssel führte zu regelnmäßigkeiten</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Rausschemisen alles Unnötigen aus der Bibliothek</li>
+					<li>Ver- und Entschlüsselunsgmethode Verbessern</li>
+					<li>Ring Shift umsetzen</li>
+				</ul>
+
+			</dd>
+			
+			<dt>7. Projekt bis 2015-05-31<dfn> Shared ToDo-List</dfn></dt>
+			<dd>
+				In der 7. Aufgabe sollte clientseitig etwas mit JSON, localStorage und AJAX umgesetzt. Auf der Server-Seite
+				sollten anfragen mittels PHP abgearbeitet und gespeichert werden. Es wurde sich für einer vertielte ToDo-Liste
+				entschieden. Neue Tasks können angelegt werden und gelöscht werden. Alle wichtigen requests sind komplett
+                verschlüsselt und mit Passwort validierung. Alle Rückmeldungen mit Daten sind evenfalls verschlüsselt.
+
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Javascript crypt Bibliothek in PHP umgesetzt
+						<ul>
+							<li>Anpassung des Hashalgorithmus zu etwas simpleren, das erste version nicht umsetzbar</li>
+							<li>Hilfsmethoden für charCodeAt und fromCharCode javascript equivalente.</li>
+						</ul>
+					</li>
+					<li>Passwort geschützte Seite, Serverseitige validierung</li>
+					<li>Einfache Liste und Textarea zu eingabe</li>
+					<li>Einbinden der crypt.js Bibliothek</li>
+					<li>4 Methoden auf Serverseite, Verschlüsselt und mit Password validierung
+                        <ul>
+                            <li>Hinzufügen eines Tasks</li>
+                            <li>Löschen eines Tasks</li>
+                            <li>Auflisten der Liste</li>
+                            <li>Validieren des Logins</li>
+                        </ul>
+                    </li>
+					<li>Einfaches JSON als rückgabe (response) als Rückgabewert für Clienseite</li>
+					<li>Lesen als JSON direkt</li>
+					<li>Folgende AJAX Funktion wurden umgesetzt
+                        <ul>
+                            <li>Funktion getList() zum bekommen der Liste</li>
+                            <li>Funktion deleteListItem() zum löschen eines Listenelements per ID</li>
+                            <li>Funktion checkPermission() zum Überprüfen des Passwortes</li>
+                            <li>Funktion sendItem() zum senden eines Nuees Listenelements</li>
+                        </ul>
+                    </li>
+                    <li>Hilfsfunktionen zum erstellen des zu senden Daten als JSON
+                        <ul>
+                            <li>createPWCheckData() erstellt das JSON zum validieren des Logins</li>
+                            <li>createSendData() erstellt das JSON zum senden eines neuen Tasks</li>
+                            <li>createDeleteData() erstellt das JSON zum löschen eines Tasks</li>
+                        </ul>
+                    </li>
+					<li>Erstellen von Hilfmethoden zum speichern von nicht geglückten Requests in LocalStorage für späteren Aufruf, keine Requests sollen verloren gehen.
+                        <ul>
+                            <li>Funktion removeTask() zum entfernen einer Task aus localStorage</li>
+                            <li>Funktion addTask() zum hinzufügen einer Task zum locaStorage</li>
+                            <li>Funktion executeTasks() zum nochmaligen aufrufen der gespeicherten Request im localStorage, un des enterfen daraus falls geglückt</li>
+                        </ul>
+                    </li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Bessere Rückmeldung über den Satus, missglück, lädt noch, fehlgeschlagen usw.</li>
+					<li>Asynchrone verarbeitung die nicht blockt</li>
+					<li>Anzeige von nur lokalen Änderungen</li>
+					<li>Passwort speichern als gesalzener Hash</li>
+				</ul>
+			</dd>
+			
+			<dt>8. Projekt bis 2015-06-07<dfn> Icon Sammlung </dfn></dt>
+			<dd>
+				In der 8. Aufgabe sollte eine Projekt entwickelt werden das die SVG-Komponente benutzt, dies entweder als
+				statische oder animitierte Elemente. Weiter sollte LocalStorage und JSON verwendet werden.
+
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Simples Frontend entwickelt.
+						<ul>
+							<li>Mehrer input Felder für die diversen Atribute eines Path für ein SVG Objekt</li>
+							<li>Textarea für das d Attribut</li>
+							<li>SVG Element zur Anzeige des SVGs</li>
+							<li>Code ausgabe zum kopieren</li>
+							<li>Simple Beispielanwendung for SVG, eine Navigation</li>
+							<li>Anzeigen und speichern Buttons</li>
+						</ul>
+					</li>
+					<li>Mehrer simple Methoden
+						<ul>
+							<li>Funktion setPath() Generiert das Path Element für das SVG</li>
+							<li>Funktion setCode() setzt den Code für das SVG in das richtige Textarea,mit XMLSerializer()</li>
+							<li>Funktion saveIconData() speichert ein neues Icon in LocalStorage</li>
+							<li>Funktion loadIconData() läd alle gespeicherten Icons aus LocalStorage in DropDown Menü</li>
+							<li>Funktion getIconData() das Daten aus LocalStorage läd für das benötigte Icon</li>
+							<li>Funktion saveIcon() generiert die zu speichernden Icon Daten</li>
+							<li>Funktion setInputs() zum setzen aller Werte der Input-Felder des ausgewählten Beispiels</li>
+							<li>Funktion addListStyle() zum hinzufügen des Navigations Style für die Beispiel Navigation mit SVG</li>
+							<li>Zwei modifizierte Funktionen get_node_strings() und set_node_strings() dies aus dem Array ein JS Object machen</li>
+						</ul>
+					</li>
+					<li>Es wurde eine externe Bibliothek eingebunden (<a href="http://www.eslinstructor.net/vkbeautify/">vkbeautify</a>) zum Formatieren des SVG Code Ausgabe</li>
+					<li>Hinzufügen von ein paar Beispiel Icon von <a href="http://iconmelon.com/#/page-1">iconmelon</a></li>
+					<li>Mache SVG skaliebar mit height and width, mit Hilfe des viewbox Attributes</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Zeichnen der Icons mit Canvas und Maus</li>
+				</ul>
+			</dd>
+			
+			<dt>9. Projekt bis 2015-06-14<dfn> Frame + Shared Local Data Beispiel </dfn></dt>
+			<dd>
+				In der 9. Aufgabe sollte eine Projekt entwickelt werden mit Hilfe von Frames. Mehrer kleine Toolchen sollen
+				mit und untereinander Arbeiten und Daten austauschen können, so dass ein großes Toolchen enstehen kann.
+
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Simpled zwei iframe Layout mit Menü und Content</li>
+					<li>Ersellen des Menüs</li>
+					<li>Es wurde sich entschieden die vorherige Aufgabe 8 als Basis zu nehmen
+						<ul>
+							<li>Icon erstellen und Navigation erstellen wurden in zwei Toolchen gesplittet</li>
+							<li>Navigation erstellen wurde etwas erweitert so das die Navigations elemente und ihre Links generiert werden könne aus einer Liste</li>
+							<li>Icon erstellen wurde etwas angepasst für besser funktionalität. Live preview und concatinieren des Path</li>
+						</ul>
+					</li>
+					<li>Einige zentrale funktionen aus den gesplitteten Toolchen wurden in den index Ausgelagert</li>
+					<li>Funktionen zum speichern in LocalStorage wurden etwas angepasst und in den index Verlagert</li>
+					<li>Beide Toolchen wurden so angepasst das sie die globalen Funktionen aus dem index benutzen wenn möglich</li>
+					<li>In Toolchen 1 können einfach Icons erstellt, gespeicher, gelöscht und Angezeigt werden</li>
+					<li>In Toolchen 2 können diese Icons wiederum verwendet werden und eine eigene Navigation erstellt werden.</li>
+					<li>Beim schließen (unload) der Seite werden die eingegebene Werte gespeichert und beim nächsten öffnen wieder eingetragen</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Zusrand von drop down Feldern speichern</li>
+					<li>Funktionen in index können zu einer Bibliothek zusammengefasst werden</li>
+					<li>Ein paar mehr Toolchen synergien herstellen</li>
+				</ul>
+			</dd>
+			
+			<dt>10. Projekt bis 2015-06-21<dfn> Fragebogen Toolchen </dfn></dt>
+			<dd>
+				In der 10. Aufgabe sollte eine Projekt entwickelt, das wir uns selber aussuchen durften. Ich habe mich dazu entschieden
+				eine Quiz oder Fragebogen App zu erstellen. Es wurden zwei kleine Toolchen entwickelt. Das erste "Fragebogen erstellen"
+				um einen Fragebogen zu definieren, Frage, Antworten, Hinweis usw.. Das zweite Toolchen "Fragebogen anzeigen" zeigt den Fragebogen
+				an und implementiert alle Funktionalitäten.
+
+				<p>Es wurden folgende Schritte durchgeführt</p>
+				<ul>
+					<li>Aufgabe 10 wurde in Aufgabe 9 integriert und kann im Menü unter den Links "Fragebogen erstellen" und "Fragebogen anzeigen" benutzt werden</li>
+					<li>"Fragebogen erstellen" Eingabe wurde erstellt</li>
+					<li>Es wurden folgende Funktionen implementiert und übernommen aus Aufgabe 9
+						<ul>
+							<li>nextQuizNum() zählt alle vorhanden Fragen</li>
+							<li>saveQ() speichert eine Frage</li>
+							<li>loadQuizData() lädt alle Fragen und fügt sie zum Dropdown Menü hinzu</li>
+							<li>getQuizData() lädt eine spezifische Frage</li>
+							<li>setInputs() setzt alle inoput zu den Daten der ausgewählte Frage</li>
+							<li>deleteQ() lösche ein spezifisches Quiz</li>
+						</ul>
+					</li>
+					<li>Eine Fragebogen Bibliothek wurde erstellt, ihr übergibt man die id für das element in dem das QUiz erstellt werden soll, und die Quiz Daten selber</li>
+					<li>Folge funktionen wurden implementiert, es muss nut die initQuiz() Funktion aufgerufen werden. Alles andere übernimmt die Bibliothek
+						<ul>
+							<li>initQuiz() initalisiert das Quiz und erstellt alle benötigten Elemente</li>
+							<li>showQuestion() zeigt eine spezifische Frage an und erstellt alle benötigten Frage Elemente (Buttons, inputs usw.), ist zustands abhängig (Frage gelöst oder nicht, richtig oder falsch)</li>
+							<li>createAnswerElements() estelt ein Antwort input element mit Typ (radio or checkbox) und Text.</li>
+							<li>compareAnswers() vergleicht zwei arrays, die gegebene Antwort und das Array das die richtigen Antorten definiert</li>
+							<li>countQs() zählt alle Fragen, (Verbesserung: Objekt in assizitives Array umwandeln, .length verwenden)</li>
+							<li>checkAnswers() überprüft die Antwort mit der compareAnswers() Hilfsfunktion, zeigt an ob richtig oder falsch, geht zu nächsten Frage, verändert daten für das richtige Anzeigen, zeigt End Feedback an falls alle Fragen beantwortet</li>
+							<li>checkForEnd() überprüft ob alle Fragen beantwortet</li>
+						</ul>
+					</li>
+					<li>Beide Toolchen wurdne in die Frames von Aufgabe 9 integriert</li>
+					<li>Es wurden zwei Fragen Typen implementiert</li>
+				</ul>
+
+				<p>Verbesserungen oder Erweiterungen</p>
+				<ul>
+					<li>Mehr Typen implementieren, Multiple Choice Images, Single Choice Images, Custom Fragen</li>
+					<li>Anzeige von Bildern als Frage, speichern als Base64</li>
+					<li>Feedback implementieren, falls falsch geantwortet</li>
+					<li>Animationen</li>
+					<li>Mehr als nur ein Fragebogen erstellen, Fragebogen beim Anzeigen aus Liste wählen</li>
+					<li>JSON ausgabe als Text für die eigene Hompage</li>
+				</ul>
+			</dd>
+		</dl>
+	</body>
+</html>

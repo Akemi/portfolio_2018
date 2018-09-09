@@ -1,0 +1,110 @@
+[
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A4 117",
+        "lectureLength": 1,
+        "lectureID": "SWEL",
+        "lectureName": "Softwareentwicklung Labor",
+        "teacherID": "Jg",
+        "teacherName": "J\u00e4ger, Rudolf"
+    },
+    {
+        "dayID": 2,
+        "day": "Wednesday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A3 010",
+        "lectureLength": 1,
+        "lectureID": "SWE",
+        "lectureName": "Software Entwicklung",
+        "teacherID": "Jg",
+        "teacherName": "J\u00e4ger, Rudolf"
+    },
+    {
+        "dayID": 3,
+        "day": "Thursday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "B1 206",
+        "lectureLength": 1,
+        "lectureID": "RT1\u00dc",
+        "lectureName": "Regelungstechnik 1 \u00dcbungen",
+        "teacherID": "Ku",
+        "teacherName": "Kuznietsov"
+    },
+    {
+        "dayID": 4,
+        "day": "Friday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A8 106a+b",
+        "lectureLength": 2,
+        "lectureID": "EE1",
+        "lectureName": "Energieversorgung 1 (Energietechnik f\u00fcr AEB, el. Energietechnik f\u00fcr MEB)",
+        "teacherID": "Di",
+        "teacherName": "Dib"
+    },
+    {
+        "dayID": 0,
+        "day": "Monday",
+        "occurrence": "both",
+        "block": 2,
+        "room": "A3 U112",
+        "lectureLength": 2,
+        "lectureID": "NT",
+        "lectureName": "Nachrichtentechnik",
+        "teacherID": "Pe",
+        "teacherName": "Penirschke"
+    },
+    {
+        "dayID": 2,
+        "day": "Wednesday",
+        "occurrence": "both",
+        "block": 2,
+        "room": "A3 U105",
+        "lectureLength": 2,
+        "lectureID": "LE1",
+        "lectureName": "Leistungselektronik 1",
+        "teacherID": "Pp",
+        "teacherName": "Peppel"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "A3 U107",
+        "lectureLength": 1,
+        "lectureID": "RT1",
+        "lectureName": "Regelungstechnik 1",
+        "teacherID": "Ku",
+        "teacherName": "Kuznietsov"
+    },
+    {
+        "dayID": 3,
+        "day": "Thursday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "A3 001",
+        "lectureLength": 1,
+        "lectureID": "SWE",
+        "lectureName": "Software Entwicklung",
+        "teacherID": "Jg",
+        "teacherName": "J\u00e4ger, Rudolf"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A3 001",
+        "lectureLength": 1,
+        "lectureID": "NT",
+        "lectureName": "Nachrichtentechnik",
+        "teacherID": "Pe",
+        "teacherName": "Penirschke"
+    }
+]

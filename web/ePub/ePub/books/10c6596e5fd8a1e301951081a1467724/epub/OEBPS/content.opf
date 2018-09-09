@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
+  <metadata>
+    <dc:rights>Public domain in the USA.</dc:rights>
+    <dc:identifier id="id" opf:scheme="URI">http://www.gutenberg.org/ebooks/16328</dc:identifier>
+    <dc:contributor opf:file-as="Hall, Lesslie" opf:role="trl">Lesslie Hall</dc:contributor>
+    <dc:title>Beowulf / An Anglo-Saxon Epic Poem</dc:title>
+    <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
+    <dc:date opf:event="publication">2005-07-19</dc:date>
+    <dc:date opf:event="conversion">2010-02-16T04:40:16.294380+00:00</dc:date>
+    <dc:source>http://www.gutenberg.org/files/16328/16328-h/16328-h.htm</dc:source>
+    <meta content="item5" name="cover"/>
+  </metadata>
+  <manifest>
+    <item href="pgepub.css" id="item1" media-type="text/css"/>
+    <item href="0.css" id="item2" media-type="text/css"/>
+    <item href="1.css" id="item3" media-type="text/css"/>
+    <item href="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm" id="item4" media-type="application/xhtml+xml"/>
+    <item href="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm" id="page_1" media-type="application/xhtml+xml"/>
+    <item href="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm" id="XVIII" media-type="application/xhtml+xml"/>
+    <item href="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm" id="XXXIII" media-type="application/xhtml+xml"/>
+    <item href="www.gutenberg.org@files@16328@16328-h@16328-h-4.htm" id="ADDENDA" media-type="application/xhtml+xml"/>
+    <item href="cover.jpg" id="item5" media-type="image/jpeg"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="item4" linear="yes"/>
+    <itemref idref="page_1" linear="yes"/>
+    <itemref idref="XVIII" linear="yes"/>
+    <itemref idref="XXXIII" linear="yes"/>
+    <itemref idref="ADDENDA" linear="yes"/>
+  </spine>
+  <guide>
+    <reference href="cover.jpg" type="cover" title="Cover Image"/>
+  </guide>
+</package>

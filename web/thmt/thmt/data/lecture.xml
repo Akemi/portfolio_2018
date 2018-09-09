@@ -1,0 +1,4491 @@
+<?xml version="1.0"?>
+<LectureList>
+  <lecture>
+    <id>AB</id>
+    <name>Anlagenbetrieb</name>
+  </lecture>
+  <lecture>
+    <id>ABG</id>
+    <name>AB_AP Programmierung</name>
+  </lecture>
+  <lecture>
+    <id>AC</id>
+    <name>Allgemeine Chemie</name>
+  </lecture>
+  <lecture>
+    <id>AD</id>
+    <name>Algorithmen und Datenstrukturen</name>
+  </lecture>
+  <lecture>
+    <id>ADG</id>
+    <name>Advanced Digital Signal Processing</name>
+  </lecture>
+  <lecture>
+    <id>ADGS</id>
+    <name>Advanced Digital Signal Processing Seminar</name>
+  </lecture>
+  <lecture>
+    <id>ADP</id>
+    <name>Praktikum zu Algorithmen und Datenstrukturen</name>
+  </lecture>
+  <lecture>
+    <id>AD&#xDC;</id>
+    <name>&#xDC;bungen zu Algorithmen und Datenstrukturen</name>
+  </lecture>
+  <lecture>
+    <id>AE</id>
+    <name>Anlagenplanung u. &#x2013;erstellung</name>
+  </lecture>
+  <lecture>
+    <id>AFM</id>
+    <name>Ausgew&#xE4;hlte Kapitel der Finanzmathematik</name>
+  </lecture>
+  <lecture>
+    <id>AI</id>
+    <name>Angewandte Informatik</name>
+  </lecture>
+  <lecture>
+    <id>AIL</id>
+    <name>Angewandte Informatik Labor</name>
+  </lecture>
+  <lecture>
+    <id>AIM</id>
+    <name>Aufbaukurs Ingenieurmathematik</name>
+  </lecture>
+  <lecture>
+    <id>AIT</id>
+    <name>Arbeiten im Team</name>
+  </lecture>
+  <lecture>
+    <id>AI&#xDC;</id>
+    <name>Angewandte Informatik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>AK</id>
+    <name>Arbeitstechnik</name>
+  </lecture>
+  <lecture>
+    <id>AK1</id>
+    <name>Arbeitstechnik,  Kommunikation und Pr&#xE4;sentation 1</name>
+  </lecture>
+  <lecture>
+    <id>AK2</id>
+    <name>Arbeitstechnik,  Kommunikation und Pr&#xE4;sentation 2</name>
+  </lecture>
+  <lecture>
+    <id>AK3</id>
+    <name>Arbeitstechnik,  Kommunikation und Pr&#xE4;sentation 3</name>
+  </lecture>
+  <lecture>
+    <id>ALM</id>
+    <name>Arbeits- und Lernmethoden</name>
+  </lecture>
+  <lecture>
+    <id>AM</id>
+    <name>Arbeitsmethodik</name>
+  </lecture>
+  <lecture>
+    <id>AMC</id>
+    <name>Angewandte Mikrocomputertechnik</name>
+  </lecture>
+  <lecture>
+    <id>AMO</id>
+    <name>Arbeitsorganisation, Managment und Personalf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>AMT</id>
+    <name>Ausgew. Themen der Automobiltechnik</name>
+  </lecture>
+  <lecture>
+    <id>AN</id>
+    <name>Analysis</name>
+  </lecture>
+  <lecture>
+    <id>AN1</id>
+    <name>Analysis 1</name>
+  </lecture>
+  <lecture>
+    <id>AN1L</id>
+    <name>Analysis 1 Lerngruppe</name>
+  </lecture>
+  <lecture>
+    <id>AN2</id>
+    <name>Analysis 2</name>
+  </lecture>
+  <lecture>
+    <id>AN2L</id>
+    <name>Analysis 2 Lerngruppe</name>
+  </lecture>
+  <lecture>
+    <id>AN2&#xDC;</id>
+    <name>Analysis 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>AN3</id>
+    <name>Analysis 3</name>
+  </lecture>
+  <lecture>
+    <id>AN3T</id>
+    <name>Analysis 3 Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>AN3&#xDC;</id>
+    <name>Analysis 3 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>ANI</id>
+    <name>Animation</name>
+  </lecture>
+  <lecture>
+    <id>ANT</id>
+    <name>Antriebs- und Steuerungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>AN&#xDC;</id>
+    <name>Analysis  &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>AOW</id>
+    <name>Anorganische Werkstoffe</name>
+  </lecture>
+  <lecture>
+    <id>AP</id>
+    <name>Automatisierte Produktionssysteme</name>
+  </lecture>
+  <lecture>
+    <id>APO</id>
+    <name>Advances Planning mit SAP</name>
+  </lecture>
+  <lecture>
+    <id>APR</id>
+    <name>Applied Digital Signal Processing</name>
+  </lecture>
+  <lecture>
+    <id>APT1</id>
+    <name>Arbeits- und Pr&#xE4;sentationstechniken 1</name>
+  </lecture>
+  <lecture>
+    <id>APT2</id>
+    <name>Arbeits- und Pr&#xE4;sentationstechniken 2</name>
+  </lecture>
+  <lecture>
+    <id>APT3</id>
+    <name>Arbeits- und Pr&#xE4;sentationstechniken 3</name>
+  </lecture>
+  <lecture>
+    <id>AQM</id>
+    <name>Angewandte quantitative Methoden</name>
+  </lecture>
+  <lecture>
+    <id>AR</id>
+    <name>Arbeitsrecht</name>
+  </lecture>
+  <lecture>
+    <id>ARG</id>
+    <name>Architektur und Planung</name>
+  </lecture>
+  <lecture>
+    <id>ARM</id>
+    <name>Asset Risiko Management und property Management</name>
+  </lecture>
+  <lecture>
+    <id>AS</id>
+    <name>Arbeitsschutz, Arbeitssicherheit, Arbeitsst&#xE4;tten</name>
+  </lecture>
+  <lecture>
+    <id>ASP</id>
+    <name>Astrophysik</name>
+  </lecture>
+  <lecture>
+    <id>ASPL</id>
+    <name>Astrophysik Labor</name>
+  </lecture>
+  <lecture>
+    <id>ASR</id>
+    <name>Arbeits- u. Sozialrecht</name>
+  </lecture>
+  <lecture>
+    <id>AST</id>
+    <name>Angew. Statistik + Qualit&#xE4;tsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>AST&#xDC;</id>
+    <name>Angewandte Statistik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>ASY</id>
+    <name>Anwendungssysteme (ERP-Systeme) (in der Logistik)</name>
+  </lecture>
+  <lecture>
+    <id>AT</id>
+    <name>(auch elektrische) Antriebstechnik</name>
+  </lecture>
+  <lecture>
+    <id>ATL</id>
+    <name>(auch elektrische) Antriebstechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>ATT</id>
+    <name>Angewandte Tontechnik</name>
+  </lecture>
+  <lecture>
+    <id>AT&#xDC;</id>
+    <name>(auch elektrische) Antriebstechnik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>AU</id>
+    <name>Audiotechnik</name>
+  </lecture>
+  <lecture>
+    <id>AUT</id>
+    <name>Automatisierungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>AV</id>
+    <name>Audiovisuelle Medien</name>
+  </lecture>
+  <lecture>
+    <id>AVA</id>
+    <name>Ausschreibung, Vergabe, Abrechnung</name>
+  </lecture>
+  <lecture>
+    <id>AVL</id>
+    <name>Audiovisuelle Medien Labor</name>
+  </lecture>
+  <lecture>
+    <id>AVP</id>
+    <name>Praktikum zu Audiovisuelle Medien</name>
+  </lecture>
+  <lecture>
+    <id>AW</id>
+    <name>Arbeitswissenschaften</name>
+  </lecture>
+  <lecture>
+    <id>AW2</id>
+    <name>Arbeitswissenschaften 2</name>
+  </lecture>
+  <lecture>
+    <id>BA</id>
+    <name>Bank und B&#xF6;rse</name>
+  </lecture>
+  <lecture>
+    <id>BAF</id>
+    <name>Bahnbetrieb und Fahrzeuge</name>
+  </lecture>
+  <lecture>
+    <id>BAT1</id>
+    <name>Berufsfeld und Arbeitstechniken</name>
+  </lecture>
+  <lecture>
+    <id>BAT2</id>
+    <name>Berufsfeld und Arbeitstechniken 2</name>
+  </lecture>
+  <lecture>
+    <id>BAT3</id>
+    <name>Berufsfeld und Arbeitstechniken 3</name>
+  </lecture>
+  <lecture>
+    <id>BAW</id>
+    <name>Entwicklung komplexer betrieblicher Anwendungssysteme</name>
+  </lecture>
+  <lecture>
+    <id>BAW&#xDC;</id>
+    <name>Entwicklung komplexer betrieblicher Anwendungssysteme</name>
+  </lecture>
+  <lecture>
+    <id>BB</id>
+    <name>Bautechnik und Brandschutz</name>
+  </lecture>
+  <lecture>
+    <id>BBE</id>
+    <name>Einf&#xFC;hrung in die Bankenbetriebslehre</name>
+  </lecture>
+  <lecture>
+    <id>BBV</id>
+    <name>Bearbeitung bewegter Bilder</name>
+  </lecture>
+  <lecture>
+    <id>BBW</id>
+    <name>Bankbetriebswirtschaft</name>
+  </lecture>
+  <lecture>
+    <id>BE</id>
+    <name>Business Englisch (for Computer Scientists)</name>
+  </lecture>
+  <lecture>
+    <id>BEG</id>
+    <name>Bewerbungstraining in Englisch</name>
+  </lecture>
+  <lecture>
+    <id>BEK</id>
+    <name>Beschaffungslogistik</name>
+  </lecture>
+  <lecture>
+    <id>BF</id>
+    <name>Betriebsfestigkeit</name>
+  </lecture>
+  <lecture>
+    <id>BG</id>
+    <name>Betreiberverantwortung</name>
+  </lecture>
+  <lecture>
+    <id>BH</id>
+    <name>Betriebshygiene</name>
+  </lecture>
+  <lecture>
+    <id>BI</id>
+    <name>Business Intelligence</name>
+  </lecture>
+  <lecture>
+    <id>BI&#xDC;</id>
+    <name>Business Intelligence &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>BK</id>
+    <name>Beratung und Kommunikation</name>
+  </lecture>
+  <lecture>
+    <id>BKR</id>
+    <name>Betriebslehre und  Kostenrechnung</name>
+  </lecture>
+  <lecture>
+    <id>BLK</id>
+    <name>Blockveranstaltung, allgemein</name>
+  </lecture>
+  <lecture>
+    <id>BM</id>
+    <name>Biometrie</name>
+  </lecture>
+  <lecture>
+    <id>BMG</id>
+    <name>Beziehungsmanagement in der Supply Chain</name>
+  </lecture>
+  <lecture>
+    <id>BMG2</id>
+    <name>Beziehungsmanagement 2 in der Supply Chain</name>
+  </lecture>
+  <lecture>
+    <id>BML</id>
+    <name>Labor zur Biometrie</name>
+  </lecture>
+  <lecture>
+    <id>BMP</id>
+    <name>Praktikum Biometrie</name>
+  </lecture>
+  <lecture>
+    <id>BMPS</id>
+    <name>Seminar zum Praktikum Biometrie</name>
+  </lecture>
+  <lecture>
+    <id>BP</id>
+    <name>Bauphysik, -technik, Brandschutz</name>
+  </lecture>
+  <lecture>
+    <id>BPE</id>
+    <name>Betriebliche Planungssysteme</name>
+  </lecture>
+  <lecture>
+    <id>BPG</id>
+    <name>Business Process Engeneering</name>
+  </lecture>
+  <lecture>
+    <id>BPJ1</id>
+    <name>Bahnprojekt 1</name>
+  </lecture>
+  <lecture>
+    <id>BPJ2</id>
+    <name>Bahnprojekt 2</name>
+  </lecture>
+  <lecture>
+    <id>BPJ4</id>
+    <name>Bahnprojekt 4</name>
+  </lecture>
+  <lecture>
+    <id>BPO</id>
+    <name>Bildbearbeitung mit Photoshop (professionelle BB)</name>
+  </lecture>
+  <lecture>
+    <id>BPS</id>
+    <name>BPS-Begleitseminar</name>
+  </lecture>
+  <lecture>
+    <id>BS</id>
+    <name>Einf&#xFC;hrung in die Betriebssysysteme</name>
+  </lecture>
+  <lecture>
+    <id>BSA</id>
+    <name>Biometric System Application Development</name>
+  </lecture>
+  <lecture>
+    <id>BSL</id>
+    <name>Labor zu Einf&#xFC;hrung in die Betriebssysteme</name>
+  </lecture>
+  <lecture>
+    <id>BSN</id>
+    <name>Beschichten/ Oberfl&#xE4;chentechnik</name>
+  </lecture>
+  <lecture>
+    <id>BSR</id>
+    <name>Einf&#xFC;hrung in die Betriebssysteme und Rechnernetze</name>
+  </lecture>
+  <lecture>
+    <id>BSRP</id>
+    <name>Einf&#xFC;hrung in die Betriebssysteme und Rechnernetze Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>BVG</id>
+    <name>Bilverarbeitung, Grundlagen</name>
+  </lecture>
+  <lecture>
+    <id>BVM</id>
+    <name>Bilderfassung und -verarbeitung Messtechnik und Anwendung</name>
+  </lecture>
+  <lecture>
+    <id>BW2</id>
+    <name>Betriebswirtschaftslehre 2</name>
+  </lecture>
+  <lecture>
+    <id>BWL</id>
+    <name>Betriebswirtschaftslehre</name>
+  </lecture>
+  <lecture>
+    <id>BZ</id>
+    <name>Betriebssoziologie</name>
+  </lecture>
+  <lecture>
+    <id>CA</id>
+    <name>Character Animation</name>
+  </lecture>
+  <lecture>
+    <id>CAD</id>
+    <name>CAD  f&#xFC;r FM, WI</name>
+  </lecture>
+  <lecture>
+    <id>CAD1</id>
+    <name>CAD 1 f&#xFC;r Maschinenbau Diplom</name>
+  </lecture>
+  <lecture>
+    <id>CAD2</id>
+    <name>CAD 2 f&#xFC;r Maschinenbau</name>
+  </lecture>
+  <lecture>
+    <id>CAD2&#xDC;</id>
+    <name>CAD 2 f&#xFC;r Maschinenbau &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>CAE</id>
+    <name>CAE</name>
+  </lecture>
+  <lecture>
+    <id>CAEL</id>
+    <name>CAE Labor</name>
+  </lecture>
+  <lecture>
+    <id>CAF</id>
+    <name>Computer Aided Facility Management</name>
+  </lecture>
+  <lecture>
+    <id>CAQ</id>
+    <name>CAQ und Qualit&#xE4;tscontrolling</name>
+  </lecture>
+  <lecture>
+    <id>CB</id>
+    <name>Corporate Banking</name>
+  </lecture>
+  <lecture>
+    <id>CCN</id>
+    <name>CC Netzwerke</name>
+  </lecture>
+  <lecture>
+    <id>CCNA</id>
+    <name>CC Netzwerke Application</name>
+  </lecture>
+  <lecture>
+    <id>CCNA2</id>
+    <name>CC Netzwerke Application 2</name>
+  </lecture>
+  <lecture>
+    <id>CG</id>
+    <name>Computerintegrierte Geb&#xE4;ude</name>
+  </lecture>
+  <lecture>
+    <id>CH1</id>
+    <name>Chemie 1</name>
+  </lecture>
+  <lecture>
+    <id>CH2</id>
+    <name>Chemie 2</name>
+  </lecture>
+  <lecture>
+    <id>CHI</id>
+    <name>Chinesische Sprache und  Kultur</name>
+  </lecture>
+  <lecture>
+    <id>CHI1</id>
+    <name>China 1 f&#xFC;r Logistik</name>
+  </lecture>
+  <lecture>
+    <id>CHI2</id>
+    <name>China 2 f&#xFC;r Logistik</name>
+  </lecture>
+  <lecture>
+    <id>CHL</id>
+    <name>Chemielabor</name>
+  </lecture>
+  <lecture>
+    <id>CK</id>
+    <name>Codierungstheorie und Kryptologie</name>
+  </lecture>
+  <lecture>
+    <id>CM</id>
+    <name>Change Management</name>
+  </lecture>
+  <lecture>
+    <id>CME</id>
+    <name>Computergest&#xFC;tzte Messtechnik mit Lab View</name>
+  </lecture>
+  <lecture>
+    <id>CN1</id>
+    <name>Computer Networks 1 /Computernetze Grundlagen</name>
+  </lecture>
+  <lecture>
+    <id>CN1L</id>
+    <name>Computernetze Grundlagen Labor</name>
+  </lecture>
+  <lecture>
+    <id>CN2</id>
+    <name>Computer Networks 2</name>
+  </lecture>
+  <lecture>
+    <id>CO</id>
+    <name>Controlling</name>
+  </lecture>
+  <lecture>
+    <id>CO1</id>
+    <name>Controlling 1 (Einf&#xFC;hrung)  f&#xFC;r WI</name>
+  </lecture>
+  <lecture>
+    <id>CO2</id>
+    <name>Controlling 2 f&#xFC;r WI</name>
+  </lecture>
+  <lecture>
+    <id>COFI</id>
+    <name>Einf&#xFC;hrung in das Controlling und Finanzierung</name>
+  </lecture>
+  <lecture>
+    <id>COFIT</id>
+    <name>Controlling und Finanzierung Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>COI</id>
+    <name>Einf. Controlling und Investition</name>
+  </lecture>
+  <lecture>
+    <id>COM</id>
+    <name>Competetive Intelligence</name>
+  </lecture>
+  <lecture>
+    <id>COT</id>
+    <name>Controlling Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>CPA</id>
+    <name>Computer Algebra</name>
+  </lecture>
+  <lecture>
+    <id>CPSIL</id>
+    <name>Computer Simulation Labor</name>
+  </lecture>
+  <lecture>
+    <id>CR</id>
+    <name>Computer Anim. and Virtual Reality</name>
+  </lecture>
+  <lecture>
+    <id>CS</id>
+    <name>Case Study/ VR Labor</name>
+  </lecture>
+  <lecture>
+    <id>CSI</id>
+    <name>Computersimulation</name>
+  </lecture>
+  <lecture>
+    <id>CSR</id>
+    <name>Corporate Social Responsibility</name>
+  </lecture>
+  <lecture>
+    <id>CW</id>
+    <name>China: Neue Rahmenbedingungen im globalen Wettbewerb</name>
+  </lecture>
+  <lecture>
+    <id>DA</id>
+    <name>Digital Audio- and Video Production</name>
+  </lecture>
+  <lecture>
+    <id>DAF</id>
+    <name>Datennetze und Fernwirktechnik</name>
+  </lecture>
+  <lecture>
+    <id>DAP</id>
+    <name>Digital Audio- and Video Production Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>DB</id>
+    <name>Datenbanksysteme</name>
+  </lecture>
+  <lecture>
+    <id>DBI</id>
+    <name>Datenbanken und Informationssysteme</name>
+  </lecture>
+  <lecture>
+    <id>DBI&#xDC;</id>
+    <name>Datenbanken und Informationssysteme &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>DBL</id>
+    <name>Dantenbanksysteme Labor</name>
+  </lecture>
+  <lecture>
+    <id>DBP</id>
+    <name>Datenbanksysteme Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>DB&#xDC;</id>
+    <name>&#xDC;bungen z. Datenbanksysteme</name>
+  </lecture>
+  <lecture>
+    <id>DBW</id>
+    <name>DV orientierte Betriebswirtschaftslehre</name>
+  </lecture>
+  <lecture>
+    <id>DCSC</id>
+    <name>Designing and Coordinating the Supply Chain</name>
+  </lecture>
+  <lecture>
+    <id>DD</id>
+    <name>Differential- u. Differenzengleichungen</name>
+  </lecture>
+  <lecture>
+    <id>DD&#xDC;</id>
+    <name>Differential- u. Differenzengleichungen &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>DE1</id>
+    <name>Derivate 1</name>
+  </lecture>
+  <lecture>
+    <id>DE2</id>
+    <name>Derivate 2</name>
+  </lecture>
+  <lecture>
+    <id>DF</id>
+    <name>Digitale Fernsehtechnik</name>
+  </lecture>
+  <lecture>
+    <id>DFL</id>
+    <name>Labor zu Digitale Fernsehtechnik</name>
+  </lecture>
+  <lecture>
+    <id>DI</id>
+    <name>Digital Image Processing</name>
+  </lecture>
+  <lecture>
+    <id>DIF</id>
+    <name>Digitale interaktive Fernsehtechnologien</name>
+  </lecture>
+  <lecture>
+    <id>DIFP</id>
+    <name>Digitale interaktive Fernsehtechnologien Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>DIS</id>
+    <name>Diplomandenseminar</name>
+  </lecture>
+  <lecture>
+    <id>DIV</id>
+    <name>Diverses, Sammelbegriff</name>
+  </lecture>
+  <lecture>
+    <id>DK</id>
+    <name>Digitale Kommunikationstechnik</name>
+  </lecture>
+  <lecture>
+    <id>DKL</id>
+    <name>Digitale Kommunikationstechniken Labor</name>
+  </lecture>
+  <lecture>
+    <id>DKO</id>
+    <name>Datenkommunikation</name>
+  </lecture>
+  <lecture>
+    <id>DL</id>
+    <name>Dienstleistungslogistik</name>
+  </lecture>
+  <lecture>
+    <id>DLG</id>
+    <name>Distributionslogistik</name>
+  </lecture>
+  <lecture>
+    <id>DMR</id>
+    <name>Digitale Mess- und Regeltechnik</name>
+  </lecture>
+  <lecture>
+    <id>DMR&#xDC;</id>
+    <name>Digitale Mess- und Regeltechnik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>DN</id>
+    <name>Data Transmission (ICM)</name>
+  </lecture>
+  <lecture>
+    <id>DNS</id>
+    <name>Data Transmission Seminar (ICM)</name>
+  </lecture>
+  <lecture>
+    <id>DO</id>
+    <name>Dokumentenstrukturen</name>
+  </lecture>
+  <lecture>
+    <id>DOF</id>
+    <name>Digitale Objektfotografie</name>
+  </lecture>
+  <lecture>
+    <id>DOK</id>
+    <name>Dokumentation und Kommunikation</name>
+  </lecture>
+  <lecture>
+    <id>DOM</id>
+    <name>Dokumentenmanagement und Redaktionssysteme</name>
+  </lecture>
+  <lecture>
+    <id>DO&#xDC;</id>
+    <name>Dokumentenstrukturen &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>DP</id>
+    <name>Design Patterns</name>
+  </lecture>
+  <lecture>
+    <id>DP&#xDC;</id>
+    <name>Design Patterns &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>DS</id>
+    <name>Digitale Signalverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>DSE</id>
+    <name>Diplomandenseminar</name>
+  </lecture>
+  <lecture>
+    <id>DSL</id>
+    <name>Digitale Signalverarbeitung  Labor</name>
+  </lecture>
+  <lecture>
+    <id>DT</id>
+    <name>Digitaltechnik</name>
+  </lecture>
+  <lecture>
+    <id>DT1</id>
+    <name>Digitaltechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>DT1&#xDC;</id>
+    <name>&#xDC;bungen zur Digitaltechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>DT2</id>
+    <name>Digitaltechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>DTF</id>
+    <name>Digitale Transformationen</name>
+  </lecture>
+  <lecture>
+    <id>DTL</id>
+    <name>Digitaltechnik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>DTP</id>
+    <name>Desk Top  Publishing</name>
+  </lecture>
+  <lecture>
+    <id>D&#xDC;</id>
+    <name>Digitale &#xDC;bertragungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>D&#xDC;L</id>
+    <name>Digitale &#xDC;bertragungstechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>DV</id>
+    <name>Digitale Videotechnik</name>
+  </lecture>
+  <lecture>
+    <id>DVG</id>
+    <name>Datenverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>DVI</id>
+    <name>Dokumentenverwaltung im Internet</name>
+  </lecture>
+  <lecture>
+    <id>DVL</id>
+    <name>Digitale Videotechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>DW</id>
+    <name>Data Warehousing</name>
+  </lecture>
+  <lecture>
+    <id>DW&#xDC;</id>
+    <name>Data Warehousing &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>EAS</id>
+    <name>Entwicklung kommerzieller Anwendersoftware</name>
+  </lecture>
+  <lecture>
+    <id>EB</id>
+    <name>Electronic Business</name>
+  </lecture>
+  <lecture>
+    <id>EBW</id>
+    <name>EDV orientierte BWL</name>
+  </lecture>
+  <lecture>
+    <id>EC</id>
+    <name>Electronic  Commerce</name>
+  </lecture>
+  <lecture>
+    <id>ECL</id>
+    <name>Labor zum Electronic Commerce</name>
+  </lecture>
+  <lecture>
+    <id>EDM</id>
+    <name>Einf&#xFC;hrung in die Diskrete Mathematik</name>
+  </lecture>
+  <lecture>
+    <id>EE1</id>
+    <name>Energieversorgung 1 (Energietechnik f&#xFC;r AEB, el. Energietechnik f&#xFC;r MEB)</name>
+  </lecture>
+  <lecture>
+    <id>EE2</id>
+    <name>Energieversorgung 2</name>
+  </lecture>
+  <lecture>
+    <id>EEL</id>
+    <name>Labor  Energieversorgung/ -technik</name>
+  </lecture>
+  <lecture>
+    <id>EEN</id>
+    <name>Elektrische Energienetze</name>
+  </lecture>
+  <lecture>
+    <id>EFA</id>
+    <name>Einf&#xFC;hrung in die Funktionsanalysis</name>
+  </lecture>
+  <lecture>
+    <id>EFM</id>
+    <name>Einf&#xFC;hrung in Facility Management (FM)</name>
+  </lecture>
+  <lecture>
+    <id>EFY</id>
+    <name>Elektrische Fahrzeugsysteme und Aktuatoren</name>
+  </lecture>
+  <lecture>
+    <id>EG</id>
+    <name>Elektronische Gesch&#xE4;ftsprozesse</name>
+  </lecture>
+  <lecture>
+    <id>EGI</id>
+    <name>Elektronische Grundlagen der Informatik</name>
+  </lecture>
+  <lecture>
+    <id>EG&#xDC;</id>
+    <name>Elektronische Gesch&#xE4;ftsprozesse &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>EI</id>
+    <name>Entwicklung betrieblicher Informationssysteme</name>
+  </lecture>
+  <lecture>
+    <id>EI2</id>
+    <name>Entwicklung betrieblicher Informationssysteme 2</name>
+  </lecture>
+  <lecture>
+    <id>EIN</id>
+    <name>Einf&#xFC;hrung in die Elektroinstallationstechnik</name>
+  </lecture>
+  <lecture>
+    <id>EI&#xDC;</id>
+    <name>Entwicklung betrieblicher Informationssysteme &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>EK</id>
+    <name>Elektrokonstruktion</name>
+  </lecture>
+  <lecture>
+    <id>EL</id>
+    <name>Elektronik</name>
+  </lecture>
+  <lecture>
+    <id>EL2</id>
+    <name>Elektronik 2</name>
+  </lecture>
+  <lecture>
+    <id>EL2L</id>
+    <name>Elektronik 2 Labor</name>
+  </lecture>
+  <lecture>
+    <id>ELA</id>
+    <name>E - Learning</name>
+  </lecture>
+  <lecture>
+    <id>ELAP</id>
+    <name>E - Learning Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>ELB</id>
+    <name>Elektronische Bauelemente</name>
+  </lecture>
+  <lecture>
+    <id>ELG</id>
+    <name>Einf&#xFC;hrung in die Logistik</name>
+  </lecture>
+  <lecture>
+    <id>ELL</id>
+    <name>Elektronik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>EL&#xDC;</id>
+    <name>Elektronik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>EM1</id>
+    <name>Elektrische Maschinen 1</name>
+  </lecture>
+  <lecture>
+    <id>EM1&#xDC;</id>
+    <name>Elektrische Maschinen 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>EMC</id>
+    <name>Electromagnetic Compatibility (ICM)</name>
+  </lecture>
+  <lecture>
+    <id>EMG</id>
+    <name>Energiemanagement</name>
+  </lecture>
+  <lecture>
+    <id>EML</id>
+    <name>Elektrische Maschinen Labor</name>
+  </lecture>
+  <lecture>
+    <id>EMO</id>
+    <name>Elektromotorische Antriebe (M,WI)</name>
+  </lecture>
+  <lecture>
+    <id>EMOL</id>
+    <name>Elektromotorische Antriebe Labor</name>
+  </lecture>
+  <lecture>
+    <id>EMV</id>
+    <name>Elektromagnetische Vertr&#xE4;glichkeit</name>
+  </lecture>
+  <lecture>
+    <id>EN</id>
+    <name>Englisch</name>
+  </lecture>
+  <lecture>
+    <id>ENA</id>
+    <name>Energieanlagen, elektrische</name>
+  </lecture>
+  <lecture>
+    <id>ENK</id>
+    <name>Entsorgungslogistik</name>
+  </lecture>
+  <lecture>
+    <id>ENT</id>
+    <name>Energietechnik, Einf&#xFC;hrung in die</name>
+  </lecture>
+  <lecture>
+    <id>ENTT</id>
+    <name>Energietechnik, elektrisch Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>ENU</id>
+    <name>Elektronische Energieumformung (fr&#xFC;her LE1)</name>
+  </lecture>
+  <lecture>
+    <id>ENUL</id>
+    <name>Elektronische Energieumformung Labor (fr&#xFC;her LEL)</name>
+  </lecture>
+  <lecture>
+    <id>ENW1</id>
+    <name>Entsorgungswirtschaft 1</name>
+  </lecture>
+  <lecture>
+    <id>ENW2</id>
+    <name>Entsorgungswirtschaft 2</name>
+  </lecture>
+  <lecture>
+    <id>EPD</id>
+    <name>Wirtschaftsenglisch Pr&#xE4;deutikum</name>
+  </lecture>
+  <lecture>
+    <id>EPI</id>
+    <name>Entrepreneurship</name>
+  </lecture>
+  <lecture>
+    <id>EPK</id>
+    <name>Entsorgungs- und Verpackungslogistik</name>
+  </lecture>
+  <lecture>
+    <id>EPS</id>
+    <name>Seminar zum Entwicklungsprojekt</name>
+  </lecture>
+  <lecture>
+    <id>ERM</id>
+    <name>Ertrags- und Risikomanagement in Finanzinstituten</name>
+  </lecture>
+  <lecture>
+    <id>ES</id>
+    <name>Embedded Systems</name>
+  </lecture>
+  <lecture>
+    <id>ESF</id>
+    <name>Elektronische Systeme der Fahrzeugf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>ESG</id>
+    <name>Elektrische Geb&#xE4;udesystemtechnik</name>
+  </lecture>
+  <lecture>
+    <id>ESI</id>
+    <name>Elektrische Geb&#xE4;ude-SicherheitsTechnik</name>
+  </lecture>
+  <lecture>
+    <id>ESL</id>
+    <name>Embedded Systems Labor</name>
+  </lecture>
+  <lecture>
+    <id>ESW</id>
+    <name>Elektronische Stellwerke</name>
+  </lecture>
+  <lecture>
+    <id>ET</id>
+    <name>Elektrotechnik f&#xFC;r PT, WI, FM</name>
+  </lecture>
+  <lecture>
+    <id>ET1</id>
+    <name>Elektrotechnik 1, Grundlagen der</name>
+  </lecture>
+  <lecture>
+    <id>ET1&#xDC;</id>
+    <name>&#xDC;bungen zu Elektrotechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>ET2</id>
+    <name>Elektrotechnik 2,</name>
+  </lecture>
+  <lecture>
+    <id>ET2&#xDC;</id>
+    <name>&#xDC;bungen zu Elektrotechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>ET3</id>
+    <name>Elektrotechnik 3</name>
+  </lecture>
+  <lecture>
+    <id>ET3&#xDC;</id>
+    <name>Elektrotechnik 3 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>ET4</id>
+    <name>Elektrotechnik 4</name>
+  </lecture>
+  <lecture>
+    <id>ETH</id>
+    <name>Ethik und Unternehmensgespr&#xE4;che</name>
+  </lecture>
+  <lecture>
+    <id>ETL</id>
+    <name>Labor zur Elektrotechnik</name>
+  </lecture>
+  <lecture>
+    <id>ETP</id>
+    <name>Elektrotechnik Projekt, /Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>ET&#xDC;</id>
+    <name>Elektrotechnik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>EU</id>
+    <name>Entsorgungs- u. Umweltrecht</name>
+  </lecture>
+  <lecture>
+    <id>EV</id>
+    <name>Entwicklung verteilter Anwendungen</name>
+  </lecture>
+  <lecture>
+    <id>EVP</id>
+    <name>Entwicklung verteilter Anwendungen Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>EW1</id>
+    <name>Energie u. W&#xE4;rmetechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>EW1&#xDC;</id>
+    <name>Energie u. W&#xE4;rmetechnik 1 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>EW2</id>
+    <name>Energie u. W&#xE4;rmetechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>EW2A</id>
+    <name>Energie u. W&#xE4;rmetechnik 2 Teil A</name>
+  </lecture>
+  <lecture>
+    <id>EW2B</id>
+    <name>Energie u. W&#xE4;rmetechnik 2 Teil B: Energietechnik</name>
+  </lecture>
+  <lecture>
+    <id>EWE</id>
+    <name>Eisenwerkstoffe</name>
+  </lecture>
+  <lecture>
+    <id>EWG</id>
+    <name>Energiewirtschaft und Technologie</name>
+  </lecture>
+  <lecture>
+    <id>EWI</id>
+    <name>Energiewirtschaft/ Energierecht/ Elektrizit&#xE4;tswirtschaft</name>
+  </lecture>
+  <lecture>
+    <id>EWW</id>
+    <name>Einf&#xFC;hrung in die Wirtschaftswissenschaften</name>
+  </lecture>
+  <lecture>
+    <id>EXA</id>
+    <name>Experimentelle Algorithmik</name>
+  </lecture>
+  <lecture>
+    <id>EZ</id>
+    <name>Elementare Zahlentheorie</name>
+  </lecture>
+  <lecture>
+    <id>EZT</id>
+    <name>Elementare Zahlentheorie Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>FA</id>
+    <name>Unternehmensfinanzierung</name>
+  </lecture>
+  <lecture>
+    <id>FAB</id>
+    <name>Fahrleitungs- und Bahnstromanlagen</name>
+  </lecture>
+  <lecture>
+    <id>FAB&#xDC;</id>
+    <name>Fahrleitungs- und Bahnstromanlagen &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>FBA</id>
+    <name>Fotographie und Bildbearbeitung</name>
+  </lecture>
+  <lecture>
+    <id>FCE</id>
+    <name>First Cambridge Certificate (Englisch)</name>
+  </lecture>
+  <lecture>
+    <id>FE</id>
+    <name>Finite Elemente in der Str&#xF6;mungslehre</name>
+  </lecture>
+  <lecture>
+    <id>FET1</id>
+    <name>Fertigungstechnologien 1</name>
+  </lecture>
+  <lecture>
+    <id>FET2</id>
+    <name>Fertigungstechnologien 2</name>
+  </lecture>
+  <lecture>
+    <id>FF</id>
+    <name>Feuerfeste Werkstoffe</name>
+  </lecture>
+  <lecture>
+    <id>FI</id>
+    <name>Finanzierung und Investition</name>
+  </lecture>
+  <lecture>
+    <id>FIM</id>
+    <name>Finanzmathematik</name>
+  </lecture>
+  <lecture>
+    <id>FIM2</id>
+    <name>Finanzmathematik 2</name>
+  </lecture>
+  <lecture>
+    <id>FIM2&#xDC;</id>
+    <name>Finanzmathematik 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>FIM&#xDC;</id>
+    <name>Finanzmathematik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>FIN</id>
+    <name>Finanzierung</name>
+  </lecture>
+  <lecture>
+    <id>FIW</id>
+    <name>Finanzwirtschaft</name>
+  </lecture>
+  <lecture>
+    <id>FL</id>
+    <name>Fluidmechanik</name>
+  </lecture>
+  <lecture>
+    <id>FLT</id>
+    <name>Fluidmechanik Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>FL&#xDC;</id>
+    <name>Fluidmechanik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>FM</id>
+    <name>Fl&#xE4;chenmanagement</name>
+  </lecture>
+  <lecture>
+    <id>FMA</id>
+    <name>Fortgeschrittene mobile Anwendungen</name>
+  </lecture>
+  <lecture>
+    <id>FMI</id>
+    <name>Fortgeschrittene Mensch Maschine Interaktion</name>
+  </lecture>
+  <lecture>
+    <id>FO</id>
+    <name>Fotographie</name>
+  </lecture>
+  <lecture>
+    <id>FOE1</id>
+    <name>F&#xF6;rdertechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>FOE2</id>
+    <name>F&#xF6;rdertechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>FOV</id>
+    <name>Fotovoltaik</name>
+  </lecture>
+  <lecture>
+    <id>FOVL</id>
+    <name>Foto Voltaik Labor</name>
+  </lecture>
+  <lecture>
+    <id>FP</id>
+    <name>FPGA Design f&#xFC;r die Antriebstechnik</name>
+  </lecture>
+  <lecture>
+    <id>FPA</id>
+    <name>Fabrikplanung und Arbeitsrecht</name>
+  </lecture>
+  <lecture>
+    <id>FPH</id>
+    <name>Funktionale Programmierung mit</name>
+  </lecture>
+  <lecture>
+    <id>HASKELL</id>
+    <name/>
+  </lecture>
+  <lecture>
+    <id>FS</id>
+    <name>Fallstudien</name>
+  </lecture>
+  <lecture>
+    <id>FS1</id>
+    <name>Fallstudie 1 f&#xFC;r FM</name>
+  </lecture>
+  <lecture>
+    <id>FS2</id>
+    <name>Fallstudie 2 f&#xFC;r FM</name>
+  </lecture>
+  <lecture>
+    <id>FS3</id>
+    <name>Fallstudie 3 f&#xFC;r FM</name>
+  </lecture>
+  <lecture>
+    <id>FS4</id>
+    <name>Fallstudie 4 f&#xFC;r FM</name>
+  </lecture>
+  <lecture>
+    <id>FSM</id>
+    <name>Funksysteme und Mobilkommunikation</name>
+  </lecture>
+  <lecture>
+    <id>FSML</id>
+    <name>Funksysteme und Mobilkommunikation Labor</name>
+  </lecture>
+  <lecture>
+    <id>FT</id>
+    <name>F&#xFC;getechnik</name>
+  </lecture>
+  <lecture>
+    <id>FTA</id>
+    <name>Einf&#xFC;hrung in das Facility und Asset Management</name>
+  </lecture>
+  <lecture>
+    <id>FTG</id>
+    <name>Innovative Fertigungstechnologien</name>
+  </lecture>
+  <lecture>
+    <id>F&#xDC;</id>
+    <name>F&#xFC;hrungsinstrumente</name>
+  </lecture>
+  <lecture>
+    <id>FV</id>
+    <name>Fertigungsverfahren</name>
+  </lecture>
+  <lecture>
+    <id>FVA</id>
+    <name>Fortgeschrittene Verfahren in der Analogtechnik</name>
+  </lecture>
+  <lecture>
+    <id>FVW</id>
+    <name>Faserverbundwerkstoffe</name>
+  </lecture>
+  <lecture>
+    <id>FW1</id>
+    <name>Finanz- und Wirtschaftsmathematik 1</name>
+  </lecture>
+  <lecture>
+    <id>FW2</id>
+    <name>Finanz- und Wirtschaftsmathematik 2</name>
+  </lecture>
+  <lecture>
+    <id>FZ1</id>
+    <name>Franz&#xF6;sisch 1</name>
+  </lecture>
+  <lecture>
+    <id>FZ2</id>
+    <name>Franz&#xF6;sisch 2</name>
+  </lecture>
+  <lecture>
+    <id>FZ3</id>
+    <name>Franz&#xF6;sisch 3</name>
+  </lecture>
+  <lecture>
+    <id>FZB</id>
+    <name>Franz&#xF6;sisch f&#xFC;r den Beruf</name>
+  </lecture>
+  <lecture>
+    <id>GA</id>
+    <name>Geb&#xE4;udeautomation u. Energiemanagement</name>
+  </lecture>
+  <lecture>
+    <id>GATK</id>
+    <name>Gasturbinentechnik</name>
+  </lecture>
+  <lecture>
+    <id>GB</id>
+    <name>Grundlagen der Betriebswirtschaftslehre</name>
+  </lecture>
+  <lecture>
+    <id>GBC</id>
+    <name>German for business Communication</name>
+  </lecture>
+  <lecture>
+    <id>GD1</id>
+    <name>Graphische Datenverarbeitung 1</name>
+  </lecture>
+  <lecture>
+    <id>GD1P</id>
+    <name>Praktikum zu graph. DV1</name>
+  </lecture>
+  <lecture>
+    <id>GD1&#xDC;</id>
+    <name>&#xDC;bungen zur graphischen DV 1</name>
+  </lecture>
+  <lecture>
+    <id>GD2</id>
+    <name>Graphische Datenverarbeitung 2</name>
+  </lecture>
+  <lecture>
+    <id>GD2S</id>
+    <name>Graphische Datenverarbeitung 2 Seminar</name>
+  </lecture>
+  <lecture>
+    <id>GD2&#xDC;</id>
+    <name>&#xDC;bungen zur graphischen DV 2</name>
+  </lecture>
+  <lecture>
+    <id>GDM2</id>
+    <name>Graphische Datenverarbeitung und Projektmodellierung 2</name>
+  </lecture>
+  <lecture>
+    <id>GDP</id>
+    <name>Graphische Datenverarbeitung Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>GEO</id>
+    <name>Geometrie</name>
+  </lecture>
+  <lecture>
+    <id>GET</id>
+    <name>Getriebetechnik (siehe auch GL)</name>
+  </lecture>
+  <lecture>
+    <id>GF</id>
+    <name>German as a  Foreign Language (ICM)</name>
+  </lecture>
+  <lecture>
+    <id>GFE</id>
+    <name>Grundlagen der Energieumwandlung: Fossile Energien</name>
+  </lecture>
+  <lecture>
+    <id>GG</id>
+    <name>Geometrie und graphische Datenverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>GI</id>
+    <name>Grundlagen der Informatik</name>
+  </lecture>
+  <lecture>
+    <id>GIP</id>
+    <name>Grundlagen der Informatik Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>GK</id>
+    <name>Grundlagen Kommunikation</name>
+  </lecture>
+  <lecture>
+    <id>GL</id>
+    <name>Getriebelehre (siehe auch GET)</name>
+  </lecture>
+  <lecture>
+    <id>GLA</id>
+    <name>Glas</name>
+  </lecture>
+  <lecture>
+    <id>GM</id>
+    <name>Grundlagen d. Mikrobiologie</name>
+  </lecture>
+  <lecture>
+    <id>GMO</id>
+    <name>Grundlagen (Einfuhrung) Modellbildung und Algorithmen</name>
+  </lecture>
+  <lecture>
+    <id>GNL</id>
+    <name>Grundlagenlabor</name>
+  </lecture>
+  <lecture>
+    <id>GP</id>
+    <name>Gesch&#xE4;ftsprozesse; Management, Einf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>GPH1</id>
+    <name>Grundlagen Physik 1</name>
+  </lecture>
+  <lecture>
+    <id>GPH1&#xDC;</id>
+    <name>Grundlagen Physik 1 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>GPH2</id>
+    <name>Grundlagen Physik 2</name>
+  </lecture>
+  <lecture>
+    <id>GPH3</id>
+    <name>Grundlagen Physik 3</name>
+  </lecture>
+  <lecture>
+    <id>GPM</id>
+    <name>Gesch&#xE4;ftsprozessmodellierung am Beispiel SAP</name>
+  </lecture>
+  <lecture>
+    <id>GRL</id>
+    <name>Geb&#xE4;ude- und Raumautomation, Labor</name>
+  </lecture>
+  <lecture>
+    <id>GT</id>
+    <name>Gremientag f&#xFC;r die Fachbereiche</name>
+  </lecture>
+  <lecture>
+    <id>GTB</id>
+    <name>Geb&#xE4;udetechnik Betreiben</name>
+  </lecture>
+  <lecture>
+    <id>GTK</id>
+    <name>Gie&#xDF;ereitechnik</name>
+  </lecture>
+  <lecture>
+    <id>GV</id>
+    <name>Grundlagen der Volkswirtschaftslehre</name>
+  </lecture>
+  <lecture>
+    <id>GW</id>
+    <name>Grundlagen Wirtschaft/ BWL</name>
+  </lecture>
+  <lecture>
+    <id>GWW</id>
+    <name>Grundlagen der Wirtschaftswissenschaften</name>
+  </lecture>
+  <lecture>
+    <id>HF</id>
+    <name>Hochfrequenztechnik</name>
+  </lecture>
+  <lecture>
+    <id>HFL</id>
+    <name>Hochfrequenztechnik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>HL</id>
+    <name>Heizung, L&#xFC;ftung, Klimatechnik, Sanit&#xE4;rinstallation</name>
+  </lecture>
+  <lecture>
+    <id>HM</id>
+    <name>Handhabungs- u. Monatagetechnik</name>
+  </lecture>
+  <lecture>
+    <id>HMA</id>
+    <name>Einf&#xFC;hrung in die H&#xF6;here Mathematik</name>
+  </lecture>
+  <lecture>
+    <id>HMA&#xDC;</id>
+    <name>&#xDC;bungen zur Einf&#xFC;hrung in die HM</name>
+  </lecture>
+  <lecture>
+    <id>HMD</id>
+    <name>H&#xF6;here Maschinendynamik</name>
+  </lecture>
+  <lecture>
+    <id>HMT</id>
+    <name>H&#xF6;here Mathematik</name>
+  </lecture>
+  <lecture>
+    <id>HP</id>
+    <name>Hydraulik u. Pneumatik</name>
+  </lecture>
+  <lecture>
+    <id>HR</id>
+    <name>H&#xF6;here Regelungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>HS</id>
+    <name>High Speed Digital Design</name>
+  </lecture>
+  <lecture>
+    <id>HSS</id>
+    <name>Seminar zu High Speed Digital Design</name>
+  </lecture>
+  <lecture>
+    <id>HZ</id>
+    <name>Heiztechnik</name>
+  </lecture>
+  <lecture>
+    <id>IA</id>
+    <name>Internet Applikationsprotokolle</name>
+  </lecture>
+  <lecture>
+    <id>IB</id>
+    <name>Industriebetriebslehre und Logistik</name>
+  </lecture>
+  <lecture>
+    <id>IBA</id>
+    <name>Instandhaltung von Bahnanlagen</name>
+  </lecture>
+  <lecture>
+    <id>IBB</id>
+    <name>Immobilienbewertung und Finanzierung</name>
+  </lecture>
+  <lecture>
+    <id>IBN</id>
+    <name>IP Based Networks and Protocols</name>
+  </lecture>
+  <lecture>
+    <id>IBNL</id>
+    <name>Labor zu IP Based Networks</name>
+  </lecture>
+  <lecture>
+    <id>IBV1</id>
+    <name>Industrielle Bildverarbeitung 1</name>
+  </lecture>
+  <lecture>
+    <id>IBV2</id>
+    <name>(Industrielle) Bildverarbeitung 2 (identisch mit NSN)</name>
+  </lecture>
+  <lecture>
+    <id>IBVP</id>
+    <name>Praktikum zu Industrielle Bildverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>IBVPS</id>
+    <name>Praktikum zu Industrielle Bildverarbeitung, Seminar</name>
+  </lecture>
+  <lecture>
+    <id>IC</id>
+    <name>Intercultural Competence</name>
+  </lecture>
+  <lecture>
+    <id>ICC</id>
+    <name>Intercultural Communication Competence</name>
+  </lecture>
+  <lecture>
+    <id>ICS</id>
+    <name>Seminar zu IC</name>
+  </lecture>
+  <lecture>
+    <id>IE</id>
+    <name>Integration Engineering</name>
+  </lecture>
+  <lecture>
+    <id>IF</id>
+    <name>Informationssysteme in der Finanzierung</name>
+  </lecture>
+  <lecture>
+    <id>IFD</id>
+    <name>Infrastrukturelle Dienstleistungen</name>
+  </lecture>
+  <lecture>
+    <id>IFK</id>
+    <name>Informationskompetenz und wiss. Arbeiten</name>
+  </lecture>
+  <lecture>
+    <id>IG</id>
+    <name>Integrierte Geb&#xE4;udetechnik (und Datennetze)</name>
+  </lecture>
+  <lecture>
+    <id>IGL</id>
+    <name>Integrierte Geb&#xE4;udetechnik (und Datennetze) Labor</name>
+  </lecture>
+  <lecture>
+    <id>IIR</id>
+    <name>Immobilien Investment  und Steuerrecht</name>
+  </lecture>
+  <lecture>
+    <id>IK</id>
+    <name>Interkulturelles Training/ Intercultural Communication Competence</name>
+  </lecture>
+  <lecture>
+    <id>IKM</id>
+    <name>Informations- Kommunikationsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>IKS</id>
+    <name>Informations- und Kommunikationssysteme</name>
+  </lecture>
+  <lecture>
+    <id>IL</id>
+    <name>Industrie Laser</name>
+  </lecture>
+  <lecture>
+    <id>IM</id>
+    <name>Informationsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>IMA</id>
+    <name>Integrierte Managementsysteme, auch UQM</name>
+  </lecture>
+  <lecture>
+    <id>IMC</id>
+    <name>Immobilien Controlling</name>
+  </lecture>
+  <lecture>
+    <id>IMG</id>
+    <name>Internationales Management/Unternehmensf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>IMT</id>
+    <name>Industriemaschinen Technik</name>
+  </lecture>
+  <lecture>
+    <id>IM&#xDC;</id>
+    <name>Informationsmanagement &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>IN</id>
+    <name>Informatik</name>
+  </lecture>
+  <lecture>
+    <id>IN1</id>
+    <name>Informatik (f&#xFC;r Ingenieure) 1</name>
+  </lecture>
+  <lecture>
+    <id>IN1P</id>
+    <name>Praktikum zur Informatik 1</name>
+  </lecture>
+  <lecture>
+    <id>IN2</id>
+    <name>Informatik 2</name>
+  </lecture>
+  <lecture>
+    <id>IN2L</id>
+    <name>Labor zu Informatik 2</name>
+  </lecture>
+  <lecture>
+    <id>IN2P</id>
+    <name>Praktikum zur Informatik 2</name>
+  </lecture>
+  <lecture>
+    <id>IN2&#xDC;</id>
+    <name>&#xDC;bungen zur Informatik 2</name>
+  </lecture>
+  <lecture>
+    <id>IN3</id>
+    <name>Informatik 3</name>
+  </lecture>
+  <lecture>
+    <id>INE</id>
+    <name>Industrial Ecology</name>
+  </lecture>
+  <lecture>
+    <id>INM</id>
+    <name>Innovationsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>INT</id>
+    <name>Internship</name>
+  </lecture>
+  <lecture>
+    <id>IN&#xDC;</id>
+    <name>&#xDC;bungen zur Informatik</name>
+  </lecture>
+  <lecture>
+    <id>INW</id>
+    <name>Einf&#xFC;hrung  in die Wirtschaftsinformatik</name>
+  </lecture>
+  <lecture>
+    <id>INW&#xDC;</id>
+    <name>&#xDC;bungen zu Einf&#xFC;hrung in die Wirtschaftsinformatik</name>
+  </lecture>
+  <lecture>
+    <id>IO</id>
+    <name>Internet of Things</name>
+  </lecture>
+  <lecture>
+    <id>I&#xD6;</id>
+    <name>Internationale Immobilien&#xF6;konomie</name>
+  </lecture>
+  <lecture>
+    <id>IOE</id>
+    <name>International Oeconomics</name>
+  </lecture>
+  <lecture>
+    <id>IP</id>
+    <name>Internet Protocols and Applications</name>
+  </lecture>
+  <lecture>
+    <id>IPE</id>
+    <name>Immobilien- und Projektentwicklung</name>
+  </lecture>
+  <lecture>
+    <id>IPL</id>
+    <name>Labor zu Internet Protocols</name>
+  </lecture>
+  <lecture>
+    <id>IPR</id>
+    <name>Innovative Prozesse in der Produktion</name>
+  </lecture>
+  <lecture>
+    <id>IR</id>
+    <name>Rechtliche Aspekte der Informatik</name>
+  </lecture>
+  <lecture>
+    <id>IRE</id>
+    <name>Recht f&#xFC;r Informatiker</name>
+  </lecture>
+  <lecture>
+    <id>ISC</id>
+    <name>Integrierte Schaltungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>ISCL</id>
+    <name>Integrierte Schaltungstechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>ISC&#xDC;</id>
+    <name>Integrierte Schaltungstechnik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>ISD</id>
+    <name>&#xDC;berblick &#xFC;ber (Geb&#xE4;ude)- Infrastruktur(dienste)</name>
+  </lecture>
+  <lecture>
+    <id>ISV</id>
+    <name>Internationaler Schienenverkehr</name>
+  </lecture>
+  <lecture>
+    <id>IT</id>
+    <name>IT-Service-Management (MWk)</name>
+  </lecture>
+  <lecture>
+    <id>ITC</id>
+    <name>IT - Controlling</name>
+  </lecture>
+  <lecture>
+    <id>ITF</id>
+    <name>IT f&#xFC;r Finanzdienstleister</name>
+  </lecture>
+  <lecture>
+    <id>ITK</id>
+    <name>IT in der Logistik</name>
+  </lecture>
+  <lecture>
+    <id>ITV</id>
+    <name>IT-Vertrieb</name>
+  </lecture>
+  <lecture>
+    <id>I&#xDC;</id>
+    <name>Informations&#xFC;bertragung</name>
+  </lecture>
+  <lecture>
+    <id>I&#xDC;L</id>
+    <name>Informations&#xFC;bertragungs-Labor</name>
+  </lecture>
+  <lecture>
+    <id>IVM</id>
+    <name>Immobilienbezogenes Vertragsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>IW</id>
+    <name>Internationale Wirtschaft</name>
+  </lecture>
+  <lecture>
+    <id>JA</id>
+    <name>Jahresabschluss</name>
+  </lecture>
+  <lecture>
+    <id>JAVA</id>
+    <name>Programmiersprache Java</name>
+  </lecture>
+  <lecture>
+    <id>KA</id>
+    <name>Komplexe Analysis</name>
+  </lecture>
+  <lecture>
+    <id>KC</id>
+    <name>Kommunikationscontroller</name>
+  </lecture>
+  <lecture>
+    <id>KD</id>
+    <name>Kommerzielle Datenverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>KE</id>
+    <name>Kreatives Erz&#xE4;hlen mit neuen Medien und Projektleitung</name>
+  </lecture>
+  <lecture>
+    <id>KEU</id>
+    <name>Kompetententwicklung unterst&#xFC;tzen</name>
+  </lecture>
+  <lecture>
+    <id>KEU&#xDC;</id>
+    <name>Kompetententwicklung unterst&#xFC;tzen &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>KG</id>
+    <name>Kunststoff Grundlagen</name>
+  </lecture>
+  <lecture>
+    <id>KKO</id>
+    <name>Kunststoff Konstruktion</name>
+  </lecture>
+  <lecture>
+    <id>KKOL</id>
+    <name>Kunststoff Konstruktion Labor</name>
+  </lecture>
+  <lecture>
+    <id>KL</id>
+    <name>Konstruktionslehre (Grundlagen der)</name>
+  </lecture>
+  <lecture>
+    <id>KLA</id>
+    <name>Konstruktion Lasersysteme</name>
+  </lecture>
+  <lecture>
+    <id>KLCA</id>
+    <name>Konstruktionslehre / CAD</name>
+  </lecture>
+  <lecture>
+    <id>KLCA&#xDC;</id>
+    <name>Konstruktionslehre / CAD &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>KL&#xDC;</id>
+    <name>Konstruktionslehre (Grundlagen der) &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>KM</id>
+    <name>Konstruktionsmethodik</name>
+  </lecture>
+  <lecture>
+    <id>KMM</id>
+    <name>Kundenbeziehungsmanagement und Marketing</name>
+  </lecture>
+  <lecture>
+    <id>KMO</id>
+    <name>Kleinmotoren</name>
+  </lecture>
+  <lecture>
+    <id>KN</id>
+    <name>Kommunikationsnetze</name>
+  </lecture>
+  <lecture>
+    <id>KN1</id>
+    <name>Kommunikationsnetze 1</name>
+  </lecture>
+  <lecture>
+    <id>KN2</id>
+    <name>Kommunikationsnetze 2</name>
+  </lecture>
+  <lecture>
+    <id>KNL</id>
+    <name>Labor f&#xFC;r Kommunikationsnetze</name>
+  </lecture>
+  <lecture>
+    <id>KO</id>
+    <name>Konstruktionssystematik</name>
+  </lecture>
+  <lecture>
+    <id>KOC</id>
+    <name>Kostenrechnung und Controlling</name>
+  </lecture>
+  <lecture>
+    <id>KOD</id>
+    <name>Komplexe Digitale Systme</name>
+  </lecture>
+  <lecture>
+    <id>KOG</id>
+    <name>Kostenrechnung</name>
+  </lecture>
+  <lecture>
+    <id>KOR</id>
+    <name>Korrosion</name>
+  </lecture>
+  <lecture>
+    <id>KP</id>
+    <name>Kommunikationsprotokolle</name>
+  </lecture>
+  <lecture>
+    <id>KPL</id>
+    <name>Labor f. Kommunikationsprotokolle</name>
+  </lecture>
+  <lecture>
+    <id>KPM</id>
+    <name>Kreatives Multimedia Projektmanagement</name>
+  </lecture>
+  <lecture>
+    <id>KPML</id>
+    <name>Labor zu Kreatives MM - PM (Seminar)</name>
+  </lecture>
+  <lecture>
+    <id>KPO</id>
+    <name>Kommunikationspolitik</name>
+  </lecture>
+  <lecture>
+    <id>KPR</id>
+    <name>Kommunikation und Pr&#xE4;sentation M: MA5104</name>
+  </lecture>
+  <lecture>
+    <id>KPT</id>
+    <name>Kommunikations- und Pr&#xE4;sentationstechniken</name>
+  </lecture>
+  <lecture>
+    <id>KR</id>
+    <name>Einf&#xFC;hrung in die Modellierung von Kreditrisiken</name>
+  </lecture>
+  <lecture>
+    <id>KS</id>
+    <name>(digitale) Kommunikationssysteme/ technik</name>
+  </lecture>
+  <lecture>
+    <id>KSK1</id>
+    <name>Kommunikative Schl&#xFC;sselkompetenzen (Kommunikation) =KT</name>
+  </lecture>
+  <lecture>
+    <id>KSK2</id>
+    <name>Kommunikative Schl&#xFC;sselkompetenzen (Englisch) =TE</name>
+  </lecture>
+  <lecture>
+    <id>KSL</id>
+    <name>Kommunikationssysteme/ -technik Labor</name>
+  </lecture>
+  <lecture>
+    <id>KSN</id>
+    <name>Kurzschlussstromberechnungen und Netzschutz (fr&#xFC;her EE2)</name>
+  </lecture>
+  <lecture>
+    <id>KSNL</id>
+    <name>Kurzschlussstrber. und Netzschutz (fr&#xFC;her EE2) Labor</name>
+  </lecture>
+  <lecture>
+    <id>KSW</id>
+    <name>Kommerzielle Standardsoftware (Standardsysteme)</name>
+  </lecture>
+  <lecture>
+    <id>KSWP</id>
+    <name>Kommerzielle Standardsoftware (Standardsysteme) Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>KT</id>
+    <name>Kreativit&#xE4;tstechniken</name>
+  </lecture>
+  <lecture>
+    <id>KTM</id>
+    <name>Praktikum Kreativ im Team arbeiten und Rollenfindung</name>
+  </lecture>
+  <lecture>
+    <id>KTN</id>
+    <name>Kommunikationstechniken</name>
+  </lecture>
+  <lecture>
+    <id>KUM</id>
+    <name>Kundenmanagement</name>
+  </lecture>
+  <lecture>
+    <id>KW1</id>
+    <name>Keramische Werkstoffe 1</name>
+  </lecture>
+  <lecture>
+    <id>KW2</id>
+    <name>Keramische Werkstoffe 2</name>
+  </lecture>
+  <lecture>
+    <id>KWB</id>
+    <name>Kommunikation in wissenschaftlicher und beruflicher Arbeit</name>
+  </lecture>
+  <lecture>
+    <id>KWT</id>
+    <name>Kraftwerkstechnische Anlagen</name>
+  </lecture>
+  <lecture>
+    <id>LA</id>
+    <name>Lineare Algebra</name>
+  </lecture>
+  <lecture>
+    <id>LA1</id>
+    <name>Lineare Algebra 1</name>
+  </lecture>
+  <lecture>
+    <id>LA1&#xDC;</id>
+    <name>&#xDC;bungen zur LA 1</name>
+  </lecture>
+  <lecture>
+    <id>LA2</id>
+    <name>Lineare Algebra 2</name>
+  </lecture>
+  <lecture>
+    <id>LA2L</id>
+    <name>Lineare Algebra 2 Lerngruppe</name>
+  </lecture>
+  <lecture>
+    <id>LA2T</id>
+    <name>Lineare Algebra 2 Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>LA2&#xDC;</id>
+    <name>Lineare Algebra 2  &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>LA&#xDC;</id>
+    <name>Lineare Algebra &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>LAW</id>
+    <name>Laseranwendungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>LAWL</id>
+    <name>Laseranwendungstechnik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>LB1</id>
+    <name>Leichtbau 1/ FEM</name>
+  </lecture>
+  <lecture>
+    <id>LB2</id>
+    <name>Leichtbau 2</name>
+  </lecture>
+  <lecture>
+    <id>LB3</id>
+    <name>Leichtbau 3</name>
+  </lecture>
+  <lecture>
+    <id>LC1</id>
+    <name>Life Cycle Management 1, Einf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>LC2</id>
+    <name>Life Cycle Management 2, Einf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>LD</id>
+    <name>Leadership and Organisation</name>
+  </lecture>
+  <lecture>
+    <id>LE</id>
+    <name>Leistungselektronik</name>
+  </lecture>
+  <lecture>
+    <id>LE1</id>
+    <name>Leistungselektronik 1</name>
+  </lecture>
+  <lecture>
+    <id>LE2</id>
+    <name>Leistungselektronik  2</name>
+  </lecture>
+  <lecture>
+    <id>LEF</id>
+    <name>Leistungselektronik f&#xFC;r die Fotovoltaik</name>
+  </lecture>
+  <lecture>
+    <id>LEL</id>
+    <name>Leistungselektronik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>LEM</id>
+    <name>Lean Management</name>
+  </lecture>
+  <lecture>
+    <id>LG</id>
+    <name>Logistik f&#xFC;r WI</name>
+  </lecture>
+  <lecture>
+    <id>LGC</id>
+    <name>Logistik Controlling</name>
+  </lecture>
+  <lecture>
+    <id>LGF</id>
+    <name>Flughafenmanagement / Flughafenlogistik</name>
+  </lecture>
+  <lecture>
+    <id>LGS</id>
+    <name>Logistikseminar</name>
+  </lecture>
+  <lecture>
+    <id>LGT</id>
+    <name>Logistik Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>LK</id>
+    <name>L&#xFC;ftungs- u. Klimatechnik</name>
+  </lecture>
+  <lecture>
+    <id>LL</id>
+    <name>Lehren und Lernen mit neuen Medien</name>
+  </lecture>
+  <lecture>
+    <id>LM</id>
+    <name>Logistikmanagement/Logistikkonzepte</name>
+  </lecture>
+  <lecture>
+    <id>LMB</id>
+    <name>Laseranwendung Materialbearbeitung</name>
+  </lecture>
+  <lecture>
+    <id>LMT</id>
+    <name>Laseranwendung Messtechnik</name>
+  </lecture>
+  <lecture>
+    <id>LN</id>
+    <name>Logistisches Netzwerk Management</name>
+  </lecture>
+  <lecture>
+    <id>LO</id>
+    <name>Laseroptik</name>
+  </lecture>
+  <lecture>
+    <id>LOL</id>
+    <name>Laseroptik Labor</name>
+  </lecture>
+  <lecture>
+    <id>L&#xD6;V</id>
+    <name>L&#xF6;sungsverfahren f&#xFC;r Strategiespiele</name>
+  </lecture>
+  <lecture>
+    <id>LP</id>
+    <name>Laserphysik</name>
+  </lecture>
+  <lecture>
+    <id>LPA</id>
+    <name>Logistik Planspiel</name>
+  </lecture>
+  <lecture>
+    <id>LPM</id>
+    <name>Lebenszyklusorientiertes Produktionsmananagement</name>
+  </lecture>
+  <lecture>
+    <id>LS</id>
+    <name>Logistische Spezialprobleme</name>
+  </lecture>
+  <lecture>
+    <id>LSI</id>
+    <name>Leit- und Sicherheitstechnik</name>
+  </lecture>
+  <lecture>
+    <id>LSV</id>
+    <name>Luftverkehr und Seeschiffahrt</name>
+  </lecture>
+  <lecture>
+    <id>LSY</id>
+    <name>Logistiksysteme</name>
+  </lecture>
+  <lecture>
+    <id>LTG</id>
+    <name>Lasertechnik Grundlagen</name>
+  </lecture>
+  <lecture>
+    <id>LTL</id>
+    <name>Lasertechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>LV</id>
+    <name>Lebensversicherungsmathematik</name>
+  </lecture>
+  <lecture>
+    <id>LZ</id>
+    <name>Lernzentrum</name>
+  </lecture>
+  <lecture>
+    <id>MA1</id>
+    <name>Mathematik 1</name>
+  </lecture>
+  <lecture>
+    <id>MA1L</id>
+    <name>Mathematik 1 Lerngruppe</name>
+  </lecture>
+  <lecture>
+    <id>MA1&#xDC;</id>
+    <name>Mathematik 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MA2</id>
+    <name>Mathematik 2</name>
+  </lecture>
+  <lecture>
+    <id>MA2L</id>
+    <name>Mathematik 2 Lerngruppe</name>
+  </lecture>
+  <lecture>
+    <id>MA2S</id>
+    <name>Mathematik 2 Seminar</name>
+  </lecture>
+  <lecture>
+    <id>MA2&#xDC;</id>
+    <name>Mathematik 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MA3</id>
+    <name>Mathematik 3</name>
+  </lecture>
+  <lecture>
+    <id>MA3&#xDC;</id>
+    <name>Mathematik 3 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MA4</id>
+    <name>Mathematik 4</name>
+  </lecture>
+  <lecture>
+    <id>MA4&#xDC;</id>
+    <name>Mathematik 4 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MAD</id>
+    <name>Maschinendesign</name>
+  </lecture>
+  <lecture>
+    <id>MAIT</id>
+    <name>Mass- und Integrationstheorie Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>MAL</id>
+    <name>Maschinenlabor</name>
+  </lecture>
+  <lecture>
+    <id>MALE</id>
+    <name>Machine Learning</name>
+  </lecture>
+  <lecture>
+    <id>MAP</id>
+    <name>Mathematisches Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>MAS1</id>
+    <name>Mathematisches Seminar 1</name>
+  </lecture>
+  <lecture>
+    <id>MAS2</id>
+    <name>Mathematisches Seminar 2</name>
+  </lecture>
+  <lecture>
+    <id>MASY</id>
+    <name>Multiagentensysteme</name>
+  </lecture>
+  <lecture>
+    <id>MAT</id>
+    <name>Mathematik Tutorenprogramm</name>
+  </lecture>
+  <lecture>
+    <id>MC</id>
+    <name>Mikrocomputertechnik</name>
+  </lecture>
+  <lecture>
+    <id>MCL</id>
+    <name>Mikrocomputertechnik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>MC&#xDC;</id>
+    <name>Microcomputertechnik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MD</id>
+    <name>Mediendesign</name>
+  </lecture>
+  <lecture>
+    <id>MDK1</id>
+    <name>Maschinendynamik 1, entspricht technischer Schwingungslehre</name>
+  </lecture>
+  <lecture>
+    <id>MDK2</id>
+    <name>Maschinendynamik 2</name>
+  </lecture>
+  <lecture>
+    <id>MDL</id>
+    <name>Me&#xDF;-Datenverarbeitung-Labor</name>
+  </lecture>
+  <lecture>
+    <id>MDP1</id>
+    <name>Mediale Projektphase 1</name>
+  </lecture>
+  <lecture>
+    <id>MDP1L</id>
+    <name>Mediale Projektphase 1 Labor</name>
+  </lecture>
+  <lecture>
+    <id>MDP2</id>
+    <name>Mediale Projektphase 2</name>
+  </lecture>
+  <lecture>
+    <id>ME</id>
+    <name>Maschinenelemente</name>
+  </lecture>
+  <lecture>
+    <id>ME1</id>
+    <name>Maschinenelemente 1</name>
+  </lecture>
+  <lecture>
+    <id>ME1&#xDC;</id>
+    <name>&#xDC;bungen Maschinenelemente 1</name>
+  </lecture>
+  <lecture>
+    <id>ME2</id>
+    <name>Maschinenelemente2</name>
+  </lecture>
+  <lecture>
+    <id>ME2C</id>
+    <name>Maschinenelemente 2  CAD</name>
+  </lecture>
+  <lecture>
+    <id>ME2C&#xDC;Maschinenelemente</id>
+    <name>2  CAD &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>ME2P</id>
+    <name>Maschinenelemente 2 Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>ME2&#xDC;</id>
+    <name>&#xDC;bungen Maschinenelemente 2</name>
+  </lecture>
+  <lecture>
+    <id>MEL1</id>
+    <name>Labor f&#xFC;r Mechatronik 1</name>
+  </lecture>
+  <lecture>
+    <id>MEL2</id>
+    <name>Labor f&#xFC;r Mechatronik 2</name>
+  </lecture>
+  <lecture>
+    <id>MEN</id>
+    <name>Mentoring</name>
+  </lecture>
+  <lecture>
+    <id>MEN1</id>
+    <name>Mentorenprogramm  1. Semester</name>
+  </lecture>
+  <lecture>
+    <id>MEN2</id>
+    <name>Mentorenprogramm  2. Semester</name>
+  </lecture>
+  <lecture>
+    <id>MEN3</id>
+    <name>Mentorenprogramm  3. Semester</name>
+  </lecture>
+  <lecture>
+    <id>MEN4</id>
+    <name>Mentorenprogramm  4. Semester</name>
+  </lecture>
+  <lecture>
+    <id>MEN5</id>
+    <name>Mentorenprogramm  5. Semester</name>
+  </lecture>
+  <lecture>
+    <id>MEN6</id>
+    <name>Mentorenprogramm  6. Semester</name>
+  </lecture>
+  <lecture>
+    <id>MEP</id>
+    <name>Medienpraktikum (3D,AV)</name>
+  </lecture>
+  <lecture>
+    <id>MF</id>
+    <name>Marktforschung</name>
+  </lecture>
+  <lecture>
+    <id>MFI</id>
+    <name>Major Fields of ICE Intercultural Competence</name>
+  </lecture>
+  <lecture>
+    <id>MFN</id>
+    <name>Materialflussplanung</name>
+  </lecture>
+  <lecture>
+    <id>MFO</id>
+    <name>Mikro- und Faseroptik</name>
+  </lecture>
+  <lecture>
+    <id>MFT1</id>
+    <name>Material- und Fertigungstechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>MFT2</id>
+    <name>Material- und Fertigungstechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>MFT2L</id>
+    <name>Material- und Fertigungstechnik 2 Labor</name>
+  </lecture>
+  <lecture>
+    <id>MFT3</id>
+    <name>Material- und Fertigungstechnik 3</name>
+  </lecture>
+  <lecture>
+    <id>MG</id>
+    <name>Marketing</name>
+  </lecture>
+  <lecture>
+    <id>MGF</id>
+    <name>Metallographie</name>
+  </lecture>
+  <lecture>
+    <id>MGFL</id>
+    <name>Metallographie Labor</name>
+  </lecture>
+  <lecture>
+    <id>MGM</id>
+    <name>Marketing Management</name>
+  </lecture>
+  <lecture>
+    <id>MGMM</id>
+    <name>Mediengestaltung / Multimadia</name>
+  </lecture>
+  <lecture>
+    <id>MI</id>
+    <name>Management von IT-Projekten</name>
+  </lecture>
+  <lecture>
+    <id>MIV</id>
+    <name>Mittwochsvorlesung Hr. Feyerabend</name>
+  </lecture>
+  <lecture>
+    <id>MIW</id>
+    <name>Mikrowellentechnik</name>
+  </lecture>
+  <lecture>
+    <id>MK</id>
+    <name>Metallkunde</name>
+  </lecture>
+  <lecture>
+    <id>MK1</id>
+    <name>Metallkunde 1</name>
+  </lecture>
+  <lecture>
+    <id>MK2</id>
+    <name>Metallkunde 2</name>
+  </lecture>
+  <lecture>
+    <id>MKI</id>
+    <name>Marketing Kommunikation im Internet</name>
+  </lecture>
+  <lecture>
+    <id>MKI&#xDC;</id>
+    <name>Marketing Kommunikation im Internet &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MKL</id>
+    <name>Metallkunde Labor</name>
+  </lecture>
+  <lecture>
+    <id>ML</id>
+    <name>Medienpsychologie und Arbeitsmethodik(MIB)</name>
+  </lecture>
+  <lecture>
+    <id>MLL</id>
+    <name>Lab. zur Medienpsychologie (MIB)</name>
+  </lecture>
+  <lecture>
+    <id>MM</id>
+    <name>Marketing Mix</name>
+  </lecture>
+  <lecture>
+    <id>MMT</id>
+    <name>Mathematische Modellierung technischer Systeme</name>
+  </lecture>
+  <lecture>
+    <id>MMT&#xDC;</id>
+    <name>Mathematische Modellierung technischer Systeme &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MN</id>
+    <name>Meetings and Negociations in English</name>
+  </lecture>
+  <lecture>
+    <id>MOW</id>
+    <name>Mobile Anwendungen</name>
+  </lecture>
+  <lecture>
+    <id>MOWP</id>
+    <name>Mobile Anwendungen Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>MP</id>
+    <name>Management von Gro&#xDF;projekten</name>
+  </lecture>
+  <lecture>
+    <id>MPM</id>
+    <name>Medienprojekt - Management</name>
+  </lecture>
+  <lecture>
+    <id>MPRP</id>
+    <name>Mathematische Programmierung Projekt</name>
+  </lecture>
+  <lecture>
+    <id>MPRS</id>
+    <name>Mathematische Programmierung Seminar</name>
+  </lecture>
+  <lecture>
+    <id>MR</id>
+    <name>Mess- u. Regelungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>MRT</id>
+    <name>Mikro Rechner (Controller) Technik</name>
+  </lecture>
+  <lecture>
+    <id>MRTL</id>
+    <name>Mikro Rechner Technik Labor</name>
+  </lecture>
+  <lecture>
+    <id>MRT&#xDC;</id>
+    <name>Mikro Rechner Technik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MS</id>
+    <name>Mechatronische Systeme</name>
+  </lecture>
+  <lecture>
+    <id>MSA</id>
+    <name>Mess- und Sensortechnik</name>
+  </lecture>
+  <lecture>
+    <id>MSAL</id>
+    <name>Mess- und Sensortechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>MSE</id>
+    <name>Modellgetriebene  Software Entwicklung</name>
+  </lecture>
+  <lecture>
+    <id>MSI</id>
+    <name>Modellbildung und Simulation Technischer Systeme</name>
+  </lecture>
+  <lecture>
+    <id>MSIL</id>
+    <name>Modellbildung und Simulation Technischer Systeme Labor</name>
+  </lecture>
+  <lecture>
+    <id>MSIP</id>
+    <name>Modellbildung und Simulation Technischer Systeme  Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>MSIPS</id>
+    <name>Modellb. und Sim. Technischer Systeme Praktikum( Seminar)</name>
+  </lecture>
+  <lecture>
+    <id>MSK</id>
+    <name>MATLAB Simulink and Stateflow in Digital Communications</name>
+  </lecture>
+  <lecture>
+    <id>MSN</id>
+    <name>Maschinelles Sehen (Identisch zu IBV2)</name>
+  </lecture>
+  <lecture>
+    <id>MSR</id>
+    <name>Mess- Steuer- und Regelungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>MSRE</id>
+    <name>Elektroinstallations-, Mess-, Steuerungs-, Regelungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>MSREL</id>
+    <name>Labor Elektroins. sowie Mess-, Steuerungs-, Regelungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>MSRL</id>
+    <name>Mess- Steuer- und Regelungstechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>MST</id>
+    <name>Mathematische Strukturen</name>
+  </lecture>
+  <lecture>
+    <id>MST&#xDC;</id>
+    <name>Mathematische Strukturen &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>MSW</id>
+    <name>Mathematische Software</name>
+  </lecture>
+  <lecture>
+    <id>MSY</id>
+    <name>Maschinen Systemtechnik</name>
+  </lecture>
+  <lecture>
+    <id>MT</id>
+    <name>Messtechnik</name>
+  </lecture>
+  <lecture>
+    <id>MT1</id>
+    <name>Messtechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>MT2</id>
+    <name>Messtechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>MTG</id>
+    <name>Grundlagen der Medientechnik</name>
+  </lecture>
+  <lecture>
+    <id>MTGL</id>
+    <name>Grundlagen der Medientechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>MTK</id>
+    <name>Spezielle Methoden derTarifkalkulation</name>
+  </lecture>
+  <lecture>
+    <id>MTL</id>
+    <name>Me&#xDF;technik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>MT&#xDC;</id>
+    <name>Me&#xDF;technik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MV1</id>
+    <name>Modellierung virtueller Welten 1</name>
+  </lecture>
+  <lecture>
+    <id>MV1&#xDC;</id>
+    <name>Modellierung virtueller Welten 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>MV2</id>
+    <name>Modellbildung virtueller Welten 2</name>
+  </lecture>
+  <lecture>
+    <id>MW</id>
+    <name>Methoden / Wissenschaftliches Arbeiten</name>
+  </lecture>
+  <lecture>
+    <id>MW1</id>
+    <name>Methoden / Wissenschaftliches Arbeiten 1</name>
+  </lecture>
+  <lecture>
+    <id>MW2</id>
+    <name>Methoden / Wissenschaftliches Arbeiten 2</name>
+  </lecture>
+  <lecture>
+    <id>MWK</id>
+    <name>Materialwissenschaft und Werkstoffkunde</name>
+  </lecture>
+  <lecture>
+    <id>ND</id>
+    <name>Nachrichtentechnik und Datennetze</name>
+  </lecture>
+  <lecture>
+    <id>NE1</id>
+    <name>Nichteisenmetalle / Leichtmetalle</name>
+  </lecture>
+  <lecture>
+    <id>NE2</id>
+    <name>Nichteisenmetalle/ Refrakter- und Edelmetalle</name>
+  </lecture>
+  <lecture>
+    <id>NE3</id>
+    <name>Nichteisenmetalle 3/ Schwermetalle</name>
+  </lecture>
+  <lecture>
+    <id>NG</id>
+    <name>Naturwissenschaftliche Grundlagen</name>
+  </lecture>
+  <lecture>
+    <id>NG&#xDC;</id>
+    <name>&#xDC;bungen zu Natw. Grundl.</name>
+  </lecture>
+  <lecture>
+    <id>NH</id>
+    <name>Nachhaltigkeitsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>NI</id>
+    <name>Nationale Immobilienm&#xE4;rkte</name>
+  </lecture>
+  <lecture>
+    <id>NM1</id>
+    <name>Numerische Mathematik  1</name>
+  </lecture>
+  <lecture>
+    <id>NM1S</id>
+    <name>Numerische Mathematik 1 Seminar</name>
+  </lecture>
+  <lecture>
+    <id>NM2</id>
+    <name>Numerische Mathematik  2</name>
+  </lecture>
+  <lecture>
+    <id>NM2&#xDC;</id>
+    <name>Numerische Mathematik  2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>NMA</id>
+    <name>Nachhaltigkeitsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>NMC</id>
+    <name>Organische Chemie</name>
+  </lecture>
+  <lecture>
+    <id>NMF</id>
+    <name>Naturwissenschaften f&#xFC;r Material und Fertigungstechnologien</name>
+  </lecture>
+  <lecture>
+    <id>NMO</id>
+    <name>Neue Medien und On Screen Anwendungen</name>
+  </lecture>
+  <lecture>
+    <id>NT</id>
+    <name>Nachrichtentechnik</name>
+  </lecture>
+  <lecture>
+    <id>NW1</id>
+    <name>Naturwissenschaften f&#xFC;r Ingenieure 1</name>
+  </lecture>
+  <lecture>
+    <id>NW1&#xDC;</id>
+    <name>Naturwissenschaften f&#xFC;r Ingenieure 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>NW2</id>
+    <name>Naturwissenschaften f&#xFC;r Ingenieure 2</name>
+  </lecture>
+  <lecture>
+    <id>OA</id>
+    <name>Office Anwendungssysteme</name>
+  </lecture>
+  <lecture>
+    <id>OB</id>
+    <name>Organisational Behaviour</name>
+  </lecture>
+  <lecture>
+    <id>OBB</id>
+    <name>Oberbau</name>
+  </lecture>
+  <lecture>
+    <id>OC</id>
+    <name>Optical Comm. and Waveguides</name>
+  </lecture>
+  <lecture>
+    <id>OCS</id>
+    <name>Seminar  zu OC</name>
+  </lecture>
+  <lecture>
+    <id>OF</id>
+    <name>Organisation u. F&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>OFC</id>
+    <name>Optical Fibre Communications (neu statt OC; WS 2011)</name>
+  </lecture>
+  <lecture>
+    <id>OFM</id>
+    <name>Operatives und strategisches Facility Management</name>
+  </lecture>
+  <lecture>
+    <id>&#xD6;K</id>
+    <name>&#xD6;kobilanzierung</name>
+  </lecture>
+  <lecture>
+    <id>OL</id>
+    <name>Organisationslehre</name>
+  </lecture>
+  <lecture>
+    <id>OLB</id>
+    <name>Offenes Labor</name>
+  </lecture>
+  <lecture>
+    <id>ON</id>
+    <name>Optische Nachrichtentechnik</name>
+  </lecture>
+  <lecture>
+    <id>ONL</id>
+    <name>Labor zu opt. Nachrichtentechnik</name>
+  </lecture>
+  <lecture>
+    <id>OO</id>
+    <name>Object-oriented Programming (ICM)</name>
+  </lecture>
+  <lecture>
+    <id>OP</id>
+    <name>Objektorientierte Programmierung</name>
+  </lecture>
+  <lecture>
+    <id>OPE</id>
+    <name>Organisations- und Personalstrategien</name>
+  </lecture>
+  <lecture>
+    <id>OPL</id>
+    <name>Labor zur Objektorientierte Programmierung</name>
+  </lecture>
+  <lecture>
+    <id>&#xD6;PN</id>
+    <name>&#xD6;ffentlicher Personen Nahverkehr</name>
+  </lecture>
+  <lecture>
+    <id>OP&#xDC;</id>
+    <name>Objektorientierte Programmierung  &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>OR</id>
+    <name>Operations Reserch</name>
+  </lecture>
+  <lecture>
+    <id>OR1</id>
+    <name>Operations Research 1</name>
+  </lecture>
+  <lecture>
+    <id>OR1&#xDC;</id>
+    <name>Operations Research 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>OR2</id>
+    <name>Operations Research 2</name>
+  </lecture>
+  <lecture>
+    <id>OR&#xDC;</id>
+    <name>Operations Research &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>OS</id>
+    <name>OR - stochastische Methoden</name>
+  </lecture>
+  <lecture>
+    <id>OSN</id>
+    <name>OR Nichtlineare und stochastische Methoden</name>
+  </lecture>
+  <lecture>
+    <id>OSN&#xDC;</id>
+    <name>OR Nichtlineare und stochastische Methoden &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>OT</id>
+    <name>Orientierung</name>
+  </lecture>
+  <lecture>
+    <id>PA</id>
+    <name>Privat- und Arbeitsrecht</name>
+  </lecture>
+  <lecture>
+    <id>PAB</id>
+    <name>Projektarbeit/ Seminar</name>
+  </lecture>
+  <lecture>
+    <id>PB</id>
+    <name>Produktions- und Beschaffungslogistik</name>
+  </lecture>
+  <lecture>
+    <id>PC</id>
+    <name>Physikalische Chemie</name>
+  </lecture>
+  <lecture>
+    <id>PCA</id>
+    <name>Physikalisch -Chemische Analysen</name>
+  </lecture>
+  <lecture>
+    <id>PCAL</id>
+    <name>Physikalisch -chemische Analysen Labor</name>
+  </lecture>
+  <lecture>
+    <id>PCL</id>
+    <name>Labor zur phys. Chemie</name>
+  </lecture>
+  <lecture>
+    <id>PCM</id>
+    <name>Physikalisch -chemische Materialuntersuchung</name>
+  </lecture>
+  <lecture>
+    <id>PCML</id>
+    <name>Lab. Phys.-chem. Materialuntersuchung</name>
+  </lecture>
+  <lecture>
+    <id>PCTK</id>
+    <name>Physikalisch Technische Thermodynamik</name>
+  </lecture>
+  <lecture>
+    <id>PDG</id>
+    <name>Partielle Differenzialgleichungen</name>
+  </lecture>
+  <lecture>
+    <id>PET</id>
+    <name>Projekt Elektrotechnik</name>
+  </lecture>
+  <lecture>
+    <id>PG</id>
+    <name>Einf&#xFC;hrung in die Programmierung (Grundlagen) TI, MI, MA</name>
+  </lecture>
+  <lecture>
+    <id>PG1</id>
+    <name>Programmierung 1</name>
+  </lecture>
+  <lecture>
+    <id>PG1&#xDC;</id>
+    <name>Programmierung 1 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>PGP</id>
+    <name>Praktikum zu Einf&#xFC;hrung in die Programmierung</name>
+  </lecture>
+  <lecture>
+    <id>PH</id>
+    <name>Physik f&#xFC;r ME, WI</name>
+  </lecture>
+  <lecture>
+    <id>PH1</id>
+    <name>Physik 1</name>
+  </lecture>
+  <lecture>
+    <id>PH2</id>
+    <name>Physik 2</name>
+  </lecture>
+  <lecture>
+    <id>PH3</id>
+    <name>Physik 3 f&#xFC;r PT</name>
+  </lecture>
+  <lecture>
+    <id>PHA1</id>
+    <name>Angewandte Physik 1</name>
+  </lecture>
+  <lecture>
+    <id>PHA2</id>
+    <name>Angewandte Physik 2</name>
+  </lecture>
+  <lecture>
+    <id>PHAL</id>
+    <name>Labor Angewandte Physik</name>
+  </lecture>
+  <lecture>
+    <id>PHE1</id>
+    <name>Experimentalphysik 1</name>
+  </lecture>
+  <lecture>
+    <id>PHE2</id>
+    <name>Experimentalphysik 2</name>
+  </lecture>
+  <lecture>
+    <id>PHG2</id>
+    <name>Grundlagen der Physik 2</name>
+  </lecture>
+  <lecture>
+    <id>PHL</id>
+    <name>Physik-Labor</name>
+  </lecture>
+  <lecture>
+    <id>PHL1</id>
+    <name>Physik-Labor 1</name>
+  </lecture>
+  <lecture>
+    <id>PHL2</id>
+    <name>Physik-Labor 2</name>
+  </lecture>
+  <lecture>
+    <id>PHL3</id>
+    <name>Physik-Labor 3</name>
+  </lecture>
+  <lecture>
+    <id>PHMA</id>
+    <name>Physikalische Erg&#xE4;nzungen zur Mathematik</name>
+  </lecture>
+  <lecture>
+    <id>PHS</id>
+    <name>Physikalisches Seminar</name>
+  </lecture>
+  <lecture>
+    <id>PHSG</id>
+    <name>Spezielle Gebiete der Physik</name>
+  </lecture>
+  <lecture>
+    <id>PHT</id>
+    <name>Physik Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>PHW</id>
+    <name>Prozessor Hardware mit VHDL</name>
+  </lecture>
+  <lecture>
+    <id>PI</id>
+    <name>Produktinnovation</name>
+  </lecture>
+  <lecture>
+    <id>PIA</id>
+    <name>Programmierung interaktiver Systeme</name>
+  </lecture>
+  <lecture>
+    <id>PIAP</id>
+    <name>Programmierung interaktiver Systeme Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>PIP</id>
+    <name>Projekt: Produktinnovation</name>
+  </lecture>
+  <lecture>
+    <id>PK</id>
+    <name>Probleml&#xF6;sungsmetoden und Kommunikationstechniken</name>
+  </lecture>
+  <lecture>
+    <id>PK1</id>
+    <name>Pr&#xE4;sentation/Kommunikation 1</name>
+  </lecture>
+  <lecture>
+    <id>PK2</id>
+    <name>Pr&#xE4;sentation/Kommunikation 2</name>
+  </lecture>
+  <lecture>
+    <id>PL</id>
+    <name>Produktionslogistik</name>
+  </lecture>
+  <lecture>
+    <id>PLA</id>
+    <name>Planung, auch Planungsgrundlagen</name>
+  </lecture>
+  <lecture>
+    <id>PM</id>
+    <name>Projektmanagement (AE,ME,M)</name>
+  </lecture>
+  <lecture>
+    <id>PMA</id>
+    <name>Personalmanagement und Arbeitsrecht</name>
+  </lecture>
+  <lecture>
+    <id>PME</id>
+    <name>Programmierung Mathematischer Probleme</name>
+  </lecture>
+  <lecture>
+    <id>PMT</id>
+    <name>Projektmanagement Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>PMTS</id>
+    <name>Praktikum Modellbildung Technischer Systeme Seminar</name>
+  </lecture>
+  <lecture>
+    <id>PM&#xDC;</id>
+    <name>&#xDC;bungen zum Projektmanagement</name>
+  </lecture>
+  <lecture>
+    <id>PN</id>
+    <name>Pneumatik</name>
+  </lecture>
+  <lecture>
+    <id>PO</id>
+    <name>Personal und Organisation</name>
+  </lecture>
+  <lecture>
+    <id>POE</id>
+    <name>Prozessorientierte Organisationsentwicklung</name>
+  </lecture>
+  <lecture>
+    <id>POM</id>
+    <name>Portfolio Management</name>
+  </lecture>
+  <lecture>
+    <id>POT</id>
+    <name>Photonics</name>
+  </lecture>
+  <lecture>
+    <id>POW</id>
+    <name>Polymerwerkstoffe</name>
+  </lecture>
+  <lecture>
+    <id>POWL</id>
+    <name>Polymerwerkstoffe Labor</name>
+  </lecture>
+  <lecture>
+    <id>PP</id>
+    <name>Problemorientierte Programmierung</name>
+  </lecture>
+  <lecture>
+    <id>PPA</id>
+    <name>Produktionsplanung und -steuerung</name>
+  </lecture>
+  <lecture>
+    <id>PPA&#xDC;</id>
+    <name>Produktionsplanung und -steuerung &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>PPL</id>
+    <name>Labor f&#xFC;r problemorientierte Programmierung</name>
+  </lecture>
+  <lecture>
+    <id>PPL2</id>
+    <name>Labor f&#xFC;r problemorientierte Programmierung 2</name>
+  </lecture>
+  <lecture>
+    <id>PPM</id>
+    <name>Projektplanung und -management</name>
+  </lecture>
+  <lecture>
+    <id>PPOM</id>
+    <name>Projektprogramm / Portfoliomanagement</name>
+  </lecture>
+  <lecture>
+    <id>PPR</id>
+    <name>Parallelprogrammierung mit CUDA</name>
+  </lecture>
+  <lecture>
+    <id>PPS</id>
+    <name>Produktionsplanung und -steuerung, Prozessmanagement</name>
+  </lecture>
+  <lecture>
+    <id>PQM</id>
+    <name>Einf. in Projekt- und Qualit&#xE4;tsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>PR</id>
+    <name>Privatrecht</name>
+  </lecture>
+  <lecture>
+    <id>PRA</id>
+    <name>Prozessmanagement mit ARIS</name>
+  </lecture>
+  <lecture>
+    <id>PRA&#xDC;</id>
+    <name>Prozessmanagement mit ARIS &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>PRH</id>
+    <name>Projektphase</name>
+  </lecture>
+  <lecture>
+    <id>PRM</id>
+    <name/>
+  </lecture>
+  <lecture>
+    <id>PRO</id>
+    <name>Pro-Seminar</name>
+  </lecture>
+  <lecture>
+    <id>PRT</id>
+    <name>Pr&#xE4;sentationstechniken</name>
+  </lecture>
+  <lecture>
+    <id>PS</id>
+    <name>Portfolio Selection Derivate und Risiko</name>
+  </lecture>
+  <lecture>
+    <id>PSS</id>
+    <name>Projektseminar</name>
+  </lecture>
+  <lecture>
+    <id>PSW</id>
+    <name>Partikel- und Schichtverbundwerkstoffe</name>
+  </lecture>
+  <lecture>
+    <id>PSYS</id>
+    <name>Psychologie im Beruf Seminar</name>
+  </lecture>
+  <lecture>
+    <id>PT</id>
+    <name>Produktionstechnologie</name>
+  </lecture>
+  <lecture>
+    <id>PTL</id>
+    <name>Labor z. Produktionstechnologie</name>
+  </lecture>
+  <lecture>
+    <id>PUD</id>
+    <name>Pr&#xE4;sentieren und Dokumentieren</name>
+  </lecture>
+  <lecture>
+    <id>PUG</id>
+    <name>Pr&#xE4;sentieren und Gestalten</name>
+  </lecture>
+  <lecture>
+    <id>PV</id>
+    <name>Pulvertechnologie</name>
+  </lecture>
+  <lecture>
+    <id>PVA</id>
+    <name>Private Verm&#xF6;gensanalyse und planung</name>
+  </lecture>
+  <lecture>
+    <id>PVN</id>
+    <name>Personenversicherungen</name>
+  </lecture>
+  <lecture>
+    <id>PW</id>
+    <name>Personalwesen</name>
+  </lecture>
+  <lecture>
+    <id>PWA</id>
+    <name>Projektorientiertes wissenschaftliches Arbeiten</name>
+  </lecture>
+  <lecture>
+    <id>PWI</id>
+    <name>Personalwirtschaft (WI)</name>
+  </lecture>
+  <lecture>
+    <id>PZM</id>
+    <name>Prozessmanagement</name>
+  </lecture>
+  <lecture>
+    <id>QM</id>
+    <name>Qualit&#xE4;tsmanagement f&#xFC;r MIM, M</name>
+  </lecture>
+  <lecture>
+    <id>QM2</id>
+    <name>Qualit&#xE4;tsmanagement 2</name>
+  </lecture>
+  <lecture>
+    <id>QUM</id>
+    <name>QM- UM- Sicherheitsmgmt,  IMA Integrierte Mgmtsysteme</name>
+  </lecture>
+  <lecture>
+    <id>RA</id>
+    <name>Rechnerarchitektur</name>
+  </lecture>
+  <lecture>
+    <id>RAK</id>
+    <name>Rationalisierungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>RAL</id>
+    <name>Rechnerarchitektur Labor</name>
+  </lecture>
+  <lecture>
+    <id>RA&#xDC;</id>
+    <name>Rechnerarchitektur &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>RC</id>
+    <name>Reading and Conferences</name>
+  </lecture>
+  <lecture>
+    <id>RD</id>
+    <name>Regelung dynamischer Systeme</name>
+  </lecture>
+  <lecture>
+    <id>RE</id>
+    <name>Recht</name>
+  </lecture>
+  <lecture>
+    <id>REML</id>
+    <name>Rasterelektronenmikroskop-Labor</name>
+  </lecture>
+  <lecture>
+    <id>RG</id>
+    <name>Rechtsgrundlagen (auch PA)</name>
+  </lecture>
+  <lecture>
+    <id>RGT</id>
+    <name>Regelungstechnik f&#xFC;r Geb&#xE4;ude</name>
+  </lecture>
+  <lecture>
+    <id>RIV</id>
+    <name>Realisierung interaktiver Videos, Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>RIVS</id>
+    <name>Seminar zur Real. interak. Videos, Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>RL</id>
+    <name>Rechtslehre (Einf. in die Rechtswissensch)</name>
+  </lecture>
+  <lecture>
+    <id>RM</id>
+    <name>Risc Management</name>
+  </lecture>
+  <lecture>
+    <id>RML</id>
+    <name>Retail Management and Logistics</name>
+  </lecture>
+  <lecture>
+    <id>RN1</id>
+    <name>Rechnernetzwerktechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>RN1L</id>
+    <name>Rechnernetzwerktechnik 1 -Labor</name>
+  </lecture>
+  <lecture>
+    <id>RN2</id>
+    <name>Rechnernetzwerktechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>RN2L</id>
+    <name>Rechnernetzwerktechnik 2 -Labor</name>
+  </lecture>
+  <lecture>
+    <id>RNG</id>
+    <name>Rechnernetzwerke Gundlagen</name>
+  </lecture>
+  <lecture>
+    <id>RNP</id>
+    <name>Rechnernetzwerke Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>RNS</id>
+    <name>Rechnernetzwerke Seminar</name>
+  </lecture>
+  <lecture>
+    <id>RO</id>
+    <name>Robotik</name>
+  </lecture>
+  <lecture>
+    <id>RP</id>
+    <name>Rapid Control Prototyping</name>
+  </lecture>
+  <lecture>
+    <id>RQ</id>
+    <name>Requirements Engineering</name>
+  </lecture>
+  <lecture>
+    <id>RSAL</id>
+    <name>Labor f&#xFC;r Robotik, Sensorik, Aktorik</name>
+  </lecture>
+  <lecture>
+    <id>RT</id>
+    <name>Regelungstechnik (und Systemtheorie)</name>
+  </lecture>
+  <lecture>
+    <id>RT1</id>
+    <name>Regelungstechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>RT1&#xDC;</id>
+    <name>Regelungstechnik 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>RT2</id>
+    <name>Regelungstechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>RTL</id>
+    <name>Regelungstechnik 1 Labor</name>
+  </lecture>
+  <lecture>
+    <id>RUP</id>
+    <name>Rechnerunterst&#xFC;tzung im Produktentstehungsprozess</name>
+  </lecture>
+  <lecture>
+    <id>RW</id>
+    <name>Rechnungswesen</name>
+  </lecture>
+  <lecture>
+    <id>RW1</id>
+    <name>Externes Rechnungswesen</name>
+  </lecture>
+  <lecture>
+    <id>RW1T</id>
+    <name>Externes Rechnungswesen Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>RW2</id>
+    <name>Internes Rechnungswesen</name>
+  </lecture>
+  <lecture>
+    <id>RW2T</id>
+    <name>Internes Rechnungswesen Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>RW3</id>
+    <name>Internes und externes Rechnungswesen</name>
+  </lecture>
+  <lecture>
+    <id>RW3&#xDC;</id>
+    <name>Internes und externes Rechnungswesen &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>RW&#xDC;</id>
+    <name>Rechnungswesen &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>SA</id>
+    <name>Sensoren, Aktoren (und Feldbusse)</name>
+  </lecture>
+  <lecture>
+    <id>SAG</id>
+    <name>Software- Architektur und Anwendungsentwicklung (WK, MI)</name>
+  </lecture>
+  <lecture>
+    <id>SAGP</id>
+    <name>Software- Architektur und Anwendungsentwicklung Projekt</name>
+  </lecture>
+  <lecture>
+    <id>SAG&#xDC;</id>
+    <name>Software- Architektur und Anwendungsentwicklung  &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>SAI</id>
+    <name>Sanit&#xE4;rinstallation (FM)</name>
+  </lecture>
+  <lecture>
+    <id>SAK</id>
+    <name>Simulation und Analyse Kommunikationssysteme</name>
+  </lecture>
+  <lecture>
+    <id>SAPA</id>
+    <name>Entwicklung komplexer SAP Anwendungen</name>
+  </lecture>
+  <lecture>
+    <id>SB</id>
+    <name>Semantic Web</name>
+  </lecture>
+  <lecture>
+    <id>SBF</id>
+    <name>Sensoren und Bussysteme im Fahrzeug</name>
+  </lecture>
+  <lecture>
+    <id>SBG</id>
+    <name>Smart Buildings</name>
+  </lecture>
+  <lecture>
+    <id>SBU</id>
+    <name>Sales and Distribution</name>
+  </lecture>
+  <lecture>
+    <id>SC</id>
+    <name>Supply Chain Management</name>
+  </lecture>
+  <lecture>
+    <id>SCCO</id>
+    <name>Supply Chain Controlling</name>
+  </lecture>
+  <lecture>
+    <id>SCIK</id>
+    <name>IuK-Technologien in der Supply Chain</name>
+  </lecture>
+  <lecture>
+    <id>SCK</id>
+    <name>Schaltungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>SCO</id>
+    <name>Strategisches Controlling</name>
+  </lecture>
+  <lecture>
+    <id>SCW</id>
+    <name>Guidance to Scientific Writing (Project Work)</name>
+  </lecture>
+  <lecture>
+    <id>SD</id>
+    <name>Sicherheitsdienste</name>
+  </lecture>
+  <lecture>
+    <id>SDI</id>
+    <name>Sprachdialogsysteme</name>
+  </lecture>
+  <lecture>
+    <id>SDN</id>
+    <name>Sicherheit in Datennetzen</name>
+  </lecture>
+  <lecture>
+    <id>SDY</id>
+    <name>Systemdynamik (Identisch zu ET 3)</name>
+  </lecture>
+  <lecture>
+    <id>SDY&#xDC;</id>
+    <name>Systemdynamik &#xDC;bung(Identisch zu</name>
+  </lecture>
+  <lecture>
+    <id>SE</id>
+    <name>Software- Ergonomie</name>
+  </lecture>
+  <lecture>
+    <id>SEA</id>
+    <name>Simulation elektrischer Antriebe</name>
+  </lecture>
+  <lecture>
+    <id>SEB</id>
+    <name>Software Ergonomie und graphische Benutzeroberfl&#xE4;chen</name>
+  </lecture>
+  <lecture>
+    <id>SEB&#xDC;</id>
+    <name>Software Erg. und gr.  Benutzeroberfl&#xE4;chen &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>SEE</id>
+    <name>Social Environment and ECollaboration</name>
+  </lecture>
+  <lecture>
+    <id>SEL</id>
+    <name>Lab. zu Software- Ergonomie</name>
+  </lecture>
+  <lecture>
+    <id>SEM</id>
+    <name>Seminar</name>
+  </lecture>
+  <lecture>
+    <id>SET</id>
+    <name>Sonderkapitel der Elektrotechnik</name>
+  </lecture>
+  <lecture>
+    <id>SE&#xDC;</id>
+    <name>Software- Ergonomie &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>SEW</id>
+    <name>Simulation im Entwicklungsprozess technischer Systeme</name>
+  </lecture>
+  <lecture>
+    <id>SFM</id>
+    <name>Simulation in der Fluidmechanik</name>
+  </lecture>
+  <lecture>
+    <id>SG</id>
+    <name>Sichere Gesch&#xE4;ftsprozesse, Kryptogr.</name>
+  </lecture>
+  <lecture>
+    <id>SG2</id>
+    <name>Sichere Gesch&#xE4;ftsprozesse 2</name>
+  </lecture>
+  <lecture>
+    <id>SGL</id>
+    <name>Sichere Gesch&#xE4;ftsprozesse, Kryptogr. Labor</name>
+  </lecture>
+  <lecture>
+    <id>SGS</id>
+    <name>Seminar zu Sichere Gesch&#xE4;ftsprozesse</name>
+  </lecture>
+  <lecture>
+    <id>SGV</id>
+    <name>Stra&#xDF;en- und Schieneng&#xFC;terverkehr</name>
+  </lecture>
+  <lecture>
+    <id>SI</id>
+    <name>Simulation</name>
+  </lecture>
+  <lecture>
+    <id>SIL</id>
+    <name>Simulation Labor</name>
+  </lecture>
+  <lecture>
+    <id>SiM</id>
+    <name>STEPinM</name>
+  </lecture>
+  <lecture>
+    <id>SIP</id>
+    <name>Simulation Projekt</name>
+  </lecture>
+  <lecture>
+    <id>SI&#xDC;</id>
+    <name>Simulation &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>SK</id>
+    <name>Schadenskunde</name>
+  </lecture>
+  <lecture>
+    <id>SKA</id>
+    <name>Steuerungstechnik im Automobilbau</name>
+  </lecture>
+  <lecture>
+    <id>SKM</id>
+    <name>Sensorik und Messtechnik</name>
+  </lecture>
+  <lecture>
+    <id>SKO</id>
+    <name>Soziale Kompetenz</name>
+  </lecture>
+  <lecture>
+    <id>SL</id>
+    <name>Spezielle Themen aus der Logistik</name>
+  </lecture>
+  <lecture>
+    <id>SM</id>
+    <name>Project and Strategic Management</name>
+  </lecture>
+  <lecture>
+    <id>SMA1</id>
+    <name>Str&#xF6;mungsmaschinen 1</name>
+  </lecture>
+  <lecture>
+    <id>SMA2</id>
+    <name>Str&#xF6;mungsmaschinen 2</name>
+  </lecture>
+  <lecture>
+    <id>SMG</id>
+    <name>Service Management</name>
+  </lecture>
+  <lecture>
+    <id>SMK</id>
+    <name>Stochastische Modelle in der Schadenskunde</name>
+  </lecture>
+  <lecture>
+    <id>SMN</id>
+    <name>Simulatoren</name>
+  </lecture>
+  <lecture>
+    <id>SMT</id>
+    <name>Spezielle Elektrische Messtechnik</name>
+  </lecture>
+  <lecture>
+    <id>SN</id>
+    <name>Sprachanwendungen</name>
+  </lecture>
+  <lecture>
+    <id>SNP</id>
+    <name>Sprachanwendungen Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>SO</id>
+    <name>Software Tools</name>
+  </lecture>
+  <lecture>
+    <id>SP1</id>
+    <name>Spanisch 1</name>
+  </lecture>
+  <lecture>
+    <id>SP2</id>
+    <name>Spanisch 2</name>
+  </lecture>
+  <lecture>
+    <id>SP3</id>
+    <name>Spanisch 3</name>
+  </lecture>
+  <lecture>
+    <id>SPA</id>
+    <name>Strategische Management Planung</name>
+  </lecture>
+  <lecture>
+    <id>SPB</id>
+    <name>Spanisch f&#xFC;r den Beruf</name>
+  </lecture>
+  <lecture>
+    <id>SPG</id>
+    <name>Sprachverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>SPSM</id>
+    <name>Sustainable Procurement and Supplier Management</name>
+  </lecture>
+  <lecture>
+    <id>SPT</id>
+    <name>Spieltheorie</name>
+  </lecture>
+  <lecture>
+    <id>SRO</id>
+    <name>Strukturoptimierung</name>
+  </lecture>
+  <lecture>
+    <id>SSI</id>
+    <name>Sensor - Signalverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>SSI&#xDC;</id>
+    <name>Sensor - Signalverarbeitung &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>SSW</id>
+    <name>Standard Softwaresysteme (in der Logistik)</name>
+  </lecture>
+  <lecture>
+    <id>SSY</id>
+    <name>Signale und Systeme (der Nachrichtentechnik; statt KN1)</name>
+  </lecture>
+  <lecture>
+    <id>SSY&#xDC;</id>
+    <name>Signale und Systeme &#xDC;bung (der Nachrichtentechnik; statt KN1)</name>
+  </lecture>
+  <lecture>
+    <id>ST1</id>
+    <name>Sensortechnik 1</name>
+  </lecture>
+  <lecture>
+    <id>ST2</id>
+    <name>Sensortechnik 2</name>
+  </lecture>
+  <lecture>
+    <id>STA</id>
+    <name>Statistik</name>
+  </lecture>
+  <lecture>
+    <id>STA&#xDC;</id>
+    <name>Statistik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>STE</id>
+    <name>(Unternehmens-) Steuern</name>
+  </lecture>
+  <lecture>
+    <id>STG</id>
+    <name>Simulationstechnik in der Logistik</name>
+  </lecture>
+  <lecture>
+    <id>STG&#xDC;</id>
+    <name>&#xDC;bungen zur Simulationstechnik in der Logistik</name>
+  </lecture>
+  <lecture>
+    <id>STI</id>
+    <name>Studiengangsinformation TI Studierende</name>
+  </lecture>
+  <lecture>
+    <id>STK</id>
+    <name>Steuerungstechnik im Maschinenbau</name>
+  </lecture>
+  <lecture>
+    <id>STM</id>
+    <name>Strategisches Management</name>
+  </lecture>
+  <lecture>
+    <id>STO</id>
+    <name>Stochastik</name>
+  </lecture>
+  <lecture>
+    <id>STO2</id>
+    <name>Stochastik 2</name>
+  </lecture>
+  <lecture>
+    <id>STO2&#xDC;</id>
+    <name>Stochastik 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>STO&#xDC;</id>
+    <name>Stochastik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>STPRA</id>
+    <name>Stochastische Prozesse A</name>
+  </lecture>
+  <lecture>
+    <id>STPRB</id>
+    <name>Stochastische Prozesse B</name>
+  </lecture>
+  <lecture>
+    <id>STR1</id>
+    <name>Strassenwesen 1</name>
+  </lecture>
+  <lecture>
+    <id>STW</id>
+    <name>Str&#xF6;mungslehre, W&#xE4;rme&#xFC;bertragung</name>
+  </lecture>
+  <lecture>
+    <id>SV</id>
+    <name>Signalverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>SVL</id>
+    <name>Signalverarbeitung Labor</name>
+  </lecture>
+  <lecture>
+    <id>SVM</id>
+    <name>Schadensversicherungsmathematik</name>
+  </lecture>
+  <lecture>
+    <id>SVR</id>
+    <name>Schutz- u. Vertragsrecht</name>
+  </lecture>
+  <lecture>
+    <id>SWE</id>
+    <name>Software Entwicklung</name>
+  </lecture>
+  <lecture>
+    <id>SWEL</id>
+    <name>Softwareentwicklung Labor</name>
+  </lecture>
+  <lecture>
+    <id>SWT</id>
+    <name>Softwaretechnik</name>
+  </lecture>
+  <lecture>
+    <id>SWTL</id>
+    <name>Softwaretechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>SWTP</id>
+    <name>Softwaretechnik  Praktikum/Projekt</name>
+  </lecture>
+  <lecture>
+    <id>SWT&#xDC;</id>
+    <name>Softwaretechnik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>SY</id>
+    <name>Systemtheorie</name>
+  </lecture>
+  <lecture>
+    <id>SYM</id>
+    <name>System Modellierung</name>
+  </lecture>
+  <lecture>
+    <id>SYR</id>
+    <name>Systemtheorie und Regelungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>SYRL</id>
+    <name>Systemtheorie und Regelungstechnik Labor</name>
+  </lecture>
+  <lecture>
+    <id>SYR&#xDC;</id>
+    <name>Systemtheorie und Regelungstechnik &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>SYTL</id>
+    <name>Systemtechnisches Labor</name>
+  </lecture>
+  <lecture>
+    <id>TB</id>
+    <name>Tribologie</name>
+  </lecture>
+  <lecture>
+    <id>TBA</id>
+    <name>Tunnelbau</name>
+  </lecture>
+  <lecture>
+    <id>TBN</id>
+    <name/>
+  </lecture>
+  <lecture>
+    <id>TBN2</id>
+    <name/>
+  </lecture>
+  <lecture>
+    <id>TBNL</id>
+    <name>Labor zu TBN</name>
+  </lecture>
+  <lecture>
+    <id>TE</id>
+    <name>Technisches Englisch</name>
+  </lecture>
+  <lecture>
+    <id>TEK</id>
+    <name>Technischer Einkauf</name>
+  </lecture>
+  <lecture>
+    <id>TEM</id>
+    <name>Telematik</name>
+  </lecture>
+  <lecture>
+    <id>TF</id>
+    <name>Transformationen, auch angewandte</name>
+  </lecture>
+  <lecture>
+    <id>TF&#xDC;</id>
+    <name>Transformationen &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>TG</id>
+    <name>Technische Geb&#xE4;udeausr&#xFC;stung</name>
+  </lecture>
+  <lecture>
+    <id>TG2</id>
+    <name>Technische Geb&#xE4;udeausr&#xFC;stung 2</name>
+  </lecture>
+  <lecture>
+    <id>TK</id>
+    <name>Telekommunikationsdienste</name>
+  </lecture>
+  <lecture>
+    <id>TL</id>
+    <name>Technisches Labor</name>
+  </lecture>
+  <lecture>
+    <id>TLG</id>
+    <name>Transportlogistik</name>
+  </lecture>
+  <lecture>
+    <id>TM1</id>
+    <name>Technische Mechanik 1</name>
+  </lecture>
+  <lecture>
+    <id>TM1&#xDC;</id>
+    <name>Technische Mechanik 1 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>TM2</id>
+    <name>Technische Mechanik 2</name>
+  </lecture>
+  <lecture>
+    <id>TM2&#xDC;</id>
+    <name>Technische Mechanik 2 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>TM3</id>
+    <name>Technische Mechanik 3</name>
+  </lecture>
+  <lecture>
+    <id>TM3&#xDC;</id>
+    <name>Technische Mechanik 3 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>TMK</id>
+    <name>Technische Mehrk&#xF6;rpersysteme</name>
+  </lecture>
+  <lecture>
+    <id>TMK&#xDC;</id>
+    <name>Technische Mehrk&#xF6;rpersysteme &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>TMT</id>
+    <name>Technische Mechanik Tutorenprogramm</name>
+  </lecture>
+  <lecture>
+    <id>TNT</id>
+    <name>Transport Network Technologies</name>
+  </lecture>
+  <lecture>
+    <id>TO</id>
+    <name>Technische Optik und Laserphysik</name>
+  </lecture>
+  <lecture>
+    <id>TOE</id>
+    <name>Vorbereitung auf den TOEFL Test</name>
+  </lecture>
+  <lecture>
+    <id>TQM</id>
+    <name>Total Quality Management</name>
+  </lecture>
+  <lecture>
+    <id>TR1</id>
+    <name>Tragwerkslehre 1</name>
+  </lecture>
+  <lecture>
+    <id>TR2</id>
+    <name>Tragwerkslehre 2</name>
+  </lecture>
+  <lecture>
+    <id>TS</id>
+    <name>Techn.  Schwingungslehre,  Maschinendynamik MDK1</name>
+  </lecture>
+  <lecture>
+    <id>TS&#xDC;</id>
+    <name>Techn. Schw. lehre (&#xDC;bungen)</name>
+  </lecture>
+  <lecture>
+    <id>TT</id>
+    <name>Technische Thermodynamik</name>
+  </lecture>
+  <lecture>
+    <id>TTT</id>
+    <name>Technische Thermodynamik Tutorium</name>
+  </lecture>
+  <lecture>
+    <id>TT&#xDC;</id>
+    <name>Technische Thermodynamik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>T&#xDC;</id>
+    <name>Telekommunikation und &#xDC;bertragungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>TUT2</id>
+    <name>Tutorenprogramm 2</name>
+  </lecture>
+  <lecture>
+    <id>T&#xDC;&#xDC;</id>
+    <name>Telekommunikation und &#xDC;bertragungstechnik &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>TV</id>
+    <name>Technischer Vertrieb</name>
+  </lecture>
+  <lecture>
+    <id>TW</id>
+    <name>Technisch wissenschaftliche Datenverarbeitung</name>
+  </lecture>
+  <lecture>
+    <id>TWP</id>
+    <name>Technisch wissenschaftliche Datenverarbeitung Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>UB</id>
+    <name>Unternehmens- und Immobilienbewertung</name>
+  </lecture>
+  <lecture>
+    <id>UC</id>
+    <name>Ubiquitous Computing</name>
+  </lecture>
+  <lecture>
+    <id>UCM</id>
+    <name>Understanding Capital Markets</name>
+  </lecture>
+  <lecture>
+    <id>UE</id>
+    <name>Unternehmensethik</name>
+  </lecture>
+  <lecture>
+    <id>UG</id>
+    <name>Unternehmensgr&#xFC;ndung / Entrepeneurship</name>
+  </lecture>
+  <lecture>
+    <id>UGR</id>
+    <name>Umwelt- u. Genehmigungsrecht</name>
+  </lecture>
+  <lecture>
+    <id>UM</id>
+    <name>Umweltmanagement</name>
+  </lecture>
+  <lecture>
+    <id>UP</id>
+    <name>Unternehmensplanspiel</name>
+  </lecture>
+  <lecture>
+    <id>UPF</id>
+    <name>Unternehmens- u. Personalf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>UPR</id>
+    <name>Urheber- und Presserecht</name>
+  </lecture>
+  <lecture>
+    <id>US</id>
+    <name>Unternehmensf&#xFC;hrung und strategisches Management</name>
+  </lecture>
+  <lecture>
+    <id>UT</id>
+    <name>Umformtechnik</name>
+  </lecture>
+  <lecture>
+    <id>VA</id>
+    <name>Video und Animation</name>
+  </lecture>
+  <lecture>
+    <id>VE</id>
+    <name>Vertragsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>VER</id>
+    <name>(Angewandte) Versorgungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>VH</id>
+    <name>Verhandlungsf&#xFC;hrung, Vertrieb und Personalf&#xFC;hrung</name>
+  </lecture>
+  <lecture>
+    <id>VHD</id>
+    <name>Prozessor Hardware mit VHDL</name>
+  </lecture>
+  <lecture>
+    <id>VHDL</id>
+    <name>Prozessor Hardware mit VHDL Labor</name>
+  </lecture>
+  <lecture>
+    <id>VL</id>
+    <name>Verpackungslogistik</name>
+  </lecture>
+  <lecture>
+    <id>VM</id>
+    <name>Versicherungsmathematik</name>
+  </lecture>
+  <lecture>
+    <id>VMO1</id>
+    <name>Verbrennungsmotoren 1</name>
+  </lecture>
+  <lecture>
+    <id>VMO1&#xDC;</id>
+    <name>Verbrennungsmotoren 1 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>VMO2</id>
+    <name>Verbrennungsmotoren 2</name>
+  </lecture>
+  <lecture>
+    <id>VMO2&#xDC;</id>
+    <name>Verbrennungsmotoren 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>VM&#xDC;</id>
+    <name>Versicherungsmathematik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>VP</id>
+    <name>Verkettete Prozesse, Werkzeugmaschinen  (F&#xFC;r MMM als Block mit WM)</name>
+  </lecture>
+  <lecture>
+    <id>VR</id>
+    <name>Verkehrsrecht</name>
+  </lecture>
+  <lecture>
+    <id>VS</id>
+    <name>Verkehrssysteme/-wirtschaft /Telematik</name>
+  </lecture>
+  <lecture>
+    <id>VS1</id>
+    <name>Verkehrssysteme 1</name>
+  </lecture>
+  <lecture>
+    <id>VS2</id>
+    <name>Verkehrssysteme 2</name>
+  </lecture>
+  <lecture>
+    <id>VSY</id>
+    <name>Einf&#xFC;hrung verteilte und parallele Systeme</name>
+  </lecture>
+  <lecture>
+    <id>VT</id>
+    <name>Verpflegungstechnik</name>
+  </lecture>
+  <lecture>
+    <id>VTE</id>
+    <name>Verkehrstelematik</name>
+  </lecture>
+  <lecture>
+    <id>VTM</id>
+    <name>Vertriebsmanagement</name>
+  </lecture>
+  <lecture>
+    <id>VVT</id>
+    <name>Vakuum Verfahrenstechnik</name>
+  </lecture>
+  <lecture>
+    <id>VWI</id>
+    <name>Verkehrswirtschaft</name>
+  </lecture>
+  <lecture>
+    <id>VWL</id>
+    <name>Volkswirtschaftslehre</name>
+  </lecture>
+  <lecture>
+    <id>VWR</id>
+    <name>Volkswirtschaftslehre und Recht</name>
+  </lecture>
+  <lecture>
+    <id>WA</id>
+    <name>Wireless Access Technologies</name>
+  </lecture>
+  <lecture>
+    <id>WAM1</id>
+    <name>Wissenschaftliches Arbeiten und Methodenlehre (fr&#xFC;her APT) 1</name>
+  </lecture>
+  <lecture>
+    <id>WAM2</id>
+    <name>Wissenschaftliches Arbeiten und Methodenlehre (fr&#xFC;her APT) 2</name>
+  </lecture>
+  <lecture>
+    <id>WAM3</id>
+    <name>Wissenschaftliches Arbeiten und Methodenlehre (fr&#xFC;her APT) 3</name>
+  </lecture>
+  <lecture>
+    <id>WAN</id>
+    <name>Webanwendungen</name>
+  </lecture>
+  <lecture>
+    <id>WAN1</id>
+    <name>Webanwendungen 1</name>
+  </lecture>
+  <lecture>
+    <id>WAN2</id>
+    <name>Webanwendungen 2</name>
+  </lecture>
+  <lecture>
+    <id>WAS</id>
+    <name>Wireless Access Technologies Seminar</name>
+  </lecture>
+  <lecture>
+    <id>W&#xC4;W</id>
+    <name>W&#xE4;rmewirtschaft</name>
+  </lecture>
+  <lecture>
+    <id>WB</id>
+    <name>Web Security</name>
+  </lecture>
+  <lecture>
+    <id>WBE</id>
+    <name>Web Engineering</name>
+  </lecture>
+  <lecture>
+    <id>WBG1</id>
+    <name>Webprogrammierung  1</name>
+  </lecture>
+  <lecture>
+    <id>WBG2</id>
+    <name>Webprogrammierung 2</name>
+  </lecture>
+  <lecture>
+    <id>WBG2P</id>
+    <name>Webprogrammierung 2 Praktikum</name>
+  </lecture>
+  <lecture>
+    <id>WC</id>
+    <name>Werkstoff - Chemie</name>
+  </lecture>
+  <lecture>
+    <id>WD</id>
+    <name>Web Design mit HTML</name>
+  </lecture>
+  <lecture>
+    <id>WE</id>
+    <name>English for Business Communications (Wirtschaftsenglisch)</name>
+  </lecture>
+  <lecture>
+    <id>WE1</id>
+    <name>Wirtschaftsenglisch 1</name>
+  </lecture>
+  <lecture>
+    <id>WE2</id>
+    <name>Wirtschaftsenglisch 2</name>
+  </lecture>
+  <lecture>
+    <id>WGA</id>
+    <name>Methoden der Werkstoff- und Grenzfl&#xE4;chenanalyse</name>
+  </lecture>
+  <lecture>
+    <id>WGC</id>
+    <name>Grundlagen von Wirtschaft und Gesellschaft in China</name>
+  </lecture>
+  <lecture>
+    <id>WI1</id>
+    <name>Wirtschaftsinformatik 1 (Grundlagen der WI)</name>
+  </lecture>
+  <lecture>
+    <id>WI2</id>
+    <name>Wirtschaftsinformatik 2</name>
+  </lecture>
+  <lecture>
+    <id>WI2&#xDC;</id>
+    <name>Wirtschaftsinformatik 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>WI3</id>
+    <name>Wirtschaftsinformatik 3</name>
+  </lecture>
+  <lecture>
+    <id>WI3&#xDC;</id>
+    <name>Wirtschaftsinformatik 3 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>WIA</id>
+    <name>Wissenschaftliches Arbeiten (fr&#xFC;hrer PRO)</name>
+  </lecture>
+  <lecture>
+    <id>WIG</id>
+    <name>Grundlagen Wirtschaftsinformatik</name>
+  </lecture>
+  <lecture>
+    <id>WIK</id>
+    <name>Wirtschaftsinformatik Kolloquium</name>
+  </lecture>
+  <lecture>
+    <id>WIM</id>
+    <name>Wissensmanagement</name>
+  </lecture>
+  <lecture>
+    <id>WIP1</id>
+    <name>Wirtschaftsinformatik Praktikum , Projekt 1</name>
+  </lecture>
+  <lecture>
+    <id>WIP2</id>
+    <name>Wirtschaftsinformatik Praktikum, - Projekt  2</name>
+  </lecture>
+  <lecture>
+    <id>WIR1</id>
+    <name>Wirtschaftsrecht 1</name>
+  </lecture>
+  <lecture>
+    <id>WIR2</id>
+    <name>Wirtschaftsrecht 2</name>
+  </lecture>
+  <lecture>
+    <id>WIS</id>
+    <name>Wirtschaftsinformatik Seminar WKM</name>
+  </lecture>
+  <lecture>
+    <id>WIS1</id>
+    <name>Seminar zur Wirtschaftsinformatik 1</name>
+  </lecture>
+  <lecture>
+    <id>WIS2</id>
+    <name>Seminar zur Wirtschaftsinformatik 2</name>
+  </lecture>
+  <lecture>
+    <id>WIW</id>
+    <name>Wirtschaftswissenschaften</name>
+  </lecture>
+  <lecture>
+    <id>WK</id>
+    <name>Werkstoffkunde</name>
+  </lecture>
+  <lecture>
+    <id>WK2</id>
+    <name>Werkstoffkunde 2</name>
+  </lecture>
+  <lecture>
+    <id>WKE</id>
+    <name>Werkstoffe der Elektronik</name>
+  </lecture>
+  <lecture>
+    <id>WKM</id>
+    <name>Materialwirtschaft / Lagerlogistik</name>
+  </lecture>
+  <lecture>
+    <id>WM</id>
+    <name>Werkzeugmaschinen (F&#xFC;r MMM als Block mit VP)</name>
+  </lecture>
+  <lecture>
+    <id>WM2</id>
+    <name>Werkzeugmaschinen 2 (F&#xFC;r MMM als Block mit VP)</name>
+  </lecture>
+  <lecture>
+    <id>WMA</id>
+    <name>Wirtschaftsmathematik</name>
+  </lecture>
+  <lecture>
+    <id>WMD</id>
+    <name>Werkstoffmodellierung</name>
+  </lecture>
+  <lecture>
+    <id>WMO</id>
+    <name>Wissensbasierte Methoden</name>
+  </lecture>
+  <lecture>
+    <id>WN</id>
+    <name>Wahrsch. Rechnung und num. Mathematik</name>
+  </lecture>
+  <lecture>
+    <id>WN&#xDC;</id>
+    <name>&#xDC;bungen zu WN</name>
+  </lecture>
+  <lecture>
+    <id>WP</id>
+    <name>Werkstoff- und Bauteilpr&#xFC;fung</name>
+  </lecture>
+  <lecture>
+    <id>WPL</id>
+    <name>Werkstoffpr&#xFC;fungen Labor</name>
+  </lecture>
+  <lecture>
+    <id>WR1</id>
+    <name>Wahrscheinlichkeitsrechnung und Statistik 1</name>
+  </lecture>
+  <lecture>
+    <id>WR1&#xDC;</id>
+    <name>Wahrscheinlichkeitsrechnung und Statistik 1 &#xDC;bung</name>
+  </lecture>
+  <lecture>
+    <id>WR2</id>
+    <name>Wahrscheinlichkeitsrechnung und Statistik 2</name>
+  </lecture>
+  <lecture>
+    <id>WR2&#xDC;</id>
+    <name>Wahrscheinlichkeitsrechnung und Statistik 2 &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>WS</id>
+    <name>Wirtschaftsstatistik</name>
+  </lecture>
+  <lecture>
+    <id>WSK1</id>
+    <name>Wirtschaftliche Schl&#xFC;sselkompetenz BWL</name>
+  </lecture>
+  <lecture>
+    <id>WSK2</id>
+    <name>Wirtschaftliche Schl&#xFC;sselkompetenz Recht</name>
+  </lecture>
+  <lecture>
+    <id>WS&#xDC;</id>
+    <name>Wirtschaftsstatistik &#xDC;bungen</name>
+  </lecture>
+  <lecture>
+    <id>WT1</id>
+    <name>Werkstofftechnologie 1</name>
+  </lecture>
+  <lecture>
+    <id>WT1L</id>
+    <name>Werkstofftechnologie 1 Labor</name>
+  </lecture>
+  <lecture>
+    <id>WT2</id>
+    <name>Werkstofftechnologie 2</name>
+  </lecture>
+  <lecture>
+    <id>WT2L</id>
+    <name>Werkstofftechnologie 2 Labor</name>
+  </lecture>
+  <lecture>
+    <id>W&#xDC;</id>
+    <name>W&#xE4;rme&#xFC;bertragung</name>
+  </lecture>
+  <lecture>
+    <id>WW1</id>
+    <name>Werkstoffwissenschaften 1</name>
+  </lecture>
+  <lecture>
+    <id>WW2</id>
+    <name>Werkstoffwissenschaften 2</name>
+  </lecture>
+  <lecture>
+    <id>WW3</id>
+    <name>Werkstoffwissenschaften 3</name>
+  </lecture>
+  <lecture>
+    <id>WW4</id>
+    <name>Werkstoffwissenschaften 4</name>
+  </lecture>
+  <lecture>
+    <id>WWL</id>
+    <name>Werkstoffwissenschaften Labor</name>
+  </lecture>
+  <lecture>
+    <id>WWSM</id>
+    <name>Wechselwirkung Strahlung Materie</name>
+  </lecture>
+  <lecture>
+    <id>ZM</id>
+    <name>Zeitmanagement</name>
+  </lecture>
+  <lecture>
+    <id>ZN</id>
+    <name>Zugangsnetze und -techniken</name>
+  </lecture>
+  <lecture>
+    <id>ZNL</id>
+    <name>Zugangsnetze und -techniken Labor</name>
+  </lecture>
+  <lecture>
+    <id>ZR</id>
+    <name>Zeitreihenanalyse</name>
+  </lecture>
+  <lecture>
+    <id>ZU</id>
+    <name>Zuverl&#xE4;ssigkeit in der Elektronik</name>
+  </lecture>
+</LectureList>

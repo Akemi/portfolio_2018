@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+	    xmlns:opf="http://www.idpf.org/2007/opf">
+		<meta name="generator" content="psb, Berlin"/>
+		<meta name="cover" content="x187.jpg"/>
+		<dc:title>Die Liebe in groben Zügen – Leseheft mit Werkstattgespräch</dc:title>
+		<dc:creator>Bodo Kirchhoff</dc:creator>
+		<dc:subject></dc:subject>
+		<dc:description></dc:description>
+		<dc:publisher>Frankfurter Verlagsanstalt</dc:publisher>
+		<dc:date>2012-08-07</dc:date>
+		<dc:source></dc:source>
+		<dc:relation></dc:relation>
+		<dc:coverage></dc:coverage>
+		<dc:rights></dc:rights>
+		<dc:language>de-DE</dc:language>
+		<dc:identifier id="bookid">9783627021924</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="css" href="template.css" media-type="text/css"/>
+		<item id="text" href="text.html" media-type="application/xhtml+xml"/>
+		<item id="text-1" href="text-1.html" media-type="application/xhtml+xml"/>
+		<item id="text-5" href="text-5.html" media-type="application/xhtml+xml"/>
+		<item id="text-6" href="text-6.html" media-type="application/xhtml+xml"/>
+		<item id="text-3" href="text-3.html" media-type="application/xhtml+xml"/>
+		<item id="text-4" href="text-4.html" media-type="application/xhtml+xml"/>
+		<item id="text-7" href="text-7.html" media-type="application/xhtml+xml"/>
+		<item id="text-8" href="text-8.html" media-type="application/xhtml+xml"/>
+		<item id="text-9" href="text-9.html" media-type="application/xhtml+xml"/>
+		<item id="text-2" href="text-2.html" media-type="application/xhtml+xml"/>
+		<item id="anzeige1_fmt.jpeg" href="images/anzeige1_fmt.jpeg" media-type="image/jpeg"/>
+		<item id="Kirchhoff_Bodo_fmt.jpeg" href="images/Kirchhoff_Bodo_fmt.jpeg" media-type="image/jpeg"/>
+		<item id="anzeige3_fmt.jpeg" href="images/anzeige3_fmt.jpeg" media-type="image/jpeg"/>
+		<item id="x187.jpg" href="images/187.jpg" media-type="image/jpeg"/>
+		<item id="anzeige2_fmt.jpeg" href="images/anzeige2_fmt.jpeg" media-type="image/jpeg"/>
+		<item id="werkstatt-titel_fmt.jpeg" href="images/werkstatt-titel_fmt.jpeg" media-type="image/jpeg"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="text"/>
+		<itemref idref="text-1"/>
+		<itemref idref="text-5"/>
+		<itemref idref="text-6"/>
+		<itemref idref="text-3"/>
+		<itemref idref="text-4"/>
+		<itemref idref="text-7"/>
+		<itemref idref="text-8"/>
+		<itemref idref="text-9"/>
+		<itemref idref="text-2"/>
+	</spine>
+	<guide>
+		<reference type="cover" title="Cover Image" href="text.html"/>
+		<reference type="text" title="Text" href="text-5.html"/>
+	</guide>
+</package>

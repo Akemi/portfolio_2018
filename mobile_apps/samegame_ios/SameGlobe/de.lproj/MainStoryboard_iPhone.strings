@@ -1,0 +1,50 @@
+/* Class = "IBUIButton"; normalTitle = "Info"; ObjectID = "1Xn-ok-ub3"; */
+"1Xn-ok-ub3.normalTitle" = "Info";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Sets the Number of Colors"; ObjectID = "2Rc-Qi-61d"; */
+"2Rc-Qi-61d.footerTitle" = "Setzt die Anzahl der Farben";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Number of Colors"; ObjectID = "2Rc-Qi-61d"; */
+"2Rc-Qi-61d.headerTitle" = "Anzahl der Farben";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Sets the Difficulty of the Game"; ObjectID = "65p-3P-tRO"; */
+"65p-3P-tRO.footerTitle" = "Setzt den Schwierigkeitsgrad";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Difficulty"; ObjectID = "65p-3P-tRO"; */
+"65p-3P-tRO.headerTitle" = "Schwierigkeitsgrad";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "6mC-Ys-dHW"; */
+"6mC-Ys-dHW.title" = "Einstellungen";
+
+/* Class = "IBUILabel"; text = "5 Colors"; ObjectID = "9Bc-rq-pXr"; */
+"9Bc-rq-pXr.text" = "5 Farben";
+
+/* Class = "IBUIButton"; normalTitle = "Home"; ObjectID = "Dtg-rI-08d"; */
+"Dtg-rI-08d.normalTitle" = "Home";
+
+/* Class = "IBUILabel"; text = "Hard"; ObjectID = "KHb-Gq-fMs"; */
+"KHb-Gq-fMs.text" = "Hard";
+
+/* Class = "IBUILabel"; text = "4 Colors"; ObjectID = "KO0-u3-Vbm"; */
+"KO0-u3-Vbm.text" = "4 Farben";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VlT-Gi-20Z"; */
+"VlT-Gi-20Z.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Score"; ObjectID = "f8g-ZC-40T"; */
+"f8g-ZC-40T.normalTitle" = "Punkte";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "i9J-O5-iBv"; */
+"i9J-O5-iBv.normalTitle" = "Einstellungen";
+
+/* Class = "IBUILabel"; text = "Easy"; ObjectID = "mDu-zB-jsq"; */
+"mDu-zB-jsq.text" = "Leicht";
+
+/* Class = "IBUIButton"; normalTitle = "Start"; ObjectID = "ofo-aW-tBh"; */
+"ofo-aW-tBh.normalTitle" = "Start";
+
+/* Class = "IBUILabel"; text = "3 Colors"; ObjectID = "og3-cQ-US4"; */
+"og3-cQ-US4.text" = "3 Farben";
+
+/* Class = "IBUILabel"; text = "Normal"; ObjectID = "qqr-ir-hkP"; */
+"qqr-ir-hkP.text" = "Normal";

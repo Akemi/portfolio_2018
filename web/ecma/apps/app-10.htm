@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title> App 10 ( )</title>
+    <meta charset="UTF-8"/>
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="../kern/esa.css"/>
+    <script>
+        window.onload = function () {
+            //if (top["bib"]) { top.bib.dl({ doc: document, id: 'DL1', show_idx: [ ] }); }
+        };
+    </script>
+
+    <style>
+        .quiz-frame {
+            border-radius: 3px;
+            margin: 30px 30px 10px 10px;
+            padding: 15px 25px 0px 25px;
+            position: relative;
+            overflow: auto;
+            background-color: rgba(255,255,255,0.6);
+            box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5);
+        }
+
+        .question {
+            margin: 0px;
+            list-style: none;
+
+            padding: 0px 35px 0px 0px;
+            min-height: 50px;
+        }
+        .question > h4 {
+            margin: 0px 0px 15px 0px;
+            padding: 0px;
+            font-size: 25px;
+        }
+        .question input[type='radio'],
+        .question input[type='checkbox'] {
+            margin: 5px 10px 0px 0px;
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+        }
+        .question .qbutton {
+            font-size: 50px;
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            color: #3e3e3e;
+            cursor: pointer;
+            line-height: 87%;
+        }
+        .question .qbutton:hover {
+            color: #878787;
+        }
+        .question .submitb {
+            bottom: 8px;
+            right: 10px;
+        }
+        .question .hintb {
+            top: 8px;
+            right: 10px;
+        }
+        .question > .quiz-image {
+            margin: 0px auto 15px auto;
+            display: block;
+            max-width: 400px;
+            max-height: 400px;
+        }
+        .question > div.multiple-image-q {
+            text-align: center;
+            margin: 0px 0px 0px 0px;
+        }
+        .question > div.multiple-image-q > .radio-image {
+            margin: 0px 20px 15px 20px;
+            box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.5);
+        }
+        .question > div.multiple-image-q > .radio-image > input {
+            display: none;
+        }
+        .question > div.multiple-image-q > .radio-image > img {
+            max-width: 200px;
+            max-height: 200px;
+        }
+        .question > div.multiple-image-q > .radio-image > input + img {
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        .question > div.multiple-image-q > .radio-image > input:checked + img {
+            border: 2px solid black;
+        }
+
+        .feedbackEnd,
+        .feedback,
+        .hint {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+            color: #e2e2e2;
+            background-color: rgba(0,0,0,0.8);
+            /*padding: 15px 60px 0px 25px;*/
+            display: none;
+        }
+        .feedbackEnd > .feedbackEnd-close,
+        .feedback > .feedback-close,
+        .hint > .hint-close {
+            font-size: 50px;
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            bottom: auto !important;
+            border-radius: 100%;
+            background-color: #373737;
+            color: #e2e2e2;
+            cursor: pointer;
+            top: 8px;
+            right: 10px;
+            line-height: 87%;
+        }
+        .feedbackEnd > .feedbackEnd-close:hover,
+        .feedback > .feedback-close:hover,
+        .hint > .hint-close:hover {
+            color: #3e3e3e;
+        }
+        .feedbackEnd > .feedbackEnd-content,
+        .feedback > .feedback-content,
+        .hint > .hint-content {
+            padding: 15px 60px 0px 25px;
+        }
+
+        ul.circle-pagination {
+            margin: 20px 0px 5px 0px !important;
+            padding: 0px;
+            list-style: none;
+            text-align: center;
+        }
+        ul.circle-pagination > li {
+            display: inline-block;
+            font-size: 25px;
+            color: #3e3e3e;
+            cursor: pointer;
+            margin: 0px 0px 0px 3px !important;
+        }
+        ul.circle-pagination > li:hover {
+            opacity: 0.7;
+        }
+        ul.circle-pagination > li.active:before {
+            content: "\f111";
+        }
+        ul.circle-pagination > li.solved {
+            color: #9ee268;
+        }
+        ul.circle-pagination > li.failed {
+            color: #ff6464;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<h1>Fragebogen generator</h1>
+
+
+<div>
+
+    <div id="testQuiz"></div>
+
+</div>
+
+<script>
+
+    function Quiz(quizID, quizData) {
+        this.quiz = document.getElementById(quizID);
+        this.quizData = quizData;
+        this.activeQuestion = 0;
+
+        this.initQuiz = function() {
+            this.quiz.setAttribute("class", "quiz-frame");
+
+            var question = document.createElement("div");
+            question.setAttribute("class", "question");
+
+            this.quiz.appendChild(question);
+
+            /* create pagination bar */
+            var pagination = document.createElement("ul");
+            pagination.setAttribute("class", "circle-pagination");
+
+            for (key in this.quizData) {
+                this.quizData[key]["answered"] = 0;
+                this.quizData[key]["answer"] = [];
+
+                var li = document.createElement("li");
+                li.setAttribute("class", "fa fa-circle-o");
+                li.setAttribute("name", key);
+
+                var self = this;
+                li.onclick = function(event) {
+                    var id = event.target.getAttribute("name");
+                    self.showQuestion(id);
+                };
+
+                pagination.appendChild(li);
+            }
+
+            this.quiz.appendChild(pagination);
+
+            this.showQuestion(0);
+        };
+
+        this.showQuestion = function(id) {
+            var self = this;
+            this.activeQuestion = id;
+            var question = this.quiz.querySelectorAll(".question")[0];
+            question.innerHTML = "";
+
+            /* set new active pagination circle */
+            var pagination = this.quiz.querySelectorAll(".circle-pagination > li");
+            for (var i = 0; i < pagination.length; i++){
+                pagination[i].classList.remove("active");
+            }
+
+            var pageActive = this.quiz.querySelectorAll(".circle-pagination > li[name='" + id + "']")[0];
+            pageActive.classList.add("active");
+
+            /* only create submit button when question not solved */
+            if(this.quizData[id]["answered"] == 0) {
+                var submit = document.createElement("div");
+                submit.setAttribute("class", "qbutton submitb fa fa-check-circle");
+
+                submit.onclick = function(event) {
+                    self.checkAnswers();
+                };
+
+                question.appendChild(submit);
+            }
+
+            /* create hint button */
+            var hintb = document.createElement("div");
+            hintb.setAttribute("class", "qbutton hintb fa fa-question-circle");
+            hintb.onclick = function(event) {
+                var hint = self.quiz.querySelectorAll(".hint")[0];
+                hint.style.display = "block";
+            };
+            question.appendChild(hintb);
+
+            /* create hint box */
+            var hint = document.createElement("div");
+            hint.setAttribute("class", "hint");
+            var hintContent = document.createElement("div");
+            hintContent.setAttribute("class", "hint-content");
+            hintContent.appendChild(document.createTextNode(this.quizData[id]["hint"]));
+            hint.appendChild(hintContent);
+            var closeHint = document.createElement("div");
+            closeHint.setAttribute("class", "hint-close submitb fa fa-times-circle");
+            closeHint.onclick = function(event) {
+                var hint = self.quiz.querySelectorAll(".hint")[0];
+                hint.style.display = "none";
+            };
+            hint.appendChild(closeHint);
+            question.appendChild(hint);
+
+            /* create feedback box */
+            var feedback = document.createElement("div");
+            feedback.setAttribute("class", "feedback");
+            var feedbackContent = document.createElement("div");
+            feedbackContent.setAttribute("class", "feedback-content");
+            feedbackContent.appendChild(document.createTextNode(this.quizData[id]["feedback"]));
+            feedback.appendChild(feedbackContent);
+            var closeFeedback = document.createElement("div");
+            closeFeedback.setAttribute("class", "feedback-close submitb fa fa-times-circle");
+            closeFeedback.onclick = function(event) {
+                var hint = self.quiz.querySelectorAll(".feedback")[0];
+                hint.style.display = "none";
+            };
+            feedback.appendChild(closeFeedback);
+            question.appendChild(feedback);
+
+            /* create feedbackEnd box */
+            var feedbackEnd = document.createElement("div");
+            feedbackEnd.setAttribute("class", "feedbackEnd");
+            var feedbackEndContent = document.createElement("div");
+            feedbackEndContent.setAttribute("class", "feedbackEnd-content");
+            feedbackEnd.appendChild(feedbackEndContent);
+            var closeFeedbackEnd = document.createElement("div");
+            closeFeedbackEnd.setAttribute("class", "feedbackEnd-close submitb fa fa-times-circle");
+            closeFeedbackEnd.onclick = function(event) {
+                var hint = self.quiz.querySelectorAll(".feedbackEnd")[0];
+                hint.style.display = "none";
+            };
+            feedbackEnd.appendChild(closeFeedbackEnd);
+            question.appendChild(feedbackEnd);
+
+            /* create question content */
+            var header = document.createElement("h4");
+            header.appendChild(document.createTextNode(this.quizData[id]["aufgabe"]));
+            question.appendChild(header);
+
+            switch (this.quizData[id]["type"]) {
+                case "single":
+                    this.createAnswerElements("radio", this.quizData[id]["answers"]);
+                    break;
+                case "multiple":
+                    this.createAnswerElements("checkbox", this.quizData[id]["answers"]);
+                    break;
+                default:
+                    this.createAnswerElements("radio", this.quizData[id]["answers"]);
+            }
+
+            if(this.quizData[id]["answered"] != 0) {
+                var answers = this.quiz.querySelectorAll(".question input");
+                for (var i = 0; i < this.quizData[this.activeQuestion]["answer"].length; i++) {
+                    answers[this.quizData[this.activeQuestion]["answer"][i]].checked = true;
+                }
+                for (var i = 0; i < answers.length; i++) {
+                    answers[i].disabled = true;
+                }
+            }
+
+
+        };
+
+        this.createAnswerElements = function(eleType, answers) {
+            var question = this.quiz.querySelectorAll(".question")[0];
+            for (key in answers) {
+                var answer = document.createElement("div");
+                var input = document.createElement("input");
+                input.setAttribute("type", eleType);
+                input.setAttribute("name", "antwort");
+                input.setAttribute("value", key);
+                answer.appendChild(input);
+                answer.appendChild(document.createTextNode(answers[key]));
+                question.appendChild(answer);
+            }
+        };
+
+        this.compareAnswers = function(answer1, answer2) {
+            if (!answer1 || !answer1)
+                return false;
+            if (answer1.length != answer2.length)
+                return false;
+            for (var i = 0, l=answer1.length; i < l; i++) {
+                if (answer1[i] instanceof Array && answer2[i] instanceof Array) {
+                    if (!answer1[i].equals(answer2[i]))
+                        return false;
+                }
+                else if (answer1[i] != answer2[i]) {
+                    return false;
+                }
+            }
+            return true;
+        };
+
+        this.countQs = function nextQuizNum(dataArray){
+            var count = 0;
+            var i;
+
+            for (i in dataArray) {
+                if (dataArray.hasOwnProperty(i)) {
+                    count++;
+                }
+            }
+            return count;
+        };
+
+        this.checkAnswers = function() {
+            var arrayCheckedAnswers = [];
+            var answers = this.quiz.querySelectorAll(".question input");
+            var noAnswer = true;
+            for (var i = 0; i < answers.length; i++) {
+                if(answers[i].checked == true) {
+                    arrayCheckedAnswers.push(i);
+                    noAnswer= false;
+                }
+            }
+
+            if(noAnswer) {
+                alert("Verusch wenigstens zu antworten.");
+                return;
+            }
+
+            this.quizData[this.activeQuestion]["answer"] = arrayCheckedAnswers;
+            var pageActive = this.quiz.querySelectorAll(".circle-pagination > li")[this.activeQuestion];
+
+            if(this.compareAnswers(this.quizData[this.activeQuestion]["rightanswer"], arrayCheckedAnswers)) {
+                this.quizData[this.activeQuestion]["answered"] = 1;
+                pageActive.classList.add("solved");
+            }
+            else {
+                this.quizData[this.activeQuestion]["answered"] = 2;
+                pageActive.classList.add("failed");
+            }
+
+            if(!this.checkForEnd()) {
+                if(this.activeQuestion+1 < this.countQs(this.quizData)) this.activeQuestion++;
+                else this.activeQuestion = 0;
+                this.showQuestion(this.activeQuestion);
+            }
+            else {
+                this.showQuestion(this.activeQuestion);
+
+                var countRightAnswer = 0;
+                for (key in this.quizData) {
+                    if(this.quizData[key]["answered"] == 1) countRightAnswer++;
+                }
+
+                var percent = (countRightAnswer/this.countQs(this.quizData))*100;
+                var feedbackEnd = this.quiz.querySelectorAll(".feedbackEnd")[0];
+                var feedbackEndContent = feedbackEnd.querySelectorAll(".feedbackEnd-content")[0];
+                if(percent < 50) {
+                    feedbackEndContent.innerHTML = "Sie haben weniger als die hälfte der Fragen beantwortet. Du solltest mehr lernen.";
+                }
+                else if(percent <= 80) {
+                    feedbackEndContent.innerHTML = "Sie haben " + percent + "% der Fragen beantwortet. Nicht so schlecht.";
+                }
+                else {
+                    feedbackEndContent.innerHTML = "Sie haben " + percent + "% der Fragen beantwortet. Das ist richtig gut.";
+                }
+
+                feedbackEnd.style.display = "block";
+            }
+        };
+
+        this.checkForEnd = function() {
+            for (key in this.quizData) {
+                if(this.quizData[key]["answered"] == 0) return false;
+            }
+            return true;
+        };
+
+
+    }
+
+
+    data = top.getLocalData('app10-quiz');
+    quiz = new Quiz("testQuiz", data);
+    quiz.initQuiz();
+
+
+    /*var xmlhttp = new XMLHttpRequest();
+    var url = "http://localhost:8888/fragen.json";
+    var quiz;
+
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var data = JSON.parse(xmlhttp.responseText);
+
+            quiz = new Quiz("testQuiz", data);
+            quiz.initQuiz();
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();*/
+
+
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 111</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>CAE</lectureID>
+    <lectureName>CAE</lectureName>
+    <teacherID>Wz</teacherID>
+    <teacherName>Weitzel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A1 102</room>
+    <lectureLength>4</lectureLength>
+    <lectureID>BPS</lectureID>
+    <lectureName>BPS-Begleitseminar</lectureName>
+    <teacherID>Can</teacherID>
+    <teacherName>Cantow</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 111</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>CAE</lectureID>
+    <lectureName>CAE</lectureName>
+    <teacherID>Wz</teacherID>
+    <teacherName>Weitzel</teacherName>
+  </lecture>
+</TimeTable>

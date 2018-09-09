@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<books>
+  <book>
+    <title>Nr. 1341 der Landser</title>
+    <author>H. Baier</author>
+    <desc></desc>
+    <isbn>Nr.1341</isbn>
+    <lang>de</lang>
+    <publisher>Landser Verlag</publisher>
+    <date>2012</date>
+  </book>
+</books>

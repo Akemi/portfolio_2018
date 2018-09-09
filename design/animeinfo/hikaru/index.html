@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hikaru no Go</title>
+
+    <script type="text/javascript" src="../jquery.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Play', sans-serif;
+            font-size: 16px;
+            line-height: 19px;
+            color: #ffffff;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: #ffffff;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: 1s;
+        }
+        a:hover {
+            color: #fcc534;
+        }
+
+        #frame {
+            width: 970px;
+            height: 546px;
+            position: relative;
+            background-image: url('bg.jpg');
+            overflow: hidden;
+        }
+
+        .link-anidb:before { content: url('http://anidb.net/favicon.ico'); }
+        .link-ann:before { content: url('http://www.animenewsnetwork.com/favicon.ico'); }
+        .link-mal:before { content: url('http://myanimelist.net/favicon.ico'); }
+
+
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 620px;
+            text-align: center;
+        }
+
+        #finfo {
+            margin: 9px 0 9px 0;
+        }
+
+        #sinfo {
+            margin: 9px 0 9px 0;
+        }
+
+        #summary {
+            margin: 9px 0 9px 0;
+        }
+
+        #links {
+            position: absolute;
+            top: 286px;
+			left: 10px;
+        }
+
+        #links > a {
+            padding: 0px 3px 0px 3px;
+            opacity: 0.7;
+        }
+        #links > a:hover {
+            opacity: 1.0;
+        }
+
+        h3 {
+        	display: inline-block;
+            padding: 0;
+            margin: 0 0 0 10px;
+            color: #fcc534;
+            font-weight: 500;
+        }
+
+        #table {
+        	position: absolute;
+        	top: 380px;
+        	left: -30px;
+        }
+
+        .stone {
+        	width: 69px;
+			height: 69px;
+			border-radius: 300px;
+			padding: 0px;
+			margin: 0px;
+			position: absolute;
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.77);
+			display: block;
+        }
+
+        .white {
+        	background-color: white;
+        }
+		.black {
+			background-color: black;
+		}
+
+        table, th, td {
+    		border: 1px solid rgba(92, 46, 34, 1);
+    		border-collapse: collapse;
+		}
+
+        table {
+
+        }
+
+        tr {
+
+        }
+
+		td {
+			width: 70px;
+			height: 70px;
+		}
+
+    </style>
+</head>
+<body>
+
+<div id="frame">
+    <div id="info">
+
+        <div id="finfo">
+            <h3>Info1</h3> <a href="">InfoLink</a> <br>
+            <h3>Info2</h3>
+            Content
+            <h3>Info3</h3>
+            Content<br>
+            <h3>Info4</h3>
+            Content<br>
+            <h3>Info5</h3>
+            Content
+        </div>
+
+        <div id="sinfo">
+            <h3>Air Date</h3>
+            2001 till 2003
+            <h3>Episodes</h3>
+            75 + 3 Specials<br>
+            <h3>Director</h3>
+            <a href="http://anidb.net/cr4257">Nishizawa Susumu</a>
+            <a href="http://anidb.net/cr32146">Kamiya Jun</a>
+            <a href="http://anidb.net/cr5737">Endou Tetsuya</a><br>
+            <h3>Production</h3>
+            <a href="http://anidb.net/cr805">Dentsu</a>
+            <a href="http://anidb.net/cr724">Studio Pierrot</a>
+            <a href="http://anidb.net/cr804">TV Tokyo</a>
+        </div>
+
+        <div id="links">
+            <a href="http://anidb.net/a84" class="link-anidb"></a>
+            <a href="http://www.animenewsnetwork.com/encyclopedia/anime.php?id=912" class="link-ann"></a>
+            <a href="http://www.animenewsnetwork.com/encyclopedia/anime.php?id=3433" class="link-ann"></a>
+            <a href="http://myanimelist.net/anime/135/Hikaru_no_Go" class="link-mal"></a>
+            <a href="http://myanimelist.net/anime/10765/Hikaru_no_Go_Special" class="link-mal"></a>
+            <a href="http://myanimelist.net/anime/645/Hikaru_no_Go:_Journey_to_the_North_Star_Cup" class="link-mal"></a>
+            <a href="http://myanimelist.net/anime/2336/Hikaru_no_Go:_New_Year_Special" class="link-mal"></a>
+        </div>
+
+        <div id="summary">
+            Shindou Hikaru, a 6th grader, finds an old go table in the attic of his grandfather's house.
+            He sees some blood stains on the go table, and tries to wipe it off... when a ghost dressed
+            in Heian period clothes pops out, and takes over his body.
+        </div>
+    </div>
+
+    <div id="table">
+    	<div class="stone black" style="top: -35px; left: 476px;"></div>
+    	<div class="stone black" style="top: 38px; left: 548px;"></div>
+    	<div class="stone white" style="top: 38px; left: 476px;"></div>
+    	<div class="stone white" style="top: -35px; left: 404px;"></div>
+    	<div class="stone black" style="top: 111px; left: 185px;"></div>
+
+    	<div class="stone white stone_invisible" style="top: 38px; left: 39px;"></div>
+    	<div class="stone black stone_invisible" style="top: 111px; left: 476px;"></div>
+    	<div class="stone white stone_invisible" style="top: 111px; left: 404px;"></div>
+    	<div class="stone black stone_invisible" style="top: 111px; left: 112px;"></div>
+    	<div class="stone white stone_invisible" style="top: 111px; left: 331px;"></div>
+    	<div class="stone black stone_invisible" style="top: 111px; left: 39px;"></div>
+    	<div class="stone white stone_invisible" style="top: 38px; left: 331px;"></div>
+		<div class="stone black stone_invisible" style="top: 38px; left: 112px;"></div>
+		<div class="stone white stone_invisible" style="top: -35px; left: 39px;"></div>
+
+
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	$(".stone_invisible").hide();
+	$( document ).ready(function() {
+		var iter = 0
+		setInterval(function(){
+			var ele = $(".stone_invisible");
+			if(ele.length > 0) {
+				ele.first().addClass("stone_visible");
+				ele.first().removeClass("stone_invisible");
+				ele.first().fadeIn( "slow" );
+			}
+			else {
+				if(iter > 1) {
+					var ele2 = $(".stone_visible");
+      				ele2.addClass("stone_invisible");
+					ele2.removeClass("stone_visible");
+					ele2.fadeOut( "slow" );
+					iter = 0;
+				}
+				else {
+					iter++;
+				}
+			}
+		}, 1500);
+	});
+
+
+</script>
+
+<script type="text/javascript">
+	window.parent.document.getElementById("screenshots").style.background="transparent";
+    window.parent.document.getElementById("screenshots").style.width="600px";
+    window.parent.document.getElementById("screenshots").style.height="220px";
+    window.parent.document.getElementById("screenshots").style.marginTop="-226px";
+    window.parent.document.getElementById("screenshots").style.marginLeft="-15px";
+    window.parent.document.getElementById("screenshots").style.padding="0px";
+    window.parent.document.getElementById("screenshots").style.textAlign="left";
+    window.parent.document.getElementById("screenshots").style.position="relative";
+    window.parent.document.getElementById("screenshots").style.fontSize = "0px";
+    window.parent.document.getElementById("screenshots").style.overflow = "hidden";
+    window.parent.document.getElementById("description_container").style.marginBottom="0px";
+    window.parent.document.getElementById("description_iframe").style.marginBottom = "0px";
+    window.parent.document.getElementById("description_iframe").style.marginLeft = "-15px";
+    window.parent.document.getElementById("description_iframe").style.marginRight = "-15px";
+    window.parent.document.getElementById("description_iframe").style.width="970px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.top="17px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.left="372px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.top="17px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.left="444px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.top="90px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.left="444px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.top="90px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.left="516px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.top="163px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.left="153px";
+
+    $(window.parent.document.getElementById("screenshots")).children("a").each(function (i, o) {
+
+        $(o).children("img").each(function (i, img) {
+            $(img).css({
+                "border": "0px solid rgba(255, 255, 255, 1.0)",
+                "border-radius": "100px",
+                "background-image": "url(" + img.src + ")",
+                "background-repeat": "no-repeat",
+                "background-position": "center center",
+                "background-size": "200%",
+                "width": "69px",
+                "height": "69px",
+                "opacity": "0.2",
+                "margin-right": "5px",
+                "position": "absolute",
+                "-webkit-transition": "opacity 1s",
+                "-moz-transition": "opacity 1s",
+                "-o-transition": "opacity 1s",
+                "transition": "opacity 1s",
+            });
+            img.src = "pixel.gif";
+        });
+    });
+
+    var lis = window.parent.document.getElementById("screenshots").getElementsByTagName("img");
+
+    for (var i=0; i<lis.length; i++) {
+        lis[i].onmouseover = function() {
+            this.style.opacity = 1.0;
+        };
+        lis[i].onmouseout = function() {
+            this.style.opacity = 0.2;
+        };
+    };
+</script>
+
+</body>
+</html>
+
+[screenshot]
+[img][bbtimg=138946][/img]
+[img][bbtimg=138947][/img]
+[img][bbtimg=138948][/img]
+[img][bbtimg=138949][/img]
+[img][bbtimg=138950][/img]
+[/screenshot]

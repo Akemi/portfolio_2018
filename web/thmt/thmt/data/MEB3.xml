@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A1 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ME1</lectureID>
+    <lectureName>Maschinenelemente 1</lectureName>
+    <teacherID>Sg</teacherID>
+    <teacherName>Sting</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A3 U107</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ME1&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen Maschinenelemente 1</lectureName>
+    <teacherID>Omo</teacherID>
+    <teacherName>Omoruyi, John</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A4 012</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DT1</lectureID>
+    <lectureName>Digitaltechnik 1</lectureName>
+    <teacherID>Gr</teacherID>
+    <teacherName>Gr&#xE4;fe</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A3 U107</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DT1</lectureID>
+    <lectureName>Digitaltechnik 1</lectureName>
+    <teacherID>Gr</teacherID>
+    <teacherName>Gr&#xE4;fe</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 114</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AI</lectureID>
+    <lectureName>Angewandte Informatik</lectureName>
+    <teacherID>Ps</teacherID>
+    <teacherName>Pfister, J&#xF6;rg</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A2 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>TM3</lectureID>
+    <lectureName>Technische Mechanik 3</lectureName>
+    <teacherID>Py</teacherID>
+    <teacherName>Pyttel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 014</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ME1</lectureID>
+    <lectureName>Maschinenelemente 1</lectureName>
+    <teacherID>Sg</teacherID>
+    <teacherName>Sting</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A1 002</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>EL</lectureID>
+    <lectureName>Elektronik</lectureName>
+    <teacherID>Li</teacherID>
+    <teacherName>Leitis</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 117</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AI&#xDC;</lectureID>
+    <lectureName>Angewandte Informatik &#xDC;bungen</lectureName>
+    <teacherID>Ps</teacherID>
+    <teacherName>Pfister, J&#xF6;rg</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A2 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>TM3&#xDC;</lectureID>
+    <lectureName>Technische Mechanik 3 &#xDC;bung</lectureName>
+    <teacherID>Py</teacherID>
+    <teacherName>Pyttel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A4 014</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ME1</lectureID>
+    <lectureName>Maschinenelemente 1</lectureName>
+    <teacherID>Sg</teacherID>
+    <teacherName>Sting</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A2 U117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DT1&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen zur Digitaltechnik 1</lectureName>
+    <teacherID>LTo</teacherID>
+    <teacherName>Tobisch, Dr.</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A4 U101</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>TMT</lectureID>
+    <lectureName>Technische Mechanik Tutorenprogramm</lectureName>
+    <teacherID>Kai</teacherID>
+    <teacherName>Kaiser, B.</teacherName>
+  </lecture>
+</TimeTable>

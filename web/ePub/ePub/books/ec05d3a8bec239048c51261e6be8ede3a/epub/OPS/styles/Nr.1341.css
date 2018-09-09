@@ -1,0 +1,347 @@
+@font-face
+{
+	font-family: "MS Trebuchet";
+	src: url(../fonts/trebuc.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "MS Trebuchet";
+	src: url(../fonts/trebucbd.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "MS Trebuchet";
+	src: url(../fonts/trebucbi.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "MS Trebuchet";
+	src: url(../fonts/trebucit.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "MS Georgia";
+	src: url(../fonts/georgia.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "MS Georgia";
+	src: url(../fonts/georgiab.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "MS Georgia";
+	src: url(../fonts/georgiaz.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "MS Georgia";
+	src: url(../fonts/georgiai.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+#book-content
+{
+	margin-left: 1.1em;
+	margin-right: 1.1em;
+}
+.#book-content h2x
+{
+	font-family: "MS Georgia";
+	font-size: 170%;
+	margin-top: 1.5em;
+	margin-bottom: .2em;
+	text-align: center;
+}
+.image1
+{
+	margin-top: 1.5em;
+	margin-bottom: 1.4em;
+	text-align: center;
+}
+small
+{
+	font-family: "MS Georgia";
+	font-size: 80%;
+}
+.noindent
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-align: justify;
+}
+.noindentx
+{
+	font-family: "MS Georgia";
+	margin-top: 1em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-align: justify;
+}
+.noindentt
+{
+	font-family: "MS Georgia";
+	margin-top: 1.2em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-align: justify;
+}
+.indenthanging
+{
+	font-family: "MS Georgia";
+	margin-top: 1.2em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-indent: -1.7em;
+	margin-left: 2em;
+	text-align: left;
+}
+.noindent1
+{
+	font-family: "MS Georgia";
+	margin-top: 2.5em;
+	margin-bottom: 0.5em;
+	font-size: 100%;
+	text-align: justify;
+}
+.indent
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-indent: 1.2em;
+	font-size: 100%;
+	text-align: justify;
+}
+.indentt
+{
+	font-family: "MS Georgia";
+	margin-top: 1.8em;
+	margin-bottom: 0.2em;
+	text-indent: 1.2em;
+	font-size: 100%;
+	text-align: justify;
+}
+.copyright
+{
+	font-family: "MS Georgia";
+	margin-top: 22em;
+	font-size: 90%;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.attribute
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	margin-bottom: 1.5em;
+	text-align: right;
+	font-size: 100%;
+}
+.author
+{
+	font-family: "MS Georgia";
+	font-size: 110%;
+	margin-top: .2em;
+	margin-bottom:.6em;
+	text-align:center;
+}
+.svg
+{
+	max-width: 100%;
+}
+SPAN.weblink
+{
+	text-decoration: nounder;
+	color: #00FFFF;
+}
+a
+{
+	text-decoration: nounder;
+}
+.#book-content h2
+{
+	font-family: "MS Georgia";
+	margin-top: 2em;
+	font-size: 160%;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+.#book-content h3
+{
+	font-family: "MS Georgia";
+	margin-top: .2em;
+	font-size: 110%;
+	margin-bottom: 2em;
+	text-align: center;
+}
+.#book-content h3p
+{
+	font-family: "MS Georgia";
+	margin-top: 1.5em;
+	font-size: 110%;
+	margin-bottom: 3em;
+	text-align: center;
+}
+.image
+{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.caption
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	font-size: 90%;
+	margin-bottom: 1.2em;
+	text-align: justify;
+}
+.captionx
+{
+	font-family: "MS Georgia";
+	margin-top: 0.4em;
+	font-size: 90%;
+	margin-bottom: 1.2em;
+	text-align: center;
+}
+.captionz
+{
+	font-family: "MS Georgia";
+	margin-top: 0.6em;
+	font-size: 110%;
+	margin-bottom: .2em;
+	text-align: center;
+}
+.captiony
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	font-size:90%;
+	margin-bottom: .2em;
+	text-align: center;
+}
+.center
+{
+	font-family: "MS Georgia";
+	margin-top: 1.2em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+.centerp
+{
+	font-family: "MS Georgia";
+	margin-top: 1.2em;
+	font-size: 100%;
+	margin-bottom: 1.2em;
+	text-align: center;
+}
+.#book-content h3x
+{
+	font-family: "MS Georgia";
+	margin-top: 3em;
+	font-size: 100%;
+	margin-bottom: .6em;
+	text-align: justify;
+}
+.underline
+{
+	border-bottom: solid .05em;
+}
+.endnote1
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	font-size: 90%;
+	text-indent: -1.6em;
+	margin-left: 1.6em;
+	margin-bottom: 0.2em;
+	text-align: left;
+}
+.endnote
+{
+	font-family: "MS Georgia";
+	margin-top: 0.2em;
+	font-size: 90%;
+	text-indent: -1.1em;
+	margin-left: 1.6em;
+	margin-bottom: 0.2em;
+	text-align: left;
+}
+.indent1
+{
+	font-family: "MS Georgia";
+	margin-top: 1.2em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-align: justify;
+}
+.centerz
+{
+	font-family: "MS Georgia";
+	margin-top: 0.5em;
+	font-size: 150%;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+.centert
+{
+	font-family: "MS Georgia";
+	margin-top: 1.5em;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+.#book-content h3a
+{
+	font-family: "MS Georgia";
+	margin-top: 1em;
+	font-size: 115%;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+.#book-content h2z
+{
+	font-family: "MS Trebuchet";
+	font-size: 170%;
+	margin-top: 1.5em;
+	margin-bottom: .2em;
+	text-align: center;
+}
+.#book-content h2z1
+{
+	font-family: "MS Georgia";
+	font-size: 160%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	text-align: center;
+}
+.#book-content h3b
+{
+	font-family: "MS Trebuchet";
+	font-size: 120%;
+	margin-top: .5em;
+	margin-bottom: .2em;
+	text-align: center;
+}
+.pagebreak
+{
+        page-break-before: always;
+}

@@ -1,0 +1,1326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ncx PUBLIC '-//NISO//DTD ncx 2005-1//EN' 
+              'http://www.daisy.org/z3986/2005/ncx-2005-1.dtd'>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="http://www.gutenberg.org/ebooks/16328" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="Project Gutenberg EPUB-Maker v0.02 by Marcello Perathoner &lt;webmaster@gutenberg.org&gt;" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Beowulf&#13;
+An Anglo-Saxon Epic Poem</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="np-1" playOrder="4">
+      <navLabel>
+        <text>PREFACE.</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#pgepubid00003"/>
+      <navPoint id="np-2" playOrder="7">
+        <navLabel>
+          <text>THE STORY.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#pgepubid00006"/>
+      </navPoint>
+      <navPoint id="np-3" playOrder="10">
+        <navLabel>
+          <text>ABBREVIATIONS USED IN THE NOTES.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#pgepubid00009"/>
+      </navPoint>
+      <navPoint id="np-4" playOrder="11">
+        <navLabel>
+          <text>BIBLIOGRAPHY OF TRANSLATIONS.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#pgepubid00010"/>
+      </navPoint>
+      <navPoint id="np-5" playOrder="14">
+        <navLabel>
+          <text>GLOSSARY OF PROPER NAMES.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#pgepubid00013"/>
+      </navPoint>
+      <navPoint id="np-6" playOrder="20">
+        <navLabel>
+          <text>LIST OF WORDS AND PHRASES NOT IN GENERAL USE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#pgepubid00019"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-7" playOrder="22">
+      <navLabel>
+        <text>BEOWULF.</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00021"/>
+      <navPoint id="np-8" playOrder="23">
+        <navLabel>
+          <text>I.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00022"/>
+      </navPoint>
+      <navPoint id="np-9" playOrder="24">
+        <navLabel>
+          <text>THE LIFE AND DEATH OF SCYLD.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00023"/>
+      </navPoint>
+      <navPoint id="np-10" playOrder="27">
+        <navLabel>
+          <text>II.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00026"/>
+      </navPoint>
+      <navPoint id="np-11" playOrder="28">
+        <navLabel>
+          <text>SCYLD’S SUCCESSORS.—HROTHGAR’S GREAT MEAD-HALL.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00027"/>
+      </navPoint>
+      <navPoint id="np-12" playOrder="31">
+        <navLabel>
+          <text>III.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00030"/>
+      </navPoint>
+      <navPoint id="np-13" playOrder="32">
+        <navLabel>
+          <text>GRENDEL THE MURDERER.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00031"/>
+      </navPoint>
+      <navPoint id="np-14" playOrder="36">
+        <navLabel>
+          <text>IV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00035"/>
+      </navPoint>
+      <navPoint id="np-15" playOrder="37">
+        <navLabel>
+          <text>BEOWULF GOES TO HROTHGAR’S ASSISTANCE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00036"/>
+      </navPoint>
+      <navPoint id="np-16" playOrder="40">
+        <navLabel>
+          <text>V.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00039"/>
+      </navPoint>
+      <navPoint id="np-17" playOrder="41">
+        <navLabel>
+          <text>THE GEATS REACH HEOROT.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00040"/>
+      </navPoint>
+      <navPoint id="np-18" playOrder="44">
+        <navLabel>
+          <text>VI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00043"/>
+      </navPoint>
+      <navPoint id="np-19" playOrder="45">
+        <navLabel>
+          <text>BEOWULF INTRODUCES HIMSELF AT THE PALACE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00044"/>
+      </navPoint>
+      <navPoint id="np-20" playOrder="48">
+        <navLabel>
+          <text>VII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00047"/>
+      </navPoint>
+      <navPoint id="np-21" playOrder="49">
+        <navLabel>
+          <text>HROTHGAR AND BEOWULF.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00048"/>
+      </navPoint>
+      <navPoint id="np-22" playOrder="53">
+        <navLabel>
+          <text>VIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00052"/>
+      </navPoint>
+      <navPoint id="np-23" playOrder="54">
+        <navLabel>
+          <text>HROTHGAR AND BEOWULF.—Continued.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00053"/>
+      </navPoint>
+      <navPoint id="np-24" playOrder="57">
+        <navLabel>
+          <text>IX.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00056"/>
+      </navPoint>
+      <navPoint id="np-25" playOrder="58">
+        <navLabel>
+          <text>UNFERTH TAUNTS BEOWULF.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00057"/>
+      </navPoint>
+      <navPoint id="np-26" playOrder="61">
+        <navLabel>
+          <text>X.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00060"/>
+      </navPoint>
+      <navPoint id="np-27" playOrder="62">
+        <navLabel>
+          <text>BEOWULF SILENCES UNFERTH.—GLEE IS HIGH.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00061"/>
+      </navPoint>
+      <navPoint id="np-28" playOrder="66">
+        <navLabel>
+          <text>XI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00065"/>
+      </navPoint>
+      <navPoint id="np-29" playOrder="67">
+        <navLabel>
+          <text>ALL SLEEP SAVE ONE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00066"/>
+      </navPoint>
+      <navPoint id="np-30" playOrder="70">
+        <navLabel>
+          <text>XII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00069"/>
+      </navPoint>
+      <navPoint id="np-31" playOrder="71">
+        <navLabel>
+          <text>GRENDEL AND BEOWULF.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00070"/>
+      </navPoint>
+      <navPoint id="np-32" playOrder="74">
+        <navLabel>
+          <text>XIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00073"/>
+      </navPoint>
+      <navPoint id="np-33" playOrder="75">
+        <navLabel>
+          <text>GRENDEL IS VANQUISHED.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00074"/>
+      </navPoint>
+      <navPoint id="np-34" playOrder="78">
+        <navLabel>
+          <text>XIV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00077"/>
+      </navPoint>
+      <navPoint id="np-35" playOrder="79">
+        <navLabel>
+          <text>REJOICING OF THE DANES.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00078"/>
+      </navPoint>
+      <navPoint id="np-36" playOrder="83">
+        <navLabel>
+          <text>XV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00082"/>
+      </navPoint>
+      <navPoint id="np-37" playOrder="84">
+        <navLabel>
+          <text>HROTHGAR’S GRATITUDE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00083"/>
+      </navPoint>
+      <navPoint id="np-38" playOrder="87">
+        <navLabel>
+          <text>XVI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00086"/>
+      </navPoint>
+      <navPoint id="np-39" playOrder="88">
+        <navLabel>
+          <text>HROTHGAR LAVISHES GIFTS UPON HIS DELIVERER.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00087"/>
+      </navPoint>
+      <navPoint id="np-40" playOrder="91">
+        <navLabel>
+          <text>XVII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00090"/>
+      </navPoint>
+      <navPoint id="np-41" playOrder="92">
+        <navLabel>
+          <text>BANQUET (continued).—THE SCOP’S SONG OF FINN AND HNÆF.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#pgepubid00091"/>
+      </navPoint>
+      <navPoint id="np-42" playOrder="95">
+        <navLabel>
+          <text>XVIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00094"/>
+      </navPoint>
+      <navPoint id="np-43" playOrder="96">
+        <navLabel>
+          <text>THE FINN EPISODE (continued).—THE BANQUET CONTINUES.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00095"/>
+      </navPoint>
+      <navPoint id="np-44" playOrder="99">
+        <navLabel>
+          <text>XIX.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00098"/>
+      </navPoint>
+      <navPoint id="np-45" playOrder="100">
+        <navLabel>
+          <text>BEOWULF RECEIVES FURTHER HONOR.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00099"/>
+      </navPoint>
+      <navPoint id="np-46" playOrder="104">
+        <navLabel>
+          <text>XX.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00103"/>
+      </navPoint>
+      <navPoint id="np-47" playOrder="105">
+        <navLabel>
+          <text>THE MOTHER OF GRENDEL.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00104"/>
+      </navPoint>
+      <navPoint id="np-48" playOrder="108">
+        <navLabel>
+          <text>XXI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00107"/>
+      </navPoint>
+      <navPoint id="np-49" playOrder="109">
+        <navLabel>
+          <text>HROTHGAR’S ACCOUNT OF THE MONSTERS.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00108"/>
+      </navPoint>
+      <navPoint id="np-50" playOrder="112">
+        <navLabel>
+          <text>XXII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00111"/>
+      </navPoint>
+      <navPoint id="np-51" playOrder="113">
+        <navLabel>
+          <text>BEOWULF SEEKS GRENDEL’S MOTHER.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00112"/>
+      </navPoint>
+      <navPoint id="np-52" playOrder="117">
+        <navLabel>
+          <text>XXIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00116"/>
+      </navPoint>
+      <navPoint id="np-53" playOrder="118">
+        <navLabel>
+          <text>BEOWULF’S FIGHT WITH GRENDEL’S MOTHER.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00117"/>
+      </navPoint>
+      <navPoint id="np-54" playOrder="121">
+        <navLabel>
+          <text>XXIV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00120"/>
+      </navPoint>
+      <navPoint id="np-55" playOrder="122">
+        <navLabel>
+          <text>BEOWULF IS DOUBLE-CONQUEROR.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00121"/>
+      </navPoint>
+      <navPoint id="np-56" playOrder="127">
+        <navLabel>
+          <text>XXV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00126"/>
+      </navPoint>
+      <navPoint id="np-57" playOrder="128">
+        <navLabel>
+          <text>BEOWULF BRINGS HIS TROPHIES.—HROTHGAR’S GRATITUDE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00127"/>
+      </navPoint>
+      <navPoint id="np-58" playOrder="132">
+        <navLabel>
+          <text>XXVI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00131"/>
+      </navPoint>
+      <navPoint id="np-59" playOrder="133">
+        <navLabel>
+          <text>HROTHGAR MORALIZES.—REST AFTER LABOR.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00132"/>
+      </navPoint>
+      <navPoint id="np-60" playOrder="136">
+        <navLabel>
+          <text>XXVII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00135"/>
+      </navPoint>
+      <navPoint id="np-61" playOrder="137">
+        <navLabel>
+          <text>SORROW AT PARTING.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00136"/>
+      </navPoint>
+      <navPoint id="np-62" playOrder="140">
+        <navLabel>
+          <text>XXVIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00139"/>
+      </navPoint>
+      <navPoint id="np-63" playOrder="141">
+        <navLabel>
+          <text>THE HOMEWARD JOURNEY.—THE TWO QUEENS.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00140"/>
+      </navPoint>
+      <navPoint id="np-64" playOrder="145">
+        <navLabel>
+          <text>XXIX.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00144"/>
+      </navPoint>
+      <navPoint id="np-65" playOrder="146">
+        <navLabel>
+          <text>BEOWULF AND HIGELAC.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00145"/>
+      </navPoint>
+      <navPoint id="np-66" playOrder="149">
+        <navLabel>
+          <text>XXX.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00148"/>
+      </navPoint>
+      <navPoint id="np-67" playOrder="150">
+        <navLabel>
+          <text>BEOWULF NARRATES HIS ADVENTURES TO HIGELAC.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00149"/>
+      </navPoint>
+      <navPoint id="np-68" playOrder="155">
+        <navLabel>
+          <text>XXXI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00154"/>
+      </navPoint>
+      <navPoint id="np-69" playOrder="156">
+        <navLabel>
+          <text>GIFT-GIVING IS MUTUAL.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00155"/>
+      </navPoint>
+      <navPoint id="np-70" playOrder="159">
+        <navLabel>
+          <text>XXXII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00158"/>
+      </navPoint>
+      <navPoint id="np-71" playOrder="160">
+        <navLabel>
+          <text>THE HOARD AND THE DRAGON.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#pgepubid00159"/>
+      </navPoint>
+      <navPoint id="np-72" playOrder="164">
+        <navLabel>
+          <text>XXXIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00163"/>
+      </navPoint>
+      <navPoint id="np-73" playOrder="165">
+        <navLabel>
+          <text>BRAVE THOUGH AGED.—REMINISCENCES.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00164"/>
+      </navPoint>
+      <navPoint id="np-74" playOrder="169">
+        <navLabel>
+          <text>XXXIV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00168"/>
+      </navPoint>
+      <navPoint id="np-75" playOrder="170">
+        <navLabel>
+          <text>BEOWULF SEEKS THE DRAGON.—BEOWULF’S REMINISCENCES.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00169"/>
+      </navPoint>
+      <navPoint id="np-76" playOrder="173">
+        <navLabel>
+          <text>XXXV.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00172"/>
+      </navPoint>
+      <navPoint id="np-77" playOrder="174">
+        <navLabel>
+          <text>REMINISCENCES (continued).—BEOWULF’S LAST BATTLE.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00173"/>
+      </navPoint>
+      <navPoint id="np-78" playOrder="180">
+        <navLabel>
+          <text>XXXVI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00179"/>
+      </navPoint>
+      <navPoint id="np-79" playOrder="181">
+        <navLabel>
+          <text>WIGLAF THE TRUSTY.—BEOWULF IS DESERTED BY FRIENDS AND BY SWORD.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00180"/>
+      </navPoint>
+      <navPoint id="np-80" playOrder="185">
+        <navLabel>
+          <text>XXXVII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00184"/>
+      </navPoint>
+      <navPoint id="np-81" playOrder="186">
+        <navLabel>
+          <text>THE FATAL STRUGGLE.—BEOWULF’S LAST MOMENTS.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00185"/>
+      </navPoint>
+      <navPoint id="np-82" playOrder="189">
+        <navLabel>
+          <text>XXXVIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00188"/>
+      </navPoint>
+      <navPoint id="np-83" playOrder="190">
+        <navLabel>
+          <text>WIGLAF PLUNDERS THE DRAGON’S DEN.—BEOWULF’S DEATH.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00189"/>
+      </navPoint>
+      <navPoint id="np-84" playOrder="193">
+        <navLabel>
+          <text>XXXIX.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00192"/>
+      </navPoint>
+      <navPoint id="np-85" playOrder="194">
+        <navLabel>
+          <text>THE DEAD FOES.—WIGLAF’S BITTER TAUNTS.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00193"/>
+      </navPoint>
+      <navPoint id="np-86" playOrder="197">
+        <navLabel>
+          <text>XL.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00196"/>
+      </navPoint>
+      <navPoint id="np-87" playOrder="198">
+        <navLabel>
+          <text>THE MESSENGER OF DEATH.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00197"/>
+      </navPoint>
+      <navPoint id="np-88" playOrder="201">
+        <navLabel>
+          <text>XLI.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00200"/>
+      </navPoint>
+      <navPoint id="np-89" playOrder="202">
+        <navLabel>
+          <text>THE MESSENGER’S RETROSPECT.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00201"/>
+      </navPoint>
+      <navPoint id="np-90" playOrder="207">
+        <navLabel>
+          <text>XLII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00206"/>
+      </navPoint>
+      <navPoint id="np-91" playOrder="208">
+        <navLabel>
+          <text>WIGLAF’S SAD STORY.—THE HOARD CARRIED OFF.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00207"/>
+      </navPoint>
+      <navPoint id="np-92" playOrder="212">
+        <navLabel>
+          <text>XLIII.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00211"/>
+      </navPoint>
+      <navPoint id="np-93" playOrder="213">
+        <navLabel>
+          <text>THE BURNING OF BEOWULF.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#pgepubid00212"/>
+      </navPoint>
+      <navPoint id="np-94" playOrder="216">
+        <navLabel>
+          <text>ADDENDA.</text>
+        </navLabel>
+        <content src="www.gutenberg.org@files@16328@16328-h@16328-h-4.htm#pgepubid00215"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+  <pageList id="pages" class="pagelist">
+    <navLabel>
+      <text>Pages</text>
+    </navLabel>
+    <pageTarget type="front" id="pt-1" value="1" playOrder="1">
+      <navLabel>
+        <text>[v]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_v"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-2" value="2" playOrder="2">
+      <navLabel>
+        <text>[vi]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_vi"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-3" value="3" playOrder="3">
+      <navLabel>
+        <text>[vii]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_vii"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-4" value="4" playOrder="5">
+      <navLabel>
+        <text>[viii]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_viii"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-5" value="5" playOrder="6">
+      <navLabel>
+        <text>[ix]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_ix"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-6" value="6" playOrder="8">
+      <navLabel>
+        <text>[x]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_x"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-7" value="7" playOrder="9">
+      <navLabel>
+        <text>[xi]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xi"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-8" value="8" playOrder="12">
+      <navLabel>
+        <text>[xii]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xii"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-9" value="9" playOrder="13">
+      <navLabel>
+        <text>[xiii]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xiii"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-10" value="10" playOrder="15">
+      <navLabel>
+        <text>[xiv]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xiv"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-11" value="11" playOrder="16">
+      <navLabel>
+        <text>[xv]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xv"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-12" value="12" playOrder="17">
+      <navLabel>
+        <text>[xvi]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xvi"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-13" value="13" playOrder="18">
+      <navLabel>
+        <text>[xvii]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xvii"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-14" value="14" playOrder="19">
+      <navLabel>
+        <text>[xviii]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-0.htm#page_xviii"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-15" value="15" playOrder="21">
+      <navLabel>
+        <text>[1]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_1"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-16" value="16" playOrder="25">
+      <navLabel>
+        <text>[2]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_2"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-17" value="17" playOrder="26">
+      <navLabel>
+        <text>[3]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_3"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-18" value="18" playOrder="29">
+      <navLabel>
+        <text>[4]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_4"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-19" value="19" playOrder="30">
+      <navLabel>
+        <text>[5]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_5"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-20" value="20" playOrder="33">
+      <navLabel>
+        <text>[6]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_6"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-21" value="21" playOrder="34">
+      <navLabel>
+        <text>[7]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_7"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-22" value="22" playOrder="35">
+      <navLabel>
+        <text>[8]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_8"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-23" value="23" playOrder="38">
+      <navLabel>
+        <text>[9]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_9"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-24" value="24" playOrder="39">
+      <navLabel>
+        <text>[10]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_10"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-25" value="25" playOrder="42">
+      <navLabel>
+        <text>[11]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_11"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-26" value="26" playOrder="43">
+      <navLabel>
+        <text>[12]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_12"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-27" value="27" playOrder="46">
+      <navLabel>
+        <text>[13]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_13"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-28" value="28" playOrder="47">
+      <navLabel>
+        <text>[14]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_14"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-29" value="29" playOrder="50">
+      <navLabel>
+        <text>[15]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_15"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-30" value="30" playOrder="51">
+      <navLabel>
+        <text>[16]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_16"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-31" value="31" playOrder="52">
+      <navLabel>
+        <text>[17]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_17"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-32" value="32" playOrder="55">
+      <navLabel>
+        <text>[18]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_18"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-33" value="33" playOrder="56">
+      <navLabel>
+        <text>[19]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_19"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-34" value="34" playOrder="59">
+      <navLabel>
+        <text>[20]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_20"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-35" value="35" playOrder="60">
+      <navLabel>
+        <text>[21]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_21"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-36" value="36" playOrder="63">
+      <navLabel>
+        <text>[22]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_22"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-37" value="37" playOrder="64">
+      <navLabel>
+        <text>[23]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_23"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-38" value="38" playOrder="65">
+      <navLabel>
+        <text>[24]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_24"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-39" value="39" playOrder="68">
+      <navLabel>
+        <text>[25]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_25"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-40" value="40" playOrder="69">
+      <navLabel>
+        <text>[26]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_26"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-41" value="41" playOrder="72">
+      <navLabel>
+        <text>[27]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_27"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-42" value="42" playOrder="73">
+      <navLabel>
+        <text>[28]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_28"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-43" value="43" playOrder="76">
+      <navLabel>
+        <text>[29]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_29"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-44" value="44" playOrder="77">
+      <navLabel>
+        <text>[30]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_30"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-45" value="45" playOrder="80">
+      <navLabel>
+        <text>[31]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_31"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-46" value="46" playOrder="81">
+      <navLabel>
+        <text>[32]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_32"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-47" value="47" playOrder="82">
+      <navLabel>
+        <text>[33]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_33"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-48" value="48" playOrder="85">
+      <navLabel>
+        <text>[34]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_34"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-49" value="49" playOrder="86">
+      <navLabel>
+        <text>[35]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_35"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-50" value="50" playOrder="89">
+      <navLabel>
+        <text>[36]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_36"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-51" value="51" playOrder="90">
+      <navLabel>
+        <text>[37]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_37"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-52" value="52" playOrder="93">
+      <navLabel>
+        <text>[38]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_38"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-53" value="53" playOrder="94">
+      <navLabel>
+        <text>[39]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-1.htm#page_39"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-54" value="54" playOrder="97">
+      <navLabel>
+        <text>[40]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_40"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-55" value="55" playOrder="98">
+      <navLabel>
+        <text>[41]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_41"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-56" value="56" playOrder="101">
+      <navLabel>
+        <text>[42]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_42"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-57" value="57" playOrder="102">
+      <navLabel>
+        <text>[43]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_43"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-58" value="58" playOrder="103">
+      <navLabel>
+        <text>[44]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_44"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-59" value="59" playOrder="106">
+      <navLabel>
+        <text>[45]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_45"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-60" value="60" playOrder="107">
+      <navLabel>
+        <text>[46]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_46"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-61" value="61" playOrder="110">
+      <navLabel>
+        <text>[47]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_47"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-62" value="62" playOrder="111">
+      <navLabel>
+        <text>[48]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_48"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-63" value="63" playOrder="114">
+      <navLabel>
+        <text>[49]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_49"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-64" value="64" playOrder="115">
+      <navLabel>
+        <text>[50]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_50"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-65" value="65" playOrder="116">
+      <navLabel>
+        <text>[51]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_51"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-66" value="66" playOrder="119">
+      <navLabel>
+        <text>[52]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_52"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-67" value="67" playOrder="120">
+      <navLabel>
+        <text>[53]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_53"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-68" value="68" playOrder="123">
+      <navLabel>
+        <text>[54]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_54"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-69" value="69" playOrder="124">
+      <navLabel>
+        <text>[55]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_55"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-70" value="70" playOrder="125">
+      <navLabel>
+        <text>[56]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_56"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-71" value="71" playOrder="126">
+      <navLabel>
+        <text>[57]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_57"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-72" value="72" playOrder="129">
+      <navLabel>
+        <text>[58]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_58"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-73" value="73" playOrder="130">
+      <navLabel>
+        <text>[59]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_59"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-74" value="74" playOrder="131">
+      <navLabel>
+        <text>[60]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_60"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-75" value="75" playOrder="134">
+      <navLabel>
+        <text>[61]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_61"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-76" value="76" playOrder="135">
+      <navLabel>
+        <text>[62]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_62"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-77" value="77" playOrder="138">
+      <navLabel>
+        <text>[63]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_63"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-78" value="78" playOrder="139">
+      <navLabel>
+        <text>[64]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_64"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-79" value="79" playOrder="142">
+      <navLabel>
+        <text>[65]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_65"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-80" value="80" playOrder="143">
+      <navLabel>
+        <text>[66]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_66"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-81" value="81" playOrder="144">
+      <navLabel>
+        <text>[67]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_67"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-82" value="82" playOrder="147">
+      <navLabel>
+        <text>[68]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_68"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-83" value="83" playOrder="148">
+      <navLabel>
+        <text>[69]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_69"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-84" value="84" playOrder="151">
+      <navLabel>
+        <text>[70]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_70"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-85" value="85" playOrder="152">
+      <navLabel>
+        <text>[71]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_71"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-86" value="86" playOrder="153">
+      <navLabel>
+        <text>[72]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_72"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-87" value="87" playOrder="154">
+      <navLabel>
+        <text>[73]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_73"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-88" value="88" playOrder="157">
+      <navLabel>
+        <text>[74]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_74"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-89" value="89" playOrder="158">
+      <navLabel>
+        <text>[75]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_75"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-90" value="90" playOrder="161">
+      <navLabel>
+        <text>[76]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_76"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-91" value="91" playOrder="162">
+      <navLabel>
+        <text>[77]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_77"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-92" value="92" playOrder="163">
+      <navLabel>
+        <text>[78]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-2.htm#page_78"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-93" value="93" playOrder="166">
+      <navLabel>
+        <text>[79]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_79"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-94" value="94" playOrder="167">
+      <navLabel>
+        <text>[80]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_80"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-95" value="95" playOrder="168">
+      <navLabel>
+        <text>[81]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_81"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-96" value="96" playOrder="171">
+      <navLabel>
+        <text>[82]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_82"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-97" value="97" playOrder="172">
+      <navLabel>
+        <text>[83]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_83"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-98" value="98" playOrder="175">
+      <navLabel>
+        <text>[84]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_84"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-99" value="99" playOrder="176">
+      <navLabel>
+        <text>[85]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_85"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-100" value="100" playOrder="177">
+      <navLabel>
+        <text>[86]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_86"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-101" value="101" playOrder="178">
+      <navLabel>
+        <text>[87]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_87"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-102" value="102" playOrder="179">
+      <navLabel>
+        <text>[88]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_88"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-103" value="103" playOrder="182">
+      <navLabel>
+        <text>[89]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_89"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-104" value="104" playOrder="183">
+      <navLabel>
+        <text>[90]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_90"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-105" value="105" playOrder="184">
+      <navLabel>
+        <text>[91]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_91"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-106" value="106" playOrder="187">
+      <navLabel>
+        <text>[92]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_92"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-107" value="107" playOrder="188">
+      <navLabel>
+        <text>[93]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_93"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-108" value="108" playOrder="191">
+      <navLabel>
+        <text>[94]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_94"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-109" value="109" playOrder="192">
+      <navLabel>
+        <text>[95]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_95"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-110" value="110" playOrder="195">
+      <navLabel>
+        <text>[96]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_96"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-111" value="111" playOrder="196">
+      <navLabel>
+        <text>[97]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_97"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-112" value="112" playOrder="199">
+      <navLabel>
+        <text>[98]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_98"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-113" value="113" playOrder="200">
+      <navLabel>
+        <text>[99]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_99"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-114" value="114" playOrder="203">
+      <navLabel>
+        <text>[100]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_100"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-115" value="115" playOrder="204">
+      <navLabel>
+        <text>[101]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_101"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-116" value="116" playOrder="205">
+      <navLabel>
+        <text>[102]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_102"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-117" value="117" playOrder="206">
+      <navLabel>
+        <text>[103]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_103"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-118" value="118" playOrder="209">
+      <navLabel>
+        <text>[104]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_104"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-119" value="119" playOrder="210">
+      <navLabel>
+        <text>[105]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_105"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-120" value="120" playOrder="211">
+      <navLabel>
+        <text>[106]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_106"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-121" value="121" playOrder="214">
+      <navLabel>
+        <text>[107]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-3.htm#page_107"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-122" value="122" playOrder="215">
+      <navLabel>
+        <text>[109]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-4.htm#page_109"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-123" value="123" playOrder="217">
+      <navLabel>
+        <text>[110]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@16328@16328-h@16328-h-4.htm#page_110"/>
+    </pageTarget>
+  </pageList>
+</ncx>

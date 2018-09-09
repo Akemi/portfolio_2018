@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/global_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/global_button"
+        android:onClick="changeActivity"
+        android:text="@string/start_button" />
+
+    <Button
+        android:id="@+id/info_button"
+        style="@style/global_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/start_button"
+        android:layout_alignBottom="@+id/start_button"
+        android:layout_alignRight="@+id/start_button"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/global_button"
+        android:text="@string/info_button"
+       android:onClick="changeActivityInfo" />
+
+</RelativeLayout>

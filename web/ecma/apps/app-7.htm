@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>ToDo-List</title>
+    <meta charset="UTF-8"/>
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="../kern/esa.css"/>
+    <script src="crypt2.js"></script>
+    <script>
+        window.onload = function () {
+            //if (top["bib"]) { top.bib.dl({ doc: document, id: 'DL1', show_idx: [ ] }); }
+        };
+    </script>
+
+    <style>
+        body {
+            background-color: #c8cece;
+        }
+
+        #lock {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        #center {
+            width: 0px;
+            height: 0px;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            top: 40%;
+        }
+
+        .lock {
+            font-size: 100px;
+            color: #f4f4f4;
+            position: absolute;
+            top: 23px;
+            left: -32px;
+        }
+        .spinner {
+            font-size: 150px;
+            color: #f4f4f4;
+            position: absolute;
+            top: 0px;
+            left: -75px;
+            -webkit-animation: spinRight linear infinite 10s;
+            -moz-animation: spinRight linear infinite 10s;
+            -o-animation: spinRight linear infinite 10s;
+            -ms-animation: spinRight linear infinite 10s;
+            animation: spinRight linear infinite 10s;
+        }
+
+        #pw {
+            position: absolute;
+            top: -43px;
+            left: -100px;
+            width: 200px;
+            font-size: 25px;
+            background-color: #f4f4f4;
+            border-width: 0px;
+            text-align: center;
+            color: #c8cece;
+            border-radius: 5px
+        }
+
+        #DL1 {
+            display: none;
+        }
+
+        #list {
+            list-style: disc;
+        }
+
+        #list > li {
+            cursor: pointer;
+        }
+        #list > li:hover {
+            background-color: #9dd9ff;
+        }
+
+        @-webkit-keyframes spinRight {
+            from { -webkit-transform: rotate(0deg); }
+            to { -webkit-transform: rotate(360deg); }
+        }
+        @-moz-keyframes spinRight {
+            from { -moz-transform: rotate(0deg); }
+            to { -moz-transform: rotate(360deg); }
+        }
+        @-o-keyframes spinRight {
+            from { -o-transform: rotate(0deg); }
+            to { -o-transform: rotate(360deg); }
+        }
+        @-ms-keyframes spinRight {
+            from { -ms-transform: rotate(0deg); }
+            to { -ms-transform: rotate(360deg); }
+        }
+        @keyframes spinRight {
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+
+
+<h1>ToDo-List</h1>
+<div id="lock" >
+    Das Passwort ist "testPassword" und is bereits eingetragen. Es kann in PHP geändert werden, da dort die validierung statt
+    findet. Bestätigen mit Enter.
+    <div id="center">
+        <div class="lock fa fa-lock"></div>
+        <div class="spinner fa fa-circle-o-notch"></div>
+        <input type="password" id="pw" placeholder="Password" value="testPassword">
+    </div>
+</div>
+
+<dl id="DL1">
+    <dt>Eine ToDo-Liste</dt>
+    <dd>
+        <ul id="list">
+
+        </ul>
+
+        <form action="#" onsubmit="return false;">
+            <textarea id="todo" cols="90" rows="2"></textarea>
+
+            <input type="button" value="Send" onclick="sendItem(this.form.todo.value);" >
+        </form>
+    </dd>
+
+    </dd><dt> Bedienungshinweise <dfn>Help </dfn></dt><dd>
+    <p>
+        Mit dem Textarea und dem Senden Button können neue Tasks zur Liste hinzugefügrt werden.
+    </p>
+    <p>
+        Das Klicken auf einen Tasks entfernt diesen Task wieder.
+    </p>
+</dd>
+</dl>
+
+
+
+<script>
+    /*
+         readyState	Holds the status of the XMLHttpRequest. Changes from 0 to 4:
+         0: request not initialized
+         1: server connection established
+         2: request received
+         3: processing request
+         4: request finished and response is ready
+     */
+    /*
+         status
+         200: "OK"
+         404: Page not found
+     */
+
+    var password = "";
+
+    function addTask(action, data) {
+        var dataArray = JSON.parse(localStorage.getItem('data')) || {};
+        var newElement = {
+            'action': action,
+            'data': data
+        };
+
+        dataArray['_' + Math.random().toString(36).substr(2, 9)] = newElement;
+        localStorage.setItem('data', JSON.stringify(dataArray));
+    }
+
+    function removeTask(id) {
+        var dataArray = JSON.parse(localStorage.getItem('data')) || {};
+        delete dataArray[id];
+        localStorage.setItem('data', JSON.stringify(dataArray));
+    }
+
+    function executeTasks() {
+        var dataArray = JSON.parse(localStorage.getItem('data')) || {};
+        for(var index in dataArray) {
+            if(dataArray[index].action == "add") {
+                sendItem(dataArray[index].data, index);
+            }
+            else if(dataArray[index].action == "delete") {
+                deleteListItem(dataArray[index].data, index);
+            }
+        }
+    }
+
+    function createDeleteData(value) {
+        var data = {};
+        var time = new Date().getTime();
+
+        data["action"] = "delete";
+        data["data"] = crypt.encrypt(value, password);
+        data["password"] = crypt.encrypt(password+time, password);
+        data["dataHash"] = crypt.encrypt(String(crypt.hashHelper(value)), password);
+        data["time"] = crypt.encrypt(String(time), password);
+        data["passwordHash"] = crypt.encrypt(String(crypt.hashHelper(password+time)), password);
+
+        return JSON.stringify(data);
+    }
+
+    function createSendData(value) {
+        var data = {};
+        var time = new Date().getTime();
+
+        data["action"] = "add";
+        data["data"] = crypt.encrypt(value, password);
+        data["password"] = crypt.encrypt(password+time, password);
+        data["dataHash"] = crypt.encrypt(String(crypt.hashHelper(value)), password);
+        data["time"] = crypt.encrypt(String(time), password);
+        data["passwordHash"] = crypt.encrypt(String(crypt.hashHelper(password+time)), password);
+
+        return JSON.stringify(data);
+    }
+
+    function createPWCheckData() {
+        var data = {};
+        var time = new Date().getTime();
+
+        data["action"] = "check";
+        data["password"] = crypt.encrypt(password+time, password);
+        data["time"] = crypt.encrypt(String(time), password);
+        data["passwordHash"] = crypt.encrypt(String(crypt.hashHelper(password+time)), password);
+
+        return JSON.stringify(data);
+    }
+
+
+    function sendItem(value, del) {
+        var xmlhttp = new XMLHttpRequest();
+        var requestURL = 'http://homepages-fb.thm.de/fwsf69/apps/list.php';
+        xmlhttp.open("POST", requestURL, true);
+        xmlhttp.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+        xmlhttp.timeout = 4000;
+
+        xmlhttp.onreadystatechange = function (ev) {
+            if (xmlhttp.readyState === 4) {
+                if (xmlhttp.status === 200) {
+                    var tmp = JSON.parse(xmlhttp.responseText);
+                    if(tmp.response ==  "accepted") {
+                        if(del !== 'undefined') removeTask(del);
+                        getList();
+                        document.getElementById("todo").value = "";
+                    }
+                }
+                else {
+                    addTask("add", value);
+                    console.log("Error", xmlhttp.statusText);
+                }
+            }
+        };
+
+        xmlhttp.onerror = function (e) {
+            console.error(xmlhttp.statusText);
+        };
+
+        xmlhttp.ontimeout = function () {
+            console.error("Timed out.");
+        }
+
+        xmlhttp.send(createSendData(value));
+    }
+
+    function checkPermission() {
+        var xmlhttp = new XMLHttpRequest();
+        var requestURL = 'http://homepages-fb.thm.de/fwsf69/apps/list.php';
+        xmlhttp.open("POST", requestURL, true);
+        xmlhttp.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+        xmlhttp.timeout = 4000;
+
+        xmlhttp.onreadystatechange = function (ev) {
+            if (xmlhttp.readyState === 4) {
+                if (xmlhttp.status === 200) {
+                    var tmp = JSON.parse(xmlhttp.responseText);
+                    if(tmp.response ==  "accepted") {
+                        showList();
+                        executeTasks();
+                        getList();
+                    }
+                }
+                else {
+                    console.log("Error", xmlhttp.statusText);
+                }
+            }
+        };
+
+        xmlhttp.onerror = function (e) {
+            console.error(xmlhttp.statusText);
+        };
+
+        xmlhttp.ontimeout = function () {
+            console.error("Timed out.");
+        }
+
+        xmlhttp.send(createPWCheckData());
+    }
+
+    function getList() {
+        var xmlhttp = new XMLHttpRequest();
+        var requestURL = 'http://homepages-fb.thm.de/fwsf69/apps/list.php';
+        xmlhttp.open("GET", requestURL, true);
+        xmlhttp.timeout = 4000;
+
+        xmlhttp.onreadystatechange = function (ev) {
+            if (xmlhttp.readyState === 4) {
+                if (xmlhttp.status === 200) {
+                    var tmp = JSON.parse(xmlhttp.responseText);
+                    var ul = document.getElementById("list");
+                    ul.innerHTML = "";
+
+                    for(var key in tmp) {
+                        var li = document.createElement("li");
+                        li.appendChild(document.createTextNode(crypt.decrypt(tmp[key], password)));
+                        li.setAttribute("id", key)
+                        li.onclick = function(e){
+                            deleteListItem(e.target.id);
+                        };
+                        ul.appendChild(li);
+                    }
+                }
+                else {
+                    console.log("Error", xmlhttp.statusText);
+                }
+            }
+        };
+
+        xmlhttp.onerror = function (e) {
+            console.error(xmlhttp.statusText);
+        };
+
+        xmlhttp.ontimeout = function () {
+            console.error("Timed out.");
+        }
+
+        xmlhttp.send();
+    }
+
+    function deleteListItem(value, del) {
+        var xmlhttp = new XMLHttpRequest();
+        var requestURL = 'http://homepages-fb.thm.de/fwsf69/apps/list.php';
+        xmlhttp.open("DELETE", requestURL, true);
+        xmlhttp.timeout = 4000;
+
+        xmlhttp.onreadystatechange = function (ev) {
+            if (xmlhttp.readyState === 4) {
+                if (xmlhttp.status === 200) {
+                    var tmp = JSON.parse(xmlhttp.responseText);
+                    if(tmp.response ==  "accepted") {
+                        if(del !== 'undefined') removeTask(del)
+                        getList();
+                    }
+                }
+                else {
+                    addTask("delete", value);
+                    console.log("Error", xmlhttp.statusText);
+                }
+            }
+        };
+
+        xmlhttp.onerror = function (e) {
+            console.error(xmlhttp.statusText);
+        };
+
+        xmlhttp.ontimeout = function () {
+            console.error("Timed out.");
+        }
+
+        xmlhttp.send(createDeleteData(value));
+    }
+
+
+    function showList() {
+        var     main = document.getElementById("DL1"),
+                lock = document.getElementById("lock");
+
+        main.style.display = 'block';
+        lock.style.display = 'none';
+    }
+
+    document.getElementById("pw").onkeydown = function(event) {
+        if (event.keyCode == 13) {
+            password = document.getElementById("pw").value;
+            checkPermission();
+            return false;
+        }
+    };
+</script>
+
+</body>
+</html>
+
+

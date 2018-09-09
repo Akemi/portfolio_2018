@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <ListPreference
+            android:key="colour_num"
+            android:title="@string/setting_colour_title"
+            android:summary="@string/setting_colour_sum"
+            android:defaultValue="@string/setting_colour_default"
+            android:entries="@array/setting_colour_entries"
+            android:entryValues="@array/setting_colour_entries_value"  
+      /> 
+      
+     <ListPreference
+            android:key="difficulty"
+            android:title="@string/setting_difficulty_title"
+            android:summary="@string/setting_difficulty_sum"
+            android:defaultValue="@string/setting_difficulty_default"
+            android:entries="@array/setting_difficulty_entries"
+            android:entryValues="@array/setting_difficulty_entries_value"  
+      /> 
+
+</PreferenceScreen>

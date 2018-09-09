@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<title> Praktikum 'ECMAScript-Applikationen', THM Giessen, Master-Veranstaltung </title>
+<meta name="robots" content="index" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="author" content="Student Name" />
+<meta name="description" lang="de" content="Smartphon-Site für Master-Veranstaltung 'ECMAScript-Applikationen', THM Giessen, 2015" />
+<link rel="shortcut icon" type="image/x-icon" href="./kern/favicon.gif" />
+<link rel="icon" type="image/x-icon" href="./kern/favicon.gif" />
+<script type="text/javascript">//<![CDATA[
+var bib=(function(top_win){"use strict";var default_frame_name="FRAME_INFO",menu_name="FRAME_INFO",menu_url=(top_win.location.href).slice(0,(top_win.location.href).lastIndexOf('/'))+"/menu.htm",dt_aktiv='dt_show',dt_passiv='dt_hide',dd_aktiv='block',dd_passiv='none',hwin=null,hfrm=null,temp=(top_win.document).documentElement||(top_win.document).body,max_localStorage_byte=1500000,frm_pages={};function show(s){alert(s);}
+function ask(s){return!!confirm(s);}
+function is_mobil(){return(frames&&frames.length===1&&frames[0].name===default_frame_name);}
+function is_online(){return(!/file\:/.test(top_win.location.protocol))&&(/(http|https)\:/.test(top_win.location.protocol));}
+function has_jonson(){return(typeof(top_win['JSON'])==='object');}
+function has_local_storage(){var r=0;try{if(typeof(top_win.localStorage)==='object'){r=1;}}catch(e){r=0;}return r;}
+function get_keys(obj){var i,key,arr=[],len=localStorage["length"];if(len&&top_win[obj]===localStorage){for(i=0;i<len;i+=1){key=localStorage.key(i);arr.push(key);}}else{for(key in obj){if(obj.hasOwnProperty(key)){arr.push(key);}}}return arr;}
+function get_obj(){var i,a=arguments,obj=a[0]||{};for(i=1;i<a.length;i+=1){if(!obj.hasOwnProperty(a[i])){return null;}
+obj=obj[a[i]];}return obj;}
+function set_obj(){var i,a=arguments,len=a.length,obj=a[0]||{};for(i=1;i<a.length-2;i+=1){if(!obj.hasOwnProperty(a[i])){obj[a[i]]={};}
+obj=obj[a[i]];}try{obj[a[len-2]]=a[len-1];}catch(e){show("ERR: set_obj(obj, ...)");}}
+function setItem(key,val){if(has_local_storage()){localStorage.setItem(key,JSON.stringify(val));}else{set_obj(frm_pages,key,val);}}
+function getItem(key){var o=null;if(has_local_storage()){try{o=JSON.parse(localStorage.getItem(key));}catch(ee){show("ERR: getItem"+ee);setItem(key,{});o=getItem(key);}}else{o=get_obj(frm_pages,key);if(!o){setItem(key,{});o=getItem(key);}}return o;}
+function delItem(key){if(has_local_storage()){localStorage.removeItem(key);}else{set_obj(frm_pages,key,{});}}
+function delClear(){if(has_local_storage()){localStorage.clear();}else{set_obj(frm_pages,{});}}
+function getSize(){var s;if(has_local_storage()){s=JSON.stringify(localStorage).length;}else{s="\nKein localStorage vorhanden";}
+return s;}
+function get_frame_nr(el){var i,f;if(typeof el==='object'){while(el&&el.parentNode){el=el.parentNode;}}
+for(i=0;i<frames.length;i+=1){f=frames[i];if(f){switch(typeof el){case'object':if(el.document===f.document){return i;}
+if(el===f.document){return i;}
+if(el===f){return i;}break;case'number':case'string':if((el===f.name)||((parseInt(el,10)===i)&&(typeof frames[i]==='object'))){return i;}break;default:break;}}}show("ERR: bib.get_frame_nr("+el+" ?)");return-1;}
+function get_frame_win(el){var fwin,nr=get_frame_nr(el);if(nr===-1){show('ERR: kein Frame-Objekt');return null;}
+fwin=frames[nr];return fwin;}
+function get_frame_url(el){var fwin=get_frame_win(el);return fwin.location.href;}
+function get_frame_doc(el){var doc,fwin=get_frame_win(el);doc=fwin.document;return doc;}
+function get_frame_name(el){var nam,nr=get_frame_nr(el);if(nr===-1){show('ERR: kein Frame-Objekt');return null;}
+nam=frames[nr].name;return nam;}
+function get_datum(mod,template){var t,YYYY,MM,DD,hh,mm,ss,str;if(mod){t=new Date(mod);}else{t=new Date();}
+template=template||'YYYY-MM-DD  hh:mm:ss';YYYY=t.getFullYear();MM=String('0'+(t.getMonth()+1)).slice(-2);DD=String('0'+t.getDate()).slice(-2);hh=String('0'+t.getHours()).slice(-2);mm=String('0'+t.getMinutes()).slice(-2);ss=String('0'+t.getSeconds()).slice(-2);str=template.replace(/YYYY/g,YYYY).replace(/MM/g,MM).replace(/DD/g,DD).replace(/hh/g,hh).replace(/mm/g,mm).replace(/ss/g,ss);return str;}
+function add_content2page(oo){var o=oo,name=bib.get_frame_name(o.doc||o["frame_name"]),win=frames[name],doc=win.document,h1=doc.getElementsByTagName('h1'),h1str='',isMobil=is_mobil(),isOnline=is_online(),dst="",arr,tem,i,fr;fr="FRAME_MENU";if(isMobil){fr=default_frame_name;}
+if(h1&&h1[0]){h1=h1[0];h1str=h1.innerHTML;}else{return;}
+if(!o["add_content"]){if(o["dd"]&&o["id"]){o.add_content="last_modified|set_home_button|set_plus_minus_button";}else{o.add_content="last_modified|set_home_button";}}arr=o.add_content.split("|")||[];if(o.post_css){arr.push('post_css');}
+for(i=0;i<arr.length;i+=1){switch(arr[i]){case"accordeon":o.accordeon=1;break;case"last_modified":if(!doc.getElementById('lasT_modifieD')){bib.insert_last_modified(doc);}break;case"set_home_button":if(!/border_h1_home/.test(h1str)){if(is_mobil()){dst+='<a class="border_h1_home" title="Zeige Menü an" target="'+menu_name+'" href="'+menu_url+'">&nbsp;≡&nbsp;</a >&nbsp;';}}break;case"set_plus_minus_button":if(doc.getElementsByTagName("dl")&&!/border_h1_plus/.test(h1str)&&!/border_h1_minus/.test(h1str)){tem="top.bib.show_dds({frame_name:'"+name+"',show_idx:[999]})";dst+='<a class="border_h1_plus" title="Überschriften auf-klappen" href="javascript:void(0)" onclick="'+tem+'"> + </a>';tem="top.bib.show_dds({frame_name:'"+name+"',show_idx:[-999]})";dst+='<a class="border_h1_minus" title="zu-klappen" href="javascript:void(0)" onclick="'+tem+'"> &minus; </a> ';}break;case"post_css":tem=doc.createElement('link');tem.setAttribute('rel','stylesheet');tem.setAttribute('href',o.post_css);doc.body.appendChild(tem);break;default:break;}}if(dst&&dst.length>0){h1.innerHTML=dst+h1str;}return o;}
+function str2obj(s){var i,a0,a1,a=[],ai=[],arr=[],o={};if(!s){return o;}
+s=s.replace(/\\[:]/g,"oO0doppelpkt").replace(/\\[,]/g,"oO0komma").replace(/\\n/g,"\n");arr=s.split(",");for(i=0;i<arr.length;i+=1){ai=arr[i];if(ai.length>0){a=ai.split(":");if(a.length===2){a0=a[0];a1=a[1];o[a0]=a1.replace(/oO0doppelpkt/g,":").replace(/oO0komma/g,",");}}}return o;}
+function get_dl_dt_dd(o){var win,doc,id_dl,mod,visu,va,xyz;o.sliding=!o.sliding_off&&true;if(!(o.doc||o.frame_name)){o.frame_name=default_frame_name;}
+o.nr=get_frame_nr(o.doc||o["frame_name"]);win=frames[o.nr];doc=win.document;if(!doc.querySelectorAll){return null;}
+o.url=win.location.href;if(o.id){id_dl="#"+o.id;mod="id-"+o.id+"-mod";visu="id-"+o.id+"-visu";o.dl=doc.querySelectorAll(id_dl);o.dt=doc.querySelectorAll(id_dl+">dt");o.dd=doc.querySelectorAll(id_dl+">dd");if(o.dt.length!==o.dd.length){show('dt.length !== dd.length');}
+xyz=getItem(o.url);if(!xyz){setItem(o.url,{});xyz=getItem(o.url);}
+if(xyz){va=xyz[visu];xyz[visu]="ok";}else{va=null;xyz[visu]=[];xyz[mod]="pre";}
+setItem(o.url,xyz);if(va&&va.length===o.dd.length){o[visu]=va;o[mod]="ok";}else{o[visu]=[];o[mod]="pre";}}else{o.dl=[];o.dt=[];o.dd=[];o.id=null;}return o;}
+function toggle(oo,idx){var i,o=get_dl_dt_dd(oo),visu="id-"+o.id+"-visu",xyz,sliding=o.sliding,d0=0,d=11,px="px groove #99f",sliding_func=function(){d=d-1;if(d>d0+1){o.dd[idx].style.borderLeft=3*d+px;}else{o.dd[idx].style.borderLeft=d0+px;}if(d>=d0){top_win.setTimeout(sliding_func,30);}};if(o.dd[idx].style.display===dd_aktiv){o.dd[idx].style.display=dd_passiv;o.dt[idx].className=dt_passiv;o[visu][idx]=-1;}else{o.dd[idx].style.display=dd_aktiv;o.dt[idx].className=dt_aktiv;o[visu][idx]=1;if(sliding){sliding_func();}}xyz=getItem(o.url);if(xyz){xyz[visu]=o[visu];setItem(o.url,xyz);}
+if(o.use_forms){bib.save_form_items(frames[o.nr].document);}}
+function show_dds(oo){var i,j,o=get_dl_dt_dd(oo),win=frames[o.nr],doc=win.document,id_dl,dd_len,mod,visu,a0,xyz,dl=doc.querySelectorAll("dl");for(j=dl.length-1;j>=0;j-=1){o.id=dl[j].getAttribute("id");if(o.id){visu="id-"+o.id+"-visu";mod="id-"+o.id+"-mod";xyz=getItem(o.url);if(xyz){o[visu]=xyz[visu]||[];o[mod]=xyz[mod]||'pre';}
+id_dl="#"+o.id;o.dt=dl[j].querySelectorAll(id_dl+">dt");o.dd=dl[j].querySelectorAll(id_dl+">dd");dd_len=o.dd.length;a0=o.show_idx[0];if(!a0){a0=-9999;}
+for(i=dd_len-1;i>=0;i-=1){if(a0>dd_len){o.dd[i].style.display=dd_aktiv;o.dt[i].className=dt_aktiv;o[visu][i]=1;}
+if(a0<-dd_len){o.dd[i].style.display=dd_passiv;o.dt[i].className=dt_passiv;o[visu][i]=-1;}}xyz[mod]="ok";xyz[visu]=o[visu];setItem(o.url,xyz);if(o.use_forms){bib.save_form_items(frames[o.nr].document);}}}}
+function dl_save_visu(oo){var o=get_dl_dt_dd(oo),xyz=getItem(o.url);xyz["id-"+o.id+"-visu_sav"]=o["id-"+o.id+"-visu"];setItem(o.url,xyz);}
+function dl_restore_visu(oo){var o=get_dl_dt_dd(oo),xyz=getItem(o.url);xyz["id-"+o.id+"-visu"]=o["id-"+o.id+"-visu_sav"];setItem(o.url,xyz);}
+function dl(oo){var dd_len,visu,mod,i,k,a0,o,xyz;if(oo.doc){(oo.doc.body).style.cursor="wait";}
+o=get_dl_dt_dd(oo);add_content2page(o);dd_len=o.dd.length;if(!dd_len){if(o.doc){(o.doc.body).style.cursor="default";}return;}
+visu="id-"+o.id+"-visu";mod="id-"+o.id+"-mod";i=o.dt.length;while(i>0){i-=1;if(!o.dt[i].onclick){o.dt[i].style.cursor="pointer";o.dt[i].onclick=(function(o,i){return function(){toggle(o,i);};}(o,i));}}
+if(o[mod]==="pre"){a0=o.show_idx;if(!a0){o.show_idx=[];}
+if(typeof a0==='string'){o.show_idx=[parseInt(a0,10)];}
+a0=o.show_idx[0];if(a0<dd_len){for(i=dd_len-1;i>=0;i-=1){o[visu][i]=-1;}}
+for(i=dd_len-1;i>=0;i-=1){if(a0>dd_len){o[visu][i]=1;}else{k=o.show_idx[i];if(k===0||k>0){o[visu][k]=1;}}}}
+for(i=dd_len-1;i>=0;i-=1){k=o[visu][i];if(k===0||k>0){o.dd[i].style.display=dd_aktiv;o.dt[i].className=dt_aktiv;o[visu][i]=1;}else{o.dd[i].style.display=dd_passiv;o.dt[i].className=dt_passiv;o[visu][i]=-1;}}xyz=getItem(o.url);if(xyz){xyz[mod]="ok";xyz[visu]=o[visu];setItem(o.url,xyz);}
+if(o.use_forms){bib.load_form_items(frames[o.nr].document);}
+if(oo.doc){(oo.doc.body).style.cursor="default";}}
+return{dl:dl,show_dds:show_dds,is_mobil:is_mobil,is_online:is_online,has_jonson:has_jonson,has_local_storage:has_local_storage,frm_pages:frm_pages,get_daten:get_obj,set_daten:set_obj,get_keys:get_keys,set_item:setItem,get_item:getItem,del_item:delItem,del_clear:delClear,get_localStorage_size:getSize,get_frame_nr:get_frame_nr,get_frame_win:get_frame_win,get_frame_url:get_frame_url,get_frame_doc:get_frame_doc,get_frame_name:get_frame_name,debug_obj:function(o){var k,a=[];for(k in o){if(o.hasOwnProperty(k)){a.push(k+":"+o[k]);}}
+return a.join('\n');},get_datum:get_datum,set_page_style:function(doc,innerHTML,idx){doc=bib.get_frame_doc(doc);idx=idx||0;doc.getElementsByTagName("style")[idx].innerHTML=innerHTML;},insert_last_modified:function(el){var w3c_check_by_upload="http://validator.w3.org/#validate_by_upload",w3c_check_by_referer="http://validator.w3.org/check?uri=referer",div,pre,a,url,str,nr=bib.get_frame_nr(el),doc=frames[nr].document;if((frames[nr].location.href).indexOf('http')===-1){url=w3c_check_by_upload;}else{url=w3c_check_by_referer;}
+div=doc.createElement('div');div.setAttribute('align','center');div.appendChild(doc.createElement('br'));a=doc.createElement('a');a.setAttribute('target','_blank');a.setAttribute('id','lasT_modifieD');a.setAttribute('title','W3C-online-Validator');a.setAttribute('href',url);str=bib.get_datum(doc.lastModified);a.appendChild(doc.createTextNode("2000-"+str));pre=doc.createElement('pre');pre.appendChild(a);div.appendChild(pre);doc.body.appendChild(div);},version:'2000-2015'};}(window));
+//]]>
+</script>
+</head>
+<frameset rows="*" cols="*">
+<frame name="FRAME_INFO" src="menu.htm" />
+<noframes>
+<body>
+<h1>Jährliche Master-Veranstaltung der THM Giessen mit dem Titel: ESA = ECMAScript-Applikationen</h1>
+<p> 
+Diese jährliche Veranstaltung ( Diplom, heute Bachelor ) der THM Giessen, 
+Fachbereich Mathematik, Naturwissenschaften und Informatik findet seit 2000-2015 statt.
+<br /> 
+Weblink für Smart-Phon/ARIA-Nutzer zu ECMAScript-Applikationen: http://www.cilie.org/esa/m/index.htm
+<br /> 
+Weblink für Sehende ( = "Standard-Nutzer") zu ECMAScript-Applikationen: http://www.cilie.org/esa/index.htm
+</p>
+</body>
+</noframes>
+</frameset>
+</html>

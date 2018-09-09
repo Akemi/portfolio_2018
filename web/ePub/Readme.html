@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Anleitung</title>
+</head>
+<body style="background-color: #d6e4f0;">
+
+	<div style="margin-left: auto; margin-right: auto; background-color: #ffffff; width: 940px; padding: 10px 10px 10px 10px; border-radius: 15px; border-style: solid; 
+	border-color: #44a1d0; border-width: 2px;">
+		<h2>Anmerkung: </h2>
+		Das Projekt wurde in HTML5 programmiert deswegen sollten Sie einen aktuellen Browser benutzen. Empfohlen werden die aktuelle Versionen von:<br />
+		- Chrome (Mac/Win)<br />
+		- Firefox (Mac/Win)<br />
+		- Safari (Mac)<br />
+		- Opera (Mac/Win)<br />
+		- <a href="http://nightly.webkit.org/">WebKit</a> (Mac)<br /><br />
+
+		Vom Internet Explorer raten wir ab.<br /><br /><br />
+
+		Das Projekt wurde mit den aktuellen Versionen von XAMPP (Win/Mac) getestet. Sie können aber durchaus auch Ihren eigenen Webserver und PHP benutzen.<br /><br />
+
+		<h2>Beigelegt ist:</h2>
+		- ePub Ordner - Das Projekt<br />
+		- prüfprotokoll.doc - Das Prüfprotokoll<br />
+		- prüfvorschrift.doc - Die Prüfvorschriften<br /><br />
+
+		<h2>Installationsanleitung:</h2>
+		Die einfachste Variante ist unsere Projekt-Seite zu besuchen. Sie ist auf exakt dem gleichen Stand wie die Abgabe und getestet.<br />
+		<a href="http://epub.bplaced.de/epub/admin.php">Admin-Verwaltung</a> - Zum Verwalten und Hochladen von ePubs<br />
+		<a href="http://epub.bplaced.de/epub/index.php?id=">Beispiel ePub</a> - Zur Anzeige der hochgeladenen ePubs
+		<br /><br />
+		<h2>Anleitung zum selbst verwenden:</h2>
+		<ul style="list-style-type: decimal;">
+			<li>Installieren Sie XAMPP falls Sie nicht ihren eigenen Webserver benutzen.</li>
+			<li>Kopieren Sie den Ordner "ePub" in den Ordner <b>/Applications/XAMPP/htdocs/</b> oder in
+			den Webseiten Ordner Ihres User-Ordners (MAC) oder <b>XAMPP\htdocs\</b> (Win)</li>
+			<li>Nun können Sie unser Projekt unter <a href="http://localhost/mathematikum">http://localhost/mathematikum</a> oder 
+			<b>http://localhost/~USERNAME/mathematikum/</b> (Mac) aufrufen</li>
+		</ul><br />
+
+		<h2>Wie das Projekt funktioniert:</h2>
+		Unser Projekt besteht aus zwei Teilen. Zum einen aus der <b>index.php</b> mit der die hochgeladenen
+		ePubs betrachtet werden können, und zum anderen aus der <b>admin.php</b> zum Verwalten und Hochladen
+		von ePubs.<br /><br />
+		
+		Der <b>index.php</b> wird ein Hash wie folg übergeben, um ein bestimmtes ePub aufzurufen:<br />
+		<b>index.php?id=HASH-HERE</b><br /><br />
+		
+		Der erste Schritt sollte sein die Admin-Verwaltung (<b>admin.php</b>) aufzurufen und sich mit dem
+		richtigen Passwort anzumelden. In unserem Fall ist das Passwort "<b>admin</b>", dies kann aber einfach
+		mit einem Text-Editor in der <b>admin.php</b> geändert werden.<br /><br />
+		
+		<img src="images/change-pw.png" alt="Passwort ändern" /><br /><br /><br />
+		
+		Wenn das Passwort wie im unten stehenden Bild<br /><br />
+		<img src="images/pw.png" alt="passwort" /><br /><br /><br />
+		
+		richtig eingegeben wurde, sollte die folgende Seite angezeigt werden.<br /><br />
+		<img src="images/verw.png" alt="Verwaltung" /><br /><br /><br />
+		
+		"Verwalte ePub" zeigt alle ePubs in einer Bibliotheksdarstellung an. Über diese lässt sich
+		der eindeutige Link zu dem jeweiligen Buch zurückgeben und man kann das Buch löschen.
+		Außerdem werden auch die Buchinformationen angezeigt.<br /><br />
+		
+		Wenn man über eines der kleinen Buchcover am unteren rand hovert, erscheint die
+		Buch Informationen. Die Pfeile links und rechts der kleinen Cover, sind zum Blättern in der Bibliothek
+		falls mehr als sieben Bücher vorhanden sind.
+		In der oberen rechten Ecke der Buchinformation, befindet sich ein Link zum Löschen (Mülleimer) und
+		ein Link (Kette), um sich die URL zum verbreiten und weitergeben des Buches geben zu lassen.<br /><br />
+		<img src="images/bib.png" alt="bibliothek" /><br /><br /><br />
+		
+		"Upload ePub" führt zur Seite mit der man ePubs und die zugehörigen Coverbilder hochladen kann.
+		Im ersten Upload Input muss eine ePub Datei angegeben werden und im zweiten eine Bild Datei.
+		Danach kann auf "Upload" gedrückt werden. Ein Statusbalken zeigt den aktuellen Uploadstatus.
+		Ist der Upload geglückt, wird ein Link angezeigt der zum hochgeladenen ePub führt und
+		der auch weitergegeben werden kann. Unter dem Link wird als Test die erfolgreich hochgeladene ePub
+		selbst ausgegeben.<br /><br />
+		
+		<img src="images/upl.png" alt="Upload" /><br /><br /><br />
+		
+		Falls dies alles geglückt ist, kann man sich eine ePub anschauen. Wenn man die ePub zum ersten Mal
+		besucht, wird eine kleine Information angezeigt, die man mit einem Klick auf die Infobox verschwinden
+		lassen kann.<br /><br />
+		
+		<img src="images/info.png" alt="Info" /><br /><br /><br />
+		
+		Wenn geklickt wird, wird die eigentliche Buchdarstellung, mit einer Toolbar am unterem, dem Lesezeichen
+		am rechten und dem Inhaltsverzeichnis am linken Rand, angezeigt. In der Toolbar sind die normalen Pfeile zum Vor- und Zurückblättern
+		um eine Seite gedachte, Pfeile mit dem Balken an der Spitze sind zum springen zum nächsten Kapitel, die Buchseite wechselt zwischen
+		Ein- und Zweiseitendarstellung, das Plus bzw. Minus ist zum Herein- und Heraus-Zoomen und das 'i' 
+		ist zum wieder einblenden der Infobox. Wenn auf das Lesezeichen geklickt wird, wird ein Cookie gesetzt
+		mit der momentanen Position. Beim nächsten Aaufruf der Seite wird die Infobox nicht mehr angezeigt
+		und es wird automatisch zur gespeicherten Seite gesprungen.<br /><br />
+		
+		Außerdem ist es möglich mit einem Swipe links oder recht, zurück und vor zu blättern. Dies
+		funktioniert nur auf einem Tablet oder Touchscreen Device.<br /><br />
+		
+		<img src="images/book.png" alt="Buch" /><br /><br /><br />
+		
+		Wenn auf das Inhaltsverzeichnis geklickt wird, wird eine rote Seite über der linken
+		Buchseite mit dem Inhaltsverzeichnis eingeblendet. Wenn man auf ein Kapitel drückt
+		wird zu diesem gesprungen.<br /><br />
+		
+		<img src="images/book2.png" alt="Buch2" /><br /><br /><br />
+		
+		
+		
+		
+		<br /><br />
+		
+		Bei Problemen können Sie sich jeder Zeit bei uns melden:<br />
+		<a href="mailto:Franz.Weisflug@gmx.de">Franz Weisflug</a> - <a href="mailto:carina.hoffmann@iem.thm.de">Carina Hoffmann</a> - <a href="mailto:anna.faerber@iem.thm.de">Anna Färber</a> - <a href="mailto:simone.d.weil@iem.thm.de">Simone Weil</a>
+		<br /><br />
+		Wir wünschen viel Spaß!
+
+	</div>
+
+</body>
+</html>

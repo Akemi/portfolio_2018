@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Random Zahlengenerator mit Visualisierung</title>
+    <meta charset="UTF-8"/>
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="../kern/esa.css"/>
+
+    <script src="welt.js"></script>
+    <script src="ccs.js"></script>
+    <script>
+        window.onload = function () {
+            //if (top["bib"]) { top.bib.dl({ doc: document, id: 'DL1', show_idx: [ ] }); }
+        };
+    </script>
+</head>
+<body>
+
+
+<h1>Random Zahlengenerator mit Visualisierung</h1>
+
+<div style="padding:0.3em;">
+    <h2>Math.random()</h2>
+    <canvas id="randomcanvas" width="400" height="400"></canvas>
+    <canvas id="randomcanvas2" width="400" height="400"></canvas>
+
+    <h2>Linear Congruential Generator</h2>
+    <canvas id="lcgcanvas" width="400" height="400"></canvas>
+    <canvas id="lcgcanvas2" width="400" height="400"></canvas>
+
+    <h2>Linear Feedback Shift Register</h2>
+    <canvas id="lsfrcanvas" width="400" height="400"></canvas>
+    <canvas id="lsfrcanvas2" width="400" height="400"></canvas>
+
+    <h2>Xorshift</h2>
+    <canvas id="xorshiftcanvas" width="400" height="400"></canvas>
+    <canvas id="xorshiftcanvas2" width="400" height="400"></canvas>
+
+    <h2>Webkit2's Invertible Mapping Generator</h2>
+    <canvas id="invwkcanvas" width="400" height="400"></canvas>
+    <canvas id="invwkcanvas2" width="400" height="400"></canvas>
+</div>
+
+<script>
+    function randomBib(seed) {
+        //http://en.wikipedia.org/wiki/Linear_congruential_generator#Parameters_in_common_use
+        //m = 2^32, a = 1664525, c = 1013904223
+        this.lcgA = 1664525;
+        this.lcgX = typeof seed !== 'undefined' ? seed : 534567;
+        this.lcgC = 1013904223;
+        this.lcgM = Math.pow(2, 32);
+
+        //http://en.wikipedia.org/w/index.php?title=Linear_feedback_shift_register
+        this.lsfrPeriod = 0;
+        this.lsfrMax = Math.pow(2, 16);
+        this.lsfrVal = typeof seed !== 'undefined' ? seed : 534;
+
+        //http://de.wikipedia.org/w/index.php?title=Xorshift
+        this.xorShiftSeed = typeof seed !== 'undefined' ? seed : 534567;
+        this.xorShiftMAX = Math.pow(2, 32);
+
+        //http://dl.acm.org/citation.cfm?id=752741
+        this.invwkMax = Math.pow(2, 32);
+        this.invwkSeed = typeof seed !== 'undefined' ? seed : 534567;
+
+
+        this.lcg = function(max, min) {
+            min = typeof min !== 'undefined' ? min : 0;
+            max = typeof max !== 'undefined' ? max : 1;
+
+            // x[n+1] = ( a * x[n] + c ) mod m
+            this.lcgX = (this.lcgA * this.lcgX + this.lcgC) % this.lcgM;
+            return this.mmFloat(min, max, this.lcgX/this.lcgM);
+        }
+
+
+        this.lsfr = function(max, min) {
+            min = typeof min !== 'undefined' ? min : 0;
+            max = typeof max !== 'undefined' ? max : 1;
+
+            var bit  = ((this.lsfrVal >> 0) ^ (this.lsfrVal >> 2) ^ (this.lsfrVal >> 3) ^ (this.lsfrVal >> 5) ) & 1;
+            this.lsfrVal =  (this.lsfrVal >> 1) | (bit << 15);
+            this.lsfrPeriod++;
+            return this.mmFloat(min, max, this.lsfrVal/this.lsfrMax);
+        }
+
+
+        this.xorShift = function(max, min) {
+            min = typeof min !== 'undefined' ? min : 0;
+            max = typeof max !== 'undefined' ? max : 1;
+
+            this.xorShiftSeed ^= this.xorShiftSeed << 13;
+            this.xorShiftSeed ^= this.xorShiftSeed >> 17;
+            this.xorShiftSeed ^= this.xorShiftSeed << 5;
+            return this.mmFloat(min, max, ((this.xorShiftSeed) >>> 0)/this.xorShiftMAX);
+        }
+
+
+        this.invwk = function(max, min) {
+            min = typeof min !== 'undefined' ? min : 0;
+            max = typeof max !== 'undefined' ? max : 1;
+
+            this.invwkSeed += (this.invwkSeed * this.invwkSeed) | 5;
+            return this.mmFloat(min, max, (this.invwkSeed >>> 32) / this.invwkMax);
+        }
+
+        this.mmFloat = function (min, max, rnd) { return min + (max - min) * rnd; }
+    }
+
+    var rb = new randomBib();
+
+    var dotCount = 20000;
+
+    /*canvas = document.getElementById("randomcanvas");
+    canvasWidth = canvas.width;
+    canvasHeight = canvas.height;
+    ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,canvasWidth, canvasHeight);
+    (function myLoop (i) {
+        setTimeout(function () {
+            canvas = document.getElementById("randomcanvas");
+            canvasWidth = canvas.width;
+            canvasHeight = canvas.height;
+            ctx = canvas.getContext("2d");
+            ctx.fillStyle="#3f9bd7";
+            ctx.fillRect(Math.round(Math.random()*canvasWidth), Math.round(Math.random()*canvasWidth),1,1);
+            if (--i) myLoop(i);      //  decrement i and call myLoop again if i > 0
+        }, 1)
+    })(dotCount);*/
+
+    canvas = document.getElementById("randomcanvas");
+    canvasWidth = canvas.width;
+    canvasHeight = canvas.height;
+    ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,canvasWidth, canvasHeight);
+    for(var i = 0; i < dotCount; i++) {
+        ctx.fillStyle="#3f9bd7";
+        ctx.fillRect(Math.round(Math.random()*canvasWidth), Math.round(Math.random()*canvasWidth),1,1);
+    }
+
+    canvas = document.getElementById("lcgcanvas");
+    canvasWidth = canvas.width;
+    canvasHeight = canvas.height;
+    ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,canvasWidth, canvasHeight);
+    for(var i = 0; i < dotCount; i++) {
+        ctx.fillStyle="#3f9bd7";
+        ctx.fillRect(Math.round(rb.lcg(canvasWidth)), Math.round(rb.lcg(canvasHeight)),1,1);
+    }
+
+    canvas = document.getElementById("lsfrcanvas");
+    canvasWidth = canvas.width;
+    canvasHeight = canvas.height;
+    ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,canvasWidth, canvasHeight);
+    for(var i = 0; i < dotCount; i++) {
+        ctx.fillStyle="#3f9bd7";
+        ctx.fillRect(Math.round(rb.lsfr(canvasWidth)), Math.round(rb.lsfr(canvasHeight)),1,1);
+    }
+
+    canvas = document.getElementById("xorshiftcanvas");
+    canvasWidth = canvas.width;
+    canvasHeight = canvas.height;
+    ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,canvasWidth, canvasHeight);
+    for(var i = 0; i < dotCount; i++) {
+        ctx.fillStyle="#3f9bd7";
+        ctx.fillRect(Math.round(rb.xorShift(canvasWidth)), Math.round(rb.xorShift(canvasHeight)),1,1);
+    }
+
+    canvas = document.getElementById("invwkcanvas");
+    canvasWidth = canvas.width;
+    canvasHeight = canvas.height;
+    ctx = canvas.getContext("2d");
+    ctx.fillRect(0,0,canvasWidth, canvasHeight);
+    for(var i = 0; i < dotCount; i++) {
+        ctx.fillStyle="#3f9bd7";
+        ctx.fillRect(Math.round(rb.invwk(canvasWidth)), Math.round(rb.invwk(canvasHeight)),1,1);
+    }
+
+
+    var randomMax = 500;
+    var array = Array.apply(null, new Array(randomMax+1)).map(Number.prototype.valueOf,0);
+    for(var i = 0; i < 1000000; i++) {
+        var tmp = Math.round(Math.random()*randomMax);
+        array[tmp]++;
+    }
+    var maxVal = Math.max.apply(null,array);
+    for (var i = 0; i < array.length; i++) { array[i] = array[i]/maxVal; }
+    var ccs = new CartesianCoordinateSystem("randomcanvas2", -20, randomMax+1, -0.05, 1.1, 0.5, 0.03);
+    ccs.drawArray(array, '#3f9bd7', 1);
+
+
+    array = Array.apply(null, new Array(randomMax+1)).map(Number.prototype.valueOf,0);
+    for(var i = 0; i < 1000000; i++) {
+        var tmp = Math.round(rb.lcg(randomMax));
+        array[tmp]++;
+    }
+    maxVal = Math.max.apply(null,array);
+    for (var i = 0; i < array.length; i++) { array[i] = array[i]/maxVal; }
+    ccs = new CartesianCoordinateSystem("lcgcanvas2", -20, randomMax+1, -0.05, 1.1, 0.5, 0.03);
+    ccs.drawArray(array, '#3f9bd7', 1);
+
+
+    array = Array.apply(null, new Array(randomMax+1)).map(Number.prototype.valueOf,0);
+    for(var i = 0; i < 1000000; i++) {
+        var tmp = Math.round(rb.lsfr(randomMax));
+        array[tmp]++;
+    }
+    maxVal = Math.max.apply(null,array);
+    for (var i = 0; i < array.length; i++) { array[i] = array[i]/maxVal; }
+    ccs = new CartesianCoordinateSystem("lsfrcanvas2", -20, randomMax+1, -0.05, 1.1, 0.5, 0.03);
+    ccs.drawArray(array, '#3f9bd7', 1);
+
+
+    array = Array.apply(null, new Array(randomMax+1)).map(Number.prototype.valueOf,0);
+    for(var i = 0; i < 1000000; i++) {
+        var tmp = Math.round(rb.xorShift(randomMax));
+        array[tmp]++;
+    }
+    maxVal = Math.max.apply(null,array);
+    for (var i = 0; i < array.length; i++) { array[i] = array[i]/maxVal; }
+    ccs = new CartesianCoordinateSystem("xorshiftcanvas2", -20, randomMax+1, -0.05, 1.1, 0.5, 0.03);
+    ccs.drawArray(array, '#3f9bd7', 1);
+
+
+    array = Array.apply(null, new Array(randomMax+1)).map(Number.prototype.valueOf,0);
+    for(var i = 0; i < 20000; i++) {
+        var tmp = Math.round(rb.invwk(randomMax));
+        array[tmp]++;
+    }
+    maxVal = Math.max.apply(null,array);
+    for (var i = 0; i < array.length; i++) { array[i] = array[i]/maxVal; }
+    ccs = new CartesianCoordinateSystem("invwkcanvas2", -20, randomMax+1, -0.05, 1.1, 0.5, 0.03);
+    ccs.drawArray(array, '#3f9bd7', 1);
+</script>
+
+</body>
+</html>
+
+

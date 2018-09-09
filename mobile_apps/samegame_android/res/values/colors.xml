@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="global_button_bg1">#f4f4f4</color>
+    <color name="global_button_bg2">#bbbbbb</color>
+    <color name="global_button_outline">#b5684c</color>
+    <color name="global_button_text">#b5684c</color>
+    <color name="global_button_text_shadow">#5f5f5f</color>
+    <color name="text_slogan_color">#FFFFFF</color>
+    
+</resources>

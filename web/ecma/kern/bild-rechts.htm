@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+<title> Bild für linke "Flügelseite" </title>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex" />
+<link rel="stylesheet" href="../kern/esa.css" />
+
+<style>
+body{margin:0px;padding:0px;overflow:hidden;border:0px solid #f00;
+     
+     background: linear-gradient(to bottom,
+rgba(57,58,163,1) 0%,
+rgba(61,79,163,1) 50%,
+rgba(28,23,124,1) 51%,
+rgba(24,10,118,1) 100%);
+}
+
+
+canvas {margin:0px;padding:0px;}
+.text_left,.text_right{text-shadow: 1px 2px 0px #aad, 2px 3px 0px #88a, 3px 4px 0px #777;}
+.text_left{position:absolute;top:80px;left:20px;color:#88a;}
+.text_right{position:absolute;top:130px;right:20px;color:#88a;}
+p{ color:#fff;font-size:22px;opacity: 1 !important;}
+</style>
+
+
+<script>
+
+function lissajous(o) {
+var x, y, t;
+
+var win = window, doc = window.document, 
+w = win.innerWidth-0, h = win.innerHeight-5,
+canvas = doc.getElementsByTagName('canvas')[o.canvas_idx],
+ctx = canvas.getContext('2d');
+ctx.canvas.width = w; ctx.canvas.height = h;
+
+ctx.fillStyle = o.bgcol; // fülle Canvas-Hintergrund
+ctx.fillRect(0, 0, w, h);
+
+ctx.lineWidth = o.lineWidth;
+
+o.a *= w; o.b *= h; // o.a Bereich 0.0 ... 1.0 
+o.x0 *= w; o.y0 *= h; // o.x0 Bereich 0.0 ... 1.0 
+
+o.anz = o.anz || 200; o.dt = (o.tmax - o.tmin) / o.anz;
+ctx.beginPath();
+for (t = o.tmin; t < o.tmax + o.dt / 2; t += o.dt) {
+x = o.a * Math.cos(o.k * t) * Math.cos(t); x += o.x0;
+y = o.b * Math.cos(o.k * t) * Math.sin(t); y += o.y0;
+if (t === o.tmin) { ctx.moveTo(x, y); }
+ctx.lineTo(x, y);
+} ctx.strokeStyle = o.col; ctx.stroke();
+}
+
+function draw() {
+lissajous({ canvas_idx: 0, lineWidth: '1', bgcol: '#fff', col: '#ddd',
+x0: 0.5, a: 0.5, 
+y0: 0.5, b: 0.5,  // 0.0 ... 1.0
+//tmin: 0, tmax: 199 * Math.PI, anz: 200, k: (Math.sqrt(5) + 1) / 2 //!
+//tmin: 0, tmax: 521, anz: 199, k: (Math.sqrt(5) + 1) / Math.sqrt(Math.PI)//!!
+//tmin: 0, tmax: 521, anz: 322, k: (Math.sqrt(5) + 1) /3//!!
+tmin: 0, tmax: 521, anz: 200, k: (Math.sqrt(5) + 1) / 2//!!!
+});
+}
+
+window.addEventListener("load", function () { draw(); });
+window.addEventListener("resize", function () {  draw(); });
+
+</script>
+
+</head>
+<body>
+
+
+<div class="text_left"><h1>ECMAScript</h1>
+</div>
+
+<div class="text_right"><p>Master 2015</p>
+</div>
+
+<canvas></canvas>
+<!-- alternativ etwa ...
+<canvas width="150" height="150" style="border:1px solid #ccc;"></canvas>
+-->
+
+</body>
+</html>

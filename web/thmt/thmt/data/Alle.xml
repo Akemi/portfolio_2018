@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B2 101</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AMC</lectureID>
+    <lectureName>Angewandte Mikrocomputertechnik</lectureName>
+    <teacherID>Mr</teacherID>
+    <teacherName>Merkel, Prof.</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A2 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SP3</lectureID>
+    <lectureName>Spanisch 3</lectureName>
+    <teacherID>Pal</teacherID>
+    <teacherName>Penaloza</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 014</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ASP</lectureID>
+    <lectureName>Astrophysik</lectureName>
+    <teacherID>Oh</teacherID>
+    <teacherName>Ohlert</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A1 101</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>SPB</lectureID>
+    <lectureName>Spanisch f&#xFC;r den Beruf</lectureName>
+    <teacherID>Pal</teacherID>
+    <teacherName>Penaloza</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A2 117</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>FZB</lectureID>
+    <lectureName>Franz&#xF6;sisch f&#xFC;r den beruf</lectureName>
+    <teacherID>Cho</teacherID>
+    <teacherName>Choblet</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A4 014</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ASPL</lectureID>
+    <lectureName>Astrophysik Labor</lectureName>
+    <teacherID>Oh</teacherID>
+    <teacherName>Ohlert</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>7</block>
+    <room>A4 014</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>Spiel</lectureID>
+    <lectureName>Spiel</lectureName>
+    <teacherID>Asta</teacherID>
+    <teacherName>Asta</teacherName>
+  </lecture>
+</TimeTable>

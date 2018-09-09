@@ -1,0 +1,174 @@
+[
+    {
+        "category":"Gesprächsbeginn/-ende",
+        "vokabeln":[
+            {
+                "deutsch":"Guten Tag!",
+                "japan":"Konnichiwa!",
+                "aussprache":["Konnichiwa.mp3","Konnichiwa.ogg","Konnichiwa.mp4"]
+            },{
+                "deutsch":"Guten Abend!",
+                "japan":"Konbanwa!",
+                "aussprache":["Konbanwa.mp3","Konbanwa.ogg","Konbanwa.mp4"]
+            },{
+                "deutsch":"Gute Nacht!",
+                "japan":"Oyasuminasai!",
+                "aussprache":["Oyasuminasai.mp3","Oyasuminasai.ogg","Oyasuminasai.mp4"]
+            },{
+                "deutsch":"Auf Wiedersehen!",
+                "japan":"Sayonara!",
+                "aussprache":["Sayonara.mp3","Sayonara.ogg","Sayonara.mp4"]
+            },{
+                "deutsch":"Verzeihung! (jem. ansprechen)",
+                "japan":"Sumimasen!",
+                "aussprache":["Sumimasen.mp3","Sumimasen.ogg","Sumimasen.mp4"]
+            }
+        ]
+    },{
+        "category":"Grundlagen",
+        "vokabeln":[
+            {
+            "deutsch":"Ja",
+            "japan":"Hai",
+            "aussprache":["Hai.mp3","Hai.ogg","Hai.mp4"]
+            },{
+            "deutsch":"Nein",
+            "japan":"Iie",
+            "aussprache":["Iie.mp3","Iie.ogg","Iie.mp4"]
+            },{
+            "deutsch":"Wo geht es zum (Bahnhof)?",
+            "japan":"(Eki) wa doko desu ka?",
+            "aussprache":["Eki wa doko desu ka.mp3","Eki wa doko desu ka.ogg","Eki wa doko desu ka.mp4"]
+            },{
+            "deutsch":"Zum Wohl! / Ex!",
+            "japan":"Kampai! / Ikki!",
+            "aussprache":["Kampai Ikki.mp3","Kampai Ikki.ogg","Kampai Ikki.mp4"]
+            }
+        ]
+    },{
+        "category":"Erste Unterhaltungen",
+        "vokabeln":[
+            {
+                "deutsch":"Schön Sie kennenzulernen!",
+                "japan":"Hajimemashite!",
+                "aussprache":["Hajimemashite.mp3","Hajimemashite.ogg","Hajimemashite.mp4"]
+            },{
+                "deutsch":"Wie heißen Sie?",
+                "japan":"Onamae wa nan desu ka?",
+                "aussprache":["Onamae wa nan desu ka.mp3","Onamae wa nan desu ka.ogg","Onamae wa nan desu ka.mp4"]
+            },{
+                "deutsch":"Mein Name ist ...",
+                "japan":"Watashiwa ... desu.",
+                "aussprache":["Watashi wa ... desu.mp3","Watashi wa ... desu.ogg","Watashi wa ... desu.mp4"]
+            },{
+                "deutsch":"Ich komme aus Deutschland.",
+                "japan":"Doitsu kara kimashita.",
+                "aussprache":["Doitsu kara kimashita.mp3","Doitsu kara kimashita.ogg","Doitsu kara kimashita.mp4"]
+            }
+        ]
+    },
+    {
+        "category":"Verständnisschwierigkeiten",
+        "vokabeln":[
+            {
+            "deutsch":"Wie bitte?",
+            "japan":"Onegai?",
+            "aussprache":["Onegai.mp3","Onegai.ogg","Onegai.mp4"]
+            },{
+            "deutsch":"Das verstehe ich nicht.",
+            "japan":"Wakarimasen.",
+            "aussprache":["Wakarimasen.mp3","Wakarimasen.ogg","Wakarimasen.mp4"]
+            },{
+            "deutsch":"Bitte sprechen Sie etwas langsamer.",
+            "japan":"Yukkuri hanashite kudasai.",
+            "aussprache":["Yukkuri hanashite kudasai.mp3","Yukkuri hanashite kudasai.ogg","Yukkuri hanashite kudasai.mp4"]
+            }
+        ]
+    },{
+        "category":"Im Notfall",
+        "vokabeln":[
+            {
+            "deutsch":"Hilfe!",
+            "japan":"Tasukete!",
+            "aussprache":["Tasukete!.mp3","Tasukete!.ogg","Tasukete!.mp4"]
+            },{
+            "deutsch":"Bitte rufen Sie einen Arzt.",
+            "japan":"Isha o yonde kudasai.",
+            "aussprache":["Isha o yonde kudasai.mp3","Isha o yonde kudasai.ogg","Isha o yonde kudasai.mp4"]
+            },{
+            "deutsch":"Polizei!",
+            "japan":"Keisatsu!",
+            "aussprache":["Keisatsu.mp3","Keisatsu.ogg","Keisatsu.mp4"]
+            },{
+            "deutsch":"Ich habe meine Tasche veloren",
+            "japan":"Kaban o nakushimashita.",
+            "aussprache":["Kaban o nakushimashita.mp3","Kaban o nakushimashita.ogg","Kaban o nakushimashita.mp4"]
+            },{
+            "deutsch":"Ich habe meine Geldbörse verloren.",
+            "japan":"Saifu o otoshimashita.",
+            "aussprache":["Saifu o otoshimashita.mp3","Saifu o otoshimashita.ogg","Saifu o otoshimashita.mp4"]
+            }
+        ]
+    },{
+        "category":"Shopping & Zahlen",
+        "vokabeln":[
+            {
+            "deutsch":"Wie teuer?",
+            "japan":"Ikura?",
+            "aussprache":["Ikura.mp3","Ikura.ogg","Ikura.mp4"]
+            },{
+            "deutsch":"1",
+            "japan":"ichi",
+            "aussprache":["Ichi.mp3","Ichi.ogg","Ichi.mp4"]
+            },{
+            "deutsch":"2",
+            "japan":"ni",
+            "aussprache":["Ni.mp3","Ni.ogg","Ni.mp4"]
+            },{
+            "deutsch":"3",
+            "japan":"san",
+            "aussprache":["San.mp3","San.ogg","San.mp4"]
+            },{
+            "deutsch":"4",
+            "japan":"yon, shi",
+            "aussprache":["Yon Shi.mp3","Yon Shi.ogg","Yon Shi.mp4"]
+            },{
+            "deutsch":"5",
+            "japan":"go",
+            "aussprache":["Go.mp3","Go.ogg","Go.mp4"]
+            },{
+            "deutsch":"6",
+            "japan":"roku",
+            "aussprache":["Roku.mp3","Roku.ogg","Roku.mp4"]
+            },{
+            "deutsch":"7",
+            "japan":"nana, shichi",
+            "aussprache":["Nana Shichi.mp3","Nana Shichi.ogg","Nana Shichi.mp4"]
+            },{
+            "deutsch":"8",
+            "japan":"hachi",
+            "aussprache":["Hachi.mp3","Hachi.ogg","Hachi.mp4"]
+            },{
+            "deutsch":"9",
+            "japan":"kyu",
+            "aussprache":["Kyu.mp3","Kyu.ogg","Kyu.mp4"]
+            },{
+            "deutsch":"10",
+            "japan":"ju",
+            "aussprache":["Ju.mp3","Ju.ogg","Ju.mp4"]
+            },{
+            "deutsch":"11",
+            "japan":"ju ichi",
+            "aussprache":["Ju ichi.mp3","Ju ichi.ogg","Ju ichi.mp4"]
+            },{
+            "deutsch":"100",
+            "japan":"hyaku",
+            "aussprache":["Hyaku.mp3","Hyaku.ogg","Hyaku.mp4"]
+            },{
+            "deutsch":"1000",
+            "japan":"sen",
+            "aussprache":["Sen.mp3","Sen.ogg","Sen.mp4"]
+            }
+        ]
+    }
+]

@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 008</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AN1&#xDC;</lectureID>
+    <lectureName>AN1&#xDC;</lectureName>
+    <teacherID>Ab</teacherID>
+    <teacherName>Abel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A8 003a+b</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA1</lectureID>
+    <lectureName>Lineare Algebra 1</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 101</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>FIM</lectureID>
+    <lectureName>Finanzmathematik</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A4 114</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PG1&#xDC;</lectureID>
+    <lectureName>Programmierung 1 &#xDC;bung</lectureName>
+    <teacherID>Eu</teacherID>
+    <teacherName>Euler</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A2 U117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AK</lectureID>
+    <lectureName>Arbeitstechnik</lectureName>
+    <teacherID>Bc</teacherID>
+    <teacherName>Bruchlos</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 121</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PG1&#xDC;</lectureID>
+    <lectureName>Programmierung 1 &#xDC;bung</lectureName>
+    <teacherID>Lu</teacherID>
+    <teacherName>Lucke, Carsten</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 101</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA1</lectureID>
+    <lectureName>Lineare Algebra 1</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 103</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PG1</lectureID>
+    <lectureName>Programmierung 1</lectureName>
+    <teacherID>Eu</teacherID>
+    <teacherName>Euler</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 103</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AN1</lectureID>
+    <lectureName>Analysis 1</lectureName>
+    <teacherID>Ab</teacherID>
+    <teacherName>Abel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A3 210</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA1&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen zur LA 1</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A8 106a+b</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>FIM&#xDC;</lectureID>
+    <lectureName>Finanzmathematik &#xDC;bungen</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+</TimeTable>

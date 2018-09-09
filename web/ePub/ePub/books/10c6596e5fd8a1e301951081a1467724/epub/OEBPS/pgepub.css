@@ -1,0 +1,22 @@
+#book-content #book-contenttei.tei-text {
+    color: black;
+    background-color: white;
+    margin: 0.5em 1em 0 0.5em;
+    border: 0;
+    padding: 0
+    }
+div, p, pre, #book-content h1, #book-content h2, #book-content h3, #book-content h4, #book-content h5, #book-content h6 {
+    margin-left: 0;
+    margin-right: 0
+    }
+#book-content h2 {
+    page-break-before: always;
+    padding-top: 1em
+    }
+.pgmonospaced {
+    font-family: monospace;
+    font-size: 0.9em
+    }
+a.pgkilled {
+    text-decoration: none
+    }

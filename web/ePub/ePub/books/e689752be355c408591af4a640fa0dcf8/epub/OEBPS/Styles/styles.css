@@ -1,0 +1,120 @@
+@font-face {
+	font-style: normal;
+	font-weight: normal;
+	font-family: "Charis SIL Compact", serif;
+	src: url( "../Fonts/CharisSILCR-SC.ttf" ) format("truetype");
+}
+@font-face {
+	font-style: italic;
+	font-weight: normal;
+	font-family: "Charis SIL Compact Italic", serif;
+	src: url( "../Fonts/CharisSILCI.ttf" ) format("truetype");
+}
+
+#book-content h1 {
+	margin: 24pt 0pt;
+	font-family: "Charis SIL Compact", serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	line-height: 32pt;
+}
+#book-content h2 {
+	margin: 48pt 0pt 16pt;
+	font-family: "Charis SIL Compact", serif;
+	font-size: 16pt;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+}
+#book-content h3 {
+	margin: 16pt 0pt 4pt;
+	font-family: "Charis SIL Compact", serif;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: normal;
+	text-align: left;
+}
+#book-content{
+	padding: 0.5em;
+	font-family: "Charis SIL Compact", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12pt;
+	width: 768px;
+	max-width: 94.5%;
+	text-align: justify;
+}
+.chapter-wrapper {
+	line-height: 16pt;
+}
+p {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	text-indent: 16pt;
+}
+p.first-indent {
+	text-indent: 0pt;
+}
+p.caption {
+	margin-top: 2pt;
+	text-indent: 0pt;
+	text-align: left;
+	font-size: 10pt;
+	line-height: 12pt;
+}
+em {
+	font-family: "Charis SIL Compact Italic", serif;
+	font-style: italic;
+	font-weight: normal;
+}
+#book-content blockquote {
+	margin: 16pt 0pt 16pt 16pt;
+}
+#book-content blockquote.terminal {
+	font-family: monospace;
+}
+#book-content blockquote.bordered {
+	margin: 16pt 16pt 16pt 16pt;
+	border: 1px gray dashed;
+	padding: 8pt 8pt 8pt 8pt;
+}
+#book-content sup {
+	font-size: 60%;
+}
+/* Experimental */
+#book-content sc {
+	/* font-variant: small-caps; <-- does not work properly yet!*/
+}
+
+.footnote {
+	text-indent: -16pt;
+	text-align: left;
+	font-size: 10pt;
+	line-height: 12pt;
+	float: right;
+	width: 250px;
+	max-width: 33%;
+	border: 1px gray dashed;
+	padding: 8pt 8pt 8pt 24pt;
+	margin: 0.2em 0pt 8pt 16pt;
+}
+
+.image-wrapper {
+	float: right;
+	width: 250px;
+	max-width: 33%;
+	border: 1px gray solid;
+	padding: 8pt;
+	margin: 0.2em 0pt 8pt 16pt;
+}
+.image-wrapper img {
+	max-width: 100%;
+}
+.image-block {
+	clear: both;
+	border: none;
+	padding: 0pt;
+	margin: 16pt auto 16pt;
+}

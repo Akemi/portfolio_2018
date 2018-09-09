@@ -1,0 +1,86 @@
+[
+    {
+        "dayID": 0,
+        "day": "Monday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "B1 311",
+        "lectureLength": 2,
+        "lectureID": "SDI",
+        "lectureName": "Sprachdialogsysteme",
+        "teacherID": "Rei",
+        "teacherName": "Reininger"
+    },
+    {
+        "dayID": 2,
+        "day": "Wednesday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "B1 113",
+        "lectureLength": 2,
+        "lectureID": "MV2",
+        "lectureName": "Modellbildung virtueller Welten 2",
+        "teacherID": "Mc",
+        "teacherName": "Malerczyk"
+    },
+    {
+        "dayID": 5,
+        "day": "Saturday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A2 U113",
+        "lectureLength": 3,
+        "lectureID": "IBN",
+        "lectureName": "IP Based Networks and Protocols",
+        "teacherID": "Bay",
+        "teacherName": "Bayer, Nico"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 2,
+        "room": "B1 113",
+        "lectureLength": 1,
+        "lectureID": "EPS",
+        "lectureName": "Seminar zum Entwicklungsprojekt",
+        "teacherID": "Mc",
+        "teacherName": "Malerczyk"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "A8 003a+b",
+        "lectureLength": 1,
+        "lectureID": "IP",
+        "lectureName": "Internet Protocols and Applications",
+        "teacherID": "Jg",
+        "teacherName": "J\u00e4ger, Rudolf"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A2 113",
+        "lectureLength": 1,
+        "lectureID": "IP",
+        "lectureName": "Internet Protocols and Applications",
+        "teacherID": "Jg",
+        "teacherName": "J\u00e4ger, Rudolf"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 5,
+        "room": "A2 113",
+        "lectureLength": 1,
+        "lectureID": "IPL",
+        "lectureName": "Labor zu Internet Protocols",
+        "teacherID": "Jg",
+        "teacherName": "J\u00e4ger, Rudolf"
+    }
+]

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Volume 1 - The Melancholy of Suzumiya Haruhi</dc:title>
+        <dc:creator opf:role="aut">Tanigawa Nagaru</dc:creator>
+        <dc:language>en</dc:language>
+        <dc:identifier id="BookID" opf:scheme="UUID">5dcd4fcd-6305-4000-b085-6ff52971ebc8</dc:identifier>
+        <meta name="Sigil version" content="0.2.3"/>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="CharisSILCI.ttf" href="Fonts/CharisSILCI.ttf" media-type="application/x-font-truetype"/>
+        <item id="CharisSILCR.ttf" href="Fonts/CharisSILCR.ttf" media-type="application/x-font-truetype"/>
+        <item id="x001.png" href="Images/001.png" media-type="image/png"/>
+        <item id="x002.png" href="Images/002.png" media-type="image/png"/>
+        <item id="x003.png" href="Images/003.png" media-type="image/png"/>
+        <item id="x004.png" href="Images/004.png" media-type="image/png"/>
+        <item id="x005.png" href="Images/005.png" media-type="image/png"/>
+        <item id="x006.png" href="Images/006.png" media-type="image/png"/>
+        <item id="x007.png" href="Images/007.png" media-type="image/png"/>
+        <item id="x008.png" href="Images/008.png" media-type="image/png"/>
+        <item id="OFL.txt" href="Misc/OFL.txt" media-type="text/plain"/>
+        <item id="styles.css" href="Styles/styles.css" media-type="text/css"/>
+        <item id="Section0000.xhtml" href="Text/Section0000.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0003.xhtml" href="Text/Section0003.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0004.xhtml" href="Text/Section0004.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0005.xhtml" href="Text/Section0005.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0006.xhtml" href="Text/Section0006.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0007.xhtml" href="Text/Section0007.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0008.xhtml" href="Text/Section0008.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0009.xhtml" href="Text/Section0009.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0010.xhtml" href="Text/Section0010.xhtml" media-type="application/xhtml+xml"/>
+        <item id="Section0011.xhtml" href="Text/Section0011.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="Section0000.xhtml"/>
+        <itemref idref="Section0001.xhtml"/>
+        <itemref idref="Section0002.xhtml"/>
+        <itemref idref="Section0003.xhtml"/>
+        <itemref idref="Section0004.xhtml"/>
+        <itemref idref="Section0005.xhtml"/>
+        <itemref idref="Section0006.xhtml"/>
+        <itemref idref="Section0007.xhtml"/>
+        <itemref idref="Section0008.xhtml"/>
+        <itemref idref="Section0009.xhtml"/>
+        <itemref idref="Section0010.xhtml"/>
+        <itemref idref="Section0011.xhtml"/>
+    </spine>
+    <guide>
+        <reference type="title-page" title="Title Page" href="Text/Section0000.xhtml"/>
+    </guide>
+</package>

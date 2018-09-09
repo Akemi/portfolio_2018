@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A2 111</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>MA2&#xDC;</lectureID>
+    <lectureName>Mathematik 2 &#xDC;bungen</lectureName>
+    <teacherID>Jan</teacherID>
+    <teacherName>Jansen, Detlef</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A2 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>RW</lectureID>
+    <lectureName>Rechnungswesen</lectureName>
+    <teacherID>Spe</teacherID>
+    <teacherName>Speiser, Peter</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A1 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>RW</lectureID>
+    <lectureName>Rechnungswesen</lectureName>
+    <teacherID>Spe</teacherID>
+    <teacherName>Speiser, Peter</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A1 001</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>MA2</lectureID>
+    <lectureName>Mathematik 2</lectureName>
+    <teacherID>Jan</teacherID>
+    <teacherName>Jansen, Detlef</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B1 014</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>BE</lectureID>
+    <lectureName>Business Englisch (for Computer Scientists)</lectureName>
+    <teacherID>Tre</teacherID>
+    <teacherName>Trede</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 101</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DB</lectureID>
+    <lectureName>Datenbanksysteme</lectureName>
+    <teacherID>Rir</teacherID>
+    <teacherName>Richter, Marco</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 103</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AD</lectureID>
+    <lectureName>Algorithmen und Datenstrukturen</lectureName>
+    <teacherID>Gch</teacherID>
+    <teacherName>Gerlach, Rene</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 019</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DB</lectureID>
+    <lectureName>Datenbanksysteme</lectureName>
+    <teacherID>Rir</teacherID>
+    <teacherName>Richter, Marco</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 114</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AD&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen zu Algorithmen und Datenstrukturen</lectureName>
+    <teacherID>Rir</teacherID>
+    <teacherName>Richter, Marco</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 114</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DB&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen z. Datenbanksysteme</lectureName>
+    <teacherID>Hof</teacherID>
+    <teacherName>Hoffmann, Benjamin</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A4 019</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>OR</lectureID>
+    <lectureName>Operations Reserch</lectureName>
+    <teacherID>Gu</teacherID>
+    <teacherName>Guckert</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A2 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>MA2&#xDC;</lectureID>
+    <lectureName>Mathematik 2 &#xDC;bungen</lectureName>
+    <teacherID>Jan</teacherID>
+    <teacherName>Jansen, Detlef</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A2 117</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>BE</lectureID>
+    <lectureName>Business Englisch (for Computer Scientists)</lectureName>
+    <teacherID>Bnd</teacherID>
+    <teacherName>Bender</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>7</block>
+    <room>A4 114</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>DB&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen z. Datenbanksysteme</lectureName>
+    <teacherID>Lrz</teacherID>
+    <teacherName>Lorenz MND</teacherName>
+  </lecture>
+</TimeTable>

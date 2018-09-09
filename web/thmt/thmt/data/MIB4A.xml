@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWT&#xDC;</lectureID>
+    <lectureName>Softwaretechnik &#xDC;bungen</lectureName>
+    <teacherID>Lu</teacherID>
+    <teacherName>Lucke, Carsten</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B2 109</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWTP</lectureID>
+    <lectureName>Softwaretechnik  Praktikum/Projekt</lectureName>
+    <teacherID>Ed</teacherID>
+    <teacherName>Edelmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A3 208</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>KN</lectureID>
+    <lectureName>Kommunikationsnetze</lectureName>
+    <teacherID>Br</teacherID>
+    <teacherName>Behrens</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 103</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>MPM</lectureID>
+    <lectureName>Medienprojekt - Management</lectureName>
+    <teacherID>Hg</teacherID>
+    <teacherName>Hempfling</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B1 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>KSK2</lectureID>
+    <lectureName>Kommunikative Schl&#xFC;sselkompetenzen (Englisch) =TE</lectureName>
+    <teacherID>Rus</teacherID>
+    <teacherName>Russ, Fr.</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B1 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWT&#xDC;</lectureID>
+    <lectureName>Softwaretechnik &#xDC;bungen</lectureName>
+    <teacherID>Lu</teacherID>
+    <teacherName>Lucke, Carsten</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B2 109</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SWTP</lectureID>
+    <lectureName>Softwaretechnik  Praktikum/Projekt</lectureName>
+    <teacherID>Ed</teacherID>
+    <teacherName>Edelmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>NO ROOM</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>KSK1</lectureID>
+    <lectureName>Kommunikative Schl&#xFC;sselkompetenzen (Kommunikation) =KT</lectureName>
+    <teacherID>IEM</teacherID>
+    <teacherName>IEM</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>BSL</lectureID>
+    <lectureName>Labor zu Einf&#xFC;hrung in die Betriebssysteme</lectureName>
+    <teacherID>Dem</teacherID>
+    <teacherName>Demuth, Tobias</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A1 102</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>KSK1</lectureID>
+    <lectureName>Kommunikative Schl&#xFC;sselkompetenzen (Kommunikation) =KT</lectureName>
+    <teacherID>IEM</teacherID>
+    <teacherName>IEM</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A2 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>KN</lectureID>
+    <lectureName>Kommunikationsnetze</lectureName>
+    <teacherID>Br</teacherID>
+    <teacherName>Behrens</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 211</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>KNL</lectureID>
+    <lectureName>Labor f&#xFC;r Kommunikationsnetze</lectureName>
+    <teacherID>LW&#xF6;</teacherID>
+    <teacherName>W&#xF6;rner</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 019</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>BS</lectureID>
+    <lectureName>Einf&#xFC;hrung in die Betriebssysysteme</lectureName>
+    <teacherID>Dem</teacherID>
+    <teacherName>Demuth, Tobias</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>even</occurrence>
+    <block>4</block>
+    <room>A4 019</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>SWT</lectureID>
+    <lectureName>Softwaretechnik</lectureName>
+    <teacherID>Lu</teacherID>
+    <teacherName>Lucke, Carsten</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 211</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>KNL</lectureID>
+    <lectureName>Labor f&#xFC;r Kommunikationsnetze</lectureName>
+    <teacherID>LW&#xF6;</teacherID>
+    <teacherName>W&#xF6;rner</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A4 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>BSL</lectureID>
+    <lectureName>Labor zu Einf&#xFC;hrung in die Betriebssysteme</lectureName>
+    <teacherID>Dem</teacherID>
+    <teacherName>Demuth, Tobias</teacherName>
+  </lecture>
+</TimeTable>

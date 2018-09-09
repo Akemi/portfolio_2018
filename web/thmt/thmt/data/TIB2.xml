@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A4 121</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>OPL</lectureID>
+    <lectureName>Labor zur Objektorientierte Programmierung</lectureName>
+    <teacherID>Bs</teacherID>
+    <teacherName>Baums</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A2 U117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ET2&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen zu Elektrotechnik 2</lectureName>
+    <teacherID>Hap</teacherID>
+    <teacherName>Happek, Tilman</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A2 117</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>TE</lectureID>
+    <lectureName>Technisches Englisch</lectureName>
+    <teacherID>Sto</teacherID>
+    <teacherName>Storbeck</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>5</dayID>
+    <day>Saturday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A3 U112</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>MMT</lectureID>
+    <lectureName>Mathematische Modellierung technischer Systeme</lectureName>
+    <teacherID>Skb</teacherID>
+    <teacherName>Sakhibov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A3 208</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PP</lectureID>
+    <lectureName>Problemorientierte Programmierung</lectureName>
+    <teacherID>Llg</teacherID>
+    <teacherName>Langstrof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 118</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>OP</lectureID>
+    <lectureName>Objektorientierte Programmierung</lectureName>
+    <teacherID>Bs</teacherID>
+    <teacherName>Baums</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PPL</lectureID>
+    <lectureName>Labor f&#xFC;r problemorientierte Programmierung</lectureName>
+    <teacherID>Llg</teacherID>
+    <teacherName>Langstrof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A2 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>MMT&#xDC;</lectureID>
+    <lectureName>Mathematische Modellierung technischer Systeme &#xDC;bungen</lectureName>
+    <teacherID>Skb</teacherID>
+    <teacherName>Sakhibov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A3 306</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>DTL</lectureID>
+    <lectureName>Digitaltechnik-Labor</lectureName>
+    <teacherID>Gr</teacherID>
+    <teacherName>Gr&#xE4;fe</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A1 002</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>ET2</lectureID>
+    <lectureName>Elektrotechnik 2,</lectureName>
+    <teacherID>Li</teacherID>
+    <teacherName>Leitis</teacherName>
+  </lecture>
+</TimeTable>

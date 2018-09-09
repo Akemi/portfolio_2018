@@ -1,0 +1,108 @@
+	/* BEGIN - CONTENT-FORMAT */
+	
+		body {
+			font-family: Verdana, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+		}
+	
+		img {
+			margin: 0px;
+		}
+		
+		#resizer a {
+			color: #44a1d0;
+			text-decoration: underline;
+			display: inline;
+			padding: 0px 0px 0px 0px;
+		}
+		.headline-big {
+			font-size: 27px;
+			border-style: solid;
+			border-color: #000000;
+			border-width: 0px 0px 2px 0px;
+			margin: 0px 0px 9px 0px;
+			font-weight: bold;
+		}
+		.headline-small {
+			font-size: 22px;
+			border-style: solid;
+			border-color: #000000;
+			border-width: 0px 0px 1px 0px;
+			margin: 0px 0px 10px 0px;
+		}
+		.absatz {
+			margin: 0px 0px 0px 0px;
+			clear: both;
+		}
+		.links {
+			float: left;
+			background-color: #d6e4f0;
+			border-style: solid;
+			border-color: #44a1d0;
+			border-width: 1px 1px 1px 1px;
+			padding: 3px 3px 3px 3px;
+			margin: 0px 10px 0px 0px;
+			text-align: center;
+			
+		}
+		.rechts {
+			float: right;
+			background-color: #d6e4f0;
+			border-style: solid;
+			border-color: #44a1d0;
+			border-width: 1px 1px 1px 1px;
+			padding: 3px 3px 3px 3px;
+			margin: 0px 0px 0px 10px;
+			text-align: center;
+			
+		}
+		.mitte {
+			background-color: #d6e4f0;
+			border-style: solid;
+			border-color: #44a1d0;
+			border-width: 1px 1px 1px 1px;
+			padding: 5px 5px 5px 5px;
+			margin: 3px 0px 5px 0px;
+			text-align: center;
+			overflow: auto;
+		}
+		#quellen {
+			list-style-type: decimal;
+			padding: 5px 0px 5px 30px;
+			background-color: #d6e4f0;
+			border-style: dashed;
+			border-color: #44a1d0;
+			border-width: 1px 1px 1px 1px;
+			border-radius: 10px;
+			margin: 0px;
+		}
+		.video {
+			width: 300px;
+		}
+		.audio {
+			width: 240px;
+			margin: 0px 0px 15px 0px;
+		}
+		.links img {
+			width: 200px;
+		}
+		.rechts img {
+			width: 200px;
+		}
+		.mitte img {
+			width: 500px;
+		}
+		.mitte video {
+			width: 500px;
+		}
+		#resizer img {
+			max-width: 700px;
+			max-height: 600px;
+		}
+		#preview-iframe {
+			border: 0px;
+		}
+	
+	
+	
+	/* END - CONTENT-FORMAT */

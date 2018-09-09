@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<books>
+  <book>
+    <title>Beowulf / An Anglo-Saxon Epic Poem</title>
+    <author></author>
+    <desc></desc>
+    <isbn>http://www.gutenberg.org/ebooks/16328</isbn>
+    <lang>en</lang>
+    <publisher></publisher>
+    <date>Array</date>
+  </book>
+</books>

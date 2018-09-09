@@ -1,0 +1,51 @@
+
+/* Class = "IBUIButton"; normalTitle = "Info"; ObjectID = "1Xn-ok-ub3"; */
+"1Xn-ok-ub3.normalTitle" = "Info";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Sets the Number of Colors"; ObjectID = "2Rc-Qi-61d"; */
+"2Rc-Qi-61d.footerTitle" = "Sets the Number of Colors";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Number of Colors"; ObjectID = "2Rc-Qi-61d"; */
+"2Rc-Qi-61d.headerTitle" = "Number of Colors";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Sets the Difficulty of the Game"; ObjectID = "65p-3P-tRO"; */
+"65p-3P-tRO.footerTitle" = "Sets the Difficulty of the Game";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Difficulty"; ObjectID = "65p-3P-tRO"; */
+"65p-3P-tRO.headerTitle" = "Difficulty";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "6mC-Ys-dHW"; */
+"6mC-Ys-dHW.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "5 Colors"; ObjectID = "9Bc-rq-pXr"; */
+"9Bc-rq-pXr.text" = "5 Colors";
+
+/* Class = "IBUIButton"; normalTitle = "Home"; ObjectID = "Dtg-rI-08d"; */
+"Dtg-rI-08d.normalTitle" = "Home";
+
+/* Class = "IBUILabel"; text = "Hard"; ObjectID = "KHb-Gq-fMs"; */
+"KHb-Gq-fMs.text" = "Hard";
+
+/* Class = "IBUILabel"; text = "4 Colors"; ObjectID = "KO0-u3-Vbm"; */
+"KO0-u3-Vbm.text" = "4 Colors";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VlT-Gi-20Z"; */
+"VlT-Gi-20Z.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Score"; ObjectID = "f8g-ZC-40T"; */
+"f8g-ZC-40T.normalTitle" = "Score";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "i9J-O5-iBv"; */
+"i9J-O5-iBv.normalTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "Easy"; ObjectID = "mDu-zB-jsq"; */
+"mDu-zB-jsq.text" = "Easy";
+
+/* Class = "IBUIButton"; normalTitle = "Start"; ObjectID = "ofo-aW-tBh"; */
+"ofo-aW-tBh.normalTitle" = "Start";
+
+/* Class = "IBUILabel"; text = "3 Colors"; ObjectID = "og3-cQ-US4"; */
+"og3-cQ-US4.text" = "3 Colors";
+
+/* Class = "IBUILabel"; text = "Normal"; ObjectID = "qqr-ir-hkP"; */
+"qqr-ir-hkP.text" = "Normal";

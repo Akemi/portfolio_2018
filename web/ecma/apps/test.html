@@ -1,0 +1,211 @@
+<html lang="de"><head>
+    <title> Erstelle HTML-Seite mit verschlüsselten Quelltext </title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index">
+    <meta name="google-site-verification" content="7d0Awabwgqi1KuUEc-eM-J2HpkLY4c1AP0oWEHBpGUA">
+    <meta name="msvalidate.01" content="F5464CFCC68D3C5CD98EDF5F149956AB">
+    <meta name="author" content="Prof. Dr. (em) Walter Bachmann">
+    <link rel="author" title="copyright" href="http://www.cilie.org/copyright.htm">
+    <link rel="copyright" title="copyright" href="http://www.cilie.org/copyright.htm">
+    <meta name="keywords" lang="de" content="TH Mittelhessen, Informatik-Studium, Master-Veranstaltung, ECMAScript-Apps, JavaScript-Development, W3C-DOM-Programming, Regular Expressions">
+    <meta name="description" lang="de" content="Tool zum Ertellen von geschützten HTML-Seiten, HTML-Seite mit verschlüsselten Quelltext, Master-Veranstaltung der THM Giessen zu Entwicklung von ECMAScript-Tools 'from Scatch', Entwicklng von ECMAScript-Applikationen, Entwicklung von Tools und Werkzeugesammlung, Web Development and Programming, WWW-Entwicklung für Einsteiger">
+    <!--
+    <link rel="stylesheet" href="../kern/tools.css" />
+    -->
+    <style type="text/css">
+        html, body {font-size: 15px;line-height:16px; color:#333; background-color: #dde; padding:0px 4px 0px 2px !important; margin: 0px;}
+        h1 {font-size: 22px;line-height:22px;text-align: center; color: #fff; background: #191999;
+            margin: 0px 0px 2px 0px;padding: 5px;border:1px solid #ccc;
+            text-shadow: 1px 2px 0px #aad, 2px 3px 0px #88a, 3px 4px 0px #777;
+        }
+        h1 {font-size: 22px;line-height:22px;text-align: center; color: #fff; background: #191999;
+            margin: 0px 0px 2px 0px;padding: 5px;border:1px solid #ccc;
+            text-shadow: 1px 2px 0px #aad, 2px 3px 0px #88a, 3px 4px 0px #777;
+        }
+        span {float:left;padding-top:3px;line-height:18px;font-size: 15px;margin:0 2px;}
+        .ta0,#TA0, .ta1, #TA1, .menu, form {display:block;clear:both;float:left;line-height:12px; margin:0px;padding:0px;
+            background-color: #dde; width:100% !important;overflow: hidden;
+        }
+        #TA0, #TA1 {background-color: #fff;border:1px solid #aaa;}
+        input {display:inline;vertical-align:middle;}
+        textarea {clear:both;float:left;resize:none;border:1px solid #ccc;
+            display:block;min-width:500px; width:99.4%; height: 100%; overflow:auto;
+            white-space: pre;white-space: pre-wrap; word-wrap: break-word;
+            font: normal 13px/13px "Courier New", "Lucida Console",Monaco,monospace;
+            margin:0px;margin:2px !important;
+        }
+        a {float:left;white-space:nowrap;text-decoration:none;
+            font:normal 14px/15px "Times New Roman",Times,serif;
+            margin:1px;padding:1px;color:#007;background-color:#ddf;border:1px outset #fff;
+        }
+        a:hover, a:focus,a:active {outline: none;
+            text-decoration: none;
+            margin:1px;padding:1px;border:1px outset #fff;
+            background-color: #191999;color: #eee;
+        }
+        .border{border:1px solid #eee;}
+        .char_button {min-width:20px;font-size:14px;line-height:15px;font-weight:bold;vertical-align:middle;text-align:center;overflow:hidden;}
+        .char_button:hover {min-width:20px;font-size:14px;line-height:15px;font-weight:bold;vertical-align:middle;text-align:center;overflow:hidden;}
+        .float_clear{clear:both !important;}
+        .float_left{float:left;}
+        .float_right{float:right;}
+    </style>
+    <script>
+        // <a href="javascript:void(0)" onclick="toggle(this,'id');">[ − ] toggle</a>
+        function toggle(that, id_dst) {
+            var htm = that.innerHTML, dst = document.getElementById(id_dst); if(!that || !dst){ return; }
+            if (that && /\[\s*\+\s*\]/.test(htm)) {that.innerHTML = htm.replace(/\[\s*\+\s*\]/, '[ − ]'); dst.style.display = 'block';
+            } else { that.innerHTML = htm.replace(/\[\s*\−\s*\]/, '[ + ]'); dst.style.display = 'none';
+            }
+        }
+        function get_string(id) {var o = document.getElementById(id), tg = o.tagName.toLowerCase();
+            if (tg === 'input' || tg === 'textarea') { ;return o.value; } else { return o.innerHTML; }
+        }
+        function set_string(id, str) {var o = document.getElementById(id), tg = o.tagName.toLowerCase();
+            if (tg === 'input' || tg === 'textarea') { o.value = str; o.setAttribute('value', o.value);
+            } else { o.innerHTML = str;}
+        }
+        function encode_utf8(str) {
+            try { str = unescape(encodeURIComponent(str)); } catch (e) { /*win.alert('ERR: encode_utf8()');*/ }
+            return str;
+        }
+        function decode_utf8(str) {
+            try { str = decodeURIComponent(escape(str)); } catch (e) { /*win.alert('ERR: decode_utf8()');*/ }
+            return str;
+        }
+
+        function encrypt_string(str, key) { // nur fuer 8-Bit-Zeichen
+            var i, j, key_char, str_char, r = "", str_len = str.length, key_len = key.length;
+            if (key_len < 1) { key = "test"; }
+//key += str;
+//str=str.replace(/^[\s\S]*?id="GEHEIME_INFOS">/,"").replace(/<\/div>\s*<\/body>\s*<\/html>\s*$/,"");
+            for ( i = 0; i < str_len; i += 1) {
+                str_char = str.charCodeAt(i);
+                key_char = key.charCodeAt(i % key_len);
+                if (str_char != key_char) { str_char ^= key_char; }
+                r += String.fromCharCode(str_char);
+            } return r;
+        }
+
+        function get_arbeitsansicht(id_src, id_key, id_dst)
+        {
+            var s = get_string(id_src),
+                    pw = get_string(id_key), r;
+
+            s = s.replace(/^[\s\S]*?id="GEHEIME_INFOS">/,"")
+                    .replace(/<\/div>\s*<\/body>\s*<\/html>\s*$/,"");
+
+            if(!/\s/.test(s)) {
+                s = decode_utf8(encrypt_string(unescape(s),encode_utf8(pw)));
+            } set_string(id_dst,s);
+        }
+
+
+        function my_xhtml_crypt(id_src, id_key, id_dst) {
+            var head1="%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22de%22%3E%0A%3Chead%3E%0A%3Ctitle%3E%20Passwort%20gesch%FCtzte%20Seite%20%3C/title%3E%0A%3Cmeta%20charset%3D%22UTF-8%22%20/%3E";
+            var style="%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%23DECRYPT_DIV%20%7Bfloat%3Aright%3Bcolor%3A%23fff%3Bbackground-color%3A%23500%3Bpadding%3A0px%3Bmargin%3A0px%3B%7D%0A%23GEHEIME_INFOS%7Bdisplay%3Anone%3B%7D%20%0A%3C/style%3E%0A%0A";
+            var head2="%0A%0A%3Cscript%3E%0Afunction%20decodiere%28%29%20%7B%27use%20strict%27%3B%0Avar%20i%2Cr%3D%27%27%2Ckey%2Ckey_len%2Cstr%2Cstr_len%2Cstr_char%2Ckey_char%2C%0Adecrypt%3Ddocument.getElementById%28%22DECRYPT_DIV%22%29%2C%0Ageheim%3Ddocument.getElementById%28%22GEHEIME_INFOS%22%29%2C%0Apw%3Ddocument.getElementById%28%22PASSWORT%22%29%3B%0Atry%20%7B%20key%20%3D%20window.unescape%28encodeURIComponent%28pw.value%29%29%3B%7D%20catch%20%28e1%29%20%7B%20key%20%3D%20%27teste%27%3B%7D%20%0Atry%20%7B%20str%20%3D%20window.unescape%28geheim.innerHTML%29%3B%7D%20catch%20%28e2%29%20%7B%20str%20%3D%20%27%27%3B%7D%20%0Akey_len%20%3D%20key.length%3Bif%20%28key_len%20%3C%201%29%20%7B%20key%20%3D%20%22test%22%3B%20%7D%0Astr_len%20%3D%20str.length%3B%0Afor%20%28%20i%20%3D%200%3B%20i%20%3C%20str_len%3B%20i%20+%3D%201%29%20%7B%20%0Astr_char%20%3D%20str.charCodeAt%28i%29%3B%0Akey_char%20%3D%20key.charCodeAt%28i%20%25%20key_len%29%3B%0Aif%20%28str_char%20%21%3D%3D%20key_char%29%20%7B%20str_char%20%5E%3D%20key_char%3B%20%7D%0Ar%20+%3D%20String.fromCharCode%28str_char%29%3B%0A%7D%20try%20%7B%20r%20%3D%20decodeURIComponent%28escape%28r%29%29%3B%20%7D%20catch%20%28e%29%20%7B%20r%3D%27%27%3B%7D%0Ageheim.innerHTML%20%3D%20r%3Bgeheim.style.display%20%3D%20%22block%22%3Bdecrypt.style.display%20%3D%20%22none%22%3Breturn%20false%3B%0A%7D%0A%3C/script%3E%0A%3C/head%3E%3Cbody%3E%0A%0A";
+            var body1="%0A%0A%3Cbody%3E%3Cdiv%20id%3D%22DECRYPT_DIV%22%3E%3Cform%20action%3D%22%23%22%20onsubmit%3D%22return%20decodiere%28this%29%3B%22%3E%0A%3Ch1%3E%26nbsp%3BPasswort%20gesch%FCtzte%20Seite%20%26nbsp%3B%3C/h1%3E%3Cp%3E%26nbsp%3BPasswort%3A%20%26nbsp%3B%20%3Cinput%20type%3D%22password%22%20id%3D%22PASSWORT%22%20value%3D%22teste%22%20/%3E%3Cinput%20class%3D%22PASSWORT%22%20type%3D%22submit%22%20value%3D%22OK%22%20/%3E%3C/p%3E%3C/form%3E%3C/div%3E%0A%3Cdiv%20id%3D%22GEHEIME_INFOS%22%3E";//!
+            var body2="%3C/div%3E%0A%0A%0A%3C/body%3E%0A%3C/html%3E%0A";
+            var pw = encode_utf8(get_string(id_key)), r, s;
+            s = encode_utf8(get_string(id_src));
+            r = encrypt_string(s, pw);
+            set_string(id_dst,unescape(head1)+unescape(style)+unescape(head2)+unescape(body1)+escape(r)+unescape(body2));
+        }
+
+        var hwin=null;
+        function popup(str, url, o) { //aufruf: .popup(str) oder .popup(null,url)
+            url = url || null; o = o || { top: 0, left: 150, width: 800, height: 600 };
+            flags = "resizable=yes,scrollbars=yes,top=" + o.top + ",left=" + o.left + ",width=" + o.width + ",height=" + o.height;
+            if (hwin && !hwin.closed) { hwin.close(); } hwin = null;
+            if (url) {hwin = window.open(url, "popup", flags);
+            } else if (typeof str === 'undefined') {return;
+            } else {hwin = window.open("", "popup", flags); hwin.document.write(str);
+            }
+            if (hwin.opener) { hwin.opener = window.self; }
+            if (hwin.focus) { hwin.focus(); }
+            hwin.document.close();
+        }
+
+        function myhash(s, base) {
+            var i, h, g, c; base = base || 10;
+            //s = s.replace(/\r/g, '');
+            if (!s || s === "") {return 0;} else {
+                h = 0; g = 0;
+                for (i = s.length - 1; i >= 0; i -= 1) {
+                    c = parseInt(s.charCodeAt(i), 10);
+                    h = ((h << 6) & 0xfffffff) + c + (c << 14);
+                    if ((g = h & 0xfe00000) !== 0) { h = (h ^ (g >> 21)); }
+                } return h.toString(base);
+            }
+        }
+        function pw_plus(pw, base) {
+            var s1 = pw.slice(0,-1);
+            var s2 = pw.slice(1);
+            var s3 = pw.slice(1,-1);
+            var r = myhash(s1,base)+pw+myhash(pw,base)+myhash(s2,base)+myhash(s3,base);
+
+            return encrypt_string(r,pw);
+        }
+
+
+
+
+        var beispiel2="%3Cpre%3E%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0AWichtige%20Adressen%20und%20Telefonnummern%0A----------------------------------------%0AE-Mail-Adresse%3A%20%3F%20mustermann@schlau.de%0ATelefon%20privat%3A%20%3F%200000/4711%0ATelefon%20dienst%3A%20%3F%200000/4712%0A%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0AEigene%20Windows-System-Passw%F6rter%0A----------------------------------------%0AXP-Desktop%20%20%20%20%3A%20004713%0AXP-System%20%20%20%20%20%3A%20%3Ca%20href%3D%22javascript%3Aalert%28%27XP-Desktop-PW%20%3D%20004714%27%29%22%3E%5Bx%5D%3C/a%3E%0AXP-System%20%20%20%20%20%3A%20004714%0ABenutzer-Name%20%3A%20004715%0A%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0At-online-Passw%F6rter%20%0A----------------------------------------%0ARouter%20speedport%20w555v%20%20%3A%204716%0AE-Mail%20bei%20t-online%20%20%20%20%20%3A%20myname@t-online.de%0AKundenmen%FC%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3A%20myname%0A----------------------------------------%0AT-Com-Rechnung%20Online%20%28Einzelverbindung%29%0A%3Ca%20href%3D%22http%3A//www.telefonbuch.de/%22%20target%3D%22_blank%22%3E%0A%20%20telekom-kundencenter%0A%3C/a%3E%0A%20mit%3A%20%0ABenutzername%20%20%20%20%20%20%3A%20myname%0APasswort%20%20%20%20%20%20%20%20%20%20%3A%204717%0AKundennummer%3A%20%20%20%20%20%20%20000%20000%200000%0A%20zum%20Buchungskonto%3A%20000%20000%200000%0A%3C/pre%3E";
+        var beispiel1="%3Cp%3E%20%0AECMAScript%20hat%20eingebaute%20Stringfunktionen%2C%20%0Adie%20f%FCr%20Kryptographie-Algorithen%20verwendet%20werden%20k%F6nnen.%0AZur%20%DCbertragung%20mit%20dem%20HTTP-GET-Protokoll%20gibt%20es%20z.B.%0A%3Cem%3Eescape%28%29%3C/em%3E%2C%20die%20in%20der%20Art%20%3Cem%3Eurl%3Fsearch%3D%27+escape%28SUCHBEGRIFF%29%3C/em%3E%0Averwendet%20wird.%20%0A%3C/p%3E%0A%0A%3Cp%3E%0ABei%20dem%20UTF-8-Zeichensatz%20kann%20ein%20Zeichen%201%2C2%2C3%2C4%20Byte%20haben.%0A%0A%3Cem%3Estr.length%3C/em%3E%20liefert%20die%20Anzahl%20von%20Zeichen.%0ASetzen%20sie%20bitte%20an%20den%20Stellen%20%22anz%20%3D___%22%20die%20Anzahl%20der%20Zeichen%20ein%2C%0Adie%20die%20Funktionen%20liefern.%0A%3C/p%3E%0A%3Cp%3E%0AAchtung%21%20%0A%3Cem%3Eutf8_encode%28%29%3C/em%3E%2C%20%0A%3Cem%3Eutf8_decode%28%29%3C/em%3E%2C%0A%3Cem%3Ebase64_encode%28%29%3C/em%3E%2C%20%0A%3Cem%3Ebase64_decode%28%29%3C/em%3E%20%0Asind%20keine%20eingebauten%20Funktionen.%0A%3C/p%3E%0A%3Cp%3E%0AHier%20eine%20Verst%E4ndnisfrage%3A%0A%3C/p%3E%0A%3Cpre%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22%u272A%u272B%u272C%u272D%u272E%u272F%u2730%22.length%20hat%20anz%20%3D%207%20Zeichen%20%0AencodeURIComponent%28%22%u272A%u272B%u272C%u272D%u272E%u272F%u2730%22%29%20%20%20liefert%20anz%20%3D___%20Zeichen%3A%20%20%22%25E2%259C%25AA%25E2%259C%25AB%25E2%259C%25AC%25E2%259C%25AD%25E2%259C%25AE%25E2%259C%25AF%25E2%259C%25B0%22%0A%20%20%20%20%20%20%20%20%20%20%20%20escape%28%22%u272A%u272B%u272C%u272D%u272E%u272F%u2730%22%29%20%20%20liefert%20anz%20%3D___%20Zeichen%3A%20%20%22%25u272A%25u272B%25u272C%25u272D%25u272E%25u272F%25u2730%22%0A%20%20%20%20%20%20%20utf8_encode%28%22%u272A%u272B%u272C%u272D%u272E%u272F%u2730%22%29%20%20%20liefert%20anz%20%3D___%20Zeichen%3A%20%20%22%E2%9C%AA%E2%9C%AB%E2%9C%AC%E2%9C%AD%E2%9C%AE%E2%9C%AF%E2%9C%B0%22%0A%0AWegen%20der%20Ger%E4teunabh%E4ngigkeit%20von%20%3Cem%3Ebase64%3C/em%3E%20kann%20g%FCnstig%20sein%3A%20%20%0Aencode_bas64%28utf8_encode%28%22%u272A%u272B%u272C%u272D%u272E%u272F%u2730%22%29%29%20liefert%20anz%20%3D%20___%20Zeichen%20%224pyq4pyr4pys4pyt4pyu4pyv4pyw%22%0Autf8_decode%28decode_bas64%28%224pyq4pyr4pys4pyt4pyu4pyv4pyw%22%29%29%20liefert%20%22%u272A%u272B%u272C%u272D%u272E%u272F%u2730%22%0A%3C/pre%3E%20%0A%3Cp%3E%207%2063%2042%2021%2028%20%3C/p%3E";
+
+        window.onload = function () {
+            if (top && top["bib"]) { top.bib.load_form_items(document); }
+        };
+        window.onunload = function () {
+            if (top && top["bib"]) { top.bib.save_form_items(document); }
+        };
+
+    </script><style>[href^="http://www.google.com/aclk?"]
+{display:none !important;}</style>
+</head>
+
+<body>
+<h1> &nbsp; Erstelle HTML-Seite mit verschlüsselten Quelltext </h1>
+<div id="page"><noscript>Diese Seite braucht Browser mit aktivierten JavaScript</noscript>
+    <form action="#">
+        <div id="MENU1" class="menu"><span>Beispiele</span>
+            <a class="float_left" href="javascript:void(0);" onclick="set_string('TA0',unescape(beispiel1));" title="Kopiert eine Test-String in die obere Textarea TA0"> &nbsp; 1 &nbsp; </a>
+            <a class="float_left" href="javascript:void(0);" onclick="set_string('TA0',unescape(beispiel2));" title="Kopiert eine Test-String in die obere Textarea TA0"> &nbsp; 2 &nbsp; </a>
+            <span>&nbsp;&nbsp; PW: </span>
+            <input class="float_left" type="password" id="PASSWORT" value="teste" size="8" maxlength="256">
+            <span>&nbsp; Erstelle: </span><a class="float_left" href="javascript:void(0);" onclick="my_xhtml_crypt('TA0', 'PASSWORT', 'TA1');" title="erstellt in der unteren Textarea TA1 den Quelltext einer HTML-Seite mit chiffrierten -body-Quellcode ..."> Crypt-Page </a>
+            <span>&nbsp; Extrahiere aus Crypt-Page: </span><a class="float_left" href="javascript:void(0);" onclick="get_arbeitsansicht('TA0', 'PASSWORT', 'TA1');" title="erstellt mit Hilfe des Passwortes in TA1 die Arbeitsansicht ..."> Arbeitsansicht </a>
+        </div>
+        <div class="ta0"><textarea id="TA0" cols="90" rows="30" style="height: 111px; width: 100%; resize: none; overflow: auto;">Textarea TA0</textarea></div>
+
+        <div id="MENU2" class="menu">
+            <a class="float_right char_button" href="javascript:void(0);" onclick="toggle(this,'TA1');return false;" title="Anzeigen/Verbergen von des Editors">[ − ]</a>
+
+            <a class="" href="javascript:void(0);" onclick="popup(get_string('TA1'));return false;" title="Anzeige des Quelltextes im Browser-Popup-Fenster als Browser-Vorschau">&nbsp; Anzeige &nbsp;</a>
+
+            <a class="char_button" href="javascript:void(0);" onclick="set_string('TA1',get_string('TA0'));return false;" title="⬇ TA1 := TA0 ">&nbsp;&nbsp;↓&nbsp;&nbsp;</a>
+            <a class="char_button" href="javascript:void(0);" onclick="var s2=get_string('TA1');set_string('TA1',get_string('TA0'));set_string('TA0',s2);return false;" title=" ⬍ Tausche die Inhalte von TA0 und TA1">&nbsp;&nbsp;↑↓&nbsp;&nbsp;</a>
+            <a class="char_button" href="javascript:void(0);" onclick="set_string('TA0',get_string('TA1'));return false;" title=" ⬆ TA0 := TA1">&nbsp;&nbsp;↑&nbsp;&nbsp;</a>
+            <span>&nbsp;&nbsp;experimentell: </span>&nbsp;
+
+            <a class="" href="javascript:void(0);" onclick="alert(get_string('TA1').length);" title="alert(get_string('TA1').length)"> str_len([↓]) </a>
+            <a class="" href="javascript:void(0);" onclick="set_string('TA1',encrypt_string(get_string('TA0'),get_string('PASSWORT')));" title="set_string('TA1',encrypt_string(get_string('TA0'),get_string('PASSWORT')))"> [↓] encrypt-ascii(TA0,PW) </a>
+
+            <a class="" href="javascript:void(0);" onclick="set_string('TA1',encrypt_string(encode_utf8(get_string('TA0')),encode_utf8(get_string('PASSWORT'))));" title="set_string('TA1',encrypt_string(encode_utf8(get_string('TA0')),encode_utf8(get_string('PASSWORT'))))"> [↓] encrypt-utf8(TA0,PW) </a>
+
+            <a class="" href="javascript:void(0);" onclick="set_string('TA1',pw_plus(get_string('TA0'),32));"> pw_plus32 </a>
+            <a class="" href="javascript:void(0);" onclick="set_string('TA1',myhash(get_string('TA0'),32));"> hash32 </a>
+
+
+        </div>
+        <div class="ta1"><textarea id="TA1" cols="90" rows="8" style="resize: none; overflow: auto;">Textarea TA1</textarea></div>
+    </form>
+
+
+</div>
+
+
+
+
+</body></html>

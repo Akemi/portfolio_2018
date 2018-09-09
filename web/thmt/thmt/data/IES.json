@@ -1,0 +1,38 @@
+[
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "B1 111",
+        "lectureLength": 1,
+        "lectureID": "CAE",
+        "lectureName": "CAE",
+        "teacherID": "Wz",
+        "teacherName": "Weitzel"
+    },
+    {
+        "dayID": 0,
+        "day": "Monday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A1 102",
+        "lectureLength": 4,
+        "lectureID": "BPS",
+        "lectureName": "BPS-Begleitseminar",
+        "teacherID": "Can",
+        "teacherName": "Cantow"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "B1 111",
+        "lectureLength": 1,
+        "lectureID": "CAE",
+        "lectureName": "CAE",
+        "teacherID": "Wz",
+        "teacherName": "Weitzel"
+    }
+]

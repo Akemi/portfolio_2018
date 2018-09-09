@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+    <script type="text/javascript" src="../jquery.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+
+	<style type="text/css">
+		body {
+			margin: 0px;
+			font-family: 'Play', sans-serif;
+			font-size: 13px;
+			line-height: 180%;
+			color: #1e293f;
+   			-moz-transform: rotate(0.01deg);
+		}
+		a {
+			color: #a43b8d;
+			text-decoration: none;
+			transition: 1s;
+		}
+		a:hover {
+			color: #d68bc5;
+		}
+
+		b {
+			font-weight: bold;
+		}
+
+		#frame {
+			width: 940px;
+			height: 720px;
+			background-image: url("bg.jpg");
+			background-size: 100%;
+			position: relative;
+			background-repeat: no-repeat;
+			overflow: hidden;
+		}
+
+		.bubble {
+			background-color: rgba(255, 255, 255, 0.75);
+			border-radius: 300px;
+			border: 3px solid #a43b8d;
+			display: table;
+			vertical-align: middle;
+			text-align: center;
+			padding: 7px;
+			margin: 0px;
+			border-spacing: 0px;
+			box-shadow: 0 0 0 6px #d68bc5;
+			z-index: 10;
+		}
+		.bubble > div {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		#finfo {
+			width: 165px;
+			height: 165px;
+			position: absolute;
+			top: 160px;
+			left: 730px;
+
+		}
+
+		#sinfo {
+			width: 167px;
+			height: 167px;
+			position: absolute;
+			top: 25px;
+			left: 330px;
+
+		}
+
+		#summary {
+			width: 280px;
+			height: 280px;
+			position: absolute;
+			left: 60px;
+			top: 380px;
+
+		}
+
+		#links {
+			width: 90px;
+			height: 90px;
+			position: absolute;
+			top: 40px;
+			left: 50px;
+
+		}
+
+		.bubble-small {
+			background-color: rgba(255, 255, 255, 0.75);
+			border-radius: 300px;
+			border: 2px solid #a43b8d;
+			display: table;
+			vertical-align: middle;
+			text-align: center;
+			padding: 7px;
+			margin: 0px;
+			border-spacing: 0px;
+			box-shadow: 0 0 0 4px #d68bc5;
+			opacity: 0.75;
+			z-index: 0;
+			top: 750px;
+			left: 350px;
+		}
+		#bubble1 {
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			-webkit-animation: an-bubble1 linear infinite 25s;
+			animation: an-bubble2 linear infinite 25s;
+		}
+		#bubble2 {
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			-webkit-animation: an-bubble2 linear infinite 30s;
+			animation: an-bubble2 linear infinite 30s;
+		}
+		#bubble3 {
+			width: 10px;
+			height: 10px;
+			position: absolute;
+			-webkit-animation: an-bubble3 linear infinite 27s;
+			animation: an-bubble3 linear infinite 27s;
+		}
+		#bubble4 {
+			width: 12px;
+			height: 12px;
+			position: absolute;
+			-webkit-animation: an-bubble4 linear infinite 30s 3s;
+			animation: an-bubble4 linear infinite 30s 3s;
+		}
+		#bubble5 {
+			width: 22px;
+			height: 22px;
+			position: absolute;
+			-webkit-animation: an-bubble5 linear infinite 25s 1s;
+			animation: an-bubble6 linear infinite 25s 1s;
+		}
+		#bubble6 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			-webkit-animation: an-bubble6 linear infinite 27s 2s;
+			animation: an-bubble6 linear infinite 27s 2s;
+		}
+
+		#bubble7 {
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			-webkit-animation: an-bubble1 linear infinite 25s 12s;
+			animation: an-bubble2 linear infinite 25s 12s;
+		}
+		#bubble8 {
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			-webkit-animation: an-bubble2 linear infinite 30s 15s;
+			animation: an-bubble2 linear infinite 30s 15s;
+		}
+		#bubble9 {
+			width: 10px;
+			height: 10px;
+			position: absolute;
+			-webkit-animation: an-bubble3 linear infinite 27s 13s;
+			animation: an-bubble3 linear infinite 27s 13s;
+		}
+		#bubble10 {
+			width: 12px;
+			height: 12px;
+			position: absolute;
+			-webkit-animation: an-bubble4 linear infinite 30s 18s;
+			animation: an-bubble4 linear infinite 30s 18s;
+		}
+		#bubble11 {
+			width: 22px;
+			height: 22px;
+			position: absolute;
+			-webkit-animation: an-bubble5 linear infinite 25s 13s;
+			animation: an-bubble6 linear infinite 25s 13s;
+		}
+		#bubble12 {
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			-webkit-animation: an-bubble6 linear infinite 27s 16s;
+			animation: an-bubble6 linear infinite 27s 16s;
+		}
+
+
+		@-webkit-keyframes an-bubble1 {
+			0% { top: 750px; left: 350px; }
+			50% { top: 400px; left: 550px; }
+			100% { top: -80px; left: 750px; }
+		}
+		@-webkit-keyframes an-bubble2 {
+			0% { top: 800px; left: 300px; }
+			50% { top: 400px; left: 490px; }
+			100% { top: -80px; left: 850px; }
+		}
+		@-webkit-keyframes an-bubble3 {
+			0% { top: 850px; left: 400px; }
+			50% { top: 400px; left: 590px; }
+			100% { top: -80px; left: 890px; }
+		}
+		@-webkit-keyframes an-bubble4 {
+			0% { top: 900px; left: 350px; }
+			50% { top: 450px; left: 550px; }
+			100% { top: -80px; left: 750px; }
+		}
+		@-webkit-keyframes an-bubble5 {
+			0% { top: 950px; left: 300px; }
+			50% { top: 500px; left: 490px; }
+			100% { top: -80px; left: 850px; }
+		}
+		@-webkit-keyframes an-bubble6 {
+			0% { top: 800px; left: 400px; }
+			50% { top: 500px; left: 500px; }
+			100% { top: -80px; left: 890px; }
+		}
+
+
+		@keyframes an-bubble1 {
+			0% { top: 750px; left: 350px; }
+			50% { top: 400px; left: 550px; }
+			100% { top: -80px; left: 750px; }
+		}
+		@keyframes an-bubble2 {
+			0% { top: 800px; left: 300px; }
+			50% { top: 400px; left: 490px; }
+			100% { top: -80px; left: 850px; }
+		}
+		@keyframes an-bubble3 {
+			0% { top: 850px; left: 400px; }
+			50% { top: 400px; left: 590px; }
+			100% { top: -80px; left: 890px; }
+		}
+		@keyframes an-bubble4 {
+			0% { top: 900px; left: 350px; }
+			50% { top: 450px; left: 550px; }
+			100% { top: -80px; left: 750px; }
+		}
+		@keyframes an-bubble5 {
+			0% { top: 950px; left: 300px; }
+			50% { top: 500px; left: 490px; }
+			100% { top: -80px; left: 850px; }
+		}
+		@keyframes an-bubble6 {
+			0% { top: 800px; left: 400px; }
+			50% { top: 500px; left: 500px; }
+			100% { top: -80px; left: 890px; }
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="frame">
+		<div class="bubble" id="finfo"><div>
+			<a href="">InfoLink</a><br>
+			<b>Info1</b> Content<br>Content<br>
+			<b>Info2</b> Content<br>Content<br>
+			<b>Info3</b> Content<br>Content
+		</div></div>
+
+		<div class="bubble" id="sinfo"><div>
+			<b>Air Date</b><br>July to Sep 2012<br>
+			<b>Episodes</b> 13 + 4 Specials<br>
+			<b>Director</b> <a href="http://anidb.net/cr12348">Kawatsura Shin'ya</a><br>
+			<b>Animation</b><br><a href="http://anidb.net/cr2900">Silver Link</a>
+		</div></div>
+
+		<div class="bubble" id="summary"><div>
+			The story involves five <br>high school students, Taichi, Iori, <br>Himeko, Yoshifumi and Yui,
+			who are all <br>members of the Cultural Research Club. One <br>day, they begin experiencing a
+			phenomenon in <br>which they randomly swap bodies amongst <br>themselves. As these five friends
+			face many <br>different phenomena at the whims of a <br>mysterious being known as Balloon Vine, <br>their
+			friendship is put to the <br>ultimate test.<br>
+		</div></div>
+
+		<div class="bubble" id="links"><div>
+			<a href="http://anidb.net/a8742">AniDB</a> <br>
+			<a href="http://www.animenewsnetwork.com/encyclopedia/anime.php?id=14113">ANN</a> ·
+			<a href="http://myanimelist.net/anime/11887">MAL</a><br>
+		</div></div>
+
+		<div id="bubble1" class="bubble-small"></div>
+		<div id="bubble2" class="bubble-small"></div>
+		<div id="bubble3" class="bubble-small"></div>
+		<div id="bubble4" class="bubble-small"></div>
+		<div id="bubble5" class="bubble-small"></div>
+		<div id="bubble6" class="bubble-small"></div>
+		<div id="bubble7" class="bubble-small"></div>
+		<div id="bubble8" class="bubble-small"></div>
+		<div id="bubble9" class="bubble-small"></div>
+		<div id="bubble10" class="bubble-small"></div>
+		<div id="bubble11" class="bubble-small"></div>
+		<div id="bubble12" class="bubble-small"></div>
+
+	</div>
+
+<script type="text/javascript">
+	window.parent.document.getElementById("screenshots").style.background="transparent";
+    window.parent.document.getElementById("screenshots").style.width="0px";
+	window.parent.document.getElementById("screenshots").style.height="450px";
+	window.parent.document.getElementById("screenshots").style.marginTop="-500px";
+	window.parent.document.getElementById("screenshots").style.paddingTop="0px";
+	window.parent.document.getElementById("screenshots").style.textAlign="left";
+	window.parent.document.getElementById("screenshots").style.position="relative";
+	window.parent.document.getElementById("description_container").style.marginBottom="0px";
+	window.parent.document.getElementById("screenshots").style.marginBottom="45px";
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.top="380px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.left="810px";
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.top="204px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.left="590px";
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.top="330px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.left="450px";
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.top="30px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.left="250px";
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.top="330px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.left="635px";
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.top="-190px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.left="790px";
+
+
+	$(window.parent.document.getElementById("screenshots")).children("a").each(function (i, o) {
+
+		$(o).children("img").each(function (i, img) {
+			$(img).css({
+				"border": "3px solid #a43b8d",
+				"border-radius": "100px",
+				"background-image": "url(" + img.src + ")",
+				"background-repeat": "no-repeat",
+				"background-position": "center center",
+                "background-size": "200%",
+				"width": "60px",
+				"height": "60px",
+                "opacity": "0.7",
+                "margin-right": "5px",
+                "box-shadow": "0 0 0 5px #d68bc5",
+                "position": "absolute",
+                "-webkit-transition": "opacity 1s",
+                "-moz-transition": "opacity 1s",
+				"-o-transition": "opacity 1s",
+				"transition": "opacity 1s",
+
+
+			});
+			img.src = "pixel.gif";
+		});
+	});
+
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.height="40px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.width="40px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.height="45px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.width="45px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.height="50px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.width="50px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.height="55px";
+	window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.width="55px";
+
+	var cssAnimation = document.createElement('style');
+	cssAnimation.type = 'text/css';
+	var rules = document.createTextNode('@-webkit-keyframes sum-bubble {'+
+		'from { -webkit-transform: rotate(0deg) translate(-10px) rotate(0deg); }'+
+		'to { -webkit-transform: rotate(360deg) translate(-10px) rotate(-360deg); }'+
+		'}');
+	var rules2 = document.createTextNode('@-webkit-keyframes sum-bubble2 {'+
+		'from { -webkit-transform: rotate(360deg) translate(-10px) rotate(-360deg); }'+
+		'to { -webkit-transform: rotate(0deg) translate(-10px) rotate(0deg); }'+
+		'}');
+	var rules3 = document.createTextNode('@keyframes sum-bubble {'+
+		'from { transform: rotate(0deg) translate(-10px) rotate(0deg); }'+
+		'to { transform: rotate(360deg) translate(-10px) rotate(-360deg); }'+
+		'}');
+	var rules4 = document.createTextNode('@keyframes sum-bubble2 {'+
+		'from { transform: rotate(360deg) translate(-10px) rotate(-360deg); }'+
+		'to { transform: rotate(0deg) translate(-10px) rotate(0deg); }'+
+		'}');
+	cssAnimation.appendChild(rules);
+	cssAnimation.appendChild(rules2);
+	cssAnimation.appendChild(rules3);
+	cssAnimation.appendChild(rules4);
+	window.parent.document.getElementsByTagName("head")[0].appendChild(cssAnimation);
+
+	$(window.parent.document.getElementById("screenshots")).children("a").children("img").eq(0).css({"-webkit-animation": "sum-bubble2 linear infinite 30s", "animation": "sum-bubble2 linear infinite 30s"});
+	$(window.parent.document.getElementById("screenshots")).children("a").children("img").eq(1).css({"-webkit-animation": "sum-bubble2 linear infinite 25s", "animation": "sum-bubble2 linear infinite 25s"});
+	$(window.parent.document.getElementById("screenshots")).children("a").children("img").eq(2).css({"-webkit-animation": "sum-bubble linear infinite 23s", "animation": "sum-bubble linear infinite 23s"});
+	$(window.parent.document.getElementById("screenshots")).children("a").children("img").eq(3).css({"-webkit-animation": "sum-bubble linear infinite 25s", "animation": "sum-bubble linear infinite 25s"});
+	$(window.parent.document.getElementById("screenshots")).children("a").children("img").eq(4).css({"-webkit-animation": "sum-bubble linear infinite 30s", "animation": "sum-bubble linear infinite 30s"});
+	$(window.parent.document.getElementById("screenshots")).children("a").children("img").eq(5).css({"-webkit-animation": "sum-bubble2 linear infinite 23s", "animation": "sum-bubble2 linear infinite 23s"});
+
+	$(window.parent.document.getElementById("screenshots")).css({"-moz-transform": "rotate(0.01deg)"});
+
+	window.parent.document.getElementById("screenshots").style.fontSize = "0px";
+
+	var lis = window.parent.document.getElementById("screenshots").getElementsByTagName("img");
+
+	for (var i=0; i<lis.length; i++) {
+		lis[i].onmouseover = function() {
+			this.style.opacity = 1.0;
+		};
+		lis[i].onmouseout = function() {
+			this.style.opacity = 0.7;
+		};
+	};
+
+</script>
+
+</body>
+</html>

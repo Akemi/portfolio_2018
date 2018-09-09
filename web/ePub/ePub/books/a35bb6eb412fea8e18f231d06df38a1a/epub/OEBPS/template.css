@@ -1,0 +1,368 @@
+t#book-content thead, tfoot, tr, td, th {
+	border-style : inherit;
+	border-width : inherit;
+	border-color : inherit;
+}
+.leftFloat {
+	float : left;
+}
+.rightFloat {
+	float : right;
+}
+span.x92-Kap-Beginn-Versal-fett {
+	font-weight : bold;
+	font-style : normal;
+	text-transform : uppercase;
+}
+span.x92-Kapitaelchen {
+	text-transform : uppercase;
+}
+span.x90-kursiv {
+	font-weight : normal;
+	font-style : italic;
+}
+span.x93-unterstrichen {
+	color: gray;
+}
+p.x09-Ueber#book-content schrift01 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1.50em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 70px 0px 0px 0px;
+}
+p.x09-Ueber#book-content schrift01a {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1.50em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 70px 0px 0px 0px;
+}
+p.toc1 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1.50em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 70px 0px 0px 0px;
+	display: none;
+}
+p.x09a-Ueber#book-content schrift02 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.5em 0px 0px 0px;
+}
+p.x09b-Ueber#book-content schrift03 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.5em 0px 0px 0px;
+}
+p.x01-Absatz {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.x00-sw {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.x40-Autor {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 2.00em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 2.00em;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 2.00em 0px 0px 0px;
+}
+p.x41-Publikationstitel {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 2.00em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.20em;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.00em 0px 0px 0px;
+}
+p.x41-Publikationsart {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1.10em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.00em;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 2.50em 0px 0px 0px;
+}
+p.x45-Verlagslogo {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 7.00em 0px 0px 0px;
+}
+p.x48-Widmung {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : italic;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 80px 0px 0px 0px;
+}
+p.x08-Motto {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 80px 0px 0px 0px;
+}
+p.x08a-Motto2 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.25em 0px 0px 0px;
+}
+p.x02-Initial {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.25em 0px 0px 0px;
+}
+p.x01a-Einzug {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 1.25em;
+	margin : 0px;
+}
+p.x01b-Absatz-Abstand {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.25em 0px 0px 0px;
+}
+p.Antwort {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.25em 0px 0px 0px;
+}
+p.Frage {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : maroon;
+	text-indent : 0px;
+	margin : 1.25em 0px 0px 0px;
+}
+p.x05-Sternchen {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1.25em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.00;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.25em 0px;
+}
+p.x03-Absatz-Abstand-3LZ {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	text-align : justify;
+	color : #000000;
+	text-indent : 0px;
+	margin : 3.75em 0px 0px 0px;
+}
+p.x47-Impressum {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.85em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.35em;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 200px 0px 0px 0px;
+}
+p.x47-Impressum2 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.85em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.35em;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 1.35em 0px 0px 0px;
+}
+p.xcopyright {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.85em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	color : #000000;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.xcopyright2 {
+	font-family : Georgia, "Times New Roman", Times, serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.85em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.25;
+	color : #000000;
+	text-indent : 0px;
+	margin-top : 2em;
+}
+p.para-style-override-1 {
+	text-align : center;
+	margin-top : 2.00em;
+	margin-bottom : 0em;
+}
+div.image {
+	text-align : center;
+}
+div.image1 {
+	margin-top: 3em;
+	text-align : left;
+}
+div.Einfacher-Textrahmen {
+}
+a:link {text-decoration: none; color:navy}
+a:visited {text-decoration: none; color:black;}
+a:active {text-decoration: none; color:black;}
+a:hover {text-decoration: underline; color: red;}

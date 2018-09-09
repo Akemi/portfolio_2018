@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/asteroidShooterGameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="bottom" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/asteroidShooterMultiplayerOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_overlay"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/asteroidShooterMultiplayerOverlayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="80dp"
+            android:text="Opponent is not ready."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_red"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/asteroidShooterMultiplayerOverlayReadyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:text="Are you Ready? Click Here." />
+    </RelativeLayout>
+
+    <de.thm.asteroidshooter.Joystick.DualJoystickView
+        android:id="@+id/asteroidShooterDualjoystickView"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal" >
+
+    </de.thm.asteroidshooter.Joystick.DualJoystickView>
+
+</FrameLayout>

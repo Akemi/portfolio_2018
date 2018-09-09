@@ -1,0 +1,231 @@
+body {
+    color: #4a5c66;
+    font-family: Verdana,Arial;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: table-cell;
+}
+
+#ttcontainer {
+    background-color: #e7ffbd;
+    min-width: 100vw;
+}
+
+#ttcontainer > #tthide {
+    height: 20px;
+    background-color: #80ba24;
+    cursor: pointer;
+}
+#ttcontainer > #tthide:hover {
+    background-color: #4a5c66;
+}
+
+#timetablelist {
+    margin: 0px 0px 5px 0px;
+    padding: 10px 10px 0px 10px;
+    list-style-type: none;
+    column-width: 300px;
+    -moz-column-width: 300px;
+    -webkit-column-width: 300px;
+    display: block;
+    width: 98.5vw;
+}
+
+
+#timetablelist > .degree {
+    display: inline-block;
+    border: 1px solid #bbb;
+    padding: 0px 5px 5px 5px;
+    width: 96%;
+    margin: 3px 0px 3px 0px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#timetablelist > .degree > .header {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 5px 0px 1px 0px;
+}
+
+#timetablelist > .degree > .semester > span {
+    color: #80ba24;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#timetablelist > .degree > .semester > span:hover {
+    text-decoration: underline;
+}
+
+
+#timetable {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#timetable > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    min-width: 150px;
+    border-width: 0px 1px 1px 1px;
+    margin-left: -1px;
+    border-style: solid;
+    border-color: #bbb;
+}
+
+#timetable > ul + ul {
+    background-size: 161px !important;
+    background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 99%, #bbbbbb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(99%,#ffffff), color-stop(100%,#bbbbbb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 99%,#bbbbbb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #ffffff 0%,#ffffff 99%,#bbbbbb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #ffffff 0%,#ffffff 99%,#bbbbbb 100%); /* IE10+ */
+    background: linear-gradient(to right,  #ffffff 0%,#ffffff 99%,#bbbbbb 100%); /* W3C */
+    text-align: left;
+    position: relative;
+    top: -1px;
+}
+
+#timetable > ul:first-child {
+    width: auto;
+    min-width: unset;
+    font-weight: bold;
+    text-align: center;
+    background-color: #eee;
+    border-width: 0px;
+    width: 90px !important;
+    min-width: 90px !important;
+}
+
+#timetable > ul:first-child > li {
+    vertical-align: middle;
+    border-width: 1px 0px 1px 0px;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #bbb;
+    width: 90px !important;
+}
+#timetable > ul:first-child > li > div {
+    width: 90px !important;
+}
+
+#timetable > ul > li + li{
+    height: 100px;
+}
+
+#timetable > ul:first-child > li + li {
+    height: 99px;
+}
+
+#timetable > ul:first-child > li + li > div > div {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#timetable > ul:first-child > li + li > div > div > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#timetable > ul > li:first-child {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    background-color: #eee;
+    border-width: 1px 0px 1px 0px;
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #bbb;
+}
+#timetable > ul > li:nth-child(2) {
+    height: 99px !important;
+}
+
+#timetable > ul > li > .blank {
+    color: white;
+    background-color: transparent !important;
+    width: 160px;
+}
+
+#timetable > ul > li > div {
+    display: inline-block;
+    vertical-align:top;
+    width: 160px;
+    height: 100px;
+    border-width: 1px 0px 1px 0px;
+}
+
+#timetable > ul > li > div > div {
+    word-break: break-word;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#timetable > ul > li > div > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+#timetable > ul + ul > li > div {
+    background-color: rgba(193, 255, 63, 0.17);
+    white-space: normal;
+    font-size: 10px;
+}
+#timetable > ul + ul > li > div.even {
+    background-color: rgba(86, 13, 255, 0.17);
+}
+#timetable > ul + ul > li > div.odd {
+    background-color: rgba(5, 145, 255, 0.17);
+}
+
+
+#timetable > ul + ul > li:nth-child(2) > div {
+    border-top-width: 0px;
+}
+
+.block1 {
+    height: 99px !important;
+    border: 1px solid #bbb;
+}
+.block2 {
+    height: 199px !important;
+    border: 1px solid #bbb;
+}
+.block3 {
+    height: 299px !important;
+    border: 1px solid #bbb;
+}
+.block4 {
+    height: 399px !important;
+    border: 1px solid #bbb;
+}
+.block5 {
+    height: 500px !important;
+    border: 1px solid #bbb;
+}
+.block6 {
+    height: 600px !important;
+    border: 1px solid #bbb;
+}
+.block7 {
+    height: 700px !important;
+    border: 1px solid #bbb;
+}
+
+
+
+
+
+
+
+
+
+

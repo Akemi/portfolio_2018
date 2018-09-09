@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Untitled</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="script.js"></script>
+	
+</head>
+<body>
+
+    <div id="ttcontainer">
+        <div id="timetablelist">
+
+            <!-- <div id="AEBachelor" class="degree"><div class="header">Allgemeine Elektrotechnik Bachelor</div><div class="semester"><span id="AEB1">1</span> <span id="AEB2">2</span> <span id="AEB3">3</span> <span id="AEB4">4</span> <span id="AEB5A">5A</span> <span id="AEB5B">5B</span> <span id="AEB6A">6A</span> <span id="AEB6B">6B</span> </div></div><div id="EIMaster" class="degree"><div class="header">Elektro- und Informationstechnik Master</div><div class="semester"><span id="EIM1">1</span> <span id="EIM2">2</span> </div></div><div id="ICMaster" class="degree"><div class="header">Information &amp; Communication Engineering Master</div><div class="semester"><span id="ICM1">1</span> <span id="ICM3">3</span> </div></div><div id="IKBachelor" class="degree"><div class="header">Informations- und Kommunikationstechnik Bachelor</div><div class="semester"><span id="IKB1">1</span> <span id="IKB2">2</span> <span id="IKB3">3</span> <span id="IKB4">4</span> <span id="IKB5">5</span> <span id="IKB6">6</span> </div></div><div id="MIBachelor" class="degree"><div class="header">Medieninformatik Bachelor</div><div class="semester"><span id="MIB1">1</span> <span id="MIB3A">3A</span> <span id="MIB3B">3B</span> <span id="MIB5A">5A</span> <span id="MIB5B">5B</span> <span id="MIB5C">5C</span> </div></div><div id="MIStudierende" class="degree"><div class="header">Medieninformatik Studierende</div><div class="semester"><span id="MIS">Alle</span> </div></div><div id="MIMaster" class="degree"><div class="header">Medieninformatik Master</div><div class="semester"><span id="MIM1">1</span> <span id="MIM2">2</span> <span id="MIM3">3</span> </div></div><div id="TIBachelor" class="degree"><div class="header">Technische Informatik Bachelor</div><div class="semester"><span id="TIB1">1</span> <span id="TIB3">3</span> <span id="TIB5A">5A</span> <span id="TIB5B">5B</span> <span id="TIB5C">5C</span> </div></div><div id="TIStudierende" class="degree"><div class="header">Technische Informatik Studierende</div><div class="semester"><span id="TIS">Alle</span> </div></div><div id="IEStudierende" class="degree"><div class="header">IE Studierende</div><div class="semester"><span id="IES">Alle</span> </div></div><div id="MBBachelor" class="degree"><div class="header">Maschinenbau Bachelor</div><div class="semester"><span id="MBB1">1</span> <span id="MBB2">2</span> <span id="MBB3A">3A</span> <span id="MBB3B">3B</span> <span id="MBB3C">3C</span> <span id="MBB4A">4A</span> <span id="MBB4B">4B</span> <span id="MBB4C">4C</span> <span id="MBB5A">5A</span> <span id="MBB5B">5B</span> <span id="MBB5C">5C</span> <span id="MBB6A">6A</span> <span id="MBB6B">6B</span> <span id="MBB6C">6C</span> </div></div><div id="MBStudierende" class="degree"><div class="header">Maschinenbau Studierende</div><div class="semester"><span id="MBS">Alle</span> </div></div><div id="MEBachelor" class="degree"><div class="header">Mechatronik Bachelor</div><div class="semester"><span id="MEB1">1</span> <span id="MEB2">2</span> <span id="MEB3">3</span> <span id="MEB4A">4A</span> <span id="MEB4B">4B</span> <span id="MEB5A">5A</span> <span id="MEB5B">5B</span> <span id="MEB6A">6A</span> <span id="MEB6B">6B</span> </div></div><div id="MEStudierende" class="degree"><div class="header">Mechatronik Studierende</div><div class="semester"><span id="MES">Alle</span> </div></div><div id="MMMaster" class="degree"><div class="header">Maschinenbau / Mechatronik Master</div><div class="semester"><span id="MMM1">1</span> <span id="MMM2">2</span> </div></div><div id="PTBachelor" class="degree"><div class="header">Physikalische Technik Bachelor</div><div class="semester"><span id="PTB1">1</span> <span id="PTB3">3</span> <span id="PTB5">5</span> <span id="PTB6">6</span> </div></div><div id="PTStudierende" class="degree"><div class="header">Physikalische Technik Studierende</div><div class="semester"><span id="PTS">Alle</span> </div></div><div id="MABachelor" class="degree"><div class="header">Wirtschaftsmathematik Bachelor</div><div class="semester"><span id="MAB1">1</span> <span id="MAB3">3</span> <span id="MAB5">5</span> </div></div><div id="WKBachelor" class="degree"><div class="header">Wirtschaftsinformatik Bachelor</div><div class="semester"><span id="WKB1">1</span> <span id="WKB3">3</span> <span id="WKB5">5</span> </div></div><div id="WKMaster" class="degree"><div class="header">Wirtschaftsinformatik Master</div><div class="semester"><span id="WKM1">1</span> <span id="WKM2">2</span> <span id="WKM3">3</span> </div></div><div id="WKStudierende" class="degree"><div class="header">Wirtschaftsinformatik Studierende</div><div class="semester"><span id="WKS">Alle</span> </div></div><div id="OBMaster" class="degree"><div class="header">Optotechnik und Bildverarbeitung Master</div><div class="semester"><span id="OBM2">2</span> </div></div><div id="BIBachelor" class="degree"><div class="header">Bahningenieurwesen Bachelor</div><div class="semester"><span id="BIB1">1</span> </div></div><div id="FMBachelor" class="degree"><div class="header">Facility Management Bachelor</div><div class="semester"><span id="FMB1">1</span> <span id="FMB3">3</span> <span id="FMB5">5</span> </div></div><div id="FMMaster" class="degree"><div class="header">Facility Management Master</div><div class="semester"><span id="FMM1">1</span> <span id="FMM2">2</span> </div></div><div id="FMStudierende" class="degree"><div class="header">Facility Management Studierende</div><div class="semester"><span id="FMS">Alle</span> </div></div><div id="WIBachelor" class="degree"><div class="header">Wirtschaftsingenieurwesen Bachelor</div><div class="semester"><span id="WIB1A">1A</span> <span id="WIB1B">1B</span> <span id="WIB2A">2A</span> <span id="WIB2B">2B</span> <span id="WIB3A">3A</span> <span id="WIB3B">3B</span> <span id="WIB4A">4A</span> <span id="WIB4B">4B</span> <span id="WIB5">5</span> <span id="WIB6">6</span> </div></div><div id="WIDiplom" class="degree"><div class="header">Wirtschaftsingenieurwesen Diplom</div><div class="semester"><span id="WIDS">Alle</span> </div></div><div id="WIMaster" class="degree"><div class="header">Wirtschaftsingenieurwesen Master</div><div class="semester"><span id="WIM1">1</span> <span id="WIM2">2</span> </div></div><div id="WIStudierende" class="degree"><div class="header">Wirtschaftsingenieurwesen Studierende</div><div class="semester"><span id="WIS">Alle</span> </div></div><div id="LGBachelor" class="degree"><div class="header">Logistik Bachelor</div><div class="semester"><span id="LGB1">1</span> <span id="LGB3">3</span> <span id="LGB5">5</span> <span id="LGBS">Alle</span> </div></div><div id="SCMaster" class="degree"><div class="header">Supply Chain Management Master</div><div class="semester"><span id="SCM2">2</span> </div></div><div id="AlleStudierenden" class="degree"><div class="header">Alle Alle Studierenden</div><div class="semester"><span id="Alle">Alle</span> </div></div>
+            -->
+        </div>
+
+        <div id="tthide"></div>
+    </div>
+
+    <div id="timetable">
+        <ul>
+            <li id="0_header" style="color: #eee;">.</li>
+            <li class="tt_day_content" id="0_1"><div><div><div>Block 1</div></div></div></li>
+            <li class="tt_day_content" id="0_2"><div><div><div>Block 2</div></div></div></li>
+            <li class="tt_day_content" id="0_3"><div><div><div>Block 3</div></div></div></li>
+            <li class="tt_day_content" id="0_4"><div><div><div>Block 4</div></div></div></li>
+            <li class="tt_day_content" id="0_5"><div><div><div>Block 5</div></div></div></li>
+            <li class="tt_day_content" id="0_6"><div><div><div>Block 6</div></div></div></li>
+            <li class="tt_day_content" id="0_7"><div><div><div>Block 7</div></div></div></li>
+        </ul><ul class="tt_content">
+            <li id="1_header">Montag</li>
+            <li class="tt_day_content" id="1_1"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="1_2"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="1_3"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="1_4"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="1_5"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="1_6"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="1_7"><div class="blank">.</div></li>
+        </ul><ul class="tt_content">
+            <li id="2_header">Dienstag</li>
+            <li class="tt_day_content" id="2_1"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="2_2"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="2_3"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="2_4"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="2_5"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="2_6"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="2_7"><div class="blank">.</div></li>
+        </ul><ul class="tt_content">
+            <li id="3_header">Mittwoch</li>
+            <li class="tt_day_content" id="3_1"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="3_2"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="3_3"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="3_4"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="3_5"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="3_6"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="3_7"><div class="blank">.</div></li>
+        </ul><ul class="tt_content">
+            <li id="4_header">Donnerstag</li>
+            <li class="tt_day_content" id="4_1"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="4_2"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="4_3"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="4_4"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="4_5"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="4_6"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="4_7"><div class="blank">.</div></li>
+        </ul><ul class="tt_content">
+            <li id="5_header">Freitag</li>
+            <li class="tt_day_content" id="5_1"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="5_2"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="5_3"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="5_4"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="5_5"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="5_6"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="5_7"><div class="blank">.</div></li>
+        </ul><ul class="tt_content">
+            <li id="6_header">Samstag</li>
+            <li class="tt_day_content" id="6_1"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="6_2"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="6_3"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="6_4"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="6_5"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="6_6"><div class="blank">.</div></li>
+            <li class="tt_day_content" id="6_7"><div class="blank">.</div></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>

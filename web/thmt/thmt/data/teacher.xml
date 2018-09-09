@@ -1,0 +1,2371 @@
+<?xml version="1.0"?>
+<TeacherList>
+  <teacher>
+    <id>Ab</id>
+    <name>Abel</name>
+  </teacher>
+  <teacher>
+    <id>Ab_T</id>
+    <name>Abel Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Ada</id>
+    <name>Adamsky</name>
+  </teacher>
+  <teacher>
+    <id>Adl</id>
+    <name>Adler</name>
+  </teacher>
+  <teacher>
+    <id>Alt</id>
+    <name>Althaus</name>
+  </teacher>
+  <teacher>
+    <id>Alx</id>
+    <name>Alexander</name>
+  </teacher>
+  <teacher>
+    <id>And</id>
+    <name>Andrae</name>
+  </teacher>
+  <teacher>
+    <id>Ann</id>
+    <name>Anton, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Apl</id>
+    <name>Appel, Pia</name>
+  </teacher>
+  <teacher>
+    <id>Ar</id>
+    <name>Arnold</name>
+  </teacher>
+  <teacher>
+    <id>Ary</id>
+    <name>Aryal, Hr</name>
+  </teacher>
+  <teacher>
+    <id>Arz</id>
+    <name>Arz</name>
+  </teacher>
+  <teacher>
+    <id>Asc</id>
+    <name>Aschenbrenner</name>
+  </teacher>
+  <teacher>
+    <id>At</id>
+    <name>Arndt</name>
+  </teacher>
+  <teacher>
+    <id>Aup</id>
+    <name>Aupperle, Julia</name>
+  </teacher>
+  <teacher>
+    <id>Awa</id>
+    <name>Awan</name>
+  </teacher>
+  <teacher>
+    <id>Axm</id>
+    <name>Axmann, Dr</name>
+  </teacher>
+  <teacher>
+    <id>Azy</id>
+    <name>Artazyan</name>
+  </teacher>
+  <teacher>
+    <id>Bal</id>
+    <name>Balint</name>
+  </teacher>
+  <teacher>
+    <id>Bar</id>
+    <name>Bark</name>
+  </teacher>
+  <teacher>
+    <id>Bas</id>
+    <name>Bastian, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Bat</id>
+    <name>Barth, Robin</name>
+  </teacher>
+  <teacher>
+    <id>Bau</id>
+    <name>FB Bauing.</name>
+  </teacher>
+  <teacher>
+    <id>Bay</id>
+    <name>Bayer, Nico</name>
+  </teacher>
+  <teacher>
+    <id>Bc</id>
+    <name>Bruchlos</name>
+  </teacher>
+  <teacher>
+    <id>Bc_T</id>
+    <name>Bruchlos, Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Be</id>
+    <name>Benes</name>
+  </teacher>
+  <teacher>
+    <id>Bec</id>
+    <name>Becker</name>
+  </teacher>
+  <teacher>
+    <id>Beg</id>
+    <name>Berger, Fr</name>
+  </teacher>
+  <teacher>
+    <id>Bei</id>
+    <name>Beier, Ines</name>
+  </teacher>
+  <teacher>
+    <id>Bek</id>
+    <name>Becker, Christoph</name>
+  </teacher>
+  <teacher>
+    <id>Ber</id>
+    <name>Bertram, Fr</name>
+  </teacher>
+  <teacher>
+    <id>Bes</id>
+    <name>Beckers</name>
+  </teacher>
+  <teacher>
+    <id>Beu</id>
+    <name>Beukemann, Linda</name>
+  </teacher>
+  <teacher>
+    <id>Beu_T</id>
+    <name>Beukemann, Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Beu2</id>
+    <name>Beukemann, Marianna</name>
+  </teacher>
+  <teacher>
+    <id>Bg</id>
+    <name>B&#xF6;rgens</name>
+  </teacher>
+  <teacher>
+    <id>Bg_T</id>
+    <name>B&#xF6;rgens Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Bgr</id>
+    <name>Berger, Olaf</name>
+  </teacher>
+  <teacher>
+    <id>Bgt</id>
+    <name>Baumgart, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Bhs</id>
+    <name>Busche</name>
+  </teacher>
+  <teacher>
+    <id>Bi</id>
+    <name>Birkel, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Bis</id>
+    <name>Bischoff</name>
+  </teacher>
+  <teacher>
+    <id>Bk</id>
+    <name>Brillowski</name>
+  </teacher>
+  <teacher>
+    <id>BL</id>
+    <name>Behler</name>
+  </teacher>
+  <teacher>
+    <id>Blz</id>
+    <name>Belz, Mathias</name>
+  </teacher>
+  <teacher>
+    <id>Bmn</id>
+    <name>Baumann</name>
+  </teacher>
+  <teacher>
+    <id>Bnd</id>
+    <name>Bender</name>
+  </teacher>
+  <teacher>
+    <id>Boc</id>
+    <name>Bockmeier, Torben</name>
+  </teacher>
+  <teacher>
+    <id>Bod</id>
+    <name>Bodenbender</name>
+  </teacher>
+  <teacher>
+    <id>B&#xF6;h</id>
+    <name>B&#xF6;hm, Andreas</name>
+  </teacher>
+  <teacher>
+    <id>Bon</id>
+    <name>Berelson</name>
+  </teacher>
+  <teacher>
+    <id>Br</id>
+    <name>Behrens</name>
+  </teacher>
+  <teacher>
+    <id>Bra</id>
+    <name>Braun</name>
+  </teacher>
+  <teacher>
+    <id>Brb</id>
+    <name>Breitbach</name>
+  </teacher>
+  <teacher>
+    <id>Brs</id>
+    <name>Brahms</name>
+  </teacher>
+  <teacher>
+    <id>Bru</id>
+    <name>Brun&#xDF;en</name>
+  </teacher>
+  <teacher>
+    <id>Bs</id>
+    <name>Baums</name>
+  </teacher>
+  <teacher>
+    <id>Bt</id>
+    <name>Bonath, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Bu</id>
+    <name>Breuer</name>
+  </teacher>
+  <teacher>
+    <id>Buc1</id>
+    <name>Buchert, Friedrich</name>
+  </teacher>
+  <teacher>
+    <id>Buc2</id>
+    <name>Buchert, Johanna</name>
+  </teacher>
+  <teacher>
+    <id>Bur</id>
+    <name>Bauer, Fr. Prof</name>
+  </teacher>
+  <teacher>
+    <id>Bus</id>
+    <name>Buschlinger</name>
+  </teacher>
+  <teacher>
+    <id>But</id>
+    <name>Butler, Julius</name>
+  </teacher>
+  <teacher>
+    <id>Bwr</id>
+    <name>Busweiler</name>
+  </teacher>
+  <teacher>
+    <id>Can</id>
+    <name>Cantow</name>
+  </teacher>
+  <teacher>
+    <id>Cas</id>
+    <name>Castellone, Luigi</name>
+  </teacher>
+  <teacher>
+    <id>Cho</id>
+    <name>Choblet</name>
+  </teacher>
+  <teacher>
+    <id>Chr</id>
+    <name>Christ, Oliver</name>
+  </teacher>
+  <teacher>
+    <id>Chu</id>
+    <name>Chung, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Cim</id>
+    <name>Cimen</name>
+  </teacher>
+  <teacher>
+    <id>Csp</id>
+    <name>Caspari</name>
+  </teacher>
+  <teacher>
+    <id>Cz</id>
+    <name>Cziudaj</name>
+  </teacher>
+  <teacher>
+    <id>Dav</id>
+    <name>Davies</name>
+  </teacher>
+  <teacher>
+    <id>Deg</id>
+    <name>Deg&#xFC;nther, Markus</name>
+  </teacher>
+  <teacher>
+    <id>Dei</id>
+    <name>Deister</name>
+  </teacher>
+  <teacher>
+    <id>Dem</id>
+    <name>Demuth, Tobias</name>
+  </teacher>
+  <teacher>
+    <id>Des</id>
+    <name>Deshmukh, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Dh</id>
+    <name>D&#xFC;ckershoff</name>
+  </teacher>
+  <teacher>
+    <id>Di</id>
+    <name>Dib</name>
+  </teacher>
+  <teacher>
+    <id>Die</id>
+    <name>Diener, Fr. Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Dim</id>
+    <name>Dimitri</name>
+  </teacher>
+  <teacher>
+    <id>Dit</id>
+    <name>Dietrich, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Dm</id>
+    <name>Diem</name>
+  </teacher>
+  <teacher>
+    <id>D&#xF6;b</id>
+    <name>D&#xF6;bert, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Dop</id>
+    <name>Dopslaf</name>
+  </teacher>
+  <teacher>
+    <id>D&#xF6;p</id>
+    <name>D&#xF6;ppes</name>
+  </teacher>
+  <teacher>
+    <id>Dre</id>
+    <name>Dresselhaus, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Ebw</id>
+    <name>Fr. Eberz-Weber</name>
+  </teacher>
+  <teacher>
+    <id>Ec</id>
+    <name>Eckhardt, Martin</name>
+  </teacher>
+  <teacher>
+    <id>Eck</id>
+    <name>Eckardt (SUK)</name>
+  </teacher>
+  <teacher>
+    <id>Ect</id>
+    <name>Eckert, Thomas</name>
+  </teacher>
+  <teacher>
+    <id>Ed</id>
+    <name>Edelmann</name>
+  </teacher>
+  <teacher>
+    <id>Eer</id>
+    <name>Einert</name>
+  </teacher>
+  <teacher>
+    <id>Ef</id>
+    <name>Eifert</name>
+  </teacher>
+  <teacher>
+    <id>Eh</id>
+    <name>Ehrenheim</name>
+  </teacher>
+  <teacher>
+    <id>EI</id>
+    <name>FB EI</name>
+  </teacher>
+  <teacher>
+    <id>Ein</id>
+    <name>Einsiedler, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Eis</id>
+    <name>Eisfeller</name>
+  </teacher>
+  <teacher>
+    <id>Eiw</id>
+    <name>Eichwede, Rainer</name>
+  </teacher>
+  <teacher>
+    <id>Stand</id>
+    <name>24.03. 2018                                                                                             Seite 6    von  6</name>
+  </teacher>
+  <teacher>
+    <id>Eu</id>
+    <name>Euler</name>
+  </teacher>
+  <teacher>
+    <id>Fak</id>
+    <name>Facos</name>
+  </teacher>
+  <teacher>
+    <id>Far</id>
+    <name>Farangis</name>
+  </teacher>
+  <teacher>
+    <id>Fd</id>
+    <name>Friederich</name>
+  </teacher>
+  <teacher>
+    <id>Fern</id>
+    <name>Fern</name>
+  </teacher>
+  <teacher>
+    <id>Fet</id>
+    <name>Fett</name>
+  </teacher>
+  <teacher>
+    <id>Fha</id>
+    <name>Han, Frau</name>
+  </teacher>
+  <teacher>
+    <id>Fi</id>
+    <name>Fiedler</name>
+  </teacher>
+  <teacher>
+    <id>Fin</id>
+    <name>Fink, Lothar (Chemie)</name>
+  </teacher>
+  <teacher>
+    <id>Fk</id>
+    <name>Fink, Josef Prof</name>
+  </teacher>
+  <teacher>
+    <id>Fom</id>
+    <name>Fomino</name>
+  </teacher>
+  <teacher>
+    <id>For</id>
+    <name>Fornauf,Hr.</name>
+  </teacher>
+  <teacher>
+    <id>Fra</id>
+    <name>Franken</name>
+  </teacher>
+  <teacher>
+    <id>Fri</id>
+    <name>Friedl, Maurice</name>
+  </teacher>
+  <teacher>
+    <id>Frz</id>
+    <name>Franz</name>
+  </teacher>
+  <teacher>
+    <id>Fuk</id>
+    <name>Funk, Prof</name>
+  </teacher>
+  <teacher>
+    <id>Fy</id>
+    <name>Feyerabend</name>
+  </teacher>
+  <teacher>
+    <id>Ga</id>
+    <name>Grau</name>
+  </teacher>
+  <teacher>
+    <id>Gab</id>
+    <name>Gabriel, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Gai</id>
+    <name>Gaipl</name>
+  </teacher>
+  <teacher>
+    <id>Gch</id>
+    <name>Gerlach, Rene</name>
+  </teacher>
+  <teacher>
+    <id>Ge</id>
+    <name>Gei&#xDF;ler, Rainer</name>
+  </teacher>
+  <teacher>
+    <id>Gei</id>
+    <name>Geisler, Tore</name>
+  </teacher>
+  <teacher>
+    <id>Geo</id>
+    <name>George, Prof LB</name>
+  </teacher>
+  <teacher>
+    <id>Ger</id>
+    <name>Gerte, Peter</name>
+  </teacher>
+  <teacher>
+    <id>Gey</id>
+    <name>Geyer, Christian</name>
+  </teacher>
+  <teacher>
+    <id>Gln</id>
+    <name>Glen, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Gm</id>
+    <name>Griemert, Hr.</name>
+  </teacher>
+  <teacher>
+    <id>GM_T</id>
+    <name>Griemert Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Gmt</id>
+    <name>Griemert, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Gnz</id>
+    <name>G&#xFC;nzel</name>
+  </teacher>
+  <teacher>
+    <id>G&#xF6;p</id>
+    <name>G&#xF6;pfert, Natalie</name>
+  </teacher>
+  <teacher>
+    <id>Gr</id>
+    <name>Gr&#xE4;fe</name>
+  </teacher>
+  <teacher>
+    <id>Gra</id>
+    <name>Grascht</name>
+  </teacher>
+  <teacher>
+    <id>Gre</id>
+    <name>Greiner</name>
+  </teacher>
+  <teacher>
+    <id>Gri</id>
+    <name>Grieger, Richard</name>
+  </teacher>
+  <teacher>
+    <id>Gro</id>
+    <name>Groh</name>
+  </teacher>
+  <teacher>
+    <id>Gr&#xFC;</id>
+    <name>Gr&#xFC;n, Florian</name>
+  </teacher>
+  <teacher>
+    <id>Gs</id>
+    <name>Groos, Jutta</name>
+  </teacher>
+  <teacher>
+    <id>Gu</id>
+    <name>Guckert</name>
+  </teacher>
+  <teacher>
+    <id>Gug</id>
+    <name>Gugler, Dorothea</name>
+  </teacher>
+  <teacher>
+    <id>G&#xFC;n</id>
+    <name>G&#xFC;nther</name>
+  </teacher>
+  <teacher>
+    <id>Gz</id>
+    <name>G&#xF6;tz</name>
+  </teacher>
+  <teacher>
+    <id>Hab</id>
+    <name>Haines, Bernhard</name>
+  </teacher>
+  <teacher>
+    <id>Hac</id>
+    <name>Hachimy</name>
+  </teacher>
+  <teacher>
+    <id>Ham</id>
+    <name>Hamel</name>
+  </teacher>
+  <teacher>
+    <id>Han</id>
+    <name>Hausmann, LB</name>
+  </teacher>
+  <teacher>
+    <id>Hap</id>
+    <name>Happek, Tilman</name>
+  </teacher>
+  <teacher>
+    <id>Has</id>
+    <name>Haines,Maria</name>
+  </teacher>
+  <teacher>
+    <id>Hau</id>
+    <name>Haus, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Haw</id>
+    <name>Hawthorne, Barry</name>
+  </teacher>
+  <teacher>
+    <id>Haz</id>
+    <name>Habermalz</name>
+  </teacher>
+  <teacher>
+    <id>Hbg</id>
+    <name>Herbig, Ralf</name>
+  </teacher>
+  <teacher>
+    <id>Hbh</id>
+    <name>Hagenbach, Udo</name>
+  </teacher>
+  <teacher>
+    <id>Hdh</id>
+    <name>Heddrich</name>
+  </teacher>
+  <teacher>
+    <id>Hdm</id>
+    <name>Hildmann</name>
+  </teacher>
+  <teacher>
+    <id>He</id>
+    <name>Hein,Ulrich MUK</name>
+  </teacher>
+  <teacher>
+    <id>Hel</id>
+    <name>Held, Timon</name>
+  </teacher>
+  <teacher>
+    <id>Hem</id>
+    <name>Hemmersbach, Fr</name>
+  </teacher>
+  <teacher>
+    <id>Hen</id>
+    <name>Hein, Steffen</name>
+  </teacher>
+  <teacher>
+    <id>Her</id>
+    <name>Herzog</name>
+  </teacher>
+  <teacher>
+    <id>Hes</id>
+    <name>Hess</name>
+  </teacher>
+  <teacher>
+    <id>Hg</id>
+    <name>Hempfling</name>
+  </teacher>
+  <teacher>
+    <id>Hh</id>
+    <name>Hohmann, Prof, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Hhn</id>
+    <name>Hahn</name>
+  </teacher>
+  <teacher>
+    <id>Hi</id>
+    <name>Hilbig</name>
+  </teacher>
+  <teacher>
+    <id>Hil</id>
+    <name>Hilger</name>
+  </teacher>
+  <teacher>
+    <id>Hli</id>
+    <name>Halim</name>
+  </teacher>
+  <teacher>
+    <id>Hls</id>
+    <name>Heils</name>
+  </teacher>
+  <teacher>
+    <id>Hm</id>
+    <name>Habermann</name>
+  </teacher>
+  <teacher>
+    <id>Hn</id>
+    <name>Hein, Oliver MND</name>
+  </teacher>
+  <teacher>
+    <id>Hn_T</id>
+    <name>Hein_Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Hof</id>
+    <name>Hoffmann, Benjamin</name>
+  </teacher>
+  <teacher>
+    <id>Hof2</id>
+    <name>Hof, Dan-Josef</name>
+  </teacher>
+  <teacher>
+    <id>HoJ</id>
+    <name>Hofmann, Jannette</name>
+  </teacher>
+  <teacher>
+    <id>H&#xF6;l</id>
+    <name>H&#xF6;lscher, Meike</name>
+  </teacher>
+  <teacher>
+    <id>Hoy</id>
+    <name>Hoy, Hr</name>
+  </teacher>
+  <teacher>
+    <id>Hp</id>
+    <name>Hoeppe</name>
+  </teacher>
+  <teacher>
+    <id>Hpt</id>
+    <name>Haupt</name>
+  </teacher>
+  <teacher>
+    <id>Hri</id>
+    <name>Henrici</name>
+  </teacher>
+  <teacher>
+    <id>Hrs</id>
+    <name>Herchenhein</name>
+  </teacher>
+  <teacher>
+    <id>Hs</id>
+    <name>Hausmann, Prof</name>
+  </teacher>
+  <teacher>
+    <id>Ht</id>
+    <name>Heinert</name>
+  </teacher>
+  <teacher>
+    <id>Ht_T</id>
+    <name>Heinert_Tutor</name>
+  </teacher>
+  <teacher>
+    <id>H&#xFC;</id>
+    <name>H&#xFC;sselmann, Claus</name>
+  </teacher>
+  <teacher>
+    <id>H&#xFC;_T</id>
+    <name>H&#xFC;sselmann LBA</name>
+  </teacher>
+  <teacher>
+    <id>Hub</id>
+    <name>Huber, Prof</name>
+  </teacher>
+  <teacher>
+    <id>H&#xFC;c</id>
+    <name>H&#xFC;ckelheim</name>
+  </teacher>
+  <teacher>
+    <id>Hwg</id>
+    <name>Hellwig, Tim</name>
+  </teacher>
+  <teacher>
+    <id>Hzm</id>
+    <name>Heinzmann, Uwe</name>
+  </teacher>
+  <teacher>
+    <id>IEM</id>
+    <name>FB IEM</name>
+  </teacher>
+  <teacher>
+    <id>J&#xE4;g</id>
+    <name>J&#xE4;ger, Carmen</name>
+  </teacher>
+  <teacher>
+    <id>J&#xE4;k</id>
+    <name>J&#xE4;kel</name>
+  </teacher>
+  <teacher>
+    <id>Jan</id>
+    <name>Jansen, Detlef</name>
+  </teacher>
+  <teacher>
+    <id>J&#xE4;r</id>
+    <name>J&#xE4;ger, Pascal</name>
+  </teacher>
+  <teacher>
+    <id>Jg</id>
+    <name>J&#xE4;ger, Rudolf</name>
+  </teacher>
+  <teacher>
+    <id>Jgr</id>
+    <name>J&#xE4;ger, Eberhard</name>
+  </teacher>
+  <teacher>
+    <id>Jgr_T</id>
+    <name>St&#xFC;tzner</name>
+  </teacher>
+  <teacher>
+    <id>Jos</id>
+    <name>Jost, Corinna</name>
+  </teacher>
+  <teacher>
+    <id>Ju</id>
+    <name>Jung</name>
+  </teacher>
+  <teacher>
+    <id>J&#xFC;</id>
+    <name>J&#xFC;rgens, Werner</name>
+  </teacher>
+  <teacher>
+    <id>Ka</id>
+    <name>Kresta</name>
+  </teacher>
+  <teacher>
+    <id>Kaf</id>
+    <name>Kaufmann (Engl)</name>
+  </teacher>
+  <teacher>
+    <id>Kah</id>
+    <name>Kahn</name>
+  </teacher>
+  <teacher>
+    <id>Kai</id>
+    <name>Kaiser, B.</name>
+  </teacher>
+  <teacher>
+    <id>Kam</id>
+    <name>Kammer, Frank</name>
+  </teacher>
+  <teacher>
+    <id>K&#xE4;s</id>
+    <name>K&#xE4;stner</name>
+  </teacher>
+  <teacher>
+    <id>Kat</id>
+    <name>Kath, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Kau</id>
+    <name>Kaufmann, Ilona</name>
+  </teacher>
+  <teacher>
+    <id>Kav</id>
+    <name>Kavelmacher</name>
+  </teacher>
+  <teacher>
+    <id>Kb</id>
+    <name>Karbach</name>
+  </teacher>
+  <teacher>
+    <id>Ke</id>
+    <name>Kern</name>
+  </teacher>
+  <teacher>
+    <id>Kek</id>
+    <name>Keck, Bj&#xF6;rn Ole</name>
+  </teacher>
+  <teacher>
+    <id>Kem</id>
+    <name>Kern, Maria</name>
+  </teacher>
+  <teacher>
+    <id>Kf</id>
+    <name>Kaufmann, Prof, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Kgr</id>
+    <name>Krieger</name>
+  </teacher>
+  <teacher>
+    <id>Ki</id>
+    <name>Kahsnitz</name>
+  </teacher>
+  <teacher>
+    <id>Ki_T1</id>
+    <name>Kahsnitz Tutor 1</name>
+  </teacher>
+  <teacher>
+    <id>Ki_T2</id>
+    <name>Kahsnitz Tutor 2</name>
+  </teacher>
+  <teacher>
+    <id>Kil</id>
+    <name>Kilb</name>
+  </teacher>
+  <teacher>
+    <id>Kis</id>
+    <name>Kiselev</name>
+  </teacher>
+  <teacher>
+    <id>Kit</id>
+    <name>Kitarev</name>
+  </teacher>
+  <teacher>
+    <id>Kk</id>
+    <name>Kockmann</name>
+  </teacher>
+  <teacher>
+    <id>Kk_T</id>
+    <name>Kockmann Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Kk_T2</id>
+    <name>Kockmann Tutor 2</name>
+  </teacher>
+  <teacher>
+    <id>Kkv</id>
+    <name>Kulikov</name>
+  </teacher>
+  <teacher>
+    <id>Kl</id>
+    <name>Kl&#xF6;s, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Kln</id>
+    <name>Klassen, Valerie</name>
+  </teacher>
+  <teacher>
+    <id>Kls</id>
+    <name>Kloos</name>
+  </teacher>
+  <teacher>
+    <id>Klu</id>
+    <name>Kluin</name>
+  </teacher>
+  <teacher>
+    <id>Km</id>
+    <name>Kampschulte</name>
+  </teacher>
+  <teacher>
+    <id>Kn</id>
+    <name>Klein, K. F.</name>
+  </teacher>
+  <teacher>
+    <id>Kn2</id>
+    <name>Klein, Rolf</name>
+  </teacher>
+  <teacher>
+    <id>Kn3</id>
+    <name>Klein, Torsten</name>
+  </teacher>
+  <teacher>
+    <id>Kno</id>
+    <name>Knoth</name>
+  </teacher>
+  <teacher>
+    <id>Knz</id>
+    <name>Kunz</name>
+  </teacher>
+  <teacher>
+    <id>Ko</id>
+    <name>Kovalev</name>
+  </teacher>
+  <teacher>
+    <id>K&#xF6;b</id>
+    <name>K&#xF6;bel</name>
+  </teacher>
+  <teacher>
+    <id>Koc</id>
+    <name>Koch</name>
+  </teacher>
+  <teacher>
+    <id>Koh</id>
+    <name>Kohl, Tanja</name>
+  </teacher>
+  <teacher>
+    <id>Kol</id>
+    <name>Kolwe, Denis</name>
+  </teacher>
+  <teacher>
+    <id>Kom</id>
+    <name>Komhard, Oliver</name>
+  </teacher>
+  <teacher>
+    <id>K&#xF6;n</id>
+    <name>Koenig</name>
+  </teacher>
+  <teacher>
+    <id>K&#xF6;p</id>
+    <name>K&#xF6;ppen</name>
+  </teacher>
+  <teacher>
+    <id>Kp</id>
+    <name>Kruppa</name>
+  </teacher>
+  <teacher>
+    <id>Kpm</id>
+    <name>Kempmann</name>
+  </teacher>
+  <teacher>
+    <id>Kr</id>
+    <name>Kremer</name>
+  </teacher>
+  <teacher>
+    <id>Kra</id>
+    <name>Krause,S</name>
+  </teacher>
+  <teacher>
+    <id>Kre</id>
+    <name>Krause, G&#xFC;nther</name>
+  </teacher>
+  <teacher>
+    <id>Ks</id>
+    <name>Kneisel</name>
+  </teacher>
+  <teacher>
+    <id>Ksh</id>
+    <name>Kowarsch</name>
+  </teacher>
+  <teacher>
+    <id>Ktr</id>
+    <name>Kreter</name>
+  </teacher>
+  <teacher>
+    <id>Ku</id>
+    <name>Kuznietsov</name>
+  </teacher>
+  <teacher>
+    <id>Kuc</id>
+    <name>Kushnirevych</name>
+  </teacher>
+  <teacher>
+    <id>Kun</id>
+    <name>Kuhn</name>
+  </teacher>
+  <teacher>
+    <id>La</id>
+    <name>Lademann</name>
+  </teacher>
+  <teacher>
+    <id>Lac</id>
+    <name>Lackmann</name>
+  </teacher>
+  <teacher>
+    <id>Laf</id>
+    <name>Langendorf</name>
+  </teacher>
+  <teacher>
+    <id>Lah</id>
+    <name>Lahdo, Mousa</name>
+  </teacher>
+  <teacher>
+    <id>LAn</id>
+    <name>Althenn</name>
+  </teacher>
+  <teacher>
+    <id>LAr</id>
+    <name>Arlt</name>
+  </teacher>
+  <teacher>
+    <id>LAt</id>
+    <name>Abt</name>
+  </teacher>
+  <teacher>
+    <id>Lau</id>
+    <name>Lauer, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Lav</id>
+    <name>Laverentz</name>
+  </teacher>
+  <teacher>
+    <id>LBd</id>
+    <name>Brand,Doris</name>
+  </teacher>
+  <teacher>
+    <id>LBr</id>
+    <name>Brand, Torsten</name>
+  </teacher>
+  <teacher>
+    <id>LBz</id>
+    <name>Burzlaff, Michael</name>
+  </teacher>
+  <teacher>
+    <id>LCe</id>
+    <name>Celik</name>
+  </teacher>
+  <teacher>
+    <id>LDe</id>
+    <name>Desch</name>
+  </teacher>
+  <teacher>
+    <id>Ldn</id>
+    <name>Leidner</name>
+  </teacher>
+  <teacher>
+    <id>LEk</id>
+    <name>Erk</name>
+  </teacher>
+  <teacher>
+    <id>LEm</id>
+    <name>Emmel</name>
+  </teacher>
+  <teacher>
+    <id>LEs</id>
+    <name>Endres</name>
+  </teacher>
+  <teacher>
+    <id>Lew</id>
+    <name>Lewin, Volkmar</name>
+  </teacher>
+  <teacher>
+    <id>LFa</id>
+    <name>Farrenkopf</name>
+  </teacher>
+  <teacher>
+    <id>LFg</id>
+    <name>Fuhrberg</name>
+  </teacher>
+  <teacher>
+    <id>LFr</id>
+    <name>Fehr</name>
+  </teacher>
+  <teacher>
+    <id>LFy</id>
+    <name>Fay</name>
+  </teacher>
+  <teacher>
+    <id>LGa</id>
+    <name>Gonka</name>
+  </teacher>
+  <teacher>
+    <id>LGd</id>
+    <name>Gro&#xDF;feld</name>
+  </teacher>
+  <teacher>
+    <id>LGe</id>
+    <name>Geitz, Wolf-D.</name>
+  </teacher>
+  <teacher>
+    <id>LGo</id>
+    <name>Gonschior</name>
+  </teacher>
+  <teacher>
+    <id>LGu</id>
+    <name>Gutberlet</name>
+  </teacher>
+  <teacher>
+    <id>LHd</id>
+    <name>Hellhund</name>
+  </teacher>
+  <teacher>
+    <id>LHm</id>
+    <name>Hempe, Thomas</name>
+  </teacher>
+  <teacher>
+    <id>LHo</id>
+    <name>Hofmann, Frank</name>
+  </teacher>
+  <teacher>
+    <id>Li</id>
+    <name>Leitis</name>
+  </teacher>
+  <teacher>
+    <id>Lid</id>
+    <name>Lidwin</name>
+  </teacher>
+  <teacher>
+    <id>Lin</id>
+    <name>Linow</name>
+  </teacher>
+  <teacher>
+    <id>Lir</id>
+    <name>Lintner</name>
+  </teacher>
+  <teacher>
+    <id>LKl</id>
+    <name>Klein, Fabian</name>
+  </teacher>
+  <teacher>
+    <id>LKn</id>
+    <name>K&#xF6;hnen</name>
+  </teacher>
+  <teacher>
+    <id>LKo</id>
+    <name>Kojouharova,Fr.</name>
+  </teacher>
+  <teacher>
+    <id>LLa</id>
+    <name>Langkamm, Fr</name>
+  </teacher>
+  <teacher>
+    <id>LLe</id>
+    <name>Lechner</name>
+  </teacher>
+  <teacher>
+    <id>Llg</id>
+    <name>Langstrof</name>
+  </teacher>
+  <teacher>
+    <id>LLu</id>
+    <name>Lushta, Fr</name>
+  </teacher>
+  <teacher>
+    <id>LMa</id>
+    <name>Mathiae</name>
+  </teacher>
+  <teacher>
+    <id>LNb</id>
+    <name>Neubauer</name>
+  </teacher>
+  <teacher>
+    <id>Lom</id>
+    <name>Lohmann</name>
+  </teacher>
+  <teacher>
+    <id>LPe</id>
+    <name>Petrasch</name>
+  </teacher>
+  <teacher>
+    <id>LPp</id>
+    <name>Peus, Timo</name>
+  </teacher>
+  <teacher>
+    <id>LPs</id>
+    <name>Peters</name>
+  </teacher>
+  <teacher>
+    <id>LPu</id>
+    <name>Pudel</name>
+  </teacher>
+  <teacher>
+    <id>LR2</id>
+    <name>Rupp, Felix</name>
+  </teacher>
+  <teacher>
+    <id>LRh</id>
+    <name>Richter, Friedhelm</name>
+  </teacher>
+  <teacher>
+    <id>LRo</id>
+    <name>Roth, Sascha</name>
+  </teacher>
+  <teacher>
+    <id>LRu</id>
+    <name>Rupp, Benjamin</name>
+  </teacher>
+  <teacher>
+    <id>Lrz</id>
+    <name>Lorenz MND</name>
+  </teacher>
+  <teacher>
+    <id>LSd</id>
+    <name>Schmidt, Meinolf</name>
+  </teacher>
+  <teacher>
+    <id>LSe</id>
+    <name>Stampe</name>
+  </teacher>
+  <teacher>
+    <id>LSf</id>
+    <name>Scheffler, Irina</name>
+  </teacher>
+  <teacher>
+    <id>LSh</id>
+    <name>Scheidel</name>
+  </teacher>
+  <teacher>
+    <id>LSi</id>
+    <name>Semisch, Fr</name>
+  </teacher>
+  <teacher>
+    <id>LSm</id>
+    <name>Schmidt, Klaus</name>
+  </teacher>
+  <teacher>
+    <id>LSt</id>
+    <name>Schunath, Andreas</name>
+  </teacher>
+  <teacher>
+    <id>LTo</id>
+    <name>Tobisch, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Lu</id>
+    <name>Lucke, Carsten</name>
+  </teacher>
+  <teacher>
+    <id>Lu_T</id>
+    <name>Lucke Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Lub</id>
+    <name>Lubig</name>
+  </teacher>
+  <teacher>
+    <id>LUe</id>
+    <name>&#xDC;berall</name>
+  </teacher>
+  <teacher>
+    <id>LUm</id>
+    <name>Ulm</name>
+  </teacher>
+  <teacher>
+    <id>Lut</id>
+    <name>Lutz, Holger</name>
+  </teacher>
+  <teacher>
+    <id>LVi</id>
+    <name>Vincze</name>
+  </teacher>
+  <teacher>
+    <id>LWe</id>
+    <name>Weber, Harald Dr.</name>
+  </teacher>
+  <teacher>
+    <id>LWg</id>
+    <name>Wenig, Fr</name>
+  </teacher>
+  <teacher>
+    <id>LW&#xF6;</id>
+    <name>W&#xF6;rner, Klaus</name>
+  </teacher>
+  <teacher>
+    <id>LWr</id>
+    <name>Weber, Eberhard</name>
+  </teacher>
+  <teacher>
+    <id>Lz</id>
+    <name>Lorenz SuK</name>
+  </teacher>
+  <teacher>
+    <id>LZ</id>
+    <name>Lernzentrum</name>
+  </teacher>
+  <teacher>
+    <id>M</id>
+    <name>FB M</name>
+  </teacher>
+  <teacher>
+    <id>Ma</id>
+    <name>Martin, Markus</name>
+  </teacher>
+  <teacher>
+    <id>Ma_T</id>
+    <name>Martin, Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Mah</id>
+    <name>Mahr, David</name>
+  </teacher>
+  <teacher>
+    <id>Man</id>
+    <name>Manderbach, David</name>
+  </teacher>
+  <teacher>
+    <id>Mas</id>
+    <name>Maresch, Anika</name>
+  </teacher>
+  <teacher>
+    <id>Mat</id>
+    <name>Matiello</name>
+  </teacher>
+  <teacher>
+    <id>Mau</id>
+    <name>Maurer</name>
+  </teacher>
+  <teacher>
+    <id>Maz</id>
+    <name>Mazur</name>
+  </teacher>
+  <teacher>
+    <id>Mb</id>
+    <name>Minkenberg</name>
+  </teacher>
+  <teacher>
+    <id>MBA</id>
+    <name>MBA</name>
+  </teacher>
+  <teacher>
+    <id>Mc</id>
+    <name>Malerczyk</name>
+  </teacher>
+  <teacher>
+    <id>Mel</id>
+    <name>Merkel, jun.</name>
+  </teacher>
+  <teacher>
+    <id>Mer</id>
+    <name>Meller</name>
+  </teacher>
+  <teacher>
+    <id>MJ</id>
+    <name>Metz, Joachim</name>
+  </teacher>
+  <teacher>
+    <id>Mlr</id>
+    <name>M&#xFC;ller,Bernd</name>
+  </teacher>
+  <teacher>
+    <id>Mmn</id>
+    <name>Ma&#xDF;mann</name>
+  </teacher>
+  <teacher>
+    <id>MND</id>
+    <name>FB MND</name>
+  </teacher>
+  <teacher>
+    <id>MNI</id>
+    <name>FB MNI</name>
+  </teacher>
+  <teacher>
+    <id>M&#xF6;</id>
+    <name>M&#xF6;hring</name>
+  </teacher>
+  <teacher>
+    <id>M&#xF6;l</id>
+    <name>M&#xF6;ller</name>
+  </teacher>
+  <teacher>
+    <id>Mr</id>
+    <name>Merkel, Prof.</name>
+  </teacher>
+  <teacher>
+    <id>Ms</id>
+    <name>Messer, Markus</name>
+  </teacher>
+  <teacher>
+    <id>Mss</id>
+    <name>Messer sen, Prof.</name>
+  </teacher>
+  <teacher>
+    <id>Mth</id>
+    <name>Manthei</name>
+  </teacher>
+  <teacher>
+    <id>Mtz</id>
+    <name>Metz, Steffen</name>
+  </teacher>
+  <teacher>
+    <id>M&#xFC;</id>
+    <name>M&#xFC;ller, Frank</name>
+  </teacher>
+  <teacher>
+    <id>M&#xFC;_T</id>
+    <name>M&#xFC;ller_Tutor</name>
+  </teacher>
+  <teacher>
+    <id>M&#xFC;g</id>
+    <name>M&#xFC;hlenberg</name>
+  </teacher>
+  <teacher>
+    <id>Muk</id>
+    <name>FB MUK</name>
+  </teacher>
+  <teacher>
+    <id>Muk1</id>
+    <name>MUK  Sonder</name>
+  </teacher>
+  <teacher>
+    <id>M&#xFC;l</id>
+    <name>M&#xFC;ller, Nicole</name>
+  </teacher>
+  <teacher>
+    <id>M&#xFC;l2</id>
+    <name>M&#xFC;ller, Philip</name>
+  </teacher>
+  <teacher>
+    <id>M&#xFC;r</id>
+    <name>M&#xFC;ller, Dr. Harald</name>
+  </teacher>
+  <teacher>
+    <id>My</id>
+    <name>Meyer zu Bexten</name>
+  </teacher>
+  <teacher>
+    <id>Myr</id>
+    <name>Meyer</name>
+  </teacher>
+  <teacher>
+    <id>Mz</id>
+    <name>Metz, Prof, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Nat</id>
+    <name>Nather</name>
+  </teacher>
+  <teacher>
+    <id>Nic</id>
+    <name>Nickenig</name>
+  </teacher>
+  <teacher>
+    <id>Niz</id>
+    <name>Nitzl</name>
+  </teacher>
+  <teacher>
+    <id>NNF</id>
+    <name>Fernstudium</name>
+  </teacher>
+  <teacher>
+    <id>Noc</id>
+    <name>Nockemann</name>
+  </teacher>
+  <teacher>
+    <id>Nol</id>
+    <name>Nold</name>
+  </teacher>
+  <teacher>
+    <id>Num</id>
+    <name>Neumann</name>
+  </teacher>
+  <teacher>
+    <id>Ob</id>
+    <name>Obermann</name>
+  </teacher>
+  <teacher>
+    <id>Obh</id>
+    <name>Oberheim</name>
+  </teacher>
+  <teacher>
+    <id>Och</id>
+    <name>Ochs, Gunter</name>
+  </teacher>
+  <teacher>
+    <id>Oeh</id>
+    <name>Oehler, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Oh</id>
+    <name>Ohlert</name>
+  </teacher>
+  <teacher>
+    <id>Ols</id>
+    <name>Olson</name>
+  </teacher>
+  <teacher>
+    <id>Omo</id>
+    <name>Omoruyi, John</name>
+  </teacher>
+  <teacher>
+    <id>Orb</id>
+    <name>Ohrnberger</name>
+  </teacher>
+  <teacher>
+    <id>Pab</id>
+    <name>Pabel</name>
+  </teacher>
+  <teacher>
+    <id>Pal</id>
+    <name>Penaloza</name>
+  </teacher>
+  <teacher>
+    <id>Pan</id>
+    <name>Paniagua, Octavio</name>
+  </teacher>
+  <teacher>
+    <id>Pau</id>
+    <name>Paulencu</name>
+  </teacher>
+  <teacher>
+    <id>Pch</id>
+    <name>Pauch, Fr</name>
+  </teacher>
+  <teacher>
+    <id>Pe</id>
+    <name>Penirschke</name>
+  </teacher>
+  <teacher>
+    <id>Pel</id>
+    <name>Peil</name>
+  </teacher>
+  <teacher>
+    <id>Pf</id>
+    <name>Pfeiffenberger, Prof</name>
+  </teacher>
+  <teacher>
+    <id>Pi</id>
+    <name>Piazolo</name>
+  </teacher>
+  <teacher>
+    <id>Pig</id>
+    <name>Pilgrim, Patrik</name>
+  </teacher>
+  <teacher>
+    <id>Pil</id>
+    <name>Pilger, Ralf</name>
+  </teacher>
+  <teacher>
+    <id>Pis</id>
+    <name>Pistyanek</name>
+  </teacher>
+  <teacher>
+    <id>Pit</id>
+    <name>Pitsch, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Pke</id>
+    <name>Pielke</name>
+  </teacher>
+  <teacher>
+    <id>PlaCe</id>
+    <name>Placement Center</name>
+  </teacher>
+  <teacher>
+    <id>Pol</id>
+    <name>Pohl&#xE9;</name>
+  </teacher>
+  <teacher>
+    <id>Pp</id>
+    <name>Peppel</name>
+  </teacher>
+  <teacher>
+    <id>Pr</id>
+    <name>Probst, EI</name>
+  </teacher>
+  <teacher>
+    <id>Pr&#xE4;</id>
+    <name>Pr&#xE4;sidium</name>
+  </teacher>
+  <teacher>
+    <id>Prk</id>
+    <name>Park, Sang-Min</name>
+  </teacher>
+  <teacher>
+    <id>Prz</id>
+    <name>Przewloka</name>
+  </teacher>
+  <teacher>
+    <id>Ps</id>
+    <name>Pfister, J&#xF6;rg</name>
+  </teacher>
+  <teacher>
+    <id>Ptr</id>
+    <name>Pistor</name>
+  </teacher>
+  <teacher>
+    <id>Py</id>
+    <name>Pyttel</name>
+  </teacher>
+  <teacher>
+    <id>Py_T</id>
+    <name>Pyttel Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Py_T1</id>
+    <name>Pyttel, Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Rac</id>
+    <name>Racosewic</name>
+  </teacher>
+  <teacher>
+    <id>Rai</id>
+    <name>Raiber, Frau</name>
+  </teacher>
+  <teacher>
+    <id>Rap</id>
+    <name>Raphael</name>
+  </teacher>
+  <teacher>
+    <id>Re</id>
+    <name>Renz, MNI</name>
+  </teacher>
+  <teacher>
+    <id>Reh</id>
+    <name>Rehberg, Martin</name>
+  </teacher>
+  <teacher>
+    <id>Rei</id>
+    <name>Reininger</name>
+  </teacher>
+  <teacher>
+    <id>Reitz</id>
+    <name>Allgemeine Verwaltung</name>
+  </teacher>
+  <teacher>
+    <id>Rel</id>
+    <name>Reichel, T</name>
+  </teacher>
+  <teacher>
+    <id>Ret1</id>
+    <name>Retzlaf, Dagmar</name>
+  </teacher>
+  <teacher>
+    <id>Ret2</id>
+    <name>Retzlaf, Werner</name>
+  </teacher>
+  <teacher>
+    <id>Rg</id>
+    <name>Rigger</name>
+  </teacher>
+  <teacher>
+    <id>Ri</id>
+    <name>Ricklefs, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Rie</id>
+    <name>Riese, Lutz</name>
+  </teacher>
+  <teacher>
+    <id>Rir</id>
+    <name>Richter, Marco</name>
+  </teacher>
+  <teacher>
+    <id>Ris</id>
+    <name>Riesbeck</name>
+  </teacher>
+  <teacher>
+    <id>Rm</id>
+    <name>R&#xF6;hm</name>
+  </teacher>
+  <teacher>
+    <id>Ro</id>
+    <name>Roth</name>
+  </teacher>
+  <teacher>
+    <id>Ro2</id>
+    <name>Roth, Fr Dr</name>
+  </teacher>
+  <teacher>
+    <id>Rog</id>
+    <name>Rogatcheva-Schmidt</name>
+  </teacher>
+  <teacher>
+    <id>Roh</id>
+    <name>Rohn, Holger</name>
+  </teacher>
+  <teacher>
+    <id>Roi</id>
+    <name>Romanski, Bernd</name>
+  </teacher>
+  <teacher>
+    <id>R&#xF6;l</id>
+    <name>R&#xF6;ll, Matthias</name>
+  </teacher>
+  <teacher>
+    <id>Rom</id>
+    <name>Romberger</name>
+  </teacher>
+  <teacher>
+    <id>R&#xF6;m</id>
+    <name>R&#xF6;mling</name>
+  </teacher>
+  <teacher>
+    <id>Ror</id>
+    <name>Rosenbecker, M</name>
+  </teacher>
+  <teacher>
+    <id>Ros</id>
+    <name>Rose, Michael</name>
+  </teacher>
+  <teacher>
+    <id>Rr</id>
+    <name>R&#xF6;hricht, Prof  Gi</name>
+  </teacher>
+  <teacher>
+    <id>Rs</id>
+    <name>Raes</name>
+  </teacher>
+  <teacher>
+    <id>Rss</id>
+    <name>Rosenschon</name>
+  </teacher>
+  <teacher>
+    <id>Rtz</id>
+    <name>Ritz, Christian</name>
+  </teacher>
+  <teacher>
+    <id>Rub</id>
+    <name>Rubisch</name>
+  </teacher>
+  <teacher>
+    <id>Rue</id>
+    <name>R&#xFC;hl</name>
+  </teacher>
+  <teacher>
+    <id>Rup</id>
+    <name>Rupp, Dr.</name>
+  </teacher>
+  <teacher>
+    <id>Rus</id>
+    <name>Russ, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Rz</id>
+    <name>Ritz, Prof, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Sa</id>
+    <name>Schuchard</name>
+  </teacher>
+  <teacher>
+    <id>Sa_T</id>
+    <name>Schuchard Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Sac</id>
+    <name>Sack, Dieter</name>
+  </teacher>
+  <teacher>
+    <id>Sae</id>
+    <name>Sch&#xE4;fer, Steffen</name>
+  </teacher>
+  <teacher>
+    <id>Sal</id>
+    <name>Salzinger</name>
+  </teacher>
+  <teacher>
+    <id>S&#xE4;r</id>
+    <name>Sch&#xE4;fer, Frau</name>
+  </teacher>
+  <teacher>
+    <id>SBa</id>
+    <name>Schusser-Backhaus</name>
+  </teacher>
+  <teacher>
+    <id>Sbr</id>
+    <name>Schreiber</name>
+  </teacher>
+  <teacher>
+    <id>Sc</id>
+    <name>Schulze</name>
+  </teacher>
+  <teacher>
+    <id>Sce</id>
+    <name>Scheel</name>
+  </teacher>
+  <teacher>
+    <id>Sck</id>
+    <name>Skitschak</name>
+  </teacher>
+  <teacher>
+    <id>Sc&#xF6;</id>
+    <name>Sch&#xF6;lz</name>
+  </teacher>
+  <teacher>
+    <id>Scp</id>
+    <name>Sch&#xF6;pke,Jan</name>
+  </teacher>
+  <teacher>
+    <id>Scr</id>
+    <name>Schiefer</name>
+  </teacher>
+  <teacher>
+    <id>Sct</id>
+    <name>Schmidt, Daniel</name>
+  </teacher>
+  <teacher>
+    <id>Scu</id>
+    <name>Schulze, Andreas</name>
+  </teacher>
+  <teacher>
+    <id>Scw</id>
+    <name>Schwanitz</name>
+  </teacher>
+  <teacher>
+    <id>Sdr</id>
+    <name>Schneider, Henning</name>
+  </teacher>
+  <teacher>
+    <id>Se</id>
+    <name>Scheer,Prof, Gi</name>
+  </teacher>
+  <teacher>
+    <id>See</id>
+    <name>Seeliger</name>
+  </teacher>
+  <teacher>
+    <id>Seh</id>
+    <name>Sepehri</name>
+  </teacher>
+  <teacher>
+    <id>Sei</id>
+    <name>Seidel</name>
+  </teacher>
+  <teacher>
+    <id>Sem</id>
+    <name>Schlemme</name>
+  </teacher>
+  <teacher>
+    <id>Ser</id>
+    <name>Schneider, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Sf</id>
+    <name>Steffens, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Sg</id>
+    <name>Sting</name>
+  </teacher>
+  <teacher>
+    <id>Sgl</id>
+    <name>Schlegel</name>
+  </teacher>
+  <teacher>
+    <id>Sh</id>
+    <name>Stroh</name>
+  </teacher>
+  <teacher>
+    <id>Sha</id>
+    <name>Shadabi, Anja</name>
+  </teacher>
+  <teacher>
+    <id>She</id>
+    <name>Scherer</name>
+  </teacher>
+  <teacher>
+    <id>Shr</id>
+    <name>Schr&#xF6;der</name>
+  </teacher>
+  <teacher>
+    <id>Sib</id>
+    <name>Siebert</name>
+  </teacher>
+  <teacher>
+    <id>Sim</id>
+    <name>Simon SuK</name>
+  </teacher>
+  <teacher>
+    <id>Siv</id>
+    <name>Sivchenko</name>
+  </teacher>
+  <teacher>
+    <id>Skb</id>
+    <name>Sakhibov</name>
+  </teacher>
+  <teacher>
+    <id>Ski</id>
+    <name>Skill</name>
+  </teacher>
+  <teacher>
+    <id>SKo</id>
+    <name>Sternagel-Kohlhas</name>
+  </teacher>
+  <teacher>
+    <id>Sl</id>
+    <name>Schultes</name>
+  </teacher>
+  <teacher>
+    <id>Sm</id>
+    <name>Schmitz, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Smd</id>
+    <name>Schmid, Wolfg</name>
+  </teacher>
+  <teacher>
+    <id>Smi</id>
+    <name>Schmidt, Chr.</name>
+  </teacher>
+  <teacher>
+    <id>Smt</id>
+    <name>Schmitt, Andreas</name>
+  </teacher>
+  <teacher>
+    <id>Sn</id>
+    <name>Schulz-Nigmann</name>
+  </teacher>
+  <teacher>
+    <id>Sne</id>
+    <name>Schnepp</name>
+  </teacher>
+  <teacher>
+    <id>S&#xF6;H</id>
+    <name>Schl&#xF6;sser-Hold</name>
+  </teacher>
+  <teacher>
+    <id>Som</id>
+    <name>Sommerfeld, Tim</name>
+  </teacher>
+  <teacher>
+    <id>Son</id>
+    <name>Simon WI</name>
+  </teacher>
+  <teacher>
+    <id>S&#xF6;p</id>
+    <name>Sch&#xF6;pke,Jan</name>
+  </teacher>
+  <teacher>
+    <id>Sp</id>
+    <name>Specht, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Spe</id>
+    <name>Speiser, Peter</name>
+  </teacher>
+  <teacher>
+    <id>Spi</id>
+    <name>Spinelli</name>
+  </teacher>
+  <teacher>
+    <id>Spr</id>
+    <name>Spindler, Heiko</name>
+  </teacher>
+  <teacher>
+    <id>St</id>
+    <name>Steinkamp</name>
+  </teacher>
+  <teacher>
+    <id>St_T</id>
+    <name>Steinkamp Tutor</name>
+  </teacher>
+  <teacher>
+    <id>St_T2</id>
+    <name>Steinkamp_Tutor 2</name>
+  </teacher>
+  <teacher>
+    <id>Std</id>
+    <name>Staudt</name>
+  </teacher>
+  <teacher>
+    <id>Sti</id>
+    <name>Stiebler</name>
+  </teacher>
+  <teacher>
+    <id>Sto</id>
+    <name>Storbeck</name>
+  </teacher>
+  <teacher>
+    <id>Stt</id>
+    <name>Streit, Timo</name>
+  </teacher>
+  <teacher>
+    <id>Stz</id>
+    <name>Seitz</name>
+  </teacher>
+  <teacher>
+    <id>Su</id>
+    <name>Sauerbier</name>
+  </teacher>
+  <teacher>
+    <id>Su_T</id>
+    <name>Sauerbier Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Su_T1</id>
+    <name>Sauerbier_Tutor 1</name>
+  </teacher>
+  <teacher>
+    <id>Su_T2</id>
+    <name>Sauerbier_Tutor 2</name>
+  </teacher>
+  <teacher>
+    <id>Sub</id>
+    <name>Schubert, Sven</name>
+  </teacher>
+  <teacher>
+    <id>Sus</id>
+    <name>Schuster, Thomas</name>
+  </teacher>
+  <teacher>
+    <id>Sus_T</id>
+    <name>Schuster Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Swt</id>
+    <name>Schweighardt</name>
+  </teacher>
+  <teacher>
+    <id>Sz</id>
+    <name>Selzer, Prof</name>
+  </teacher>
+  <teacher>
+    <id>Szu</id>
+    <name>Szubries</name>
+  </teacher>
+  <teacher>
+    <id>Szw</id>
+    <name>Szwerinski, Julia</name>
+  </teacher>
+  <teacher>
+    <id>Szy</id>
+    <name>Szymura</name>
+  </teacher>
+  <teacher>
+    <id>Tan</id>
+    <name>Tanenkeu Gurfack</name>
+  </teacher>
+  <teacher>
+    <id>Tap</id>
+    <name>Tapp</name>
+  </teacher>
+  <teacher>
+    <id>Thd</id>
+    <name>Thonfeld</name>
+  </teacher>
+  <teacher>
+    <id>Thi</id>
+    <name>Thiel, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Th&#xF6;</id>
+    <name>Th&#xF6;lken, Daniel</name>
+  </teacher>
+  <teacher>
+    <id>Ti</id>
+    <name>Thiele, Ulrich Gi</name>
+  </teacher>
+  <teacher>
+    <id>Tis</id>
+    <name>Thies, Karlheinz</name>
+  </teacher>
+  <teacher>
+    <id>Tj</id>
+    <name>Tjon</name>
+  </teacher>
+  <teacher>
+    <id>Tn</id>
+    <name>Thielen</name>
+  </teacher>
+  <teacher>
+    <id>Tra</id>
+    <name>Trautner</name>
+  </teacher>
+  <teacher>
+    <id>Tre</id>
+    <name>Trede</name>
+  </teacher>
+  <teacher>
+    <id>Tri</id>
+    <name>Tratzki</name>
+  </teacher>
+  <teacher>
+    <id>Trj</id>
+    <name>Trajceski, Jovan</name>
+  </teacher>
+  <teacher>
+    <id>T&#xFC;</id>
+    <name>Th&#xFC;ringer, Gi</name>
+  </teacher>
+  <teacher>
+    <id>Uhl</id>
+    <name>Uhl, Chtristian</name>
+  </teacher>
+  <teacher>
+    <id>Ul</id>
+    <name>Uhl, Ralph</name>
+  </teacher>
+  <teacher>
+    <id>Uti</id>
+    <name>Utikal</name>
+  </teacher>
+  <teacher>
+    <id>Val</id>
+    <name>Valentin, Anke</name>
+  </teacher>
+  <teacher>
+    <id>Ven</id>
+    <name>Veneziano-Osterr.</name>
+  </teacher>
+  <teacher>
+    <id>Ver</id>
+    <name>Allgemeine Verwaltung</name>
+  </teacher>
+  <teacher>
+    <id>Verw</id>
+    <name>Verwaltung</name>
+  </teacher>
+  <teacher>
+    <id>Vl</id>
+    <name>Vogel</name>
+  </teacher>
+  <teacher>
+    <id>Vo</id>
+    <name>Vossebein</name>
+  </teacher>
+  <teacher>
+    <id>Vra</id>
+    <name>Vranjes, Vukan</name>
+  </teacher>
+  <teacher>
+    <id>Vrt</id>
+    <name>Vortisch</name>
+  </teacher>
+  <teacher>
+    <id>Vs</id>
+    <name>Voges, Prof, Gi</name>
+  </teacher>
+  <teacher>
+    <id>vSg</id>
+    <name>v.Schulenburg</name>
+  </teacher>
+  <teacher>
+    <id>Vss</id>
+    <name>Voss</name>
+  </teacher>
+  <teacher>
+    <id>Vt</id>
+    <name>Vogt</name>
+  </teacher>
+  <teacher>
+    <id>Wal</id>
+    <name>Waldeck</name>
+  </teacher>
+  <teacher>
+    <id>War</id>
+    <name>Weimar</name>
+  </teacher>
+  <teacher>
+    <id>Wb</id>
+    <name>Weber, Dr</name>
+  </teacher>
+  <teacher>
+    <id>Wbd</id>
+    <name>Weisbrod</name>
+  </teacher>
+  <teacher>
+    <id>Wbr</id>
+    <name>Walbr&#xF6;hl Fr Dr</name>
+  </teacher>
+  <teacher>
+    <id>Wd</id>
+    <name>Weigand</name>
+  </teacher>
+  <teacher>
+    <id>Wdl</id>
+    <name>Wendl</name>
+  </teacher>
+  <teacher>
+    <id>Web</id>
+    <name>Weber, Jens</name>
+  </teacher>
+  <teacher>
+    <id>Wed</id>
+    <name>Weide</name>
+  </teacher>
+  <teacher>
+    <id>Wei</id>
+    <name>Weinlein</name>
+  </teacher>
+  <teacher>
+    <id>Wen</id>
+    <name>Werner, Jan</name>
+  </teacher>
+  <teacher>
+    <id>Wer</id>
+    <name>Weidner</name>
+  </teacher>
+  <teacher>
+    <id>Wg</id>
+    <name>Wagenknecht</name>
+  </teacher>
+  <teacher>
+    <id>Wgd</id>
+    <name>Weigand</name>
+  </teacher>
+  <teacher>
+    <id>Whi</id>
+    <name>White</name>
+  </teacher>
+  <teacher>
+    <id>Whm</id>
+    <name>Wilhelm 1</name>
+  </teacher>
+  <teacher>
+    <id>Wi</id>
+    <name>Wilhelm</name>
+  </teacher>
+  <teacher>
+    <id>Wi_T</id>
+    <name>Wilhelm Tutor</name>
+  </teacher>
+  <teacher>
+    <id>Wie</id>
+    <name>Wiechmann, Armin</name>
+  </teacher>
+  <teacher>
+    <id>Wih</id>
+    <name>Wittich ,Michael</name>
+  </teacher>
+  <teacher>
+    <id>Wil</id>
+    <name>Wilhelm 2</name>
+  </teacher>
+  <teacher>
+    <id>Win</id>
+    <name>Winkler</name>
+  </teacher>
+  <teacher>
+    <id>Wit</id>
+    <name>Wittmann</name>
+  </teacher>
+  <teacher>
+    <id>Wll</id>
+    <name>Wills, Nadine</name>
+  </teacher>
+  <teacher>
+    <id>Wlr</id>
+    <name>Waller</name>
+  </teacher>
+  <teacher>
+    <id>Wlz</id>
+    <name>Welz</name>
+  </teacher>
+  <teacher>
+    <id>Wm</id>
+    <name>Willems</name>
+  </teacher>
+  <teacher>
+    <id>Woa</id>
+    <name>Wolf, Andreas</name>
+  </teacher>
+  <teacher>
+    <id>Wof</id>
+    <name>Wolf, J&#xFC;rgen</name>
+  </teacher>
+  <teacher>
+    <id>Wol</id>
+    <name>Wolf, Seb</name>
+  </teacher>
+  <teacher>
+    <id>W&#xF6;n</id>
+    <name>W&#xF6;rner, Benjamin</name>
+  </teacher>
+  <teacher>
+    <id>W&#xF6;r</id>
+    <name>W&#xF6;rner, Sascha</name>
+  </teacher>
+  <teacher>
+    <id>Wpl</id>
+    <name>Wienpahl</name>
+  </teacher>
+  <teacher>
+    <id>Wrn</id>
+    <name>Werner, Laura</name>
+  </teacher>
+  <teacher>
+    <id>Wsl</id>
+    <name>Weisel</name>
+  </teacher>
+  <teacher>
+    <id>Wth</id>
+    <name>Wirth</name>
+  </teacher>
+  <teacher>
+    <id>Wty</id>
+    <name>Wittofsky</name>
+  </teacher>
+  <teacher>
+    <id>Wue</id>
+    <name>Wuest, Eduard</name>
+  </teacher>
+  <teacher>
+    <id>Wvs</id>
+    <name>Wevelsiep</name>
+  </teacher>
+  <teacher>
+    <id>Ww</id>
+    <name>Weisweiler</name>
+  </teacher>
+  <teacher>
+    <id>Wz</id>
+    <name>Weitzel</name>
+  </teacher>
+  <teacher>
+    <id>Yil</id>
+    <name>Yilmaz</name>
+  </teacher>
+  <teacher>
+    <id>ZHo</id>
+    <name>Zeller-Hofer</name>
+  </teacher>
+  <teacher>
+    <id>Zim</id>
+    <name>Zimmer, Fr.</name>
+  </teacher>
+  <teacher>
+    <id>Zl</id>
+    <name>Zielke</name>
+  </teacher>
+  <teacher>
+    <id>Znn</id>
+    <name>Zinn, Stefan</name>
+  </teacher>
+</TeacherList>

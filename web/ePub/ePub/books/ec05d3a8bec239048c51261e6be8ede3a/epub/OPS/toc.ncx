@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="de">
+	<head>
+		<meta name="dtb:uid" content="Nr.1341"/>
+		<meta name="dtb:depth" content="1"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="0"/>
+	</head>
+	<docTitle>
+		<text>Nr. 1341 Der Landser</text>
+	</docTitle>
+	<navMap>
+	<navPoint id="1" playOrder="1">
+	  <navLabel>
+	   <text>Cover</text>
+	  </navLabel>
+	<content src="xhtml/cover.html"/>
+	</navPoint>
+	<navPoint id="2" playOrder="2">
+	  <navLabel>
+	   <text>Eichenlaubtr&#228;ger der Luftwaffe</text>
+	  </navLabel>
+	<content src="xhtml/author.html"/>
+	</navPoint>
+	<navPoint id="3" playOrder="3">
+	  <navLabel>
+	   <text>Impressum</text>
+	  </navLabel>
+	<content src="xhtml/copyright.html"/>
+	</navPoint>
+	<navPoint id="4" playOrder="4">
+	  <navLabel>
+	   <text>Sp&#228;hwagen nach Stalingrad</text>
+	  </navLabel>
+	<content src="xhtml/chapter03.html"/>
+	</navPoint>
+	<navPoint id="5" playOrder="5">
+	  <navLabel>
+	   <text>LANDSER-Magazin</text>
+	  </navLabel>
+	<content src="xhtml/chapter05.html"/>
+	</navPoint>
+	<navPoint id="6" playOrder="6">
+	  <navLabel>
+	   <text>Grumman F3F-2</text>
+	  </navLabel>
+	<content src="xhtml/chapter09.html"/>
+	</navPoint>
+	<navPoint id="7" playOrder="7">
+	  <navLabel>
+	   <text>Amerikanische Kriegsflugzeuge</text>
+	  </navLabel>
+	<content src="xhtml/chapter10.html"/>
+	</navPoint>
+	<navPoint id="8" playOrder="8">
+	  <navLabel>
+	   <text>Anmerkungen</text>
+	  </navLabel>
+	<content src="xhtml/anmerkungen.html"/>
+	</navPoint>
+</navMap>
+</ncx>

@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 206</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>PG1&#xDC;</lectureID>
+    <lectureName>Programmierung 1 &#xDC;bung</lectureName>
+    <teacherID>Eu</teacherID>
+    <teacherName>Euler</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A8 003a+b</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA1</lectureID>
+    <lectureName>Lineare Algebra 1</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 101</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>FIM</lectureID>
+    <lectureName>Finanzmathematik</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A3 U107</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA2</lectureID>
+    <lectureName>Lineare Algebra 2</lectureName>
+    <teacherID>Hs</teacherID>
+    <teacherName>Hausmann, Prof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A1 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AN2</lectureID>
+    <lectureName>Analysis 2</lectureName>
+    <teacherID>Bc</teacherID>
+    <teacherName>Bruchlos</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A3 U113</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>STO&#xDC;</lectureID>
+    <lectureName>Stochastik &#xDC;bungen</lectureName>
+    <teacherID>Hs</teacherID>
+    <teacherName>Hausmann, Prof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A4 114</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PG1&#xDC;</lectureID>
+    <lectureName>Programmierung 1 &#xDC;bung</lectureName>
+    <teacherID>Eu</teacherID>
+    <teacherName>Euler</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A2 206</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AN1&#xDC;</lectureID>
+    <lectureName>AN1&#xDC;</lectureName>
+    <teacherID>Ab</teacherID>
+    <teacherName>Abel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A4 121</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PG1&#xDC;</lectureID>
+    <lectureName>Programmierung 1 &#xDC;bung</lectureName>
+    <teacherID>Lu</teacherID>
+    <teacherName>Lucke, Carsten</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A3 U110</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>STO</lectureID>
+    <lectureName>Stochastik</lectureName>
+    <teacherID>Hs</teacherID>
+    <teacherName>Hausmann, Prof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 101</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA1</lectureID>
+    <lectureName>Lineare Algebra 1</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>B1 103</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>PG1</lectureID>
+    <lectureName>Programmierung 1</lectureName>
+    <teacherID>Eu</teacherID>
+    <teacherName>Euler</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 103</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>AN1</lectureID>
+    <lectureName>Analysis 1</lectureName>
+    <teacherID>Ab</teacherID>
+    <teacherName>Abel</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A1 101</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AN2L</lectureID>
+    <lectureName>Analysis 2 Lerngruppe</lectureName>
+    <teacherID>Bc</teacherID>
+    <teacherName>Bruchlos</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>B1 103</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>LA2&#xDC;</lectureID>
+    <lectureName>Lineare Algebra 2  &#xDC;bungen</lectureName>
+    <teacherID>Hs</teacherID>
+    <teacherName>Hausmann, Prof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A4 012</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>STO</lectureID>
+    <lectureName>Stochastik</lectureName>
+    <teacherID>Hs</teacherID>
+    <teacherName>Hausmann, Prof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A3 U110</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AN2</lectureID>
+    <lectureName>Analysis 2</lectureName>
+    <teacherID>Bc</teacherID>
+    <teacherName>Bruchlos</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A2 U113</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>AN2&#xDC;</lectureID>
+    <lectureName>Analysis 2 &#xDC;bungen</lectureName>
+    <teacherID>Bc</teacherID>
+    <teacherName>Bruchlos</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A3 210</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA1&#xDC;</lectureID>
+    <lectureName>&#xDC;bungen zur LA 1</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A4 012</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>STO&#xDC;</lectureID>
+    <lectureName>Stochastik &#xDC;bungen</lectureName>
+    <teacherID>Hs</teacherID>
+    <teacherName>Hausmann, Prof</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A3 U110</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>LA2T</lectureID>
+    <lectureName>Lineare Algebra 2 Tutorium</lectureName>
+    <teacherID>Kuc</teacherID>
+    <teacherName>Kushnirevych</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A8 106a+b</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>FIM&#xDC;</lectureID>
+    <lectureName>Finanzmathematik &#xDC;bungen</lectureName>
+    <teacherID>Kk</teacherID>
+    <teacherName>Kockmann</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A3 U105</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>STO1T</lectureID>
+    <lectureName>STO1T</lectureName>
+    <teacherID>Sct</teacherID>
+    <teacherName>Schmidt, Daniel</teacherName>
+  </lecture>
+</TimeTable>

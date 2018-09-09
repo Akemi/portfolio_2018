@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  SameGlobe
+
+  Created by Akemi on 13/05/2013.
+  Copyright (c) 2013 Akemi. All rights reserved.
+*/
+
+"3 colors" = "3 Colours";
+"4 colors" = "4 Colours";
+"5 colors" = "5 Colours";
+
+"easy" = "Easy";
+"normal" = "Normal";
+"hard" = "Hard";
+
+"scorelist" = "Highscore";
+"your points %d" = "Your Points: %d";
+"colour" = "Colours";
+
+"slogan fb" = "Like us on Facebook.";
+"slogan twitter" = "Follow us on Twitter.";
+"slogan gsc" = "Join us for your global hop(e).";

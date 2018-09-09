@@ -1,0 +1,66 @@
+[
+    {
+        "aufgabe":"Warum ist das Verhalten auf folgendem Bild unhöflich?",
+        "type":"singleImage",
+        "bild":"quiz1.jpg",
+        "answers":["Es ist nicht unhöflich", "Es erinnert an einen Brauch bei einer Beerdigung", "Stäbchen könnten umfallen"],
+        "rightanswer":[1],
+        "hint":"Räucherstäbchen werden auch bei Beerdigungen benutzt.",
+        "feedback":"Bei Beerdigungen werden nach brauch Räucherstäbchen angezündet. Essstäbchen in den Reis stecken erinnert daran."
+    },{
+        "aufgabe":"Wie begrüßt man sich richtig in Japan?",
+        "type":"multipleImage",
+        "answers":["verhalt-1.png", "verhalt-2.png", "verhalt-3.png", "verhalt-4.png"],
+        "rightanswer":[1],
+        "hint":"Man grüßt sich anders wie im bei uns.",
+        "feedback":"Eine leichte Verbeugung ist die normale Grußform in Japan."
+    },{
+        "aufgabe":"Was drückst du mit Hilfe dieser Geste aus?",
+        "type":"singleImage",
+        "bild":"Entschuldigung darf ich Sie etwas fragen.jpg",
+        "answers":["Ich möchte jemanden etwas fragen.", "Ich bin verärgert.", "Ich gehe lieber.", "Es tut mir leid. "],
+        "rightanswer":[0],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Ein Japaner würde sich bei dieser Begrüßung sehr angegriffen fühlen. Welche Fehler wurden hier gemacht?",
+        "type":"singleImageMultiple",
+        "bild":"begrussung europaisch.jpg",
+        "answers":["Man begrüßt keine Frauen", "Hand geben", "Augenkontakt"],
+        "rightanswer":[1, 2],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Wie sollte deine Begrüßung aussehen, wenn du als Ausländer in Japan unterwegs bist?",
+        "type":"multipleImage",
+        "answers":["Verbeugung 45.jpg", "Verbeugung 30.jpg", "Verbeugung 15.jpg"],
+        "rightanswer":[2],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Wie drückst du mit Hilfe japanischer Körpersprache aus, dass du genervt bist?",
+        "type":"multipleImageMultiple",
+        "answers":["Ich bin genervt1.jpg", "Ich bin wutend!.jpg", "Ich rede uber mich.jpg", "Ich bin genervt2.jpg"],
+        "rightanswer":[0, 3],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Was solltest du beachten, wenn du mit Japanern isst und trinkst?",
+        "type":"multiple",
+        "answers":["Das Essen wird mit \"Itadakimasu\" eingeleitet, was so viel wie \"Guten Appetit\" heißt.", "Der Reis wird immer aufgegessen", "Anderen darfst du Getränke einschenken, sie dir aber auch.", "Ein gewisser Geräuschpegel ist beim Essen von Nudeln erlaubt."],
+        "rightanswer":[1, 2, 3],
+        "hint":"",
+        "feedback":""
+    },{
+        "aufgabe":"Die Wörtchen \"nein\" (\"iee\") und \"ja\" (\"hai\") haben einige Besonderheiten. Welche stimmen?",
+        "type":"single",
+        "answers":["Japaner sagen es oft, da dies besonders dem Gegenüber schnell verdeutlicht, dass einem etwas nicht passt.", "Man wird eher ausweichend reagieren, als direkt \"iee\" zu sagen.", "\"hai\" wird gerne als Aufmerksamkeitsbestätigung eingestreut. \"haihai\" stellt eine noch bessere Alternative dar."],
+        "rightanswer":[1],
+        "hint":"",
+        "feedback":""
+    },{
+        "feedback1":"Prima, du hast die japanischen Benimmregeln und Körpergesten richtig gut verinnerlicht. Weiter so!",
+        "feedback2":"Wie sich Japaner benehmen und verhalten hast du im Großen und Ganzen verstanden. Sehr gut!",
+        "feedback3":"Japanische Benimmregeln und die Körpergesten zu begreifen ist nicht so einfach. Lies am besten noch einmal den Abschnitt, um dich besser auf deinen Trip vorzubereiten."
+    }
+]

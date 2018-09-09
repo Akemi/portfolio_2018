@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GSCFeed</string>
+    <string name="widget_text">Global Success Club News Feed</string>
+    <string name="empty_sting">No News</string>
+    <string name="title_activity_gscfeed_config">GSCFeed Config</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Canvas Beispiel mit Canvas Welt Bibliothek</title>
+    <meta charset="UTF-8"/>
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="../kern/esa.css"/>
+    <script src="dom.js"></script>
+    <script src="welt.js"></script>
+    <script>
+        window.onload = function () {
+            //if (top["bib"]) { top.bib.dl({ doc: document, id: 'DL1', show_idx: [ ] }); }
+        };
+    </script>
+</head>
+<body>
+
+
+<h1>Canvas Beispiel mit Canvas Welt Bibliothek</h1>
+
+<div style="padding:0.3em;">
+    <h2>Koordinatensystemmaße</h2>
+    <select size="1" class="overflow_hidden" style="width:160px;" onchange="try{eval(this.options[this.selectedIndex].value);this.selectedIndex=0;}catch(e){dom.show(e);}">
+        <option value="void(0)">Beispiele</option>
+        <option value="setExample(1)">Beispiel 1</option>
+        <option value="setExample(2)">Beispiel 2</option>
+        <option value="setExample(3)">Beispiel 3</option>
+        <option value="setExample(4)">Beispiel 4</option>
+        <option value="setExample(5)">Beispiel 5</option>
+        <option value="setExample(6)">Beispiel 6</option>
+        <option value="setExample(7)">Beispiel 7</option>
+        <option value="setExample(8)">Beispiel 8</option>
+        <option value="setExample(9)">Beispiel 9</option>
+    </select>
+    <br>
+    Min. x-Wert: <input type="text" name="xAxisMin" value="-10">
+    Max. x-Wert: <input type="text" name="xAxisMax" value="10"><br>
+    Min. y-Wert: <input type="text" name="yAxisMin" value="-10">
+    Max. y-Wert: <input type="text" name="yAxisMax" value="10"><br>
+    Abschnitte pro Marker: <input type="text" name="unitsPerMarker" value="1">
+    Markergröße: <input type="text" name="markSize" value="0.5">
+    <h2>Funktion</h2>
+    f(x) = <input type="text" name="markSize" value="x * x">
+    Farbe <input type="text" name="color" value="red">
+    Liniendicke <input type="text" name="thickness" value="1">
+    Redraw <input type="checkbox" name="redraw" checked>
+    <a class="button" href="javascript:void(0)" onclick="drawNewSystem();">Anzeigen</a><br>
+
+    <div id="coordinates"></div>
+    <canvas id="canvas" width="200" height="200"></canvas>
+
+</div>
+
+<script>
+    function CartesianCoordinateSystem(canvasID, xAxisMin, xAxisMax, yAxisMin, yAxisMax, unitsPerMarker, markSize) {
+        welt.init_canvas(canvasID, { width: 600, height: 500, xmin: xAxisMin, xmax: xAxisMax, ymin: yAxisMin, ymax: yAxisMax});
+        this.ctx = welt.get_ctx_von(canvasID);
+        // conf values
+        this.xAxisMin = xAxisMin;
+        this.xAxisMax = xAxisMax;
+        this.yAxisMin = yAxisMin;
+        this.yAxisMax = yAxisMax;
+        this.unitsPerMarker = unitsPerMarker;
+        this.markSize = markSize;
+        this.drawResolution = 20;
+        this.lastEqu = function(x) {return 0;};
+
+        // function to draw the axis
+        this.drawAxis = function() {
+            // draw x and y axis
+            welt.save();
+            welt.beginPath();
+            welt.moveTo(this.xAxisMin, 0);
+            welt.lineTo(this.xAxisMax, 0);
+            welt.moveTo(0, this.yAxisMin);
+            welt.lineTo(0, this.yAxisMax);
+            welt.stroke();
+
+            // draw marks for axises
+            this.ctx.textAlign = 'center';
+            this.ctx.textBaseline = 'top';
+            for(var xAxisPos = 0+parseInt(this.unitsPerMarker); xAxisPos < xAxisMax; xAxisPos += this.unitsPerMarker) {
+                welt.moveTo(xAxisPos, -this.markSize/2);
+                welt.lineTo(xAxisPos, this.markSize/2);
+                welt.stroke();
+                welt.fillText(String(xAxisPos), xAxisPos, -this.markSize/2);
+            }
+            for(var xAxisPos = 0-parseInt(this.unitsPerMarker); xAxisPos > xAxisMin; xAxisPos -= this.unitsPerMarker) {
+                welt.moveTo(xAxisPos, -this.markSize/2);
+                welt.lineTo(xAxisPos, this.markSize/2);
+                welt.stroke();
+                welt.fillText(String(xAxisPos), xAxisPos, -this.markSize/2);
+            }
+            this.ctx.textAlign = 'right';
+            this.ctx.textBaseline = 'middle';
+            for(var yAxisPos = 0+this.unitsPerMarker; yAxisPos < yAxisMax; yAxisPos += this.unitsPerMarker) {
+                welt.moveTo(-this.markSize/2, yAxisPos);
+                welt.lineTo(this.markSize/2, yAxisPos);
+                welt.stroke();
+                welt.fillText(String(yAxisPos), -this.markSize, yAxisPos);
+            }
+            for(var yAxisPos = 0-this.unitsPerMarker; yAxisPos > yAxisMin; yAxisPos -= this.unitsPerMarker) {
+                welt.moveTo(-this.markSize/2, yAxisPos);
+                welt.lineTo(this.markSize/2, yAxisPos);
+                welt.stroke();
+                welt.fillText(String(yAxisPos), -this.markSize, yAxisPos);
+            }
+            welt.restore();
+        };
+
+        // function to draw equations
+        this.drawEquation = function(equation, graphColor, graphLineWidth) {
+            this.lastEqu = equation;
+            welt.save();
+            welt.beginPath();
+            welt.moveTo(this.xAxisMin, equation(this.xAxisMin));
+            for(var x = this.xAxisMin; x <= this.xAxisMax; x += 1/this.drawResolution) {
+                welt.lineTo(x, equation(x));
+            }
+            this.ctx.strokeStyle = graphColor;
+            this.ctx.lineWidth = graphLineWidth;
+            welt.stroke();
+            welt.restore();
+        }
+
+        this.drawAxis();
+
+        welt.add_event(canvasID, "mousemove", function (ev) {
+            var m = welt.MOUSE_BUF[canvasID];
+
+            var cord = welt.convertToWelt(m.i, m.j);
+            dom.set_dom_str("coordinates", "Cursor-Position-X: " + Math.round(cord.x*1000)/1000 + "<br>Cursor-Position-Y: " + Math.round(cord.y*1000)/1000 + "<br>Function-Position-Y: " + Math.round(ccs.lastEqu(cord.x)*1000)/1000);
+        });
+    }
+
+
+    var ccs = new CartesianCoordinateSystem("canvas", -10, 10, -10, 10, 1, 0.5);
+
+    function drawNewSystem() {
+        var data = dom.get_node_strings(dom.get_node_list('input[type=text]'));
+        var redraw = dom.get_node_list('input[type=checkbox]');
+        if(redraw[0].checked == true) {
+            ccs = new CartesianCoordinateSystem("canvas", parseInt(data[0]), parseInt(data[1]), parseInt(data[2]), parseInt(data[3]), parseFloat(data[4]), parseFloat(data[5]));
+            ccs.drawEquation(function(x) {return eval(data[6]);}, data[7], parseInt(data[8]));
+        }
+        else {
+            ccs.drawEquation(function(x) {return eval(data[6]);}, data[7], parseInt(data[8]));
+        }
+    }
+
+    function setExample(id) {
+        var data = dom.get_node_list('input[type=text]');
+        switch(id) {
+            case 1:
+                dom.set_node_strings(data, ['-10', '10', '-10', '10', '1', '0.5', 'x * x', 'red', '1']);
+                break;
+            case 2:
+                dom.set_node_strings(data, ['-10', '10', '-10', '10', '2', '0.5', '1 * x', 'blue', '2']);
+                break;
+            case 3:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '1', '0.5', 'Math.sin(x)*x', '#f1a', '1']);
+                break;
+            case 4:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '1', '0.5', 'Math.cos(x)*x', '#a156d9', '1']);
+                break;
+            case 5:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '1', '0.5', 'Math.random()*12-6', '#d9a156', '1']);
+                break;
+            case 6:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '2', '0.5', 'Math.exp(x)', '#56d9a1', '1']);
+                break;
+            case 7:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '2', '0.5', 'Math.log(x)', '#56d9a1', '1']);
+                break;
+            case 8:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '2', '0.5', 'Math.sqrt(x)', '#00afd3', '1']);
+                break;
+            case 9:
+                dom.set_node_strings(data, ['-15', '15', '-9', '9', '2', '0.5', 'Math.tan(x)', '#d300af', '1']);
+                break;
+        }
+    }
+</script>
+
+
+</body>
+</html>
+
+

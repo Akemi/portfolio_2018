@@ -1,0 +1,86 @@
+[
+    {
+        "dayID": 4,
+        "day": "Friday",
+        "occurrence": "both",
+        "block": 2,
+        "room": "B2 101",
+        "lectureLength": 2,
+        "lectureID": "AMC",
+        "lectureName": "Angewandte Mikrocomputertechnik",
+        "teacherID": "Mr",
+        "teacherName": "Merkel, Prof."
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A2 117",
+        "lectureLength": 1,
+        "lectureID": "SP3",
+        "lectureName": "Spanisch 3",
+        "teacherID": "Pal",
+        "teacherName": "Penaloza"
+    },
+    {
+        "dayID": 3,
+        "day": "Thursday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A4 014",
+        "lectureLength": 1,
+        "lectureID": "ASP",
+        "lectureName": "Astrophysik",
+        "teacherID": "Oh",
+        "teacherName": "Ohlert"
+    },
+    {
+        "dayID": 4,
+        "day": "Friday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A1 101",
+        "lectureLength": 2,
+        "lectureID": "SPB",
+        "lectureName": "Spanisch f\u00fcr den Beruf",
+        "teacherID": "Pal",
+        "teacherName": "Penaloza"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 5,
+        "room": "A2 117",
+        "lectureLength": 2,
+        "lectureID": "FZB",
+        "lectureName": "Franz\u00f6sisch f\u00fcr den beruf",
+        "teacherID": "Cho",
+        "teacherName": "Choblet"
+    },
+    {
+        "dayID": 3,
+        "day": "Thursday",
+        "occurrence": "both",
+        "block": 5,
+        "room": "A4 014",
+        "lectureLength": 1,
+        "lectureID": "ASPL",
+        "lectureName": "Astrophysik Labor",
+        "teacherID": "Oh",
+        "teacherName": "Ohlert"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 7,
+        "room": "A4 014",
+        "lectureLength": 1,
+        "lectureID": "Spiel",
+        "lectureName": "Spiel",
+        "teacherID": "Asta",
+        "teacherName": "Asta"
+    }
+]

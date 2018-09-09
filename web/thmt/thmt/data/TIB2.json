@@ -1,0 +1,122 @@
+[
+    {
+        "dayID": 0,
+        "day": "Monday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A4 121",
+        "lectureLength": 2,
+        "lectureID": "OPL",
+        "lectureName": "Labor zur Objektorientierte Programmierung",
+        "teacherID": "Bs",
+        "teacherName": "Baums"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A2 U117",
+        "lectureLength": 1,
+        "lectureID": "ET2\u00dc",
+        "lectureName": "\u00dcbungen zu Elektrotechnik 2",
+        "teacherID": "Hap",
+        "teacherName": "Happek, Tilman"
+    },
+    {
+        "dayID": 3,
+        "day": "Thursday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A2 117",
+        "lectureLength": 2,
+        "lectureID": "TE",
+        "lectureName": "Technisches Englisch",
+        "teacherID": "Sto",
+        "teacherName": "Storbeck"
+    },
+    {
+        "dayID": 5,
+        "day": "Saturday",
+        "occurrence": "both",
+        "block": 1,
+        "room": "A3 U112",
+        "lectureLength": 2,
+        "lectureID": "MMT",
+        "lectureName": "Mathematische Modellierung technischer Systeme",
+        "teacherID": "Skb",
+        "teacherName": "Sakhibov"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 2,
+        "room": "A3 208",
+        "lectureLength": 1,
+        "lectureID": "PP",
+        "lectureName": "Problemorientierte Programmierung",
+        "teacherID": "Llg",
+        "teacherName": "Langstrof"
+    },
+    {
+        "dayID": 0,
+        "day": "Monday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "A4 118",
+        "lectureLength": 1,
+        "lectureID": "OP",
+        "lectureName": "Objektorientierte Programmierung",
+        "teacherID": "Bs",
+        "teacherName": "Baums"
+    },
+    {
+        "dayID": 1,
+        "day": "Tuesday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "A4 117",
+        "lectureLength": 1,
+        "lectureID": "PPL",
+        "lectureName": "Labor f\u00fcr problemorientierte Programmierung",
+        "teacherID": "Llg",
+        "teacherName": "Langstrof"
+    },
+    {
+        "dayID": 3,
+        "day": "Thursday",
+        "occurrence": "both",
+        "block": 3,
+        "room": "A2 117",
+        "lectureLength": 1,
+        "lectureID": "MMT\u00dc",
+        "lectureName": "Mathematische Modellierung technischer Systeme \u00dcbungen",
+        "teacherID": "Skb",
+        "teacherName": "Sakhibov"
+    },
+    {
+        "dayID": 2,
+        "day": "Wednesday",
+        "occurrence": "both",
+        "block": 4,
+        "room": "A3 306",
+        "lectureLength": 2,
+        "lectureID": "DTL",
+        "lectureName": "Digitaltechnik-Labor",
+        "teacherID": "Gr",
+        "teacherName": "Gr\u00e4fe"
+    },
+    {
+        "dayID": 0,
+        "day": "Monday",
+        "occurrence": "both",
+        "block": 5,
+        "room": "A1 002",
+        "lectureLength": 2,
+        "lectureID": "ET2",
+        "lectureName": "Elektrotechnik 2,",
+        "teacherID": "Li",
+        "teacherName": "Leitis"
+    }
+]

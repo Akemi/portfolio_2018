@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 112</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>MSAL</lectureID>
+    <lectureName>Mess- und Sensortechnik Labor</lectureName>
+    <teacherID>Ms</teacherID>
+    <teacherName>Messer, Markus</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>MSA</lectureID>
+    <lectureName>Mess- und Sensortechnik</lectureName>
+    <teacherID>Ms</teacherID>
+    <teacherName>Messer, Markus</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>4</dayID>
+    <day>Friday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A8 001</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ENT</lectureID>
+    <lectureName>Energietechnik, Einf&#xFC;hrung in die</lectureName>
+    <teacherID>Ko</teacherID>
+    <teacherName>Kovalev</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A2 U117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>EW&#xDC;</lectureID>
+    <lectureName>EW&#xDC;</lectureName>
+    <teacherID>Omo</teacherID>
+    <teacherName>Omoruyi, John</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>A8 003</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>MRT&#xDC;</lectureID>
+    <lectureName>Mikro Rechner Technik &#xDC;bungen</lectureName>
+    <teacherID>Oeh</teacherID>
+    <teacherName>Oehler, Dr.</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A2 117</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>MRT</lectureID>
+    <lectureName>Mikro Rechner (Controller) Technik</lectureName>
+    <teacherID>Wb</teacherID>
+    <teacherName>Weber, Dr</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A3 U107</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SYR</lectureID>
+    <lectureName>Systemtheorie und Regelungstechnik</lectureName>
+    <teacherID>Ku</teacherID>
+    <teacherName>Kuznietsov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A3 210</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>SYR&#xDC;</lectureID>
+    <lectureName>Systemtheorie und Regelungstechnik &#xDC;bung</lectureName>
+    <teacherID>Ku</teacherID>
+    <teacherName>Kuznietsov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A4 202</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>SYRL</lectureID>
+    <lectureName>Systemtheorie und Regelungstechnik Labor</lectureName>
+    <teacherID>Ku</teacherID>
+    <teacherName>Kuznietsov</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>3</dayID>
+    <day>Thursday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A8 001</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>EW</lectureID>
+    <lectureName>EW</lectureName>
+    <teacherID>Mb</teacherID>
+    <teacherName>Minkenberg</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>6</block>
+    <room>A3 U105</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>EW&#xDC;</lectureID>
+    <lectureName>EW&#xDC;</lectureName>
+    <teacherID>Mb</teacherID>
+    <teacherName>Minkenberg</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>7</block>
+    <room>A2 U111</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>ENT&#xDC;</lectureID>
+    <lectureName>ENT&#xDC;</lectureName>
+    <teacherID>Ko</teacherID>
+    <teacherName>Kovalev</teacherName>
+  </lecture>
+</TimeTable>

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<DegreeList>
+  <degree>
+    <id>AE</id>
+    <name>Allgemeine Elektrotechnik</name>
+  </degree>
+  <degree>
+    <id>MP</id>
+    <name>Medizinische Physik und Strahlenschutz</name>
+  </degree>
+  <degree>
+    <id>AEG</id>
+    <name>AE getting started</name>
+  </degree>
+  <degree>
+    <id>NC</id>
+    <name>Nachrichtentechnik und Computernetze</name>
+  </degree>
+  <degree>
+    <id>AG</id>
+    <name>AE Schwerpkt Geb&#xE4;udeautomation</name>
+  </degree>
+  <degree>
+    <id>NCG</id>
+    <name>NC getting started</name>
+  </degree>
+  <degree>
+    <id>AV</id>
+    <name>Angewandte Vakuumtechnik</name>
+  </degree>
+  <degree>
+    <id>PT</id>
+    <name>Physikalische Technik</name>
+  </degree>
+  <degree>
+    <id>BI</id>
+    <name>Bahningenieurwesen</name>
+  </degree>
+  <degree>
+    <id>OBV</id>
+    <name>Optotechnik und Bildverarbeitung</name>
+  </degree>
+  <degree>
+    <id>EI</id>
+    <name>Elektro- und Informationstechnik</name>
+  </degree>
+  <degree>
+    <id>SC</id>
+    <name>Supply Chain Management</name>
+  </degree>
+  <degree>
+    <id>FM</id>
+    <name>Facility Management</name>
+  </degree>
+  <degree>
+    <id>TI</id>
+    <name>Technische Informatik</name>
+  </degree>
+  <degree>
+    <id>IC</id>
+    <name/>
+  </degree>
+  <degree>
+    <id>WK</id>
+    <name>Wirtschaftsinformatik</name>
+  </degree>
+  <degree>
+    <id>IK</id>
+    <name>Inform.- und Kommunikationstechnik</name>
+  </degree>
+  <degree>
+    <id>WI</id>
+    <name>Wirtschaftsingenieurwesen</name>
+  </degree>
+  <degree>
+    <id>LG</id>
+    <name>Logistik</name>
+  </degree>
+  <degree>
+    <id>WE</id>
+    <name>WI Industrie Elektrotechnik</name>
+  </degree>
+  <degree>
+    <id>MA</id>
+    <name>Wirtschaftsmathematik</name>
+  </degree>
+  <degree>
+    <id>WL</id>
+    <name>WI Industrie Life Cycle Management</name>
+  </degree>
+  <degree>
+    <id>MB</id>
+    <name>Maschinenbau</name>
+  </degree>
+  <degree>
+    <id>WM</id>
+    <name>WI Industrie Maschinenbau</name>
+  </degree>
+  <degree>
+    <id>ME</id>
+    <name>Mechatronik</name>
+  </degree>
+  <degree>
+    <id>WF</id>
+    <name>WI Immobilie Facility&#xA0; Management</name>
+  </degree>
+  <degree>
+    <id>MI</id>
+    <name>Medieninformatik</name>
+  </degree>
+  <degree>
+    <id>WT</id>
+    <name>WI Immobilie Tech. Asset Management</name>
+  </degree>
+  <degree>
+    <id>MM</id>
+    <name>Maschinenbau / Mechatronik</name>
+  </degree>
+</DegreeList>

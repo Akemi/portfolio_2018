@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+
+    <title>Heartcatch Precure</title>
+
+    <script type="text/javascript" src="../jquery.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Merienda:400,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        body {
+            margin: 0px;
+            font-family: 'Merienda', cursive;
+            font-size: 14px;
+            line-height: 165%;
+            color: #162057;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: #8036ff;
+            text-decoration: none;
+            transition: 1s;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #2ebfba;
+        }
+
+        b {
+            font-weight: bold;
+            color: #ef815c;
+            display: inline-block;
+            margin-top: 3px;
+        }
+
+        .link-anidb:before { content: url('http://anidb.net/favicon.ico'); }
+        .link-ann:before { content: url('http://www.animenewsnetwork.com/favicon.ico'); }
+        .link-mal:before { content: url('http://myanimelist.net/favicon.ico'); }
+
+        .links {
+            text-align: center;
+            display: inline-block;
+        }
+        .links > a {
+            padding: 0px 2px 0px 2px;
+            opacity: 0.5;
+        }
+        .links > a:hover {
+            opacity: 1.0;
+        }
+        #groupLink {
+            margin: 0px 70px 0px 70px;
+        }
+
+        /* http://www.colorzilla.com/gradient-editor/#f3a5d9+0,ee88d1+28,b496e8+41,9be5f8+67,9becf7+100;Custom */
+        #frame {
+            width: 970px;
+            height: 650px;
+            position: relative;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background: #f3a5d9;
+            background: -moz-radial-gradient(center, ellipse cover, #f3a5d9 0%, #ee88d1 28%, #b496e8 41%, #9be5f8 67%, #9becf7 100%);
+            background: -webkit-radial-gradient(center, ellipse cover, #f3a5d9 0%, #ee88d1 28%, #b496e8 41%, #9be5f8 67%, #9becf7 100%);
+            background: -o-radial-gradient(center, ellipse cover, #f3a5d9 0%, #ee88d1 28%, #b496e8 41%, #9be5f8 67%, #9becf7 100%);
+            background: -ms-radial-gradient(center, ellipse cover, #f3a5d9 0%, #ee88d1 28%, #b496e8 41%, #9be5f8 67%, #9becf7 100%);
+            background: radial-gradient(ellipse at center, #f3a5d9 0%, #ee88d1 28%, #b496e8 41%, #9be5f8 67%, #9becf7 100%);
+            background-size: 200% 300%;
+            background-position: -00px -250px;
+        }
+
+        #info {
+            width: 400px;
+            position: absolute;
+            bottom: 0px;
+            left: 295px;
+            background-color: rgba(255, 255, 255, 0.75);
+            padding: 0px 10px 10px 10px;
+            text-align: center;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            z-index: 3;
+            box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75),0px 0px 20px 0px rgba(255, 255, 255, 0.75),0px 0px 20px 0px rgba(255, 255, 255, 0.75);
+        }
+
+        #finfo,
+        #sinfo {
+            display: table;
+            width: 100%;
+        }
+
+        #summary {
+            margin-top: 10px;
+            padding: 0px 7px 0px 7px;
+            font-size: 13px;
+        }
+
+        .line {
+            display: table-row;
+        }
+        .left {
+            display: table-cell;
+            text-align: right;
+            padding-right: 5px;
+            width: 50%;
+        }
+        .right {
+            display: table-cell;
+            text-align: left;
+            padding-left: 5px;
+            width: 50%;
+        }
+
+        .right > b {
+            color: #d11270;
+        }
+        .right > a {
+            color: #ff9adb;
+        }
+        .right > a:hover {
+            color: #b5a3f1;
+        }
+
+        .left > b {
+            color: #1a73b8;
+        }
+        .left > a {
+            color: #62deed;
+        }
+        .left > a:hover {
+            color: #b5a3f1;
+        }
+
+        /* http://www.colorzilla.com/gradient-editor/#f01b28+0,f01b28+14,ec008b+25,ec008b+42,fda95f+71,f4f26e+84,f4f26e+100;Custom */
+        h1 {
+            margin: 0px;
+            text-align: center;
+            position: relative;
+            line-height: 30px;
+            font-size: 28px;
+            height: 30px;
+            padding: 15px 0px 7px 0px;
+        }
+        h1 > span {
+            position: absolute;
+            width: 100%;
+            display: block;
+            top: 0px;
+            padding-top: 2px;
+            margin: 15px 0px 7px 0px;
+        }
+        h1 > span:nth-child(1) {
+            color: #f2028b;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(-89deg, #f01b28 0%, #f01b28 14%, #ec008b 25%, #ec008b 42%, #fda95f 71%, #f4f26e 84%, #f4f26e 100%);
+            -webkit-background-clip: text;
+            z-index: 5;
+        }
+        h1 > span:nth-child(2) {
+            z-index: 4;
+            text-shadow: 1px 0 0 #fefefe, -1px 0 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 1px #fefefe, -1px -1px 0 #fefefe, 1px -1px 0 #fefefe, -1px 1px 0 #fefefe;
+        }
+        h1 > span:nth-child(3) {
+            z-index: 3;
+            text-shadow: 3px 0 1px #6e2327, -3px 0 1px #6e2327, 0 3px 1px #6e2327, 0 -3px 1px #6e2327, 2px 2px 1px #6e2327, -2px -2px 1px #6e2327, 2px -2px 1px #6e2327, -2px 2px 1px #6e2327, 3px 0 1px #6e2327, -3px 0 1px #6e2327, 0 3px 1px #6e2327, 0 -3px 1px #6e2327, 2px 2px 1px #6e2327, -2px -2px 1px #6e2327, 2px -2px 1px #6e2327, -2px 2px 1px #6e2327;
+        }
+
+        #marine {
+            background-image: url("marine.png");
+            width: 368px;
+            height: 429px;
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 0px;
+            left: -26px;
+            z-index: 9
+        }
+        #blossom {
+            background-image: url("blossom.png");
+            width: 339px;
+            height: 463px;
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 0px;
+            right: -34px;
+            z-index: 9
+        }
+
+        svg {
+            position: absolute;
+            z-index: 0;
+        }
+
+        #marineFlower1 {
+            bottom: 270px;
+            left: -40px;
+            height: 220px;
+            width: 220px;
+            -webkit-animation: spinLeft linear infinite 170s;
+            -moz-animation: spinLeft linear infinite 170s;
+            -o-animation: spinLeft linear infinite 170s;
+            -ms-animation: spinLeft linear infinite 170s;
+            animation: spinLeft linear infinite 170s;
+        }
+        #marineFlower2 {
+            bottom: 430px;
+            left: 150px;
+            height: 280px;
+            width: 280px;
+            -webkit-animation: spinRight linear infinite 220s;
+            -moz-animation: spinRight linear infinite 220s;
+            -o-animation: spinRight linear infinite 220s;
+            -ms-animation: spinRight linear infinite 220s;
+            animation: spinRight linear infinite 220s;
+        }
+        #marineFlower3 {
+            bottom: -40px;
+            left: 285px;
+            height: 130px;
+            width: 130px;
+            -webkit-animation: spinLeft linear infinite 90s;
+            -moz-animation: spinLeft linear infinite 90s;
+            -o-animation: spinLeft linear infinite 90s;
+            -ms-animation: spinLeft linear infinite 90s;
+            animation: spinLeft linear infinite 90s;
+        }
+        #marineFlower4 {
+            bottom: -40px;
+            left: -30px;
+            height: 190px;
+            width: 190px;
+            -webkit-animation: spinRight linear infinite 110s;
+            -moz-animation: spinRight linear infinite 110s;
+            -o-animation: spinRight linear infinite 110s;
+            -ms-animation: spinRight linear infinite 110s;
+            animation: spinRight linear infinite 110s;
+        }
+        #marineFlower5 {
+            bottom: 155px;
+            left: 215px;
+            height: 150px;
+            width: 150px;
+            -webkit-animation: spinRight linear infinite 90s;
+            -moz-animation: spinRight linear infinite 90s;
+            -o-animation: spinRight linear infinite 90s;
+            -ms-animation: spinRight linear infinite 90s;
+            animation: spinRight linear infinite 90s;
+        }
+        #marineFlower6 {
+            bottom: 220px;
+            left: 410px;
+            height: 200px;
+            width: 200px;
+            -webkit-animation: spinRight linear infinite 170s;
+            -moz-animation: spinRight linear infinite 170s;
+            -o-animation: spinRight linear infinite 170s;
+            -ms-animation: spinRight linear infinite 170s;
+            animation: spinRight linear infinite 170s;
+        }
+
+        #blossomFlower1 {
+            bottom: 430px;
+            left: 720px;
+            height: 360px;
+            width: 360px;
+            -webkit-animation: spinRight linear infinite 220s;
+            -moz-animation: spinRight linear infinite 220s;
+            -o-animation: spinRight linear infinite 220s;
+            -ms-animation: spinRight linear infinite 220s;
+            animation: spinRight linear infinite 220s;
+        }
+        #blossomFlower2 {
+            bottom: 480px;
+            left: 610px;
+            height: 140px;
+            width: 140px;
+            -webkit-animation: spinLeft linear infinite 90s;
+            -moz-animation: spinLeft linear infinite 90s;
+            -o-animation: spinLeft linear infinite 90s;
+            -ms-animation: spinLeft linear infinite 90s;
+            animation: spinLeft linear infinite 90s;
+        }
+        #blossomFlower3 {
+            bottom: 40px;
+            left: 570px;
+            height: 230px;
+            width: 230px;
+            -webkit-animation: spinLeft linear infinite 140s;
+            -moz-animation: spinLeft linear infinite 140s;
+            -o-animation: spinLeft linear infinite 140s;
+            -ms-animation: spinLeft linear infinite 140s;
+            animation: spinLeft linear infinite 140s;
+        }
+        #blossomFlower4 {
+            bottom: -70px;
+            left: 790px;
+            height: 290px;
+            width: 290px;
+            -webkit-animation: spinRight linear infinite 220s;
+            -moz-animation: spinRight linear infinite 220s;
+            -o-animation: spinRight linear infinite 220s;
+            -ms-animation: spinRight linear infinite 220s;
+            animation: spinRight linear infinite 220s;
+        }
+        #blossomFlower5 {
+            bottom: 250px;
+            left: 850px;
+            height: 190px;
+            width: 190px;
+            -webkit-animation: spinLeft linear infinite 220s;
+            -moz-animation: spinLeft linear infinite 220s;
+            -o-animation: spinLeft linear infinite 220s;
+            -ms-animation: spinLeft linear infinite 220s;
+            animation: spinLeft linear infinite 220s;
+        }
+
+        @-webkit-keyframes spinRight {
+            from { -webkit-transform: rotate(0deg); }
+            to { -webkit-transform: rotate(360deg); }
+        }
+        @-moz-keyframes spinRight {
+            from { -moz-transform: rotate(0deg); }
+            to { -moz-transform: rotate(360deg); }
+        }
+        @-o-keyframes spinRight {
+            from { -o-transform: rotate(0deg); }
+            to { -o-transform: rotate(360deg); }
+        }
+        @-ms-keyframes spinRight {
+            from { -ms-transform: rotate(0deg); }
+            to { -ms-transform: rotate(360deg); }
+        }
+        @keyframes spinRight {
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+
+        @-webkit-keyframes spinLeft {
+            from { -webkit-transform: rotate(360deg); }
+            to { -webkit-transform: rotate(0deg); }
+        }
+        @-moz-keyframes spinLeft {
+            from { -moz-transform: rotate(360deg); }
+            to { -moz-transform: rotate(0deg); }
+        }
+        @-o-keyframes spinLeft {
+            from { -o-transform: rotate(360deg); }
+            to { -o-transform: rotate(0deg); }
+        }
+        @-ms-keyframes spinLeft {
+            from { -ms-transform: rotate(360deg); }
+            to { -ms-transform: rotate(0deg); }
+        }
+        @keyframes spinLeft {
+            from {transform:rotate(360deg);}
+            to {transform:rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="frame">
+    <div id="marine"></div>
+    <div id="blossom"></div>
+
+    <div id="info">
+        <h1><span>Series Information</span><span>Series Information</span><span>Series Information</span></h1>
+
+        <div id="sinfo">
+            <div class="line">
+                <div class="left">2010 till 2011 <b>Air Date</b></div>
+                <div class="right"><b>Episodes</b> 49</div>
+            </div>
+            <div class="line">
+                <div class="left"><a href="http://anidb.net/cr2168">Nagamine Tatsuya</a> <b>Director</b></div>
+                <div class="right"><b>Production</b> <a href="http://anidb.net/cr1834">Toei Animation</a></div>
+            </div>
+        </div>
+
+        Contemporary Fantasy, Mahou Shoujo, Shoujo
+
+        <h1><span>File Information</span><span>File Information</span><span>File Information</span></h1>
+        <div class="links">
+            <a href="http://anidb.net/a7285" class="link-anidb"></a>
+            <a href="http://www.animenewsnetwork.com/encyclopedia/anime.php?id=11195" class="link-ann"></a>
+        </div>
+        <a href="" id="groupLink">InfoLink</a>
+        <div class="links">
+            <a href="http://myanimelist.net/anime/7645" class="link-mal"></a>
+        </div>
+
+        <div id="finfo">
+            <div class="line">
+                <div class="left">Content <b>Info1</b></div>
+                <div class="right"><b>Info2</b> Content</div>
+            </div>
+            <div class="line">
+                <div class="left">Content <b>Info3</b></div>
+                <div class="right"><b>Info4</b> Content</div>
+            </div>
+            <div class="line">
+                <div class="left" style="padding-right: 46px">Content</div>
+                <div class="right" style="padding-left: 48px">Content</div>
+            </div>
+        </div>
+
+        <div id="summary">
+            Tsubomi Hanasaki is a timid girl in the second year of middle school who adores flowers. Tsubomi and
+            family are returning to their hometown when she experiences a weird dream with a large withering tree and
+            a fairy fleeing the scene. The fairy that Tsubomi dreamt about confronts her a few days later and pleads
+            for her to become the next legendary warrior Pretty Cure and to restore the wilting 'Heart Tree'. Tsubomi
+            is forced to accept when a Desert Apostle strikes and steal the Heart Flower of <br>Erika Kurumi, Tsubomi's
+            new classmate. <br>To retrieve Erika's heartflower she transforms <br>into Cure Blossom and fights.
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // http://petercollingridge.appspot.com/svg-optimiser
+    marineFlower = $('<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500.00001 500.00001"><style>.style0{color-interpolation-filters:	sRGB;}.style1{display:	inline;}.style10{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5896);}.style11{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5892);}.style12{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5888);}.style13{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5884);}.style14{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5880);}.style15{display:	inline;fill:	none;stroke:	#ffffff;stroke-width:	4.39386797;filter:	url(#filter5876);}.style16{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5704);}.style17{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5700);}.style18{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5696);}.style19{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5692);}.style2{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5928);}.style20{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5688);}.style21{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5684);}.style22{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5680);}.style23{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5676);}.style24{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5672);}.style25{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5668);}.style26{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5664);}.style27{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5660);}.style28{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5656);}.style29{display:	inline;fill:	none;stroke:	#ffffff;stroke-width:	4.39386797;filter:	url(#filter5652);}.style3{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5924);}.style30{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;}.style31{display:	inline;fill:	none;stroke:	#ffffff;stroke-width:	4.39386797;}.style4{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5920);}.style5{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5916);}.style6{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5912);}.style7{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5908);}.style8{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5904);}.style9{fill:	none;fill-rule:	evenodd;stroke:	#ffffff;stroke-width:	4.5;filter:	url(#filter5900);}</style><defs id="defs4"><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter5652" class="style0"><feGaussianBlur id="feGaussianBlur5654" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.2" x="-0.1" id="filter5656" class="style0"><feGaussianBlur id="feGaussianBlur5658" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.1" x="-0" id="filter5660" class="style0"><feGaussianBlur id="feGaussianBlur5662" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.2" x="-0.1" id="filter5664" class="style0"><feGaussianBlur id="feGaussianBlur5666" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.1" x="-0" id="filter5668" class="style0"><feGaussianBlur id="feGaussianBlur5670" stdDeviation="2.3632471"/></filter><filter height="1.2" y="-0.1" width="1.1" x="-0" id="filter5672" class="style0"><feGaussianBlur id="feGaussianBlur5674" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0" id="filter5676" class="style0"><feGaussianBlur id="feGaussianBlur5678" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter5680" class="style0"><feGaussianBlur id="feGaussianBlur5682" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.1" x="-0.1" id="filter5684" class="style0"><feGaussianBlur id="feGaussianBlur5686" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0" id="filter5688" class="style0"><feGaussianBlur id="feGaussianBlur5690" stdDeviation="2.3632471"/></filter><filter height="1.2" y="-0.1" width="1.1" x="-0" id="filter5692" class="style0"><feGaussianBlur id="feGaussianBlur5694" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0" id="filter5696" class="style0"><feGaussianBlur id="feGaussianBlur5698" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.1" x="-0.1" id="filter5700" class="style0"><feGaussianBlur id="feGaussianBlur5702" stdDeviation="2.3632471"/></filter><filter height="1.1" y="-0" width="1.2" x="-0.1" id="filter5704" class="style0"><feGaussianBlur id="feGaussianBlur5706" stdDeviation="2.3632471"/></filter><filter height="1.3" y="-0.2" width="1.3" x="-0.2" id="filter5876" class="style0"><feGaussianBlur id="feGaussianBlur5878" stdDeviation="7.0897412"/></filter><filter height="1.2" y="-0.1" width="1.5" x="-0.2" id="filter5880" class="style0"><feGaussianBlur id="feGaussianBlur5882" stdDeviation="7.0897412"/></filter><filter height="1.3" y="-0.1" width="1.3" x="-0.1" id="filter5884" class="style0"><feGaussianBlur id="feGaussianBlur5886" stdDeviation="7.0897412"/></filter><filter height="1.3" y="-0.1" width="1.5" x="-0.3" id="filter5888" class="style0"><feGaussianBlur id="feGaussianBlur5890" stdDeviation="7.0897412"/></filter><filter height="1.3" y="-0.1" width="1.3" x="-0.1" id="filter5892" class="style0"><feGaussianBlur id="feGaussianBlur5894" stdDeviation="7.0897412"/></filter><filter height="1.5" y="-0.2" width="1.3" x="-0.1" id="filter5896" class="style0"><feGaussianBlur id="feGaussianBlur5898" stdDeviation="7.0897412"/></filter><filter height="1.4" y="-0.2" width="1.3" x="-0.1" id="filter5900" class="style0"><feGaussianBlur id="feGaussianBlur5902" stdDeviation="7.0897412"/></filter><filter height="1.3" y="-0.2" width="1.3" x="-0.2" id="filter5904" class="style0"><feGaussianBlur id="feGaussianBlur5906" stdDeviation="7.0897412"/></filter><filter height="1.3" y="-0.1" width="1.4" x="-0.2" id="filter5908" class="style0"><feGaussianBlur id="feGaussianBlur5910" stdDeviation="7.0897412"/></filter><filter height="1.4" y="-0.2" width="1.3" x="-0.1" id="filter5912" class="style0"><feGaussianBlur id="feGaussianBlur5914" stdDeviation="7.0897412"/></filter><filter height="1.5" y="-0.2" width="1.3" x="-0.1" id="filter5916" class="style0"><feGaussianBlur id="feGaussianBlur5918" stdDeviation="7.0897412"/></filter><filter height="1.3" y="-0.2" width="1.2" x="-0.1" id="filter5920" class="style0"><feGaussianBlur id="feGaussianBlur5922" stdDeviation="7.0897412"/></filter><filter height="1.2" y="-0.1" width="1.3" x="-0.2" id="filter5924" class="style0"><feGaussianBlur id="feGaussianBlur5926" stdDeviation="7.0897412"/></filter><filter height="1.2" y="-0.1" width="1.5" x="-0.2" id="filter5928" class="style0"><feGaussianBlur id="feGaussianBlur5930" stdDeviation="7.0897412"/></filter></defs><g id="layer2" class="style1"><path id="path4201" d="m 230 139 c 0 0 -5.9 -42.6 5.9 -76.6 C 260.2 -8.2 267.5 8 269.5 23 287.8 -9.8 295.2 29.9 298.7 66.7 302.5 107.4 281.5 153.5 281.5 153.5" class="style2"/><path d="m 282.1 151.8 c 0 0 13.5 -42.6 38.5 -68.6 51.8 -53.9 50.5 -39.6 47 -21.6 21.8 -24.1 19 13.5 6.2 49.9 -13.6 38.5 -54 71.1 -54 71.1" id="path4956" class="style3"/><path id="path4958" d="m 321 181.3 c 0 0 36.4 -35.8 71 -45.9 71.7 -21.1 61.1 -7.7 51.6 4.6 27.4 -10.6 10.8 19.2 -18.4 44.4 -30.9 26.7 -56.7 38.4 -56.7 38.4" class="style4"/><path d="m 369.5 223.5 c 0 0 44.2 -21.7 79.5 -14.5 50.4 10.3 40.6 22.4 29.6 27.2 29 4.8 -5 31.5 -42.9 38.4 -40.2 7.3 -65.3 4.2 -65.3 4.2" id="path4960" class="style5"/><path id="path4962" d="m 370.4 278.6 c 0 0 53.2 12.5 78.3 38.3 35.9 36.9 19.9 37.9 8.2 35.6 21.2 20.3 -20.9 23.7 -56.1 8 -37.3 -16.6 -56.9 -42.3 -56.9 -42.3" class="style6"/><path d="m 171.9 151.9 c 0 0 -20.4 -23.5 -27.3 -56.4 -12.8 -61.4 -8 -69.8 11 -51.9 -4.6 -37.4 21.7 -5.6 44.1 24 24.6 32.6 31.1 71.2 31.1 71.2" id="path4964" class="style7"/><path id="path4966" d="m 139.1 194.3 c 0 0 -30.2 -16.3 -48.6 -39.6 C 51.5 105.2 54 89 77.5 103.2 62.8 73.2 92.4 85.4 123.6 105.6 c 34.3 22.2 46.2 44.1 46.2 44.1" class="style8"/><path d="m 140.5 256.8 c 0 0 -37 -5.5 -65.5 -13.7 -60.7 -17.3 -75.6 -40.4 -46.3 -41.7 -29.5 -15.7 7.2 -22.7 33.8 -23.6 40.8 -1.4 76.3 15.7 76.3 15.7" id="path4968" class="style9"/><path id="path4970" d="m 142.5 309.3 c 0 0 -28.6 12.4 -58.1 14.9 -62.9 5.3 -80.1 -8.6 -53 -21.1 -33.1 -4.3 3.7 -27.7 28.3 -38 37.7 -15.8 78.9 -8.3 78.9 -8.3" class="style10"/><path d="m 187.9 347.7 c 0 0 -13.5 28.7 -36.1 47.9 -48.1 40.8 -80.2 40.6 -65.4 13.1 -29.5 15.7 -11.1 -24.3 2.9 -46.9 21.5 -34.7 53.4 -52.1 53.4 -52.1" id="path4972" class="style11"/><path id="path4974" d="m 234.3 362.7 c 0 0 6.6 20.7 -0.3 49.5 -14.6 61.4 -32.6 81.1 -36.9 50.3 -14.4 30.1 -21.8 -15.5 -23.9 -42 -3.2 -40.7 15.2 -74.1 15.2 -74.1" class="style12"/><path d="m 345.8 320.4 c 0 0 43.4 39.4 51.4 74.5 11.4 50.2 -2.3 46.2 -11.1 38.1 7.5 28.4 -31 9.6 -59 -21.4 -25.5 -28.2 -43.5 -69.2 -43.5 -69.2" id="path4976" class="style13"/><path id="path4978" d="m 283.9 343.5 c 0 0 18.9 46.5 23.3 82.2 7.5 60.9 -7.6 59 -19.4 42.8 -1.6 29.3 -27.1 -3 -39.5 -37.1 -12.7 -34.8 -13.4 -68.3 -13.4 -68.3" class="style14"/><circle r="49.6" cy="250" cx="250" id="path4980" class="style15"/></g><g id="g4192" class="style1"><path d="m 230 139 c 0 0 -5.9 -42.6 5.9 -76.6 C 260.2 -8.2 267.5 8 269.5 23 287.8 -9.8 295.2 29.9 298.7 66.7 302.5 107.4 281.5 153.5 281.5 153.5" id="path4194" class="style16"/><path id="path4196" d="m 282.1 151.8 c 0 0 13.5 -42.6 38.5 -68.6 51.8 -53.9 50.5 -39.6 47 -21.6 21.8 -24.1 19 13.5 6.2 49.9 -13.6 38.5 -54 71.1 -54 71.1" class="style17"/><path d="m 321 181.3 c 0 0 36.4 -35.8 71 -45.9 71.7 -21.1 61.1 -7.7 51.6 4.6 27.4 -10.6 10.8 19.2 -18.4 44.4 -30.9 26.7 -56.7 38.4 -56.7 38.4" id="path4198" class="style18"/><path id="path4200" d="m 369.5 223.5 c 0 0 44.2 -21.7 79.5 -14.5 50.4 10.3 40.6 22.4 29.6 27.2 29 4.8 -5 31.5 -42.9 38.4 -40.2 7.3 -65.3 4.2 -65.3 4.2" class="style19"/><path d="m 370.4 278.6 c 0 0 53.2 12.5 78.3 38.3 35.9 36.9 19.9 37.9 8.2 35.6 21.2 20.3 -20.9 23.7 -56.1 8 -37.3 -16.6 -56.9 -42.3 -56.9 -42.3" id="path4202" class="style20"/><path id="path4204" d="m 171.9 151.9 c 0 0 -20.4 -23.5 -27.3 -56.4 -12.8 -61.4 -8 -69.8 11 -51.9 -4.6 -37.4 21.7 -5.6 44.1 24 24.6 32.6 31.1 71.2 31.1 71.2" class="style21"/><path d="m 139.1 194.3 c 0 0 -30.2 -16.3 -48.6 -39.6 C 51.5 105.2 54 89 77.5 103.2 62.8 73.2 92.4 85.4 123.6 105.6 c 34.3 22.2 46.2 44.1 46.2 44.1" id="path4206" class="style22"/><path id="path4208" d="m 140.5 256.8 c 0 0 -37 -5.5 -65.5 -13.7 -60.7 -17.3 -75.6 -40.4 -46.3 -41.7 -29.5 -15.7 7.2 -22.7 33.8 -23.6 40.8 -1.4 76.3 15.7 76.3 15.7" class="style23"/><path d="m 142.5 309.3 c 0 0 -28.6 12.4 -58.1 14.9 -62.9 5.3 -80.1 -8.6 -53 -21.1 -33.1 -4.3 3.7 -27.7 28.3 -38 37.7 -15.8 78.9 -8.3 78.9 -8.3" id="path4210" class="style24"/><path id="path4212" d="m 187.9 347.7 c 0 0 -13.5 28.7 -36.1 47.9 -48.1 40.8 -80.2 40.6 -65.4 13.1 -29.5 15.7 -11.1 -24.3 2.9 -46.9 21.5 -34.7 53.4 -52.1 53.4 -52.1" class="style25"/><path d="m 234.3 362.7 c 0 0 6.6 20.7 -0.3 49.5 -14.6 61.4 -32.6 81.1 -36.9 50.3 -14.4 30.1 -21.8 -15.5 -23.9 -42 -3.2 -40.7 15.2 -74.1 15.2 -74.1" id="path4214" class="style26"/><path id="path4216" d="m 345.8 320.4 c 0 0 43.4 39.4 51.4 74.5 11.4 50.2 -2.3 46.2 -11.1 38.1 7.5 28.4 -31 9.6 -59 -21.4 -25.5 -28.2 -43.5 -69.2 -43.5 -69.2" class="style27"/><path d="m 283.9 343.5 c 0 0 18.9 46.5 23.3 82.2 7.5 60.9 -7.6 59 -19.4 42.8 -1.6 29.3 -27.1 -3 -39.5 -37.1 -12.7 -34.8 -13.4 -68.3 -13.4 -68.3" id="path4218" class="style28"/><circle id="circle4220" cx="250" cy="250" r="49.6" class="style29"/></g><g id="g4222" class="style1"><path id="path4224" d="m 230 139 c 0 0 -5.9 -42.6 5.9 -76.6 C 260.2 -8.2 267.5 8 269.5 23 287.8 -9.8 295.2 29.9 298.7 66.7 302.5 107.4 281.5 153.5 281.5 153.5" class="style30"/><path d="m 282.1 151.8 c 0 0 13.5 -42.6 38.5 -68.6 51.8 -53.9 50.5 -39.6 47 -21.6 21.8 -24.1 19 13.5 6.2 49.9 -13.6 38.5 -54 71.1 -54 71.1" id="path4226" class="style30"/><path id="path4228" d="m 321 181.3 c 0 0 36.4 -35.8 71 -45.9 71.7 -21.1 61.1 -7.7 51.6 4.6 27.4 -10.6 10.8 19.2 -18.4 44.4 -30.9 26.7 -56.7 38.4 -56.7 38.4" class="style30"/><path d="m 369.5 223.5 c 0 0 44.2 -21.7 79.5 -14.5 50.4 10.3 40.6 22.4 29.6 27.2 29 4.8 -5 31.5 -42.9 38.4 -40.2 7.3 -65.3 4.2 -65.3 4.2" id="path4230" class="style30"/><path id="path4232" d="m 370.4 278.6 c 0 0 53.2 12.5 78.3 38.3 35.9 36.9 19.9 37.9 8.2 35.6 21.2 20.3 -20.9 23.7 -56.1 8 -37.3 -16.6 -56.9 -42.3 -56.9 -42.3" class="style30"/><path d="m 171.9 151.9 c 0 0 -20.4 -23.5 -27.3 -56.4 -12.8 -61.4 -8 -69.8 11 -51.9 -4.6 -37.4 21.7 -5.6 44.1 24 24.6 32.6 31.1 71.2 31.1 71.2" id="path4234" class="style30"/><path id="path4236" d="m 139.1 194.3 c 0 0 -30.2 -16.3 -48.6 -39.6 C 51.5 105.2 54 89 77.5 103.2 62.8 73.2 92.4 85.4 123.6 105.6 c 34.3 22.2 46.2 44.1 46.2 44.1" class="style30"/><path d="m 140.5 256.8 c 0 0 -37 -5.5 -65.5 -13.7 -60.7 -17.3 -75.6 -40.4 -46.3 -41.7 -29.5 -15.7 7.2 -22.7 33.8 -23.6 40.8 -1.4 76.3 15.7 76.3 15.7" id="path4238" class="style30"/><path id="path4240" d="m 142.5 309.3 c 0 0 -28.6 12.4 -58.1 14.9 -62.9 5.3 -80.1 -8.6 -53 -21.1 -33.1 -4.3 3.7 -27.7 28.3 -38 37.7 -15.8 78.9 -8.3 78.9 -8.3" class="style30"/><path d="m 187.9 347.7 c 0 0 -13.5 28.7 -36.1 47.9 -48.1 40.8 -80.2 40.6 -65.4 13.1 -29.5 15.7 -11.1 -24.3 2.9 -46.9 21.5 -34.7 53.4 -52.1 53.4 -52.1" id="path4242" class="style30"/><path id="path4244" d="m 234.3 362.7 c 0 0 6.6 20.7 -0.3 49.5 -14.6 61.4 -32.6 81.1 -36.9 50.3 -14.4 30.1 -21.8 -15.5 -23.9 -42 -3.2 -40.7 15.2 -74.1 15.2 -74.1" class="style30"/><path d="m 345.8 320.4 c 0 0 43.4 39.4 51.4 74.5 11.4 50.2 -2.3 46.2 -11.1 38.1 7.5 28.4 -31 9.6 -59 -21.4 -25.5 -28.2 -43.5 -69.2 -43.5 -69.2" id="path4246" class="style30"/><path id="path4248" d="m 283.9 343.5 c 0 0 18.9 46.5 23.3 82.2 7.5 60.9 -7.6 59 -19.4 42.8 -1.6 29.3 -27.1 -3 -39.5 -37.1 -12.7 -34.8 -13.4 -68.3 -13.4 -68.3" class="style30"/><circle r="49.6" cy="250" cx="250" id="circle4250" class="style31"/></g></svg>');
+    blossomFlower = $('<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500.00001 500.00001"><defs id="defs3346"><filter height="1.3" y="-0.2" width="1.3" x="-0.1" id="filter4664" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4666" stdDeviation="9.5238996"/></filter><filter height="1.3" y="-0.1" width="1.3" x="-0.2" id="filter4668" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4670" stdDeviation="9.5238996"/></filter><filter height="1.9" y="-0.4" width="1.9" x="-0.4" id="filter4672" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4674" stdDeviation="9.5238996"/></filter><filter height="1.3" y="-0.2" width="1.3" x="-0.1" id="filter4676" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4678" stdDeviation="9.5238996"/></filter><filter height="1.3" y="-0.1" width="1.3" x="-0.2" id="filter4680" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4682" stdDeviation="9.5238996"/></filter><filter height="1.3" y="-0.1" width="1.3" x="-0.2" id="filter4684" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4686" stdDeviation="9.5238996"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter4918" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4920" stdDeviation="3.8095599"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter4922" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4924" stdDeviation="3.8095599"/></filter><filter height="1.3" y="-0.2" width="1.3" x="-0.2" id="filter4926" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4928" stdDeviation="3.8095599"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter4930" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4932" stdDeviation="3.8095599"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter4934" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4936" stdDeviation="3.8095599"/></filter><filter height="1.1" y="-0.1" width="1.1" x="-0.1" id="filter4938" style="color-interpolation-filters:sRGB"><feGaussianBlur id="feGaussianBlur4940" stdDeviation="3.8095599"/></filter></defs><g id="g4688" style="display:inline"><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" id="path4690" d="m 229.7 237.1 c 0 0 -79.7 -30.9 -102.5 -56 -33 -47.7 -1.9 -93.5 28.9 -81.5 -4.3 -52.2 82.3 -26.2 85.4 13.9 3.1 25 12.9 109.9 12.9 109.9" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4680)"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4684)" d="m 258.4 223 c 0 0 4.2 -87.4 19.6 -117.6 32.9 -47.8 86.7 -35 86.5 -1.9 47.3 -22.5 53.7 67.7 17.3 84.8 -22.3 11.8 -101.6 52.8 -101.6 52.8" id="path4692"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" id="path4694" d="m 283.6 245.2 c 0 0 81.9 -15.5 115.1 -8.4 54.6 19.5 56.2 74.8 24.1 83.1 34 39.9 -54.6 70.8 -80.5 40.1 -17.1 -18.5 -70.2 -87 -70.2 -87" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4664)"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4668)" d="m 269.5 275.9 c 0 0 44.7 73.3 50.3 106.8 2 58 -43.6 77.5 -63.1 50.8 -24.6 46.3 -83.4 -22.4 -64.4 -57.8 10.9 -22.7 49.1 -100.1 49.1 -100.1" id="path4696"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.9174302,0.17738029)" id="path4698" d="m 236.9 271.8 c 0 0 -55.1 68.1 -85.1 83.9 -54.4 20.1 -87.3 -22.1 -68 -49.1 -51.7 -8.8 -6.4 -90.8 33.2 -83.8 25 3.2 111.1 18.2 111.1 18.2" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4676)"/><ellipse transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" ry="26.6" rx="26.6" cy="250.7" cx="255.2" id="ellipse4700" style="display:inline;fill:none;stroke:#ffffff;stroke-width:5.32892895;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4672)"/></g><g style="display:inline" id="layer2"><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4934)" d="m 229.7 237.1 c 0 0 -79.7 -30.9 -102.5 -56 -33 -47.7 -1.9 -93.5 28.9 -81.5 -4.3 -52.2 82.3 -26.2 85.4 13.9 3.1 25 12.9 109.9 12.9 109.9" id="path4364"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" id="path4366" d="m 258.4 223 c 0 0 4.2 -87.4 19.6 -117.6 32.9 -47.8 86.7 -35 86.5 -1.9 47.3 -22.5 53.7 67.7 17.3 84.8 -22.3 11.8 -101.6 52.8 -101.6 52.8" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4938)"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4918)" d="m 283.6 245.2 c 0 0 81.9 -15.5 115.1 -8.4 54.6 19.5 56.2 74.8 24.1 83.1 34 39.9 -54.6 70.8 -80.5 40.1 -17.1 -18.5 -70.2 -87 -70.2 -87" id="path4368"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" id="path4370" d="m 269.5 275.9 c 0 0 44.7 73.3 50.3 106.8 2 58 -43.6 77.5 -63.1 50.8 -24.6 46.3 -83.4 -22.4 -64.4 -57.8 10.9 -22.7 49.1 -100.1 49.1 -100.1" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4922)"/><path transform="matrix(1.0016522,0,0,1.0006948,-5.9174302,0.17738029)" style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4930)" d="m 236.9 271.8 c 0 0 -55.1 68.1 -85.1 83.9 -54.4 20.1 -87.3 -22.1 -68 -49.1 -51.7 -8.8 -6.4 -90.8 33.2 -83.8 25 3.2 111.1 18.2 111.1 18.2" id="path4372"/><ellipse transform="matrix(1.0016522,0,0,1.0006948,-5.4211361,-0.81520801)" style="display:inline;fill:none;stroke:#ffffff;stroke-width:5.32892895;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4926)" id="ellipse4374" cx="255.2" cy="250.7" rx="26.6" ry="26.6"/></g><g style="display:inline" transform="translate(0,-552.36216)" id="layer1"><path id="path4263" d="m 224.7 788.8 c 0 0 -79.8 -30.9 -102.6 -56 -33.1 -47.7 -1.9 -93.6 29 -81.6 -4.3 -52.3 82.5 -26.2 85.6 13.9 3.1 25 12.9 110 12.9 110" style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.50645399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/><path style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.50645399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 253.4 774.7 c 0 0 4.2 -87.5 19.7 -117.7 32.9 -47.8 86.9 -35 86.6 -1.9 47.4 -22.6 53.8 67.8 17.3 84.9 -22.3 11.8 -101.8 52.9 -101.8 52.9" id="path4305"/><path id="path4307" d="m 278.6 797 c 0 0 82 -15.5 115.2 -8.4 54.7 19.5 56.3 74.8 24.2 83.2 34 39.9 -54.7 70.9 -80.6 40.1 -17.1 -18.5 -70.3 -87 -70.3 -87" style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.50645399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/><path style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.50645399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 264.5 827.6 c 0 0 44.7 73.4 50.4 106.8 2 58 -43.6 77.6 -63.2 50.8 -24.6 46.3 -83.6 -22.4 -64.5 -57.8 10.9 -22.8 49.1 -100.2 49.1 -100.2" id="path4309"/><path id="path4311" d="m 231.4 824.5 c 0 0 -55.2 68.1 -85.2 83.9 -54.5 20.1 -87.4 -22.2 -68.1 -49.1 -51.7 -8.8 -6.4 -90.8 33.3 -83.9 25 3.2 111.2 18.3 111.2 18.3" style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.50645399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/><ellipse ry="26.6" rx="26.7" cy="802.4" cx="250" id="path4313" style="fill:none;stroke:#ffffff;stroke-width:5.33518171;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/></g></svg>');
+    var frame = $("#frame");
+    frame.append(marineFlower.clone().attr('id', 'marineFlower1'));
+    frame.append(marineFlower.clone().attr('id', 'marineFlower2'));
+    frame.append(marineFlower.clone().attr('id', 'marineFlower3'));
+    frame.append(marineFlower.clone().attr('id', 'marineFlower4'));
+    frame.append(marineFlower.clone().attr('id', 'marineFlower5'));
+    frame.append(marineFlower.clone().attr('id', 'marineFlower6'));
+    frame.append(blossomFlower.clone().attr('id', 'blossomFlower1'));
+    frame.append(blossomFlower.clone().attr('id', 'blossomFlower2'));
+    frame.append(blossomFlower.clone().attr('id', 'blossomFlower3'));
+    frame.append(blossomFlower.clone().attr('id', 'blossomFlower4'));
+    frame.append(blossomFlower.clone().attr('id', 'blossomFlower5'));
+
+
+    /*if (!(navigator.userAgent.indexOf('Chrome') > -1) && (navigator.userAgent.indexOf('Safari') > -1)) {
+     window.parent.document.getElementById("description_iframe").style.marginLeft = "1px";
+     }*/
+
+    window.parent.document.getElementById("screenshots").style.background = "transparent";
+    window.parent.document.getElementById("screenshots").style.position = "relative";
+    window.parent.document.getElementById("screenshots").style.height = "0px";
+    window.parent.document.getElementById("screenshots").style.marginTop = "-3px";
+    window.parent.document.getElementById("screenshots").style.marginBottom = "0px";
+    window.parent.document.getElementById("screenshots").style.marginLeft = "-15px";
+    window.parent.document.getElementById("screenshots").style.marginRight = "-15px";
+    window.parent.document.getElementById("screenshots").style.paddingTop = "0px";
+    window.parent.document.getElementById("screenshots").style.textAlign = "center";
+    window.parent.document.getElementById("screenshots").style.fontSize = "0px";
+    window.parent.document.getElementById("description_iframe").style.marginBottom = "0px";
+    window.parent.document.getElementById("description_iframe").style.marginLeft = "-15px";
+    window.parent.document.getElementById("description_iframe").style.marginRight = "-15px";
+    window.parent.document.getElementById("description_iframe").style.width="970px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.top="-405px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.left="48px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.height="40px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[0].style.width="40px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.top="-601px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.left="262px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.height="52px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[1].style.width="52px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.top="-562px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.left="671px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.height="14px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[2].style.width="14px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.top="-633px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.left="880px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.height="36px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[3].style.width="36px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.top="-94px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.left="919px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.height="28px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[4].style.width="28px";
+
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.top="-42px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.left="336px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.height="24px";
+    window.parent.document.getElementById("screenshots").getElementsByTagName("img")[5].style.width="24px";
+
+    $(window.parent.document.getElementById("screenshots")).children("a").each(function (i, o) {
+
+        $(o).children("img").each(function (i, img) {
+            $(img).css({
+                "border": "0px solid #ffffff",
+                "background-color": "transparent",
+                "border-radius": "100px",
+                "background-image": "url(" + img.src + ")",
+                "background-repeat": "no-repeat",
+                "background-position": "center center",
+                "background-size": "200%",
+                "opacity": "0.4",
+                "margin-right": "5px",
+                "box-shadow": "rgb(255, 255, 255) 0px 0px 15px 3px",
+                "position": "absolute",
+                "display": "inline-block",
+                "-webkit-transition": "opacity 1s",
+                "-moz-transition": "opacity 1s",
+                "-o-transition": "opacity 1s",
+                "transition": "opacity 1s"
+            });
+            img.src = "pixel.gif";
+        });
+    });
+
+    var lis = window.parent.document.getElementById("screenshots").getElementsByTagName("img");
+
+    for (var i=0; i<lis.length; i++) {
+        lis[i].onmouseover = function() {
+            this.style.opacity = 1.0;
+        };
+        lis[i].onmouseout = function() {
+            this.style.opacity = 0.4;
+        };
+    };
+</script>
+
+</body>
+</html>

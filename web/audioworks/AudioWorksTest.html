@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Untitled</title>
+	<script src="external_libs/chroma.js"></script>
+	<script src="external_libs/recorder.js"></script>
+	<script src="AudioWorks.js"></script>
+	<style>
+		h1 {
+			font-size: 16px;
+			margin-bottom: 0px;
+			margin-top: 13px;
+		}
+	</style>
+</head>
+<body>
+
+	<input onclick="startRecording()" type="button" value="Start Recording" />
+	<input onclick="stopRecording()" type="button" value="Stop Recording" />
+	<input onclick="loadURL('audio/wagner-short.ogg')" type="button" value="Load Audio File" />
+	<input onclick="exportAudio()" type="button" value="Reload Audio Element" />
+	<input onclick="getConfig()" type="button" value="Current Config" />
+	<input onclick="getProperties()" type="button" value="Audio Properties" />
+	<input id="audio_file" type="file" accept="audio/*" />
+	<input id="downlaod" onclick="download()" type="button" value="Download" /> <br>
+
+	<input onclick="redraw()" type="button" value="Redraw Graph" />
+	<input onclick="visualiseSpectrum()" type="button" value="Draw Spectrum" />
+	<input onclick="visualiseWaveform()" type="button" value="Draw Waveform" />
+	<input onclick="visualiseWaveformRMS()" type="button" value="Draw Waveform (RMS)" />
+	<input onclick="setHeightScale()" type="button" value="Diagram Height Scale 2x" />
+	<input onclick="setWidthScale()" type="button" value="Diagram Width Scale 2x" />
+	<input onclick="setIntensity()" type="button" value="Diagram Intensity 2" />
+	<input onclick="resetScaleIntensity()" type="button" value="Reset Diagram Scale/Intensity" /> <br>
+
+	<input onclick="trim(5, 15)" type="button" value="Trim Audio" />
+	<input onclick="addFilter()" type="button" value="Add Custom Filter (1.5x loudness)" />
+	<input onclick="clearFilter()" type="button" value="Clear Filter" />
+	<input onclick="customDraw()" type="button" value="Draw Custom" />
+
+	<br><br>
+	<audio controls autoplay></audio>
+
+	<canvas id="canvas" width="80" height="256" style="display: block; background-color: black;"></canvas>
+
+	<br><br><br>
+	<h1>Features</h1>
+	<ul>
+		<li>Audio Recording via Microphone</li>
+		<li>Loading files as ArrayBuffer (URL, Local files)</li>
+		<li>Get filtered audio for audio Element</li>
+		<li>Download filtered audio</li>
+		<li>Getting audio properties (Channel count, samplerate, samples, duration)</li>
+		<li>Drawing different graphs (canvas), live (while recording) and offline (loaded files)</li>
+		<li>Automatic resizing of graph and canvas if too small</li>
+		<li>Modify the recording, processing, filtering and visualisation via a config. (colour, scale, output, fft, etc.)</li>
+		<li>Cut audio by seconds</li>
+		<li>Use custom drawing functions additional to the build in once (example a different spectogram).</li>
+		<li>Add custom filters to the processing (example increase loudness by factor 1.5).</li>
+	</ul>
+	<br>
+	<h1>Missing</h1>
+	<ul>
+		<li>Slight code clean-up</li>
+		<li>Function documentation</li>
+		<li>Currently 2 Dependencies, can be reduced</li>
+		<li>Browser compatibility check improvements</li>
+	</ul>
+	<br>
+	<h1>Start Recording</h1>
+	Sarts recording from microphone.
+	<h1>Stop Recording</h1>
+	Stops the microphone recording.
+	<h1>Load Audio File</h1>
+	Loads a audio file from URL.
+	<h1>Reload Audio Element</h1>
+	Reloads the audio into the audio element. Applies filter (Cut, Custom).
+	<h1>Current Config</h1>
+	Print the current config.
+	<h1>Audio Properties</h1>
+	Prints the Audio properties. (Channel count, samplerate, samples, duration)
+	<h1>Upload button</h1>
+	Loads a file from local filesystem.
+	<h1>Download</h1>
+	Downloads the current audio as PCM/WAV file. Applies filter (Cut, Custom).
+	<h1>Redraw Graph</h1>
+	Redraws the current graph. Applies filter (Cut, Custom).
+	<h1>Draw Spectrum</h1>
+	Draws a spectrum. Applies filter (Cut, Custom).
+	<h1>Draw Waveform</h1>
+	Draws a waveform. Applies filter (Cut, Custom).
+	<h1>Draw Waveform (RMS)</h1>
+	Draws a waveform with RMS. Applies filter (Cut, Custom).
+	<h1>Diagram Height Scale 2x</h1>
+	Sets the scale of the Diagram to 2 times the height. Doesn't redraw.
+	<h1>Diagram Width Scale 2x</h1>
+	Sets the scale of the Diagram to 2 times the width. Doesn't redraw.
+	<h1>Diagram Intensity 2</h1>
+	Sets the diagram colour intensity. Doesn't redraw.
+	<h1>Reset Diagram Scale/Intensity</h1>
+	Resets the digram scale and intensity to standard settings. Doesn't redraw.
+	<h1>Trim Audio</h1>
+	Adds one trim of the audio starting at 5 seconds and ending at 15 seconds. Doesn't redraw.
+	<h1>Add Custom Filter (1.5x loudness)</h1>
+	Adds a custom filter to the filterchain. This example filter multiplies every sample by 1.5. Doesn't redraw.
+	<h1>Clear Custom Filter (Cut, Custom).</h1>
+	Clears the filterchain.
+	<h1>Draw Custom</h1>
+	Sets a custom drawing function (Diagram) and redraws. Draws a different spectogram.
+
+
+<script>
+	var canvas = document.querySelector('#canvas');
+	var audio = new AudioWorks({"canvas": canvas});
+
+
+	function startRecording() {
+		audio.startRecord();
+	}
+
+	function stopRecording() {
+		audio.stopRecord();
+        audio.exportAudio(exportAudioCallback);
+	}
+
+	function download() {
+		audio.downloadAudio();
+	}
+
+	function redraw() {
+		audio.redrawVisualisation();
+	}
+
+	function exportAudioCallback(blob) {
+		var audioEle = document.querySelector('audio');
+		audioEle.src = window.URL.createObjectURL(blob);
+	}
+
+	function loadURL(url) {
+		var request = new XMLHttpRequest();
+		request.open('GET', url, true);
+		request.responseType = 'arraybuffer';
+		request.onload = function(){
+			audio.importAudioAsArrayBuffer(request.response);
+			audio.exportAudio(exportAudioCallback);
+		}
+		request.send();
+	}
+
+	function getProperties(url) {
+		alert(JSON.stringify(audio.getAudioProperties()));
+	}
+
+	function uploadFile(evt) {
+		var fileReader  = new FileReader;
+		fileReader.onload = function(){
+			audio.importAudioAsArrayBuffer(this.result);
+			audio.exportAudio(exportAudioCallback);
+		}
+
+		fileReader.readAsArrayBuffer(this.files[0]);
+	}
+
+	function getConfig() {
+		alert(JSON.stringify(audio.getConfig()));
+	}
+
+	function visualiseSpectrum() {
+		audio.visualiseSpectrum();
+	}
+
+	function visualiseWaveform() {
+		audio.visualiseWaveform();
+	}
+
+	function visualiseWaveformRMS() {
+		audio.visualiseWaveformRMS();
+	}
+
+	function setHeightScale() {
+		audio.setConfig({"diagramHeightScale": 2});
+	}
+
+	function setWidthScale() {
+		audio.setConfig({"diagramWidthScale": 2});
+	}
+
+	function setIntensity() {
+		audio.setConfig({"diagramIntensity": 2});
+	}
+
+	function resetScaleIntensity() {
+		audio.setConfig({"diagramHeightScale": 1, "diagramWidthScale": 1, "diagramIntensity": 1});
+	}
+
+	function trim(start, end) {
+		audio.trimAudio(start, end);
+	}
+
+	function exportAudio() {
+		audio.exportAudio(exportAudioCallback);
+	}
+
+	function addFilter() {
+		audio.addCustomFilter(function(ctx, buffer) {
+    		var channels = buffer.numberOfChannels;
+    		var newAudioBuffer = ctx.audio_context.createBuffer(channels, buffer.length , buffer.sampleRate);
+
+			for (var channel = 0; channel < channels; channel++) {
+				var oldChannel = buffer.getChannelData(channel);
+				var newChannel = oldChannel.slice();
+				for (var i = 0; i < newChannel.length; i++) {
+					newChannel[i] = newChannel[i] *1.5;
+				}
+
+				newAudioBuffer.copyToChannel(newChannel, channel, 0);
+			}
+
+    		return newAudioBuffer;
+		});
+	}
+
+	function clearFilter() {
+		audio.clearCustomFilter();
+	}
+
+	function customDraw() {
+		audio.setConfig({"diagramType": "custom"});
+
+		audio.setCustomDrawFunction(function(context, freqArray, timeArray) {
+    		var ctx = context.config.canvas.getContext("2d");
+			var height = context.config.canvas.height;
+			var maxHeight = (context.config.fftSize/2);
+			var scaleFactorHeight = (height/maxHeight)*context.config.diagramHeightScale;
+			var scaleFactorWidth = context.config.diagramWidthScale;
+
+			ctx.globalCompositeOperation = 'source-over';
+			ctx.globalAlpha = 1.0;
+
+			for (var i = 0; i < freqArray.length; i++) {
+				var value = freqArray[i];
+				ctx.fillStyle = ColorLuminance("#51e2d4", (value/100));
+				var al = value/170;
+				al = Math.min(al, 1);
+				ctx.globalAlpha = al;
+				ctx.fillRect(Math.round(context.canvasPos*scaleFactorWidth),
+							 Math.round(height-((i+1)*scaleFactorHeight)),
+							 Math.round(scaleFactorWidth || 1),
+							 Math.round(scaleFactorHeight) || 1);
+			}
+			context.canvasPos++;
+		});
+		audio.redrawVisualisation();
+	}
+
+	function ColorLuminance(hex, lum) {
+		// validate hex string
+		hex = String(hex).replace(/[^0-9a-f]/gi, '');
+		if (hex.length < 6) {
+			hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+		}
+		lum = lum || 0;
+
+		// convert to decimal and change luminosity
+		var rgb = "#", c, i;
+		for (i = 0; i < 3; i++) {
+			c = parseInt(hex.substr(i*2,2), 16);
+			c = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);
+			rgb += ("00"+c).substr(c.length);
+		}
+
+		return rgb;
+	}
+
+	document.querySelector('#audio_file').addEventListener('change', uploadFile, false);
+
+/*
+AudioWorks.prototype.visualiseWaveformHQ
+
+*/
+
+	//alert(audio.getInfo());
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<TimeTable>
+  <lecture>
+    <dayID>0</dayID>
+    <day>Monday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 311</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>SDI</lectureID>
+    <lectureName>Sprachdialogsysteme</lectureName>
+    <teacherID>Rei</teacherID>
+    <teacherName>Reininger</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>2</dayID>
+    <day>Wednesday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>B1 113</room>
+    <lectureLength>2</lectureLength>
+    <lectureID>MV2</lectureID>
+    <lectureName>Modellbildung virtueller Welten 2</lectureName>
+    <teacherID>Mc</teacherID>
+    <teacherName>Malerczyk</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>5</dayID>
+    <day>Saturday</day>
+    <occurrence>both</occurrence>
+    <block>1</block>
+    <room>A2 U113</room>
+    <lectureLength>3</lectureLength>
+    <lectureID>IBN</lectureID>
+    <lectureName>IP Based Networks and Protocols</lectureName>
+    <teacherID>Bay</teacherID>
+    <teacherName>Bayer, Nico</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>2</block>
+    <room>B1 113</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>EPS</lectureID>
+    <lectureName>Seminar zum Entwicklungsprojekt</lectureName>
+    <teacherID>Mc</teacherID>
+    <teacherName>Malerczyk</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>3</block>
+    <room>A8 003a+b</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>IP</lectureID>
+    <lectureName>Internet Protocols and Applications</lectureName>
+    <teacherID>Jg</teacherID>
+    <teacherName>J&#xE4;ger, Rudolf</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>4</block>
+    <room>A2 113</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>IP</lectureID>
+    <lectureName>Internet Protocols and Applications</lectureName>
+    <teacherID>Jg</teacherID>
+    <teacherName>J&#xE4;ger, Rudolf</teacherName>
+  </lecture>
+  <lecture>
+    <dayID>1</dayID>
+    <day>Tuesday</day>
+    <occurrence>both</occurrence>
+    <block>5</block>
+    <room>A2 113</room>
+    <lectureLength>1</lectureLength>
+    <lectureID>IPL</lectureID>
+    <lectureName>Labor zu Internet Protocols</lectureName>
+    <teacherID>Jg</teacherID>
+    <teacherName>J&#xE4;ger, Rudolf</teacherName>
+  </lecture>
+</TimeTable>
